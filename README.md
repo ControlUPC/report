@@ -24,10 +24,10 @@ width=50%"/>
   
 |                Nombre                 |   Código   |
 | :-----------------------------------: | :--------: |
-| Bohorquez Lerzundi, Gerardo Sebastián | u202224149 |
+|-  | - |
 |  Huanaco Huayta, Elizabeth Lucero   | u20211g522 |
 |  Huapaya Cuevas, Anthony       | u202220235 |
-|  Silva Tirado, Sebastián Valentino         | u20211g296 |
+| -        | - |
 |     Uribe Quispe, Jesús Guillermo     | u202221876 |
 
 </div>
@@ -68,10 +68,10 @@ Github también presenta un timeline de las ramas principales y los procesos de 
 
 Los integrantes son:
 
-- Bohórquez Lerzundi, Gerardo Sebastián (Sebasbl562)
+- l
 - Huanaco Huayta, Elizabeth Lucero (lucerohh)
 - Huapaya Cuevas, Anthony (AnthonyHuapaya)
-- Silva Tirado, Sebastián Valentino (SebasSilvaT)
+- l
 - Uribe Quispe, Jesús Guillermo(JesusU27)
 
 # Contenido
