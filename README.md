@@ -351,12 +351,6 @@ En esta sección se presenta el Lean UX Canvas de la propuesta, donde se detalla
 
 <div id='1.3.'><h3>1.3. Segmentos objetivo</h3></div>
 
-¡De acuerdo! 🚀 Te propongo un **texto introductorio breve** y una **tabla en Markdown** que resume las características del segmento objetivo:
-
----
-
-### 1.3. Segmentos objetivo
-
 El segmento principal identificado son los **médicos oncólogos en el Perú**, quienes enfrentan una alta carga laboral al atender a múltiples pacientes en hospitales, clínicas y consultorios. Estos profesionales requieren herramientas que optimicen la **gestión de horarios, información clínica** y el **acceso a recursos actualizados**, con el fin de mejorar su eficiencia y reducir el riesgo de errores organizativos.
 
 | Característica             | Detalle                                                                    |
