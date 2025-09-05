@@ -311,7 +311,7 @@ OnControl ofrece una solución integral que optimiza la administración de datos
 <div id='5.1.'><h3>5.1. Software Configuration Management</h3></div>
 <div id='5.1.1.'><h4>5.1.1. Software Development Environment Configuration</h4></div>
 
-##### Product UX/UI Design
+#### Product UX/UI Design
 
 - Uxpressia: Herramienta en línea para mapeo de trayectoria del cliente, creación de mapas de impacto y personas.  
 
@@ -326,7 +326,7 @@ OnControl ofrece una solución integral que optimiza la administración de datos
 - MIRO: Pizarra digital colaborativa en línea para diversas actividades colaborativas y lluvia de ideas.  
 [link]()
 
-##### Software Development
+#### Software Development
 
 Estructura aplicada al desarrollo de un producto de software.
 
@@ -336,7 +336,7 @@ Estructura aplicada al desarrollo de un producto de software.
 - Github: Repositorio comunitario para almacenar avances de proyectos colaborativos.  
 [https://github.com/ControlUPC](https://github.com/ControlUPC)
 
-- Visual Studio Code: Editor de código que ofrece extensiones y funcionalidades para el desarrollo eficiente.
+- Visual Studio Code: Editor de código que ofrece extensiones y funcionalidades para el desarrollo eficiente de software.
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 - HTML: Lenguaje de etiquetado para la estructuración de plataformas web, será utilizado para el desarrollo de la landing page y la aplicación web.  
@@ -351,13 +351,54 @@ Estructura aplicada al desarrollo de un producto de software.
 - Java + Spring Boot: Lenguaje de programación y Framework de desarrollo para la creación de aplicaciones web, servicios web y microservicios respectivamente.
 [link]()
 
-##### Software Deployment
+**Sustentación:** 
 
-- Github pages: Servicio para alojar páginas web estáticas.  
+- **Desarrollo de API:** Usar Java nos permite crear múltiples aplicaciones gracias a su alto ecosistema de frameworks y bibliotecas, su alta estabilidad y compatibilidad entre versiones y un soporte continuo.<br>
+ Además, Spring nos permite hacer una arquitectura escalable gracias a su fácil separación del proyecto en capas y una seguridad muy robusta gracias a Spring Security que nos brinda un fácil manejo de autenticación, autorización y protección de APIs.
+<br>
+
+- **Desarrollo móvil:** Usar Flutter nos permite crear aplicaciones móviles multiplataforma para el fácil acceso del usuario final, una alta escalabilidad y un desarrollo rápido y continuo gracias a la funcionalidad "Hot Reload".
+
+#### Software Deployment
+
+- Github pages: Servicio para alojar páginas web estáticas.
+- Firebase Distribution: Servicio de Google para brindar aplicaciones móviles de prueba. 
 
 [https://pages.github.com/](https://pages.github.com/)
 
 <div id='5.1.2.'><h4>5.1.2. Source Code Management</h4></div>
+
+Enlaces a repositorios del software desarrollado:
+
+- **Landing Page:** 
+- **Aplicación móvil:**
+- **Aplicación Web:**
+
+#### Git Flow:
+
+Para el manejo y control de version de los proyectos de software, usaremos el flujo de trabajo **GitFlow**, para facilitar la gestión de ramas durante el desarrollo.
+
+##### Main Branches:
+
+- **main:** rama principal que contiene el proyecto destinado al usuario final.
+
+- **develop:** rama creada a partir de "main", integra las funcionalidades y requirimientos en buen funcionamiento.
+
+##### Support Branches:
+
+Ramas temporales y que son eliminadas luego de cumplir su función.
+
+- **feature:** rama creada a partir de "develop" y que se encarga de alojar la creación de código para resolver una funcionalidad en específico. Dichas ramas al cumplir su funcionalidad se integran a la rama "develop".
+
+- **release:** rama creada a partir de "develop" y es la encargada de revisar y corregir errores que no afectan a la funcionalidad del proyecto para el lanzamiento de una nueva versión. Al cumplir su función se integran a la rama "main".
+
+- **fix:** rama creada a partir de "develop", "feature" dependiendo a la circunstancia. La principal funcionalidad es corregir los errores de una determinada lógica.
+
+**Sustentación:** Usar gitflow permite estructurar el ciclo de vida del software, garantizando seguridad, orden y rapidez en la respuesta a fallos o bugs y claridad en la entrega de nuevas versiones. Es muy útil cuando el proyecto es colaborativo, múltiples versiones activas y releases frecuentes.
+
+
+
+
 <div id='5.1.3.'><h4>5.1.3. Source Code Style Guide & Conventions</h4></div>
 <div id='5.1.4.'><h4>5.1.4. Software Deployment Configuration</h4></div>
 
