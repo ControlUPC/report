@@ -351,15 +351,16 @@ En esta sección se presenta el Lean UX Canvas de la propuesta, donde se detalla
 
 <div id='1.3.'><h3>1.3. Segmentos objetivo</h3></div>
 
-El segmento principal identificado son los **médicos oncólogos en el Perú**, quienes enfrentan una alta carga laboral al atender a múltiples pacientes en hospitales, clínicas y consultorios. Estos profesionales requieren herramientas que optimicen la **gestión de horarios, información clínica** y el **acceso a recursos actualizados**, con el fin de mejorar su eficiencia y reducir el riesgo de errores organizativos.
+Nuestra aplicación está dirigida a **médicos oncólogos y pacientes oncológicos en el Perú**, creando un espacio digital que facilite la organización, el seguimiento del tratamiento y la comunicación en la atención oncológica.
 
-| Característica             | Detalle                                                                    |
-| -------------------------- | -------------------------------------------------------------------------- |
-| Profesión                  | Médicos oncólogos                                                          |
-| Ámbito laboral             | Hospitales, clínicas oncológicas y consultorios privados                   |
-| Rango de edad predominante | 30 – 55 años                                                               |
-| Necesidades principales    | Gestión de pacientes, horarios y acceso a información confiable            |
-| Nivel tecnológico          | Familiarizados con dispositivos móviles y computadoras                     |
+Los **médicos oncólogos** requieren herramientas para **optimizar la gestión de citas, el registro de historias clínicas y el monitoreo del progreso de sus pacientes**, lo que les permite reducir la carga administrativa y mejorar la calidad de la atención.
+
+Por su parte, los **pacientes oncológicos** necesitan un canal confiable para **agendar citas, recibir recordatorios, registrar sus signos vitales y consultar su historial médico**, además de contar con un apoyo digital que los acompañe en su proceso terapéutico.
+
+| Segmento                  | Característica principal                              | Rango de edad | Necesidades clave                                                                                     | Nivel tecnológico                                                                    |
+| ------------------------- | ----------------------------------------------------- | ------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **Médicos oncólogos**     | Profesionales de la salud especializados en oncología | 30 – 55 años  | Gestión de pacientes y citas, registro de historias clínicas, monitoreo del progreso de pacientes     | Familiarizados con dispositivos móviles y computadoras                               |
+| **Pacientes oncológicos** | Personas en tratamiento o seguimiento oncológico      | 25 – 65 años  | Reserva de citas, recordatorios de tratamiento, registro de signos vitales, acceso a historial médico | Varía según el caso, pero en general utilizan smartphones como principal dispositivo |
 
 
 <div id='2.'><h2>2. Capítulo II: Requirements Elicitation & Analysis</h2></div>
@@ -479,35 +480,30 @@ El segmento principal identificado son los **médicos oncólogos en el Perú**, 
 
 <div id='2.1.2.'><h4>2.1.2. Estrategias y tácticas frente a competidores</h4></div>
 
-**1. Interfaz diferenciada por perfil**
+**1. Experiencia diferenciada por perfil**
 
-* **Estrategia:** Ofrecer una experiencia optimizada según el tipo de usuario (web para médicos / móvil para pacientes).
-* **Táctica:** Desarrollar dashboards especializados para médicos con funciones de gestión avanzada y una app ligera para pacientes centrada en accesibilidad y recordatorios.
+* **Estrategia:** Diseñar una experiencia optimizada para cada segmento: médicos (plataforma web) y pacientes (aplicación móvil).
+* **Táctica:** Implementar dashboards clínicos para médicos y una app ligera para pacientes con funciones de accesibilidad, recordatorios y registro de signos vitales.
 
-**2. Modelo de negocio sostenible**
+**2. Modelo de negocio sostenible y escalable**
 
-* **Estrategia:** Establecer un esquema freemium con servicios básicos gratuitos y funcionalidades avanzadas de pago.
-* **Táctica:** Ofrecer planes de suscripción para médicos que incluyan reportes avanzados, integración con historiales clínicos y soporte técnico especializado.
+* **Estrategia:** Garantizar la sostenibilidad financiera mediante un esquema freemium y servicios premium.
+* **Táctica:** Ofrecer suscripciones para médicos que incluyan reportes avanzados, integración con historias clínicas y soporte técnico; mantener funciones básicas gratuitas para pacientes.
 
-**3. Posicionamiento competitivo en oncología**
+**3. Posicionamiento especializado en oncología**
 
-* **Estrategia:** Diferenciarse como plataforma digital especializada en oncología, un nicho con escasas soluciones tecnológicas en Perú.
-* **Táctica:** Aliarse con instituciones oncológicas y utilizar campañas de marketing dirigidas a médicos especialistas para generar confianza y adopción.
+* **Estrategia:** Diferenciarse como la primera plataforma digital enfocada en oncología en el Perú.
+* **Táctica:** Generar alianzas con instituciones médicas y campañas dirigidas a especialistas para impulsar confianza y adopción.
 
-**4. Innovación continua y escalabilidad**
+**4. Seguridad y cumplimiento normativo**
 
-* **Estrategia:** Mantener la competitividad con mejoras constantes en usabilidad, seguridad y escalabilidad.
-* **Táctica:** Aplicar metodologías ágiles y ciclos de retroalimentación con usuarios médicos para evolucionar el producto según las necesidades del sector.
+* **Estrategia:** Cumplir con regulaciones de protección de datos médicos y asegurar la confidencialidad.
+* **Táctica:** Implementar cifrado de extremo a extremo, políticas estrictas de manejo de datos y auditorías periódicas.
 
-**5. Cumplimiento normativo y seguridad de datos**
+**5. Innovación continua con retroalimentación**
 
-* **Estrategia:** Asegurar que la plataforma cumpla con normativas nacionales e internacionales de protección de datos médicos.
-* **Táctica:** Implementar cifrado de extremo a extremo y políticas estrictas de manejo de información, garantizando confianza y diferenciación frente a soluciones menos seguras.
-
-**6. Expansión gradual a otros mercados médicos**
-
-* **Estrategia:** Aprovechar la estructura tecnológica para escalar la solución más allá de oncología en el mediano plazo.
-* **Táctica:** Validar el modelo con oncología y luego extenderlo a otras especialidades de alta demanda (ej. cardiología, nefrología), maximizando el potencial de crecimiento.
+* **Estrategia:** Evolucionar constantemente el producto en base a las necesidades reales de médicos y pacientes.
+* **Táctica:** Aplicar metodologías ágiles y recoger feedback continuo para mejorar usabilidad, escalabilidad y relevancia de la solución.
 
 <div id='2.2.'><h3>2.2. Entrevistas</h3></div>
 
@@ -515,54 +511,211 @@ En esta sección se presentan las entrevistas diseñadas para médicos oncólogo
 
 <div id='2.2.1.'><h4>2.2.1. Diseño de entrevistas</h4></div>
 
-### PREGUNTAS GENERALES
+### Preguntas Generales
 
-#### Perfil Profesional
+Estas preguntas buscan conocer el perfil y la relación de los entrevistados con la tecnología:
 
-* ¿Podría decirme su edad y años de experiencia como oncólogo?
-* ¿En qué institución trabaja actualmente (hospital, clínica privada, centro especializado)?
+* ¿Cuál es su edad?
+* ¿En qué institución recibe tratamiento o trabaja actualmente (hospital, clínica privada, centro especializado)?
+* ¿Qué dispositivos digitales utiliza con más frecuencia (computadora, tablet, smartphone)?
+* ¿Ha usado antes alguna aplicación de salud o de gestión de pacientes? ¿Cómo fue su experiencia?
+
+---
+
+### Preguntas Específicas para Médicos Oncólogos
+
+**Perfil Profesional y Práctica Clínica**
+
 * ¿Cuántos pacientes oncológicos atiende en promedio por semana/mes?
+* ¿Qué tipo de tratamientos supervisa con mayor frecuencia?
 
-#### Uso de Tecnología
-
-* ¿Qué dispositivos digitales utiliza con mayor frecuencia en su práctica profesional (computadora, tablet, smartphone)?
-* ¿Ha usado antes alguna herramienta digital para gestión de pacientes? ¿Cuál fue su experiencia?
-
-
-### PREGUNTAS ESPECÍFICAS PARA MÉDICOS ONCÓLOGOS
-
-#### Organización y Gestión de Pacientes
+**Organización y Gestión de Pacientes**
 
 * ¿Cómo organiza actualmente las citas, tratamientos y seguimientos de sus pacientes?
-* ¿Qué dificultades encuentra en este proceso (ej. exceso de carga, errores humanos, falta de integración de información)?
+* ¿Qué dificultades encuentra en este proceso (ej. sobrecarga de trabajo, errores humanos, falta de integración de información)?
 
-#### Dolencias Digitales
+**Necesidades y Expectativas**
 
-* ¿Qué le falta a las herramientas actuales que utiliza para sentirse realmente apoyado en la gestión de pacientes?
-* Si tuviera una solución digital que centralice calendarios, alarmas y seguimiento, ¿qué características le resultarían más valiosas?
+* ¿Qué funcionalidades considera más valiosas en una aplicación diseñada para oncología?
+* ¿Qué tan útil sería recibir reportes consolidados sobre el estado y evolución de sus pacientes?
+* ¿Le interesaría que la aplicación permita monitorear de forma remota ciertos signos vitales de los pacientes?
 
-#### Expectativas sobre la Plataforma
+---
 
-* ¿Qué espera de una aplicación o sistema diseñado específicamente para oncología?
-* ¿Qué tan útil sería para usted recibir reportes consolidados de sus pacientes (tratamientos, progresos, alarmas) en un solo lugar?
-* ¿Cómo mediría el éxito de una herramienta digital en su práctica diaria?
+### Preguntas Específicas para Pacientes Oncológicos
 
+**Perfil Personal y Tratamiento**
+
+* ¿Hace cuánto tiempo recibe tratamiento oncológico y de qué tipo?
+* ¿Con qué frecuencia tiene citas médicas o controles?
+
+**Gestión del Tratamiento**
+
+* ¿Cómo organiza actualmente sus citas, recordatorios de medicación y controles médicos?
+* ¿Qué problemas encuentra (olvidos, retrasos, confusión con medicamentos, dificultad para contactar a su médico)?
+
+**Necesidades y Expectativas**
+
+* ¿Qué funcionalidades considera más útiles en una aplicación (ej. recordatorios, conexión directa con médicos, registro de síntomas, historial de tratamientos)?
+* ¿Le resultaría valioso compartir con su médico sus signos vitales y evolución desde una aplicación?
+* ¿Qué tan dispuesto estaría a usar una aplicación todos los días como apoyo en su tratamiento?
 
 <div id='2.2.2.'><h4>2.2.2. Registro de entrevistas</h4></div>
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
 
+Las entrevistas realizadas revelan que tanto médicos oncólogos como pacientes oncológicos enfrentan limitaciones en la gestión y organización de sus procesos de atención.
+
+Los **médicos oncólogos** destacaron la dificultad de manejar citas y tratamientos de manera eficiente, ya que muchos aún dependen de métodos manuales como agendas físicas o archivos dispersos. Coincidieron en la necesidad de una plataforma que centralice **historias clínicas**, facilite **recordatorios automáticos** y permita un **seguimiento más ordenado del paciente**.
+
+Los **pacientes oncológicos**, por su parte, señalaron que suelen olvidar citas o medicamentos durante su tratamiento y que requieren un espacio confiable para registrar su **información médica**, acceder a **orientación clara** y llevar un **seguimiento de síntomas y progresos**. El uso extendido del smartphone entre ellos confirma la viabilidad de una aplicación móvil.
+
+En conjunto, ambos grupos validan la necesidad de una solución digital con **interfaz diferenciada** (web para médicos y móvil para pacientes), que integre las siguientes funcionalidades:
+
+* Gestión de citas y recordatorios.
+* Registro y consulta de información clínica.
+* Seguimiento de tratamientos y evolución del paciente.
+* Acceso a información confiable y organizada.
+* Proyección futura hacia el **monitoreo de signos vitales**.
+
 <div id='2.3.'><h3>2.3. Needfinding</h3></div>
 <div id='2.3.1.'><h4>2.3.1. User Personas</h4></div>
+
+La construcción de los User Personas se basa en la información recopilada a partir de entrevistas con médicos oncólogos y pacientes oncológicos, así como en el análisis de soluciones digitales disponibles en el sector salud. Estos arquetipos permiten representar de manera clara las características, motivaciones y necesidades de los principales segmentos objetivos, asegurando que el diseño de la aplicación responda a expectativas reales.
+
+* **Segmento objetivo: Paciente Oncológico**
+
+Link de UXPressia: https://uxpressia.com/w/mDdvz/p/tViVP
+![Image](https://github.com/user-attachments/assets/6dbdda41-00e7-451d-89fe-52a59f5610b2)
+
+* **Segmento objetivo: Médico Oncólogo**
+
+Link de UXPressia: https://uxpressia.com/w/mDdvz/p/mxqb4
+
+![Image](https://github.com/user-attachments/assets/30ae05da-dc88-4c75-b28d-14d5e2c33ed6)
+
 <div id='2.3.2.'><h4>2.3.2. User Task Matrix</h4></div>
+
+En esta sección se presenta el **User Task Matrix**, que resume las tareas principales realizadas por los dos segmentos objetivo: **pacientes oncológicos** y **médicos oncólogos**. Estas tareas fueron identificadas a partir del análisis de entrevistas y no dependen de la existencia de la aplicación, sino de las actividades reales que cada segmento debe realizar para alcanzar sus objetivos.
+
+| **Tareas**                              | **Paciente: Frecuencia** | **Paciente: Importancia** | **Médico: Frecuencia** | **Médico: Importancia** |
+| --------------------------------------- | ------------------------ | ------------------------- | ---------------------- | ----------------------- |
+| Buscar información sobre el cáncer      | Alta                     | Alta                      | Media                  | Alta                    |
+| Gestionar citas médicas                 | Alta                     | Alta                      | Alta                   | Alta                    |
+| Comunicarse con especialistas           | Alta                     | Alta                      | Alta                   | Alta                    |
+| Registrar y monitorear medicamentos     | Alta                     | Alta                      | Alta                   | Alta                    |
+| Seguimiento del progreso del paciente   | Media                    | Alta                      | Alta                   | Alta                    |
+| Coordinar con otros especialistas       | Baja                     | Media                     | Alta                   | Alta                    |
+| Gestionar pagos y citas especiales      | Media                    | Media                     | Media                  | Media                   |
+| Buscar apoyo psicológico                | Media                    | Alta                      | Baja                   | Media                   |
+| Revisar tratamientos anteriores         | Baja                     | Alta                      | Alta                   | Alta                    |
+| Acceder a recordatorios de tratamientos | Alta                     | Alta                      | Alta                   | Alta                    |
+
+#### Análisis
+
+* **Coincidencias:** Tanto pacientes como médicos consideran de **alta frecuencia e importancia** tareas como la **gestión de citas, comunicación con especialistas, registro de medicamentos y recordatorios de tratamientos**, lo que refleja la necesidad de mantener una coordinación constante.
+* **Diferencias:**
+
+  * Los **pacientes** otorgan más relevancia a la **búsqueda de información confiable y apoyo psicológico**, mientras que para los **médicos** estas actividades tienen un peso menor.
+  * Los **médicos** priorizan más el **seguimiento del progreso del paciente y la coordinación con otros especialistas**, lo que corresponde a su rol clínico.
+* **Hallazgos clave:**
+
+  * Las tareas de **alta frecuencia y alta importancia en ambos segmentos** (citas, recordatorios, comunicación, medicamentos) deben ser el **foco central del diseño de la aplicación**.
+  * Las tareas diferenciadoras (apoyo psicológico en pacientes, coordinación entre especialistas en médicos) pueden considerarse como **funcionalidades de valor agregado** que aumenten la utilidad de la plataforma.
+
 <div id='2.3.3.'><h4>2.3.3. User Journey Mapping</h4></div>
+
+En esta sección se presentan los User Journey Maps para los segmentos objetivo identificados: pacientes oncológicos y médicos oncólogos. Los journeys reflejan el proceso actual que realizan ambos actores sin la existencia de nuestra solución digital, evidenciando las dificultades, frustraciones y oportunidades de mejora.
+
+* **Segmento objetivo: Paciente Oncológico**
+
+![Image](https://github.com/user-attachments/assets/b2e0c990-7302-4272-ba78-ed49884cabda)
+
+* **Segmento objetivo: Médico Oncólogo**
+
+![Image](https://github.com/user-attachments/assets/e889af07-0d42-4b0f-a672-b5c5c537e566)
+
+
 <div id='2.3.4.'><h4>2.3.4. Empathy Mapping</h4></div>
+
+En esta sección se presentan los Empathy Maps desarrollados para cada User Persona, con el propósito de profundizar en su experiencia, emociones y necesidades. El proceso de elaboración se llevó a cabo en la herramienta indicada, colocando en el centro a cada User Persona previamente definido (médico oncólogo y paciente oncológico).
+
+* **Segmento objetivo: Paciente Oncológico**
+
+![Image](https://github.com/user-attachments/assets/ff466ca2-f8cf-4104-a34f-ac26e0de71aa)
+
+* **Segmento objetivo: Médico Oncólogo**
+
+![Image](https://github.com/user-attachments/assets/6c72ffd7-e044-41e6-85a4-af57b6bcdab4)
+
+
 <div id='2.3.5.'><h4>2.3.5. As-is Scenario Mapping</h4></div>
+
+En esta sección se presentan los As-Is Scenario Maps elaborados para cada User Persona (médico oncólogo y paciente oncológico), con el objetivo de comprender cómo viven actualmente sus procesos relacionados con la gestión y seguimiento del tratamiento oncológico, antes de la implementación de nuestra solución.
+
+* **Segmento objetivo: Paciente Oncológico**
+
+![Image](https://github.com/user-attachments/assets/2359f315-2417-46bc-9711-1b116608c478)
+
+
+* **Segmento objetivo: Médico Oncólogo**
+
+![Image](https://github.com/user-attachments/assets/eb9d7f9c-07a7-49c1-8e80-9939f8f99ea1)
+
 
 <div id='2.4.'><h3>2.4. Ubiquitous Language</h3></div>
 
+En esta sección se presenta un glosario de términos que forman parte del dominio de la aplicación. El objetivo es asegurar que tanto el equipo como los stakeholders tengan un entendimiento común y sin ambigüedades de los conceptos principales.
+
+#### Glosario de términos
+
+* **Oncologist (Oncólogo)**
+  Médico especialista en la prevención, diagnóstico y tratamiento del cáncer.
+
+* **Oncological Patient (Paciente oncológico)**
+  Persona que ha sido diagnosticada con cáncer y se encuentra en tratamiento o en seguimiento médico.
+
+* **Medical Appointment (Cita médica)**
+  Encuentro programado entre un paciente y un oncólogo con el fin de diagnóstico, tratamiento o seguimiento.
+
+* **Treatment Plan (Plan de tratamiento)**
+  Conjunto de procedimientos, medicamentos y cuidados definidos por el oncólogo para atender la condición del paciente.
+
+* **Medication Reminder (Recordatorio de medicación)**
+  Notificación que ayuda al paciente a cumplir con la toma puntual de sus medicamentos.
+
+* **Clinical History (Historia clínica)**
+  Registro estructurado de los antecedentes, diagnósticos, tratamientos y evolución de un paciente.
+
+* **Treatment Adherence (Adherencia al tratamiento)**
+  Grado en que el paciente sigue las recomendaciones y el plan terapéutico indicado por el oncólogo.
+
+* **Emotional Support (Apoyo emocional)**
+  Acompañamiento que recibe el paciente en su proceso, destinado a reducir ansiedad, miedo y estrés relacionados al tratamiento.
+
+* **Follow-up Consultation (Consulta de seguimiento)**
+  Evaluación periódica realizada por el oncólogo para medir la efectividad del tratamiento y ajustar el plan si es necesario.
+
+* **Early Detection (Detección temprana)**
+  Identificación oportuna de signos y síntomas de cáncer para mejorar la eficacia del tratamiento.
+
 <div id='3.'><h2>3. Capítulo III: Requirements Specification</h2></div>
 
+En esta sección se presentan los requisitos del producto digital a partir del análisis de la información recopilada en las investigaciones previas. El objetivo es transformar las necesidades de los usuarios y de los stakeholders en requisitos claros y estructurados que guíen el diseño y desarrollo de la solución. Para ello, se incluyen artefactos que permiten comprender la situación futura deseada, las tareas clave de los usuarios y la priorización del trabajo.
+
 <div id='3.1.'><h3>3.1. To-Be Scenario Mapping</h3></div>
+
+En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno de los User Personas identificados. Estos mapas representan la experiencia futura esperada al implementar la solución digital propuesta, mostrando cómo cambiará y mejorará la interacción del usuario en comparación con la situación actual.
+
+* **Segmento objetivo: Paciente Oncológico**
+
+![Image](https://github.com/user-attachments/assets/722f6143-5adc-4082-9710-0d25b0de0ee0)
+
+
+* **Segmento objetivo: Médico Oncólogo**
+
+![Image](https://github.com/user-attachments/assets/80fc1295-1436-41cd-ad5f-8fed75e4695e)
+
+
 <div id='3.2.'><h3>3.2. User Stories</h3></div>
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
 <div id='3.4.'><h3>3.4. Impact Mapping</h3></div>
