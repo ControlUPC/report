@@ -746,29 +746,46 @@ En esta sección se presentan los wireframes del Landing Page en sus versiones p
 
 * **Sección Inicio y Caracteristicas**
 
-![Image](https://github.com/user-attachments/assets/0eb45035-16a5-43ec-9d3c-e3d0804f8f2e)
+<div align="center">
+  <img src="./img/Inicio Sesion paciente mockup.png">
+</div>
 
 * **Sección Beneficios**
 
-![Image](https://github.com/user-attachments/assets/402f71a5-8e20-4a1d-a88e-0bd3e1e82e64)
+<div align="center">
+  <img src="./img/Inicio Sesion paciente mockup-1.png">
+</div>
 
 * **Sección Problema y Testimonios**
 
-![Image](https://github.com/user-attachments/assets/f0bd95a9-1022-4c72-8071-0c74a404571f)
+
+<div align="center">
+  <img src="./img/Inicio Sesion paciente mockup-2.png">
+</div>
+
 
 * **Sección Contacto**
  
-![Image](https://github.com/user-attachments/assets/25e3440d-18e0-48ad-8d87-75f5c3439a20)
+
+<div align="center">
+  <img src="./img/Inicio Sesion paciente mockup-4.png">
+</div>
+
 
 * **Sección Acerca De**
- 
-![Image](https://github.com/user-attachments/assets/9df986f1-d6e2-4d05-8408-528871cfad4e)
+
+<div align="center">
+  <img src="./img/Inicio Sesion paciente mockup-3.png">
+</div>
+
 
 * **Sección Descargas y Footer**
 
-![Image](https://github.com/user-attachments/assets/09051eb1-96b2-4581-821e-d6d3a93cd809)
+<div align="center">
+  <img src="./img/Cliente.png">
+</div>
 
-Figma: [Enlace Figma](https://www.figma.com/design/Q6qOeWezIbHOmzR6j1iWoX/Oncontigo-Mockups--Copia-?node-id=0-1&t=n4MWl8U3TC54ga3v-1)
+Figma: [Enlace Figma](https://www.figma.com/design/lQZOGmsUK2ZbFdNXzVZ2Go/OnControl--Exp-?node-id=0-1&t=oDVkPB4ZRA9emgqs-1)
 
 <div id='4.3.2.'><h4>4.3.2. Landing Page Mock-up</h4></div>
 
@@ -777,29 +794,29 @@ En esta sección se presentan los mock-ups del Landing Page, en sus versiones pa
 
 * **Sección Inicio y Caracteristicas**
 
-![Image](https://github.com/user-attachments/assets/e3fa9ea0-fc40-48b3-a507-39bf166fe99e)
+![Image]
 
 * **Sección Beneficios**
 
-![Image](https://github.com/user-attachments/assets/ed9f1075-69bc-4aa6-9cbd-3278f745a6d1)
+![Image]
 
 * **Sección Problema**
 
-![Image](https://github.com/user-attachments/assets/81632b1a-be84-4b88-b855-d05f47965734)
+![Image]
 
 * **Sección Testimonio**
 
-![Image](https://github.com/user-attachments/assets/a353270c-41cb-4ca4-b8f8-46f879969847)
+![Image]
 
 * **Sección Contacto**
 
-![Image](https://github.com/user-attachments/assets/4a33d806-3072-416c-b973-5a1d117fc236)
+![Image]
 
 * **Sección Descarga**
 
-![Image](https://github.com/user-attachments/assets/3c1bca12-81fd-46ed-8d5c-229212299966)
+![Image]
 
-Figma: [Enlace Figma](https://www.figma.com/design/Q6qOeWezIbHOmzR6j1iWoX/Oncontigo-Mockups--Copia-?node-id=0-1&t=n4MWl8U3TC54ga3v-1)
+Figma: [Enlace Figma](https://www.figma.com/design/lQZOGmsUK2ZbFdNXzVZ2Go/OnControl--Exp-?node-id=0-1&t=oDVkPB4ZRA9emgqs-1)
 
 <br>
 
