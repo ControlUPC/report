@@ -774,6 +774,35 @@ Figma: [Enlace Figma](https://www.figma.com/design/Q6qOeWezIbHOmzR6j1iWoX/Oncont
 
 En esta sección se presentan los mock-ups del Landing Page, en sus versiones para Desktop Web Browser. Estos diseños de alta fidelidad aplican los principios de usabilidad, diseño inclusivo y arquitectura de información, además de integrar el Design System definido para los productos digitales, asegurando consistencia visual y coherencia en la experiencia de usuario.
 
+
+* **Sección Inicio y Caracteristicas**
+
+![Image](https://github.com/user-attachments/assets/e3fa9ea0-fc40-48b3-a507-39bf166fe99e)
+
+* **Sección Beneficios**
+
+![Image](https://github.com/user-attachments/assets/ed9f1075-69bc-4aa6-9cbd-3278f745a6d1)
+
+* **Sección Problema**
+
+![Image](https://github.com/user-attachments/assets/81632b1a-be84-4b88-b855-d05f47965734)
+
+* **Sección Testimonio**
+
+![Image](https://github.com/user-attachments/assets/a353270c-41cb-4ca4-b8f8-46f879969847)
+
+* **Sección Contacto**
+
+![Image](https://github.com/user-attachments/assets/4a33d806-3072-416c-b973-5a1d117fc236)
+
+* **Sección Descarga**
+
+![Image](https://github.com/user-attachments/assets/3c1bca12-81fd-46ed-8d5c-229212299966)
+
+Figma: [Enlace Figma](https://www.figma.com/design/Q6qOeWezIbHOmzR6j1iWoX/Oncontigo-Mockups--Copia-?node-id=0-1&t=n4MWl8U3TC54ga3v-1)
+
+<br>
+
 <div id='4.4.'><h3>4.4. Mobile Applications UX/UI Design</h3></div>
 <div id='4.4.1.'><h4>4.4.1. Mobile Applications Wireframes</h4></div>
 <div id='4.4.2.'><h4>4.4.2. Mobile Applications Wireflow Diagrams</h4></div>
