@@ -737,8 +737,42 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 <div id='4.2.5.'><h4>4.2.5. Navigation Systems</h4></div>
 
 <div id='4.3.'><h3>4.3. Landing Page UI Design</h3></div>
+
+En esta sección se presenta la propuesta de diseño de la Landing Page, creada como primer punto de contacto con los usuarios. El diseño traduce las decisiones de arquitectura de información en una interfaz clara, accesible y atractiva, destacando la propuesta de valor, funcionalidades principales y llamados a la acción. Su objetivo es informar, generar confianza y motivar la adopción de la aplicación.
+
 <div id='4.3.1.'><h4>4.3.1. Landing Page Wireframe</h4></div>
+
+En esta sección se presentan los wireframes del Landing Page en sus versiones para Desktop Web Browser. Estos esquemas visuales muestran la organización de los elementos y la arquitectura de información, aplicando principios de diseño, usabilidad e inclusión. La propuesta busca garantizar una experiencia clara, accesible y coherente para todos los usuarios antes de pasar a la etapa de diseño final.
+
+* **Sección Inicio y Caracteristicas**
+
+![Image](https://github.com/user-attachments/assets/0eb45035-16a5-43ec-9d3c-e3d0804f8f2e)
+
+* **Sección Beneficios**
+
+![Image](https://github.com/user-attachments/assets/402f71a5-8e20-4a1d-a88e-0bd3e1e82e64)
+
+* **Sección Problema y Testimonios**
+
+![Image](https://github.com/user-attachments/assets/f0bd95a9-1022-4c72-8071-0c74a404571f)
+
+* **Sección Contacto**
+ 
+![Image](https://github.com/user-attachments/assets/25e3440d-18e0-48ad-8d87-75f5c3439a20)
+
+* **Sección Acerca De**
+ 
+![Image](https://github.com/user-attachments/assets/9df986f1-d6e2-4d05-8408-528871cfad4e)
+
+* **Sección Descargas y Footer**
+
+![Image](https://github.com/user-attachments/assets/09051eb1-96b2-4581-821e-d6d3a93cd809)
+
+Figma: [Enlace Figma](https://www.figma.com/design/Q6qOeWezIbHOmzR6j1iWoX/Oncontigo-Mockups--Copia-?node-id=0-1&t=n4MWl8U3TC54ga3v-1)
+
 <div id='4.3.2.'><h4>4.3.2. Landing Page Mock-up</h4></div>
+
+En esta sección se presentan los mock-ups del Landing Page, en sus versiones para Desktop Web Browser. Estos diseños de alta fidelidad aplican los principios de usabilidad, diseño inclusivo y arquitectura de información, además de integrar el Design System definido para los productos digitales, asegurando consistencia visual y coherencia en la experiencia de usuario.
 
 <div id='4.4.'><h3>4.4. Mobile Applications UX/UI Design</h3></div>
 <div id='4.4.1.'><h4>4.4.1. Mobile Applications Wireframes</h4></div>
