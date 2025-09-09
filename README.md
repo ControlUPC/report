@@ -1005,17 +1005,600 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 
 <div id='4.1.'><h3>4.1. Style Guidelines</h3></div>
 <div id='4.1.1.'><h4>4.1.1. General Style Guidelines</h4></div>
+
+
+### Branding
+
+El branding de OnControl refleja nuestro objetivo de brindar ayuda integral a pacientes y médicos oncológicos en Perú. Nuestros elementos visuales emiten confianza y empatía.
+
+### Logo
+
+El logo de OnControl fusiona conceptos visuales que representan nuestra misión:
+
+- La palabra "ONCO" en rojo y "NTROL" en azul, simbolizando la dualidad entre el paciente y el médico
+- El lazo rosa formando un corazón, representando la conciencia sobre el cáncer y el cuidado en el paciente.
+
+
+**Uso del logo:**
+
+- No distorsionar, rotar o cambiar los colores del logo
+- En fondos oscuros, utilizar la versión blanca del logo
+- Tamaño mínimo: 40px de altura para asegurar legibilidad
+
+![Image](https://github.com/user-attachments/assets/4e55c970-22a6-4d60-8ec1-8a5da4e7eb16)
+
+
+### Typography
+
+La tipografía principal de OnControl es Poppins, una fuente sans-serif moderna y legible que transmite profesionalismo y accesibilidad.
+
+**Importación y configuraciones de la fuente:**
+```css
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --font-primary: "Poppins", sans-serif;
+}
+```
+
+**Jerarquía tipográfica:**
+
+| Elemento | Tamaño | Peso | Uso
+|-----|-----|-----|-----
+| H1 | 3rem (48px) | 700 | Títulos principales, hero section
+| H2 | 2.5rem (40px) | 700 | Títulos de sección
+| H3 | 1.5rem (24px) | 600 | Subtítulos, encabezados de tarjetas
+| H4 | 1.3rem (20px) | 600 | Títulos menores
+| Body | 1rem (16px) | 400 | Texto general
+| Small | 0.875rem (14px) | 400 | Texto secundario, pies de página
+
+
+![Image](https://github.com/user-attachments/assets/1c7b0440-c7d0-4818-ac12-5335a309222b)
+
+### Colors
+
+La paleta de colores de OnControl está diseñada para transmitir confianza, tranquilidad y esperanza, utilizando tonos que reflejan el sector de la salud con acentos que aportan calidez y energía.
+
+```css
+:root {
+  /* Colores primarios */
+  --primary: #00796b;      /* Verde teal - Color principal */
+  --secondary: #004d40;    /* Verde teal oscuro - Color secundario */
+  --accent: #ff5722;       /* Naranja - Color de acento */
+  
+  /* Colores de la marca */
+  --brand-red: #ff3333;    /* Rojo del logo - "ONCO" */
+  --brand-blue: #0033cc;   /* Azul del logo - "NTROL" */
+  --brand-pink: #e91e63;   /* Rosa del lazo */
+  
+  /* Colores neutros */
+  --background: #f5f5f5;   /* Fondo general */
+  --foreground: #212121;   /* Texto principal */
+  --card: #ffffff;         /* Fondo de tarjetas */
+  --card-hover: #e0e0e0;   /* Estado hover de tarjetas */
+  
+  /* Colores de estado */
+  --success: #4caf50;      /* Éxito */
+  --warning: #ff9800;      /* Advertencia */
+  --error: #f44336;        /* Error */
+  --info: #2196f3;         /* Información */
+}
+```
+
+**Uso de colores:**
+
+- **Color primario (--primary)**: Utilizado para la barra de navegación, fondos de secciones importantes y elementos principales.
+- **Color secundario (--secondary)**: Utilizado para gradientes, elementos secundarios y estados hover.
+- **Color de acento (--accent)**: Utilizado para botones de llamada a la acción, iconos destacados y elementos que requieren atención.
+- **Colores de la marca**: Reservados principalmente para el logo y elementos visuales de identidad.
+- **Colores neutros**: Utilizados para fondos, texto y elementos de interfaz general.
+
+![Image](https://github.com/user-attachments/assets/f2c90d9a-edee-44c8-9327-af86b706a563)
+
+### Spacing
+
+El sistema de espaciado de OnControl sigue un patrón consistente para crear una jerarquía visual clara y una experiencia de usuario coherente.
+
+```css
+:root {
+  --spacing-xs: 0.25rem;   /* 4px */
+  --spacing-sm: 0.5rem;    /* 8px */
+  --spacing-md: 1rem;      /* 16px */
+  --spacing-lg: 1.5rem;    /* 24px */
+  --spacing-xl: 2rem;      /* 32px */
+  --spacing-2xl: 3rem;     /* 48px */
+  --spacing-3xl: 4rem;     /* 64px */
+  --spacing-4xl: 5rem;     /* 80px */
+}
+```
+
+**Principios de espaciado:**
+
+- Utilizar espaciado consistente entre secciones (--spacing-3xl o --spacing-4xl)
+- Mantener un espaciado interno consistente en tarjetas y contenedores (--spacing-lg o --spacing-xl)
+- Aplicar espaciado vertical entre elementos de texto según su jerarquía
+- Utilizar márgenes proporcionales al tamaño de los elementos
+
+
+### Componentes UI
+
+#### Botones
+
+Los botones en OnControl siguen un diseño consistente con bordes redondeados y transiciones suaves.
+
+```css
+.cta-button {
+  display: inline-block;
+  background-color: var(--accent);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #e64a19;
+  transform: translateY(-3px);
+}
+
+.cta-button.secondary {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.cta-button.secondary:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+```
+
+**Variantes de botones:**
+
+- **Primario**: Fondo naranja (--accent), texto blanco
+- **Secundario**: Borde blanco, fondo transparente, texto blanco
+- **Terciario**: Solo texto, sin fondo ni borde
+
+
+#### Tarjetas
+
+Las tarjetas son componentes fundamentales que muestran información agrupada con un estilo consistente.
+
+```css
+.card {
+  background-color: var(--card);
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+```
+
+#### Iconografía
+
+OnControl utiliza iconos de Font Awesome para mantener un estilo coherente en toda la interfaz.
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+```
+
+**Uso de iconos:**
+
+- Mantener tamaños consistentes (generalmente 1.5rem para iconos estándar)
+- Utilizar el color primario o de acento para iconos destacados
+- Aplicar el mismo estilo de transición para estados hover
+
+
+### Accesibilidad
+
+OnControl se compromete a crear una experiencia inclusiva para todos los usuarios, incluyendo aquellos con discapacidades.
+
+**Principios de accesibilidad:**
+
+- Mantener un contraste de color adecuado (relación mínima de 4.5:1 para texto normal)
+- Utilizar etiquetas semánticas HTML5 (header, nav, main, section, etc.)
+- Incluir atributos alt en todas las imágenes
+- Asegurar que todos los elementos interactivos sean accesibles mediante teclado
+- Implementar ARIA roles y atributos cuando sea necesario
+
+
+### Implementación y Mantenimiento
+
+Esta guía de estilo debe ser consultada y seguida por todos los miembros del equipo de OnControl. Para mantener la consistencia:
+
+1. Revisar esta documentación antes de comenzar nuevos desarrollos
+2. Utilizar los componentes y tokens definidos en este documento
+3. Consultar con el equipo de diseño ante cualquier duda o necesidad de nuevos elementos
+4. Actualizar esta guía cuando se realicen cambios significativos en el diseño
+
 <div id='4.1.2.'><h4>4.1.2. Web Style Guidelines</h4></div>
+
+1. **Layout y Estructura**
+- **Diseño responsivo** con grid fluido (12 columnas).  
+- **Navbar fija** en la parte superior con color primario (`--primary`) y CTA en color acento (`--accent`).  
+- **Sidebar opcional** en vistas de usuario profesional (médicos) para acceso rápido a secciones críticas.  
+- **Hero Section amplia** en la landing con tipografía H1 de 48px.  
+
+2. **Interacciones**
+- **Hover states**: botones y tarjetas con elevación (sombra y ligero `translateY`).  
+- **Transiciones suaves (0.3s)** para animaciones de color y desplazamiento.  
+- **Enlaces internos** con anclas que permitan saltar a secciones clave.  
+
+3. **Componentes Web**
+- **Botones**:  
+  - Primario (fondo `--accent`),  
+  - Secundario (borde blanco en fondos oscuros),  
+  - Terciario (solo texto).  
+- **Tablas y formularios**: claros, con fondo `--card` y bordes suaves.  
+- **Modales y popups**: con overlay semitransparente y centrados.  
+
+4. **Accesibilidad Web**
+- Cumplimiento **WCAG 2.1**.  
+- Contraste alto en botones y enlaces.  
+- Soporte completo de teclado en menús, formularios y modales.  
+- Etiquetas `aria-*` para lectores de pantalla. 
+
+
 <div id='4.1.3.'><h4>4.1.3. Mobile Style Guidelines</h4></div>
+
+La app móvil mantiene consistencia visual con la marca, pero se adapta a los **estándares de diseño de Android (Material Design)** e **iOS (Human Interface Guidelines)**.  
+
+
 <div id='4.1.3.1.'><h5>4.1.3.1. iOS Mobile Style Guidelines</h5></div>
+
+1. **Navegación**
+- **Tab Bar inferior** (máx. 5 ítems): Home, Tratamientos, Citas, Chat, Perfil.  
+- **Header transparente con blur** en pantallas secundarias, usando tipografía grande y clara (H1 → 34px adaptado a iOS).  
+- **Gestos nativos**: swipe para volver atrás, pull-to-refresh en listas.  
+
+2. **Estilo Visual**
+- Uso intensivo de **espacios en blanco** (padding amplio, `--spacing-xl` en secciones principales).  
+- Botones redondeados con **bordes suaves (12-16px)**.  
+- Iconografía simple en **SF Symbols** complementada con colores de la marca (`--accent`, `--primary`).  
+
+3. **Componentes iOS**
+- **Botones CTA**: prominentes, ocupando todo el ancho en formularios.  
+- **Listas (UITableView / CollectionView)** con divisores claros y tarjetas minimalistas.  
+- **Alertas y modales**: estilo nativo iOS (centrado con fondo difuminado).  
+
+
+
 <div id='4.1.3.2.'><h5>4.1.3.2. Android Mobile Style Guidelines</h5></div>
+
+1. **Navegación**
+- **Bottom Navigation Bar** con máximo 5 accesos directos: Tratamientos, Citas, Calendario, Chat, Perfil.  
+- **App Bar superior** con color primario (`--primary`) y menú hamburguesa para accesos secundarios.  
+- Soporte de **navegación por Drawer** en la experiencia del médico (más funcionalidades).  
+
+2. **Estilo Visual**
+- Aplicación de **Material Design 3 (Material You)**.  
+- **Botones con esquinas ligeramente redondeadas (8px)**.  
+- Tarjetas con elevación y sombreado (tokens `--card`, `--card-hover`).  
+- Uso de **color dinámico** si se integra con Android 12+ (adaptación automática de paleta).  
+
+3. **Componentes Android**
+- **FAB (Floating Action Button)** en naranja (`--accent`) para acciones rápidas (ej. añadir cita).  
+- **Snackbars** para notificaciones temporales.  
+- **Dialogs** con fondo semitransparente y esquinas redondeadas.
 
 <div id='4.2.'><h3>4.2. Information Architecture</h3></div>
 <div id='4.2.1.'><h4>4.2.1. Organization Systems</h4></div>
+
+En **OnControl**, hemos diseñado sistemas de organización enfocados exclusivamente en las funcionalidades específicas que implementaremos en nuestra plataforma para satisfacer las necesidades de nuestros dos grupos de usuarios principales: **médicos oncólogos** y **pacientes con cáncer**.
+
+---
+
+## Organización Visual del Contenido
+
+### 1. Organización Jerárquica (Visual Hierarchy)
+
+**Landing Page**
+- **Navegación principal**: estructura con priorización visual clara. Funcionalidades clave (pacientes, citas, historiales clínicos) destacadas con íconos grandes y posiciones prominentes.
+- **Sección de beneficios**: organizada jerárquicamente según la relevancia para cada usuario (pacientes primero, luego médicos).
+
+**Aplicación**
+- **Menú principal**: funcionalidades ordenadas por importancia → Tratamientos, Citas, Pacientes.
+- **Sección de tratamientos**: elementos visuales que destacan el estado (creado, iniciado, actualizado).
+- **Sección de citas**: indicadores visuales que muestran su estado (creada, cancelada, aceptada).
+
+### 2. Organización Secuencial (Step-by-Step)
+
+**Médicos**
+- Registro de cuenta → Doctor registrado
+- Creación de tratamiento → Asignar procedimiento -> Aceptar solicitud → Tratamiento creado  
+- Gestión de citas → Buscar cita → Aceptar una solicitud de paciente → Aceptar cita  
+
+**Pacientes**
+- Registro de cuenta → Aceptar solicitud → Paciente registrado  
+- Solicitud de cita → Solicitud enviada → Solicitud aceptada → Cita creada  
+- Registro de síntomas → Marcar síntomas personalizados → Registrar síntomas  
+
+---
+
+## Esquemas de Categorización de Contenido
+
+### 1. Categorización por Tópicos
+
+**Médicos**
+- Menú principal: Tratamientos, Citas, Calendario.
+- Sección de tratamientos: Tratamientos creados, Procedimientos, Solicitudes.
+- Gestión de citas: Citas aceptadas, citas realizadas, citas en curso.  
+
+**Pacientes**
+- Menú principal: Solicitudes, Citas, Síntomas.  
+- Sección de solicitudes: Solicitudes, citas, sintomas.  
+
+
+### 2. Categorización por Audiencia
+
+- **Experiencia para Médicos** → creación de tratamientos, gestión de procedimientos, aprobación de solicitudes.  
+- **Experiencia para Pacientes** → envío de solicitudes, registro de síntomas, comunicación con su doctor.  
+
+### 3. Categorización por Estado
+
+**Médicos**
+- Tratamientos: Creados, Iniciados, Actualizados.  
+- Procedimientos: Asignados, Realizados, Actualizados.  
+- Solicitudes: Pendientes, Aceptadas, Rechazadas.  
+- Citas: Creadas, Canceladas, Realizadas.  
+
+**Pacientes**
+- Solicitudes: Enviadas, Aceptadas, Rechazadas.  
+- Citas: Creadas, Confirmadas, Canceladas.  
+- Permisos: Concedidos.
+- Historiales Médicos: creado.
+---
+
+### 4. Categorización Cronológica
+
+**Calendario**
+- Recordatorios: organizados cronológicamente.  
+- Citas: ordenadas por fecha y hora.  
+- Funcionalidad: actualizar, eliminar o posponer recordatorios.  
+
+**Tratamientos**
+- Historial de modificaciones: registro cronológico de fechas de inicio.  
+- Procedimientos: secuencia temporal de actividades.  
+
+
 <div id='4.2.2.'><h4>4.2.2. Labeling Systems</h4></div>
+
+El sistema de etiquetado de la Landing Page de OnControl ha sido diseñado para que médicos oncólogos, pacientes y familiares puedan comprender la información de manera clara, accesible y sin tecnicismos innecesarios.  
+El lenguaje usado es directo, empático y orientado a facilitar la navegación.
+
+---
+
+## Navegación Principal
+
+- **Características** → Funcionalidades clave explicadas con íconos y descripciones cortas.  
+- **Beneficios** → Ventajas específicas para médicos y pacientes, mostradas en tarjetas visuales.  
+- **Problemática** → Explica los desafíos actuales en la atención oncológica en Perú y cómo OnControl aporta soluciones.  
+- **Testimonios** → Experiencias reales de pacientes, médicos y familiares.  
+- **Contacto** → Formulario para solicitar información o una demo.  
+- **Descargar App** → Acceso directo a las versiones de iOS y Android.  
+
+---
+
+## Sección Hero
+
+- **Apoyo integral para pacientes oncológicos** → Mensaje principal que comunica el propósito de la plataforma.  
+- **Solicitar demo** → Botón transparente que dirige al formulario de contacto.  
+- **Descargar App** → Botón destacado (naranja) que redirige a la sección de descarga.  
+
+---
+
+## Características
+
+- **Características principales** → Encabezado que introduce esta sección.  
+- **Calendario Integrado** → Gestión de citas y recordatorios.  
+- **Gestión de Medicamentos** → Seguimiento de tratamientos y medicación.  
+- **Comunicación Directa** → Chat entre médicos y pacientes.  
+
+---
+
+## Beneficios
+
+- **Beneficios** → Título de la sección.  
+- **Para Médicos Oncólogos** → Ventajas enfocadas en la práctica profesional.  
+- **Para Pacientes** → Acompañamiento en su proceso de tratamiento.  
+- **Para Familiares** → Herramientas de apoyo al entorno del paciente.  
+- **Para el Sistema de Salud** → Beneficios a nivel institucional.  
+
+---
+
+## Problemática
+
+- **La problemática** → Presenta el contexto.  
+- **Desafíos en la atención oncológica** → Subtítulo que explica la situación en Perú.  
+- **Más acerca del problema** → Introduce contenido multimedia complementario.  
+
+---
+
+## Descarga de la App
+
+- **Lleva el control de tu tratamiento donde vayas** → Mensaje principal de esta sección.  
+- **Descargar en App Store** → Botón para iOS con ícono de Apple.  
+- **Disponible en Google Play** → Botón para Android con ícono de Google Play.  
+
+---
+
+## Testimonios
+
+- **Lo que dicen nuestros usuarios** → Introducción a la sección.  
+- **Paciente oncológica** → Ejemplo de atribución: "[Nombre], Paciente oncológica".  
+- **Médico oncólogo** → Ejemplo: "Dr. [Nombre], Oncólogo".  
+- **Familiar de paciente** → Ejemplo: "[Nombre], Familiar de paciente".  
+
+---
+
+## Contacto
+
+- **¿Listo para mejorar la experiencia oncológica?** → Título motivador.  
+- **Contáctanos para una demostración personalizada** → Subtítulo explicativo.  
+- **Tipo de usuario** → Selector con opciones: Paciente, Médico, Familiar, Otro.  
+- **Enviar** → Botón principal del formulario.  
+
+---
+
+## Footer
+
+- **Navegación** → Enlaces internos de la página.  
+- **Contacto** → Datos de contacto directo.  
+- **Síguenos** → Acceso a redes sociales.  
+- **Política de Privacidad** → Información sobre protección de datos.  
+- **Términos y Condiciones** → Detalles legales del servicio.  
+
 <div id='4.2.3.'><h4>4.2.3. SEO Tags and Meta Tags</h4></div>
+
+En esta sección se detallan los elementos de optimización para motores de búsqueda (SEO) y metaetiquetas que implementaremos en la landing page y aplicación web de OnControl, así como los elementos de optimización para tiendas de aplicaciones (ASO) para nuestras aplicaciones móviles.
+
+### Landing Page
+
+#### Title Tags
+
+| Página | Title Tag
+|-----|-----
+| **Home** | OnControl - Apoyo integral para pacientes oncológicos en Perú
+| **Características** | Características de OnControl - Gestión eficiente de tratamientos oncológicos
+| **Beneficios** | Beneficios de OnControl - Mejorando la experiencia oncológica para médicos y pacientes
+| **Contacto** | Contacta con OnControl - Solicita una demo personalizada
+
+
+#### Meta Description Tags
+
+| Página | Meta Description
+|-----|-----
+| **Home** | OnControl facilita la gestión del tratamiento oncológico, mejorando la comunicación entre médicos y pacientes para una atención más efectiva y personalizada en Perú.
+| **Características** | Descubre las funcionalidades de OnControl: calendario integrado, gestión de medicamentos y comunicación directa entre médicos oncólogos y pacientes.
+| **Beneficios** | OnControl reduce la ansiedad de los pacientes y optimiza el tiempo de los médicos oncólogos, mejorando la calidad de la atención oncológica en Perú.
+| **Contacto** | Solicita una demostración personalizada de OnControl y descubre cómo podemos mejorar la experiencia oncológica para ti o tus pacientes.
+
+
+#### Meta Keywords
+
+```html
+<meta name="keywords" content="oncología, cáncer, tratamiento oncológico, pacientes oncológicos, médicos oncólogos, gestión médica, Perú, aplicación médica, seguimiento de tratamiento, comunicación médico-paciente, citas médicas, recordatorios de medicamentos">
+```
+
+#### Meta Author
+
+```html
+<meta name="author" content="OnControl - Equipo de Desarrollo">
+```
+
+#### Open Graph Tags
+
+```html
+<meta property="og:title" content="OnControl - Apoyo integral para pacientes oncológicos">
+<meta property="og:description" content="Plataforma que facilita la gestión del tratamiento oncológico, mejorando la comunicación entre médicos y pacientes.">
+<meta property="og:image" content="https://oncontrol.pe/images/og-image.jpg">
+<meta property="og:url" content="https://oncontrol.pe">
+<meta property="og:type" content="website">
+```
+
 <div id='4.2.4.'><h4>4.2.4. Searching Systems</h4></div>
+
+En esta sección especificamos los sistemas de búsqueda que implementaremos en OnControl para ayudar a los usuarios a encontrar información dentro de la plataforma.
+
+### Tipos de Búsqueda por Interfaz
+
+#### 1. Landing Page
+
+La landing page al ser una página estática y con poco contenido, no es necesario usar barras de búsqueda.
+
+
+#### 2. Aplicación Web
+
+##### Para Médicos
+
+| Sección | Tipo de Búsqueda | Filtros Disponibles | Visualización de Resultados
+|-----|-----|-----|-----
+| **Pacientes** | Búsqueda por texto con autocompletado | • Nombre/DNI<br> • Tipo de cáncer<br>• Estado de tratamiento<br>• Fecha de última cita | Lista con tarjetas de paciente que muestran foto, nombre, diagnóstico principal y próxima cita
+| **Tratamientos** | Búsqueda combinada (texto + filtros) | • Estado (creado, iniciado, actualizado)<br>• Tipo de tratamiento<br>• Fecha de inicio<br>• Especialista asignado | Vista tabular con opciones para expandir detalles de cada tratamiento
+| **Citas** | Búsqueda en calendario + texto | • Rango de fechas<br>• Estado (creada, confirmada, cancelada)<br>• Tipo de cita<br>• Paciente | Vista de calendario con opción de cambiar a lista, mostrando hora, paciente y tipo de cita
+
+
+
+##### Para Pacientes
+
+| Sección | Tipo de Búsqueda | Filtros Disponibles | Visualización de Resultados
+|-----|-----|-----|-----
+| **Tratamientos** | Búsqueda por texto simple | • Estado (activo, completado)<br>• Fecha de inicio<br>• Tipo de tratamiento | Tarjetas con información resumida y opción para ver detalles
+| **Citas** | Búsqueda en calendario | • Estado (solicitada, confirmada, cancelada)<br>• Rango de fechas<br>• Tipo de cita | Vista de calendario con opción de lista, mostrando fecha, hora, doctor y estado
+| **Síntomas** | Búsqueda por categoría y texto | • Tipo de síntoma<br>• Intensidad<br>• Fecha de registro | Gráfico temporal con opción de ver lista detallada.
+
 <div id='4.2.5.'><h4>4.2.5. Navigation Systems</h4></div>
+
+
+En esta sección mencionamos los sistemas de navegación que implementaremos en OnControl para guiar a los usuarios a través de la landing page y la aplicacion web para que se interactue de mejor manera con el producto.
+
+### Landing Page
+
+#### 1. Navegación Global
+
+- **Barra de navegación fija**: Permanece visible al hacer scroll, incluyendo logo, enlaces a secciones principales y botón de descarga destacado.
+- **Estructura jerárquica**: Organización clara de elementos por importancia, con el botón "Descargar App" visualmente destacado.
+- **Navegación responsiva**: Se transforma en menú hamburguesa en dispositivos móviles.
+
+
+#### 2. Navegación Contextual
+
+- **Call to Action destacados (CTA):** distribuidos en puntos clave de la página para motivar al usuario a descargar la app o pedir una demostración.
+
+- **Vínculos internos:** integrados en el contenido para mover al usuario entre secciones sin perder el flujo de lectura.
+
+- **Menú con anclas:** facilita el acceso directo a apartados concretos desde la barra de navegación.
+#### 3. Navegación de Utilidad
+
+**Pie de página (footer):** incluye accesos rápidos a secciones legales, datos de contacto y la estructura del sitio.
+
+**Botón de volver al inicio:** visible al desplazarse hacia abajo, pensado para regresar fácilmente a la parte superior.
+
+**Rastro de navegación (breadcrumbs):** presente en páginas internas para indicar la posición dentro del sitio y ofrecer enlaces de retroceso.
+
+
+#### 4. Indicadores de Navegación
+
+- **Resaltado de sección activa**: La sección actual se destaca en la barra de navegación.
+- **Cambio de estado en hover**: Feedback visual al pasar el cursor sobre elementos navegables.
+- **Animaciones de transición**: Suaves desplazamientos al navegar entre secciones mediante anclas.
+
+
+#### Aplicación Web
+
+###### Estructura de Navegación Principal
+
+##### 1. Para Médicos
+
+- **Navegación por secciones**: Acceso rápido a las secciones principales:
+
+    - Tratamientos
+    - Pacientes
+    - Citas
+    - Calendario
+    - Chat
+
+- **Barra de navegación estática**: Para acceso a funciones y configuración.
+
+
+
+##### 2. Para Pacientes
+
+- **Navegación simplificada**: Enfocada en las necesidades del paciente:
+
+    - Mi Tratamiento
+    - Mis Citas
+    - Mis Síntomas
+    - Control de medicamentos
+
+
 
 <div id='4.3.'><h3>4.3. Landing Page UI Design</h3></div>
 
@@ -1075,27 +1658,39 @@ En esta sección se presentan los mock-ups del Landing Page, en sus versiones pa
 
 * **Sección Inicio y Caracteristicas**
 
-![Image]
+<div align="center">
+  <img src="./img/mockup1.png">
+</div>
 
 * **Sección Beneficios**
 
-![Image]
+<div align="center">
+  <img src="./img/mockup2.png">
+</div>
 
 * **Sección Problema**
 
-![Image]
+<div align="center">
+  <img src="./img/mockup3.png">
+</div>
 
 * **Sección Testimonio**
 
-![Image]
+<div align="center">
+  <img src="./img/mockup4.png">
+</div>
 
 * **Sección Contacto**
 
-![Image]
+<div align="center">
+  <img src="./img/mockup5.png">
+</div>
 
 * **Sección Descarga**
 
-![Image]
+<div align="center">
+  <img src="./img/mockup6.png">
+</div>
 
 Figma: [Enlace Figma](https://www.figma.com/design/lQZOGmsUK2ZbFdNXzVZ2Go/OnControl--Exp-?node-id=0-1&t=oDVkPB4ZRA9emgqs-1)
 
@@ -1220,8 +1815,6 @@ Ramas temporales y que son eliminadas luego de cumplir su función.
 - **fix:** rama creada a partir de "develop", "feature" dependiendo a la circunstancia. La principal funcionalidad es corregir los errores de una determinada lógica.
 
 **Sustentación:** Usar gitflow permite estructurar el ciclo de vida del software, garantizando seguridad, orden y rapidez en la respuesta a fallos o bugs y claridad en la entrega de nuevas versiones. Es muy útil cuando el proyecto es colaborativo, múltiples versiones activas y releases frecuentes.
-
-
 
 
 <div id='5.1.3.'><h4>5.1.3. Source Code Style Guide & Conventions</h4></div>
