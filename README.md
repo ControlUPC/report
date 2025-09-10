@@ -263,7 +263,7 @@ Como valor diferencial, OnControl integra sensores IoT que permiten medir parám
   El problema es recurrente y persistente, ya que los pacientes y médicos deben enfrentarlo diariamente debido a la falta de herramientas digitales de soporte en el proceso oncológico.
 
 * **Where – ¿Dónde surge el problema?** <br>
-  Esta situación se presenta en hospitales, clínicas y centros oncológicos tanto públicos como privados del país, donde la demanda supera la capacidad de organización de los sistemas actuales.
+  Esta situación se presenta en pacientes que padecen cáncer al no tener un buen control de seguimiento, citas, medicamentos, etc.
 
 * **Who – ¿Quiénes son afectados?** <br>
   Los principales afectados son los pacientes oncológicos y sus familias, quienes experimentan mayor ansiedad y desinformación; y los médicos oncólogos, que enfrentan sobrecarga laboral y riesgo de agotamiento profesional. También repercute en el desempeño de equipos médicos multidisciplinarios.
@@ -313,7 +313,7 @@ Frente a la falta de herramientas que faciliten el acceso a información sobre m
 
 * Creemos que los pacientes oncológicos valoran una plataforma que centralice información confiable sobre sus citas, tratamientos y monitoreo de salud.
 * Creemos que los familiares se beneficiarán de una mayor claridad sobre el estado del paciente, lo que generará confianza y reducirá su ansiedad.
-* Creemos que la digitalización del seguimiento y el monitoreo de parámetros vitales permitirá a los médicos optimizar su tiempo y reducir su carga laboral.
+* Creemos que la digitalización del seguimiento y el monitoreo de parámetros vitales permitirá a los pacientes optimizar su tiempo.
 
 **Business Outcomes (Resultados esperados):**
 
@@ -351,16 +351,15 @@ En esta sección se presenta el Lean UX Canvas de la propuesta, donde se detalla
 
 <div id='1.3.'><h3>1.3. Segmentos objetivo</h3></div>
 
-Nuestra aplicación está dirigida a **médicos oncólogos y pacientes oncológicos en el Perú**, creando un espacio digital que facilite la organización, el seguimiento del tratamiento y la comunicación en la atención oncológica.
+Nuestra aplicación está dirigida principalmente a facilitar la gestión de responsabilidades de los pacientes oncológicos en el Perú, creando un espacio digital que facilite la organización, el seguimiento del tratamiento y la comunicación en la atención oncológica.
 
-Los **médicos oncólogos** requieren herramientas para **optimizar la gestión de citas, el registro de historias clínicas y el monitoreo del progreso de sus pacientes**, lo que les permite reducir la carga administrativa y mejorar la calidad de la atención.
+Los médicos oncólogos requieren herramientas para optimizar la gestión de citas, el registro de historias clínicas y el monitoreo del progreso de sus pacientes, además de concientizar a través de un portal como blogs y artículos.
 
-Por su parte, los **pacientes oncológicos** necesitan un canal confiable para **agendar citas, recibir recordatorios, registrar sus signos vitales y consultar su historial médico**, además de contar con un apoyo digital que los acompañe en su proceso terapéutico.
 
 | Segmento                  | Característica principal                              | Rango de edad | Necesidades clave                                                                                     | Nivel tecnológico                                                                    |
 | ------------------------- | ----------------------------------------------------- | ------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | **Médicos oncólogos**     | Profesionales de la salud especializados en oncología | 30 – 55 años  | Gestión de pacientes y citas, registro de historias clínicas, monitoreo del progreso de pacientes     | Familiarizados con dispositivos móviles y computadoras                               |
-| **Pacientes oncológicos** | Personas en tratamiento o seguimiento oncológico      | 25 – 65 años  | Reserva de citas, recordatorios de tratamiento, registro de signos vitales, acceso a historial médico | Varía según el caso, pero en general utilizan smartphones como principal dispositivo |
+| **Pacientes oncológicos** | Personas en tratamiento o seguimiento oncológico      | 25 – 65 años  | Reserva de citas, recordatorios de tratamiento, registro de signos vitales, acceso a historial médico | Varía según el caso, pero en general utilizan smartphones como principal dispositivo, gestión de tratamientos y medicamentos. |
 
 
 <div id='2.'><h2>2. Capítulo II: Requirements Elicitation & Analysis</h2></div>
@@ -483,7 +482,7 @@ Por su parte, los **pacientes oncológicos** necesitan un canal confiable para *
 **1. Experiencia diferenciada por perfil**
 
 * **Estrategia:** Diseñar una experiencia optimizada para cada segmento: médicos (plataforma web) y pacientes (aplicación móvil).
-* **Táctica:** Implementar dashboards clínicos para médicos y una app ligera para pacientes con funciones de accesibilidad, recordatorios y registro de signos vitales.
+* **Táctica:** Implementar dashboards clínicos para médicos y una app para pacientes con funciones de accesibilidad, recordatorios, gestión de citas, tratamientos, progreso y registro de signos vitales.
 
 **2. Modelo de negocio sostenible y escalable**
 
