@@ -565,9 +565,9 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 |-|-|
 |Edad|27|
 |Distrito|San Juan de Miraflores|
-|Foto|![entrevista-1](<img width="636" height="268" alt="image" src="https://github.com/user-attachments/assets/2645bb65-29be-4d2c-b58c-f7fc107f18e0" />)|
+|Foto|<img width="636" height="268" alt="image" src="https://github.com/user-attachments/assets/2645bb65-29be-4d2c-b58c-f7fc107f18e0" />|
 |Time | 0:03 - 06:31 |
-|Analisis de Entrevista| Jesús, paciente oncológico diagnosticado con cáncer de estómago, comenta que está siguiendo un tratamiento oncológico desde hace 4 meses. Señala que sufre de altos niveles de estrés debido a la complejidad del proceso y la falta de organización en el registro de citas médicas, lo que le genera retrasos y confusiones. Además, menciona la dificultad para recordar horarios de medicamentos y para acceder a información confiable sobre su tratamiento.|
+|Analisis de Entrevista| Jesús, paciente oncológico diagnosticado con cáncer de estómago, comenta que está siguiendo un tratamiento oncológico desde hace 4 meses. Señala que sufre de altos niveles de estrés debido a la complejidad del proceso y la falta de organización en el registro de citas médicas, lo que le genera retrasos y confusiones. Además, menciona la dificultad para recordar horarios de medicamentos y para acceder a información confiable sobre su tratamiento. Expresa que un sistema que centralice la gestión de citas, recordatorios y el seguimiento del tratamiento sería de gran ayuda para reducir su ansiedad y mejorar su adherencia al proceso médico.|
 
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
 
