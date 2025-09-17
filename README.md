@@ -560,6 +560,29 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 * ¿Qué tan dispuesto estaría a usar una aplicación todos los días como apoyo en su tratamiento?
 
 <div id='2.2.2.'><h4>2.2.2. Registro de entrevistas</h4></div>
+
+* **Segmento 1: Pacientes Oncológicos**
+
+|Entevistado 1|-|
+|-|-|
+|Edad|-|
+|Distrito|-|
+|Foto|-|
+|Link|-|
+|Time | - |
+|Analisis de Entrevista| -|
+
+* **Segmento 2: Pacientes Oncológicos**
+
+|Entevistado 1|Jesus Sanchez|
+|-|-|
+|Edad|27|
+|Distrito|San Juan de Miraflores|
+|Foto|<img width="636" height="268" alt="image" src="https://github.com/user-attachments/assets/2645bb65-29be-4d2c-b58c-f7fc107f18e0" />|
+|Link|https://drive.google.com/file/d/1N9oO-yed5IWPqpY7R-YMtQKD5IZbXpbd/view?usp=sharing|
+|Time | 0:03 - 06:31 |
+|Analisis de Entrevista| Jesús, paciente oncológico diagnosticado con cáncer de estómago, comenta que está siguiendo un tratamiento oncológico desde hace 4 meses. Señala que sufre de altos niveles de estrés debido a la complejidad del proceso y la falta de organización en el registro de citas médicas, lo que le genera retrasos y confusiones. Además, menciona la dificultad para recordar horarios de medicamentos y para acceder a información confiable sobre su tratamiento. Expresa que un sistema que centralice la gestión de citas, recordatorios y el seguimiento del tratamiento sería de gran ayuda para reducir su ansiedad y mejorar su adherencia al proceso médico.|
+
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
 
 Las entrevistas realizadas revelan que tanto médicos oncólogos como pacientes oncológicos enfrentan limitaciones en la gestión y organización de sus procesos de atención.
