@@ -187,6 +187,8 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr>
       <td style="font-weight:bold">4.C.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
       <td>
+      <strong>Huanaco Huayta, Elizabeth Lucero</strong> <br> 
+      <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reconocer mi responsabilidad ética y profesional en la ingeniería de software. Estas tareas me ayudaron a diseñar interfaces centradas en la experiencia del usuario, priorizando la claridad, la accesibilidad y la usabilidad. Asimismo, al trabajar en el prototipado para Android e iOS, comprendí la importancia de seguir estándares de calidad y adaptar la aplicación a cada plataforma. Todo este proceso reforzó mi compromiso con crear soluciones confiables y útiles, considerando siempre el impacto que tienen las decisiones de diseño en la vida de pacientes y doctores.</p><br>
       </td>
       <td>
         <!--conclusion -->
@@ -195,6 +197,8 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr>
       <td  style="font-weight:bold">4.C.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
       <td>
+      <strong>Huanaco Huayta, Elizabeth Lucero</strong> <br> 
+      <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me ayudó a emitir juicios informados sobre el impacto de la aplicación. Al diseñar las vistas pensé en el efecto social, facilitando la comunicación y accesibilidad para pacientes y doctores. También en el aspecto económico, al optimizar la gestión de citas y tratamientos. Consideré el impacto global, al crear un diseño adaptable a diferentes plataformas. Estas tareas me permitieron entender que las decisiones de diseño tienen consecuencias más allá de lo técnico, influyendo directamente en la vida de los usuarios y en el contexto en el que se aplica la solución.</p><br>
       </td>
       <td>
         <!-- conclusion -->
@@ -232,9 +236,9 @@ Como valor diferencial, OnControl integra sensores IoT que permiten medir parám
     <td></td>
   </tr>
   <tr>
-    <td><img src=""></td>
-    <td></td>
-    <td></td>
+    <td><img src="img/Elizabeth-Huanaco.jpg" alt="Elizabeth Huanaco" style="margin-bottom: 5px;"></td>
+    <td>Estoy en el séptimo ciclo de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona organizada, resiliente y asertiva. Elegí enfocarme en esta carrera por el interés que tengo en el desarrollo de software, ya que considero que es un área clave para el futuro de la innovación tecnológica. Actualmente tengo conocimientos de tecnologías como Java, SQL y desarrollo de aplicaciones modernas con el enfoque Domain Driven Design. En este proyecto, me comprometo a aplicar mis conocimientos y a contribuir con el logro de los objetivos de mi equipo, fomentando un ambiente colaborativo.</td>
+    <td>U20211G522</td>
   </tr>
   <tr>
     <td><img src=""></td>
@@ -561,7 +565,7 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 
 <div id='2.2.2.'><h4>2.2.2. Registro de entrevistas</h4></div>
 
-* **Segmento 1: Pacientes Oncológicos**
+* **Segmento 1: Médicos Oncológicos**
 
 |Entevistado 1|-|
 |-|-|
@@ -582,6 +586,15 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 |Link|https://drive.google.com/file/d/1N9oO-yed5IWPqpY7R-YMtQKD5IZbXpbd/view?usp=sharing|
 |Time | 0:03 - 06:31 |
 |Analisis de Entrevista| Jesús, paciente oncológico diagnosticado con cáncer de estómago, comenta que está siguiendo un tratamiento oncológico desde hace 4 meses. Señala que sufre de altos niveles de estrés debido a la complejidad del proceso y la falta de organización en el registro de citas médicas, lo que le genera retrasos y confusiones. Además, menciona la dificultad para recordar horarios de medicamentos y para acceder a información confiable sobre su tratamiento. Expresa que un sistema que centralice la gestión de citas, recordatorios y el seguimiento del tratamiento sería de gran ayuda para reducir su ansiedad y mejorar su adherencia al proceso médico.|
+
+|Entevistado 2|Fabrisio Belahonia|
+|-|-|
+|Edad|24|
+|Distrito|Ate|
+|Foto|<img src="img/Entrevista Fabrisio Belahonia.png" alt="Entrevista a paciente Fabrisio Belahoi" style="margin-bottom: 5px;" width="740">|
+|Link|--Colocar link--|
+|Time | --Colocar timing-- |
+|Analisis de Entrevista| Fabrisio, paciente oncológico diagnosticado con cáncer de estómago, comenta que está siguiendo un tratamiento oncológico en el hospital Rebagliati desde hace una año y medio. Señala que usualmente usa su celular para gestionar las actividades, como citas, exámenes y medicamentos mediante una agenda física o una aplicación básica que no tiene las funcionalidades esenciales para este tipo de tratamiento, lo que le genera malestar y confusiones ya que usualmente olvida fechas importantes durante su tratamiento. Además, menciona la dificultad para gestionar sus citas con diferentes especialistas y para acceder a información centralizada sobre su tratamiento. Este paciente menciona que un sistema práctico que centralice la gestión de citas, recordatorios y el seguimiento del tratamiento integral supervisado con médicos de distintas especialidades sería valioso y le brindaría mayor tranquilidad.|
 
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
 
@@ -2154,10 +2167,233 @@ Figma: [Enlace Figma](https://www.figma.com/design/lQZOGmsUK2ZbFdNXzVZ2Go/OnCont
 <img src="img/wireflow_mobile-4.png" alt="Journal WireFlow" style="margin-bottom: 5px;" width="500">
 
 <div id='4.4.3.'><h4>4.4.3. Mobile Applications Mock-ups</h4></div>
+
+**Register and Login** <br>
+
+<p align="justify">
+Las pantallas de Login y Registro permiten a pacientes y doctores acceder de manera segura a la aplicación. A través del login, los usuarios ingresan con su correo y contraseña de forma rápida e intuitiva, mientras que el registro facilita la creación de una cuenta con información básica para habilitar el acceso personalizado a funciones de la aplicación.
+</p>
+
+<img src="img/Sign In Sign Up.png" alt="Sign in_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Type user Patient.png" alt="Users type_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Sign In Sign Up-1.png" alt="Patient sign up_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Sign In Sign Up-2.png" alt="Doctor sign up_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**A continuación, se presentarán los mock-ups de los pacientes en la aplicación móvil.** <br>
+
+**Communities** <br>
+
+<p align="justify">
+En la vista de comunidad, el paciente puede interactuar con otros pacientes y con los doctores a través de publicaciones. Esta sección ofrece un espacio para compartir experiencias personales, hábitos de vida y avances en el tratamiento, además de acceder a posts informativos creados por los doctores. De esta manera, se fomenta tanto el apoyo entre pacientes como la orientación profesional, creando una red integral de acompañamiento durante el proceso oncológico.
+</p>
+
+<img src="img/Community Navigation.png" alt="Patient navigation_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Community.png" alt="Patient community_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Create Post.png" alt="Patient create post_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Doctors Community for Patients.png" alt="Doctors community for Patients_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**Perfil** <br>
+
+<p align="justify">
+La vista de perfil del paciente reúne su información personal y médica. Su diseño busca centralizar la información más importante para que el paciente tenga un acceso rápido y organizado a su estado de salud.
+</p>
+
+<img src="img/Patient profile.png" alt="Patient profile_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**Resources** <br>
+
+<p align="justify">
+La vista de recursos ofrece al paciente un acceso centralizado a las principales funcionalidades de la aplicación. Desde aquí puede agendar y consultar citas médicas, revisar sus tratamientos activos, llevar un control de su medicación, acceder a su diario personal y registrar hábitos como comidas o síntomas diarios. Esta sección funciona como un punto de partida para que el paciente gestione de forma sencilla y organizada su proceso de atención oncológica.
+</p>
+
+<img src="img/Resources.png" alt="Patient resources_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**Appointments** <br>
+
+<p align="justify">
+La vista de citas permite al paciente buscar, programar y consultar sus próximas atenciones médicas con oncólogos, nutricionistas, psicólogos y otros especialistas. Desde esta sección, el paciente puede revisar la disponibilidad de los especialistas, seleccionar la fecha y hora que mejor se ajuste a su agenda y confirmar la cita en pocos pasos.
+</p>
+
+<img src="img/Looking for an appointment.png" alt="Patient appointments searching_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Making an appointment.png" alt="Making an appointment_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/My appointments.png" alt="My appointments_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**My journal** <br>
+
+<p align="justify">
+La vista My Journal ofrece al paciente un espacio personal para registrar su día a día durante el tratamiento. En esta sección puede anotar sus emocione y reflexiones, creando así un diario que le permite llevar un seguimiento más humano y cercano de su proceso.
+</p>
+
+<img src="img/My journal.png" alt="My journal_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Health Journal New Entry.png" alt="Registering a new entry in the journal_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+
+**Autocontrol** <br>
+
+<p align="justify">
+La vista de autocontrol permite al paciente registrar de forma estructurada aspectos relacionados con su salud diaria, como síntomas y nivel de dolor. Este registro continuo ayuda al paciente a llevar un control detallado de su evolución y a detectar cambios importantes durante el tratamiento.
+</p>
+
+<img src="img/Autocontrol.png" alt="Autocontrol_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Autocontrol New Entry.png" alt="Registering a new entry in the autocontrol register_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+
+**Food Diary** <br>
+
+<p align="justify">
+La vista Diario de Comida permite al paciente llevar un registro detallado de su alimentación diaria. En esta sección puede anotar los alimentos consumidos en cada comida. Esta funcionalidad busca apoyar a los pacientes en el control de su nutrición durante el tratamiento, facilitando que tanto ellos como los especialistas identifiquen patrones, mejoren hábitos alimenticios y evalúen la relación entre dieta y evolución de la salud.
+</p>
+
+<img src="img/Food Diary.png" alt="Food diary_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Food New Entry.png" alt="Registering a new entry in the food diary_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**My treatments** <br>
+
+<p align="justify">
+La vista Mis Tratamientos ofrece al paciente un acceso centralizado a la información de los tratamientos que tiene en curso. Desde esta sección puede consultar detalles como tipo de tratamiento y medicamentos recetados. Esta funcionalidad facilita la organización, mejora la adherencia al tratamiento y brinda mayor seguridad al mantener toda la información accesible en un solo lugar.
+</p>
+
+<img src="img/My treatments patient.png" alt="My treatments patient_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Medications.png" alt="Medications_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Adding reminder.png" alt="Adding reminder_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**A continuación, se presentarán los mock-ups de los doctores en la aplicación móvil.** <br>
+
+**Communities** <br>
+
+<p align="justify">
+La vista de comunidad de doctores funciona como un espacio colaborativo donde los especialistas pueden compartir publicaciones informativas, artículos de interés, consejos de cuidado y novedades relacionadas con la oncología y disciplinas complementarias como nutrición o psicología. Esta sección ofrece a los pacientes acceso a información confiable y validada por expertos.
+</p>
+
+<img src="img/Doctors Community.png" alt="Doctors community_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Create Post Doctor.png" alt="Doctor creating post_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**Profile** <br>
+
+<p align="justify">
+La vista de perfil del doctor muestra la información profesional del especialista registrada en la plataforma. Desde esta vista, el doctor puede gestionar su información básica.
+</p>
+
+<img src="img/Doctor profile.png" alt="Doctor profile_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**My patients and medical histories** <br>
+
+<p align="justify">
+La vista de mis pacientes e historias médicas permite al doctor acceder al listado de todos los pacientes que tiene a su cargo dentro de la plataforma. Desde aquí, el especialista puede consultar información relevante de cada paciente, incluyendo sus datos básicos, tratamientos en curso e historial clínico. Esta funcionalidad busca centralizar la información médica en un solo lugar, facilitando la gestión y la toma de decisiones clínicas de manera más eficiente y organizada.
+</p>
+
+<img src="img/My patients.png" alt="My patients_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Mental Health Assessment.png" alt="Mental Health Assessment_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Patient profile.png" alt="Patient profile for Doctors_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Medical Histories.png" alt="Medical histories_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Making a new medical history entry.png" alt="Making a new medical history entry_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Adding treatment.png" alt="Adding treatment_mobile" style="margin-bottom: 5px;" width="250"><br>
+
 <div id='4.4.4.'><h4>4.4.4. Mobile Applications User Flow Diagrams</h4></div>
 
+**User goal: Registrarse e iniciar sesión** <br>
+
+<p align="justify">
+La vista de registro e inicio de sesión permite a pacientes y doctores crear una cuenta en la plataforma o acceder a una existente. A través de formularios simples y seguros, los usuarios pueden registrarse ingresando sus datos básicos o iniciar sesión con sus credenciales para acceder a su perfil y funcionalidades personalizadas.
+</p>
+
+<img src="img/register and login user flow.png" alt="register and login user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+**User goal: Reservar y ver citas agendadas** <br>
+
+<p align="justify">
+Este flujo permite al paciente buscar y seleccionar un médico de la especialidad que necesita (oncólogo, nutricionista o psicólogo), agendar una cita y visualizar de manera clara las citas futuras.
+</p>
+
+<img src="img/reservar y ver citas agendadas user flow.png" alt="reservar y ver citas agendadas user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+**User goal: Ver y publicar posts para pacientes** <br>
+
+<p align="justify">
+Este flujo permite a los pacientes acceder a publicaciones informativas creadas por los médicos y, a su vez, compartir sus propias experiencias relacionadas con el tratamiento, el estilo de vida o el bienestar. El objetivo es fomentar la comunidad, el aprendizaje y el apoyo mutuo entre pacientes y especialistas.
+</p>
+
+<img src="img/ver y publicar posts user flow.png" alt="ver y publicar posts user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+**User goal: Registrar estados de ánimo** <br>
+
+<p align="justify">
+Este flujo permite al paciente llevar un registro diario de su estado emocional, añadiendo notas o selecciones rápidas que reflejen cómo se siente. El objetivo es brindar un espacio de autocontrol y seguimiento personal, que pueda servir tanto para el propio paciente como para sus médicos en la evaluación integral de su tratamiento.
+</p>
+
+<img src="img/registrar estados de animo user flow.png" alt="registrar estados de animo user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+**User goal: Registrar estado de salud diario** <br>
+
+<p align="justify">
+Este flujo permite al paciente anotar información sobre su bienestar físico y síntomas experimentados durante el día. El objetivo es facilitar un seguimiento constante de la evolución del tratamiento, ayudando tanto al paciente a reconocer patrones como a los médicos a contar con datos más completos para una atención personalizada.
+</p>
+
+<img src="img/registrar estado de salud diario user flow.png" alt="registrar estado de salud diario user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+**User goal: Registrar comida diaria** <br>
+
+<p align="justify">
+Este flujo permite al paciente llevar un registro de sus comidas diarias, detallando alimentos. El objetivo es apoyar el control nutricional, favorecer hábitos alimenticios saludables y proporcionar a los médicos información valiosa para complementar el tratamiento oncológico.
+</p>
+
+<img src="img/registrar comida diaria user flow.png" alt="registrar comida diaria user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+**User goal: Ver tratamientos y registrar alarmas de medicamentos** <br>
+
+<p align="justify">
+Este flujo permite al paciente consultar de manera organizada los tratamientos asignados por sus médicos, incluyendo detalles de medicación, dosis y frecuencia. Además, brinda la opción de configurar alarmas y recordatorios para la toma de medicamentos, ayudando a mejorar la adherencia al tratamiento y reduciendo el riesgo de olvidos.
+</p>
+
+<img src="img/tratamientos para pacientes user flow.png" alt="tratamientos para pacientes user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+**User goal: Ver y publicar posts para doctores** <br>
+
+<p align="justify">
+Este flujo permite a los médicos acceder a publicaciones realizadas por otros especialistas y compartir contenido informativo con la comunidad de pacientes. El objetivo es difundir conocimiento validado, brindar orientación en torno a la salud oncológica y fortalecer la interacción entre profesionales y pacientes dentro de la plataforma.
+</p>
+
+<img src="img/ver y publicas posts doctores user flow.png" alt="ver y publicas posts doctores user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+**User goal: Gestionar entrada de historia médica y tratamiento** <br>
+
+<p align="justify">
+Este flujo permite a los médicos registrar, actualizar y consultar la historia clínica de cada paciente, así como definir y documentar sus planes de tratamiento. El objetivo es centralizar la información médica de manera clara y accesible, facilitando el seguimiento integral de la evolución del paciente y mejorando la coordinación en la atención.
+</p>
+
+<img src="img/historias clínicas y tratamientos user flow.png" alt="historias clínicas y tratamientos user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+
+
 <div id='4.5.'><h3>4.5. Mobile Applications Prototyping</h3></div>
+
+<p align="justify">El prototipo muestra la aplicación diseñada para pacientes oncológicos y médicos, con vistas adaptadas tanto a Android como a iOS. Incluye funciones clave como registro e inicio de sesión, gestión de citas, tratamientos, autocontrol y comunidad. Su objetivo es brindar una experiencia clara y accesible en ambos sistemas operativos, facilitando la comunicación y el seguimiento integral entre pacientes y especialistas.</p 
+
 <div id='4.5.1.'><h4>4.5.1. Android Mobile Applications Prototyping</h4></div>
+
+<img src="img/screenshot prototipo mobile android.png" alt="screenshot prototipo mobile android_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+[Enlace al video del prototipo versión Android en Figma](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g522_upc_edu_pe/EdbNel48ZeZGrsi8I4XhG_cBJOQWAdNOkd-pRxkl4d9C3Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=9BNg3F)
+
 <div id='4.5.2.'><h4>4.5.2. iOS Mobile Applications Prototyping</h4></div>
 
 <div id='4.6.'><h3>4.6. Web Applications UX/UI Design</h3></div>
