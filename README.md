@@ -1232,134 +1232,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
     <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
   </tr>
 </table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
+
 <table class="table">
   <tr>
     <th class="th1" style="width: 25%;">Story ID</th>
@@ -1393,45 +1266,505 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
   </tr>
 </table>
 
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">(ID USER STORY)</td>
+    <td class="td1">(USER)</td>
+    <td class="td1">(PRIORITY)</td>
+    <td class="td1">(EPIC)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(TITLE)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(DESCRIPTION)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">US XX</td>
+    <td class="td1">Usuario general</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Ver información principal en la página inicial</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero ver un mensaje claro sobre el propósito de OnControl en la página inicial, para entender de inmediato cómo me ayudará.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando la página carga
+
+Entonces debo visualizar un título destacado con el mensaje “Apoyo integral para pacientes oncológicos”
+
+Y un subtítulo con la descripción del propósito de la aplicación.</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Navegar entre secciones desde el menú superior</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero navegar a distintas secciones (Características, Beneficios, Problemática, Acerca de, Testimonios, Contacto), para acceder a la información de forma rápida.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando hago clic en un ítem del menú (ejemplo: "Características")
+
+Entonces debo ser redirigido automáticamente a la sección correspondiente dentro de la misma página.</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Descargar la aplicación</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero tener la opción de descargar la aplicación, para comenzar a usar OnControl en mi dispositivo.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando hago clic en el botón "Descargar" en el menú superior
+
+Entonces debo ser redirigido a una página o enlace de descarga (App Store, Google Play o un archivo APK/instalador).</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Contactar con el equipo</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero poder contactar al equipo de OnControl, para resolver dudas o recibir información personalizada.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando hago clic en el botón "Contáctanos"
+
+Entonces debo ser redirigido a un formulario de contacto o a la sección de contacto de la página
+
+Y debo poder enviar un mensaje con mis datos.</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Visualizar imagen representativa</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero ver imágenes que representen el uso de OnControl en contexto médico, para entender mejor su propósito.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando la página carga
+
+Entonces debo visualizar al costado del texto principal una imagen ilustrativa que muestre a un médico y paciente usando la aplicación.</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Conocer las características de OnControl</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero ver las características principales de OnControl, para entender qué funcionalidades ofrece.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando hago clic en la sección "Características" del menú
+
+Entonces debo visualizar una lista de funcionalidades explicadas de manera clara y concisa.</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00x</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Ver los beneficios de usar OnControl</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero ver los beneficios que OnControl ofrece a pacientes y médicos, para evaluar el valor que aporta.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando accedo a la sección "Beneficios"
+
+Entonces debo visualizar un listado de ventajas presentadas en un formato claro (ejemplo: íconos + texto).</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Conocer la problemática que resuelve OnControl</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero entender la problemática que aborda OnControl, para identificarme con las necesidades que soluciona.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando hago scroll o clic en "Problemática"
+
+Entonces debo visualizar un texto explicativo sobre los desafíos actuales en el tratamiento oncológico.</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Conocer la sección "Acerca de"</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero leer quiénes son y cuál es la misión de OnControl, para confiar en la seriedad del producto.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando accedo a la sección "Acerca de"
+
+Entonces debo visualizar información sobre el equipo, la misión y visión del proyecto.</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Leer testimonios de pacientes y médicos</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero ver testimonios de usuarios reales (pacientes/médicos), para validar la efectividad de OnControl.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando hago scroll hasta la sección "Testimonios"
+
+Entonces debo visualizar citas o reseñas de pacientes/médicos
+
+Y cada testimonio debe estar acompañado del nombre o rol del testigo.</td>
+  </tr>
+</table>
 
 
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>StoryID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Criterios de aceptación</th>
-      <th>Epic ID</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US01</td>
-      <td>Registrar cuenta</td>
-      <td>Como usuario general<br>Quiero registrarme<br>Para acceder a la aplicación OnControl</td>
-      <td><strong>E01 – Registro exitoso:</strong> Dado que el usuario está en el formulario de registro Cuando completa todos los campos obligatorios con datos válidos Entonces el sistema crea su cuenta y lo redirige al dashboard.<br><br><strong>E02 – Datos inválidos:</strong> Dado que el usuario está en el formulario de registro Cuando falta algún campo obligatorio o el formato es incorrecto Entonces el sistema muestra un mensaje de validación y no crea la cuenta.</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US37</td>
-      <td>Acceso a la app</td>
-      <td>Como usuario<br>Quiero ser redirigido a la tienda de apps<br>Para descargar fácilmente OnControl</td>
-      <td><strong>E01 – Redirección válida:</strong> Dado que pulsa el botón de descarga Cuando está en la landing Entonces va a App Store o Play Store según dispositivo.<br><br><strong>E02 – Enlace roto:</strong> Dado que el enlace falla Cuando pulsa el botón Entonces el sistema muestra un error y ofrece contacto con soporte.</td>
-      <td>EP07</td>
-    </tr>
-    <tr>
-      <td>US38</td>
-      <td>Recibir información por correo</td>
-      <td>Como usuario general<br>Quiero recibir mis registros por email<br>Para conservar un respaldo de mis actividades</td>
-      <td><strong>E01 – Envío exitoso:</strong> Dado que introduce un correo válido Cuando solicita el envío Entonces el sistema envía el resumen de actividad.<br><br><strong>E02 – Correo inválido:</strong> Dado que el formato no es correcto Cuando confirma Entonces el sistema muestra un error y no envía el email.</td>
-      <td>EP07</td>
-    </tr>
-  </tbody>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">(ID USER STORY)</td>
+    <td class="td1">(USER)</td>
+    <td class="td1">(PRIORITY)</td>
+    <td class="td1">(EPIC)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Acceder a la sección de contacto</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero ver la sección de contacto con formulario o información, para poder comunicarme con el equipo.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando entro a la sección "Contacto"
+
+Entonces debo visualizar un formulario de contacto con campos básicos (nombre, correo, mensaje)
+
+Y debo poder enviar el formulario exitosamente.</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">(ID USER STORY)</td>
+    <td class="td1">(USER)</td>
+    <td class="td1">(PRIORITY)</td>
+    <td class="td1">(EPIC)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Navegar fácilmente por la landing page</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero que el menú superior esté siempre visible, para acceder a cualquier sección sin necesidad de hacer scroll manualmente.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando hago scroll hacia abajo
+
+Entonces el menú superior debe permanecer fijo en la parte superior de la pantalla.</td>
+  </tr>
 </table>
 
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
+
+
 <div id='3.4.'><h3>3.4. Impact Mapping</h3></div>
+
+En esta sección se elaboró el impact mapping, tomando como punto de partida las metas comerciales definidas para cada user persona. A partir de ello, se identificaron los impactos esperados, los entregables requeridos y se estableció la relación con las historias de usuario correspondientes.
+
+Segmento objetivo: Pacientes y familiares
+
+<img src="https://github.com/user-attachments/assets/3aa5f839-07f7-4c58-80f3-f4f6b9d007b7" >
+
+
+Segmento objetivo: Oncólogos
+
+
+<img src="https://github.com/user-attachments/assets/59b450d1-59c0-4f12-9870-d5696374a1b0">
 
 <div id='4.'><h2>4. Capítulo IV: Product Design</h2></div>
 
