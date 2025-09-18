@@ -2504,7 +2504,7 @@ Esta es la primera ventana que le muestra al paciente una vez que inicia sesión
 **Resource** <br>
 Esta ventana funciona como una navegación entre distintas opciones que le brinda una mejor distribución entre las distintas opciones al usuario.<br>
 
-<img src="img/resources.png" alt="Resources_mobile" style="margin-bottom: 5px;" width="250">
+<img src="img/resources_mobile.png" alt="Resources_mobile" style="margin-bottom: 5px;" width="250">
 
 **Appointment** <br>
 Estas ventanas son para el registro de las citas del paciente y como este puede visualizar las citas que agendo.<br>
