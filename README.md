@@ -10,28 +10,28 @@ width=50%"/>
 
 <h5 style="text-align: center"> Área: Ingeniería de Software </h5>
 
-<h5 style="text-align: center"> Curso: Fundamentos de Arquitectura de Software  </h5>
-<h5 style="text-align: center"> NRC: 6327 </h5>
+<h5 style="text-align: center"> Curso: Diseño de Experimentos de Ingeniería de Software  </h5>
+<h5 style="text-align: center"> NRC: 7491 </h5>
 
-<h5 style="text-align: center"> Docente: Delgado Vite, Jorge Luis </h5>
+<h5 style="text-align: center"> Docente: Robles Fernández, Ivan </h5>
 
-<h5 style="text-align: center"> Startup:  </h5>
+<h5 style="text-align: center"> Startup: OncoTech  </h5>
 
-<h5 style="text-align: center"> Producto:  </h5>
+<h5 style="text-align: center"> Producto: OnControl  </h5>
 
 ## Team members:
 
   
 |                Nombre                 |   Código   |
 | :-----------------------------------: | :--------: |
-|                  -                    |     -      |
-|  Huanaco Huayta, Elizabeth Lucero     | u20211g522 |
-|  Huapaya Cuevas, Anthony              | u202220235 |
 |  Gongora Castillejos, Williams        | u20221c186 |
+|  Huanaco Huayta, Elizabeth Lucero     | u20211g522 |
+|  Huapaya Cuevas, Anthony Martin       | u202220235 |
+|  Quiñones Tintaya, Johan Jorge        | u202218183 |
 |  Uribe Quispe, Jesús Guillermo        | u202221876 |
 
 
-<h5 style="text-align: center"> Ciclo 2025-01 </h5>
+<h5 style="text-align: center"> Ciclo 2025-20 </h5>
 
 </div>
 
@@ -61,9 +61,10 @@ Para el desarrollo del informe perteneciente a la entrega TF, se dividió la imp
 
 | Integrante | Tareas Asignadas |
 | ---------- | ---------------- |
+|Góngora Castillejos Williams | Startup Profile, NeedFinding |
 | Huapaya Cuevas Anthony       |Startup Profile, desarrollo UX/UI |
 |Huanaco Huayta Elizabeth | Startup Profile, desarrollo UX/UI |
-|Góngora Castillejos Williams | Startup Profile, NeedFinding |
+|Quiñones Quintaya, Johan | Startup Profile, desarrollo UX/UI |
 |Uribe Quispe Jesús | Arquitectura de software del producto, Documentación de implementación de producto |
 
 **Github Collaboration Insights**
@@ -72,9 +73,10 @@ Github también presenta un timeline de las ramas principales y los procesos de 
 
 Los integrantes son:
 
-- Huanaco Huayta, Elizabeth Lucero (lucerohh)
-- Huapaya Cuevas, Anthony (AnthonyHuapaya)
 - Gongora Castillejos, Williams (WiJeGo)
+- Huanaco Huayta, Elizabeth Lucero (lucerohh)
+- Huapaya Cuevas, Anthony Martin (AnthonyHuapaya)
+- Quiñones Quintaya, Johan Jorge (johaanq)
 - Uribe Quispe, Jesús Guillermo(JesusU27)
 
 # Contenido
@@ -192,6 +194,8 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td>
       <strong>Huanaco Huayta, Elizabeth Lucero</strong> <br> 
       <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reconocer mi responsabilidad ética y profesional en la ingeniería de software. Estas tareas me ayudaron a diseñar interfaces centradas en la experiencia del usuario, priorizando la claridad, la accesibilidad y la usabilidad. Asimismo, al trabajar en el prototipado para Android e iOS, comprendí la importancia de seguir estándares de calidad y adaptar la aplicación a cada plataforma. Todo este proceso reforzó mi compromiso con crear soluciones confiables y útiles, considerando siempre el impacto que tienen las decisiones de diseño en la vida de pacientes y doctores. <br><br>
+      <strong>Huapaya Cuevas, Anthony Martin</strong> <br>
+      <strong>TB1:</strong> <p align="justify">La elaboración de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reflexionar sobre mi responsabilidad ética y profesional en el ámbito de la ingeniería de software. Estas actividades fueron clave para diseñar interfaces centradas en la experiencia del usuario, donde se priorizó la claridad, la accesibilidad y la facilidad de uso. Además, al desarrollar prototipos tanto para Android como para iOS, comprendí la relevancia de cumplir con los estándares de calidad y de adaptar la aplicación a las particularidades de cada plataforma. En conjunto, este proceso fortaleció mi compromiso con la creación de soluciones confiables y efectivas, teniendo siempre en cuenta el impacto que las decisiones de diseño generan en la vida de pacientes y profesionales de la salud. </p><br>
       <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Durante el desarrollo del proyecto, asumí la responsabilidad ética y profesional al diseñar la arquitectura de software, elaborando el diagrama de contenedores, de componentes, de clases y el modelo de bases de datos, asegurándome de que cada decisión fuera clara, documentada y trazable para facilitar la comprensión del equipo y garantizar la mantenibilidad del sistema. </p><br>
       </td>
@@ -204,6 +208,8 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td>
       <strong>Huanaco Huayta, Elizabeth Lucero</strong> <br> 
       <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me ayudó a emitir juicios informados sobre el impacto de la aplicación. Al diseñar las vistas pensé en el efecto social, facilitando la comunicación y accesibilidad para pacientes y doctores. También en el aspecto económico, al optimizar la gestión de citas y tratamientos. Consideré el impacto global, al crear un diseño adaptable a diferentes plataformas. Estas tareas me permitieron entender que las decisiones de diseño tienen consecuencias más allá de lo técnico, influyendo directamente en la vida de los usuarios y en el contexto en el que se aplica la solución.</p><br><br>
+      <strong>Huapaya Cuevas, Anthony Martin</strong> <br>
+      <strong>TB1:</strong> <p align="justify">La creación de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reflexionar sobre el impacto que puede generar la aplicación. Durante el diseño de las vistas tuve en cuenta el efecto social, al fomentar una comunicación más fluida y accesible entre pacientes y doctores. También consideré la dimensión económica, al proponer una solución que optimiza la gestión de citas y tratamientos. Asimismo, valoré el alcance global al diseñar una interfaz adaptable a distintas plataformas. Este proceso me hizo comprender que las decisiones de diseño trascienden lo técnico, pues influyen directamente en la vida de los usuarios y en el entorno donde se implementa la solución. </p><br>
       <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Al preparar la documentación de implementación del producto, emití juicios informados considerando el impacto que las soluciones de software podrían tener en el contexto global, económico, ambiental y social. Esto me llevó a priorizar decisiones que promuevan la eficiencia en el uso de recursos, la escalabilidad y la accesibilidad del sistema, contribuyendo a un producto sostenible y con potencial de adaptarse a diferentes escenarios. </p><br>
       </td>
@@ -218,9 +224,9 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 
 <div id='1.1.'><h3>1.1. Startup Profile</h3></div>
 <div id='1.1.1.'><h4>1.1.1. Descripción del startup</h4></div>
-OnControl es una aplicación creada por alumnos de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC), con el objetivo de ofrecer apoyo y organización tanto a pacientes oncológicos como a médicos oncólogos en el sector de la salud peruano. Reconocemos las complejidades y desafíos que enfrentan estos dos grupos en el proceso de tratamiento del cáncer, por lo que buscamos darles la importancia debida.
+OnControl es una aplicación creada por alumnos de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC), con el objetivo de ofrecer apoyo y organización tanto a pacientes oncológicos como a médicos oncólogos en el sector de la salud. Reconocemos las complejidades y desafíos que enfrentan estos dos grupos en el proceso de tratamiento del cáncer, por lo que buscamos darles la importancia debida.
 
-OnControl ofrece una plataforma integral que facilita la gestión de pacientes y la organización de su información. Los médicos pueden administrar eficientemente los datos y horarios de sus pacientes, asignar tratamientos y procedimientos, y visualizar la evolución clínica mediante un dashboard especializado. Los pacientes, por su parte, pueden acceder a un calendario digital para consultar sus citas médicas, procedimientos y tratamientos.
+OnControl ofrece una plataforma integral que facilita la gestión de pacientes y la organización de su información. Los médicos pueden administrar eficientemente los datos de sus pacientes, asignar tratamientos y procedimientos. Los pacientes, por su parte, pueden agendar sus citas médicas, además de consultarlas como los procedimientos y tratamientos que lleva.
 
 Como valor diferencial, OnControl integra sensores IoT que permiten medir parámetros vitales como saturación de oxígeno, ritmo cardíaco y temperatura corporal. Estos datos se registran y muestran en la aplicación del paciente y en la plataforma web del médico, generando alertas cuando se exceden los rangos saludables y contribuyendo a una atención más segura y oportuna.
 
@@ -579,8 +585,8 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 |Edad|27|
 |Distrito|San Isidro|
 |Foto|<img height="268" alt="image" src="img/doctor_interview_1.png" />|
-|Link|-|
-|Time | 0:00 - 04:36 |
+|Link|[Link]()|
+|Time | - |
 |Analisis de Entrevista| Sebastián trabaja actualmente en una clínica privada en San Isidro, utiliza normalmente la computadora para realizar algunos registros y una tablet por comodidad. Usa un sistema simple para gestionar lo justo y necesario, pero necesita que sea más eficiente. Atiende entre 5 a 6 pacientes a la semana, ya que le dedica tiempo para ellos. Realiza diagnósticos y pruebas para descartar si tiene alguna enfermedad cancerígena. Organiza las citas mediante correos o mensajes por la aplicación Whatsapp, donde presenta dificultades con respecto al recordatorio para la cita de los pacientes. Desea un mejor gestor dedicado para que le pueda ayudar a sus pacientes, indicando más rapidez y eficiencia. También le parece interesante realizar un control continuo para el paciente.|
 
 |Entevistado 2|Edith Gutierrez|
@@ -588,8 +594,8 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 |Edad|37|
 |Distrito|España, Madrid|
 |Foto|<img height="268" alt="image" src="img/doctor_interview_2.png" />|
-|Link|-|
-|Time | 0:00 - 06:19 |
+|Link|[Link]()|
+|Time | - |
 |Analisis de Entrevista| Edith es médico general en Perú y actualmente se encuentra en Madrid, España, ocupando el cargo de médico geriatra. Ella usa actualmente el IDoctus y el Memsa, también usa a veces la IA. Antes usaba algunas aplicaciones y tuve una buena experiencia, pero uso más los programas que ofrece la institución. Atiende en promedio entre 20 a 25 en un turno de 8 horas. Supervisa normalmente enfermedades crónicas, pacientes oncológicos, pacientes terminales; cada uno teniendo que supervisar cómo sobrelleva la enfermedad, dando un control constante de ello. Usa un software que le ayuda a gestionar las citas de los pacientes, donde se le da un aviso al paciente o familiares mediante una alerta a su dispositivo móvil. La principal dificultad son los pacientes, quienes se pueden olvidar o no llegaron a ver la alerta de la cita. Ella desea un recordatorio para sus pacientes que les avise con 2 días de antelación. Le resultaría útil el estado del paciente para investigar el progreso del paciente, pero a nivel grupal, por lo que le interesa un monitoreo constante de los signos vitales de los pacientes.|
 
 * **Segmento 2: Pacientes Oncológicos**
@@ -599,8 +605,8 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 |Edad|27|
 |Distrito|San Juan de Miraflores|
 |Foto|<img width="636" height="268" alt="image" src="https://github.com/user-attachments/assets/2645bb65-29be-4d2c-b58c-f7fc107f18e0" />|
-|Link|https://drive.google.com/file/d/1N9oO-yed5IWPqpY7R-YMtQKD5IZbXpbd/view?usp=sharing|
-|Time | 0:03 - 06:31 |
+|Link|[Link]()|
+|Time | - |
 |Analisis de Entrevista| Jesús, paciente oncológico diagnosticado con cáncer de estómago, comenta que está siguiendo un tratamiento oncológico desde hace 4 meses. Señala que sufre de altos niveles de estrés debido a la complejidad del proceso y la falta de organización en el registro de citas médicas, lo que le genera retrasos y confusiones. Además, menciona la dificultad para recordar horarios de medicamentos y para acceder a información confiable sobre su tratamiento. Expresa que un sistema que centralice la gestión de citas, recordatorios y el seguimiento del tratamiento sería de gran ayuda para reducir su ansiedad y mejorar su adherencia al proceso médico.|
 
 |Entrevistado 2|Fabrisio Belahonia|
@@ -608,8 +614,8 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 |Edad|30|
 |Distrito|San Juan de Lurigancho|
 |Foto|<img src="img/Entrevista Fabrisio Belahonia.png" alt="Entrevista a paciente Fabrisio Belahoi" style="margin-bottom: 5px;" width="740">|
-|Link|--Colocar link--|
-|Time | --Colocar timing-- |
+|Link|[Link]()|
+|Time | - |
 |Analisis de Entrevista| Fabrisio, paciente oncológico diagnosticado con cáncer de estómago, comenta que está siguiendo un tratamiento oncológico en el hospital Rebagliati desde hace una año y medio. Señala que usualmente usa su celular para gestionar las actividades, como citas, exámenes y medicamentos mediante una agenda física o una aplicación básica que no tiene las funcionalidades esenciales para este tipo de tratamiento, lo que le genera malestar y confusiones ya que usualmente olvida fechas importantes durante su tratamiento. Además, menciona la dificultad para gestionar sus citas con diferentes especialistas y para acceder a información centralizada sobre su tratamiento. Este paciente menciona que un sistema práctico que centralice la gestión de citas, recordatorios y el seguimiento del tratamiento integral supervisado con médicos de distintas especialidades sería valioso y le brindaría mayor tranquilidad.|
 
 |Entrevistado 3|Anthony Urbano|
@@ -617,8 +623,8 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 |Edad|24|
 |Distrito|Ate|
 |Foto|<img src="img/Entrevista Anthony Urbano.png" alt="Entrevista a paciente Anthony Urbano" style="margin-bottom: 5px;" width="740">|
-|Link|--Colocar link--|
-|Time | --Colocar timing-- |
+|Link|[Link]()|
+|Time | - |
 |Analisis de Entrevista| Anthony, paciente oncológico diagnosticado con cáncer de colon de 24 años, comenta que está siguiendo un tratamiento oncológico en el Hospital Nacional Guillermo Almenara desde hace aproximadamente ocho meses, incluyendo quimioterapia y consultas con nutrición y psicología. Señala que principalmente utiliza su smartphone para gestionar recordatorios de medicación, citas y resultados de laboratorio, complementando con notas en papel y su laptop para organizar fechas importantes. Indica que las herramientas actuales, como agendas o aplicaciones básicas de recordatorios, no le permiten registrar síntomas ni efectos secundarios, lo que genera confusión y estrés, especialmente cuando olvida citas o cambios en el tratamiento. Además, menciona la dificultad encontrar un sistema centralizado que integre toda la información de su tratamiento. Este paciente considera que una aplicación práctica que centralice la gestión de citas, recordatorios, registro de síntomas y evolución supervisada por su médico le brindaría mayor organización, seguridad y tranquilidad.|
 
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
@@ -2483,7 +2489,9 @@ Figma: [Enlace Figma](https://www.figma.com/design/lQZOGmsUK2ZbFdNXzVZ2Go/OnCont
 <div id='4.4.1.'><h4>4.4.1. Mobile Applications Wireframes</h4></div>
 
 **Register** <br>
-Permite a nuevos usuarios (pacientes y médicos) crear una cuenta ingresando información básica como nombre, correo electrónico y contraseña. Esto asegura un acceso seguro y una experiencia personalizada dentro de la aplicación.<br>
+<p align="justify">
+Permite a nuevos usuarios (pacientes y médicos) crear una cuenta ingresando información básica como nombre, correo electrónico y contraseña. Esto asegura un acceso seguro y una experiencia personalizada dentro de la aplicación.
+</p>
 
 <img src="img/register_mobile.png" alt="Register_mobile" style="margin-bottom: 5px;" width="250"><br>
 
@@ -2492,12 +2500,16 @@ Permite a nuevos usuarios (pacientes y médicos) crear una cuenta ingresando inf
 <img src="img/register_mobile-doctor.png" alt="Register_mobile_doctor" style="margin-bottom: 5px;" width="250">
 
 **Login** <br>
-Brinda acceso autenticado a la aplicación. Los usuarios ingresan sus credenciales para acceder a las funciones de monitoreo, alertas y datos personales de manera segura.<br>
+<p align="justify">
+Brinda acceso autenticado a la aplicación. Los usuarios ingresan sus credenciales para acceder a las funciones de monitoreo, alertas y datos personales de manera segura.
+</p>
 
 <img src="img/login_mobile.png" alt="Login_mobile" style="margin-bottom: 5px;" width="250">
 
 **Perfil** <br>
-Cada usuario cuenta con un perfil personal donde puede actualizar su información. Esto garantiza que la aplicación se adapte a las necesidades de cada usuario.<br>
+<p align="justify">
+Cada usuario cuenta con un perfil personal donde puede actualizar su información. Esto garantiza que la aplicación se adapte a las necesidades de cada usuario.
+</p>
 
 <img src="img/profile_mobile-patient.png" alt="Profile_mobile_patient" style="margin-bottom: 5px;" width="250">
 
@@ -2506,17 +2518,23 @@ Cada usuario cuenta con un perfil personal donde puede actualizar su informació
 **Pacientes:** <br>
 
 **Página principal** <br>
-Esta es la primera ventana que le muestra al paciente una vez que inicia sesión en la aplicación, mostrando los grupos que puede revisar, como las comunidades para pacientes y para doctores.<br>
+<p align="justify">
+Esta es la primera ventana que le muestra al paciente una vez que inicia sesión en la aplicación, mostrando los grupos que puede revisar, como las comunidades para pacientes y para doctores.
+</p>
 
 <img src="img/main_page_mobile-patient.png" alt="Main_page_mobile_patient" style="margin-bottom: 5px;" width="250">
 
 **Resource** <br>
-Esta ventana funciona como una navegación entre distintas opciones que le brinda una mejor distribución entre las distintas opciones al usuario.<br>
+<p align="justify">
+Esta ventana funciona como una navegación entre distintas opciones que le brinda una mejor distribución entre las distintas opciones al usuario.
+</p>
 
 <img src="img/resources_mobile.png" alt="Resources_mobile" style="margin-bottom: 5px;" width="250">
 
 **Appointment** <br>
-Estas ventanas son para el registro de las citas del paciente y como este puede visualizar las citas que agendo.<br>
+<p align="justify">
+Estas ventanas son para el registro de las citas del paciente y como este puede visualizar las citas que agendo.
+</p>
 
 <img src="img/appointment_mobile-1.png" alt="Looking_Appointment_mobile" style="margin-bottom: 5px;" width="250">
 
@@ -2525,7 +2543,9 @@ Estas ventanas son para el registro de las citas del paciente y como este puede 
 <img src="img/appointment_mobile-3.png" alt="My_Appointments_mobile" style="margin-bottom: 5px;" width="250">
 
 **Treatments** <br>
-Estas ventanas muestran lo que el paciente puede ver el tratamiento que el doctor le receto tras su cita y como puede configurar las alarmas para que pueda medicarse.<br>
+<p align="justify">
+Estas ventanas muestran lo que el paciente puede ver el tratamiento que el doctor le receto tras su cita y como puede configurar las alarmas para que pueda medicarse.
+</p>
 
 <img src="img/treatments_mobile-1.png" alt="Treatment_recipe" style="margin-bottom: 5px;" width="250">
 
@@ -2534,7 +2554,9 @@ Estas ventanas muestran lo que el paciente puede ver el tratamiento que el docto
 <img src="img/reminder_mobile.png" alt="Reminder" style="margin-bottom: 5px;" width="250">
 
 **Community** <br>
-Estas ventanas son para la visualización de los posts que pueden hacer otros pacientes y como el usuario puede realizar su post, además de la visualización de novedades con respecto a los doctores.<br>
+<p align="justify">
+Estas ventanas son para la visualización de los posts que pueden hacer otros pacientes y como el usuario puede realizar su post, además de la visualización de novedades con respecto a los doctores.
+</p>
 
 <img src="img/community_patient_mobile.png" alt="Community" style="margin-bottom: 5px;" width="250">
 
@@ -2543,21 +2565,27 @@ Estas ventanas son para la visualización de los posts que pueden hacer otros pa
 <img src="img/create_post_mobile.png" alt="Create_Post" style="margin-bottom: 5px;" width="250">
 
 **My Journal** <br>
-Estas ventanas le permite al usuario colocar un registro acerca de como le va el día a día, colocando como se siente y que le ocurrió en ese día.<br>
+<p align="justify">
+Estas ventanas le permite al usuario colocar un registro acerca de como le va el día a día, colocando como se siente y que le ocurrió en ese día.
+</p>
 
 <img src="img/journal_mobile.png" alt="Journal" style="margin-bottom: 5px;" width="250">
 
 <img src="img/journal_entry_mobile.png" alt="Create_journal" style="margin-bottom: 5px;" width="250">
 
 **Autocontrol** <br>
-Estas ventanas le permite al usuario colocar que tanto siente dolor con una breve descripción, ayudando de esa manera estar en constante autoevaluación y ver los avances.<br>
+<p align="justify">
+Estas ventanas le permite al usuario colocar que tanto siente dolor con una breve descripción, ayudando de esa manera estar en constante autoevaluación y ver los avances.
+</p>
 
 <img src="img/autocontrol_mobile.png" alt="Autocontrol" style="margin-bottom: 5px;" width="250">
 
 <img src="img/autocontrol_entry_mobile.png" alt="Create_autocontrol" style="margin-bottom: 5px;" width="250">
 
 **Food** <br>
-Estas ventanas le permite registrar las comidas que el paciente ingirió durante el día.<br>
+<p align="justify">
+Estas ventanas le permite registrar las comidas que el paciente ingirió durante el día.
+</p>
 
 <img src="img/food_mobile.png" alt="My food" style="margin-bottom: 5px;" width="250">
 
@@ -2566,19 +2594,25 @@ Estas ventanas le permite registrar las comidas que el paciente ingirió durante
 **Doctor:** <br>
 
 **Página principal** <br>
-Esta es la primera ventana que le muestra al paciente una vez que inicia sesión en la aplicación, la comunidad de doctores, donde puede visualizar distintos posts que hacen otros médicos.<br>
+<p align="justify">
+Esta es la primera ventana que le muestra al paciente una vez que inicia sesión en la aplicación, la comunidad de doctores, donde puede visualizar distintos posts que hacen otros médicos.
+</p>
 
 <img src="img/main_page_mobile-doctor.png" alt="Main_page_mobile_doctor" style="margin-bottom: 5px;" width="250">
 
 **Community** <br>
-Estas son las ventanas donde el usuario puede ver las publicaciones de los doctores, además de realizar un post en dicha comunidad.<br>
+<p align="justify">
+Estas son las ventanas donde el usuario puede ver las publicaciones de los doctores, además de realizar un post en dicha comunidad.
+</p>
 
 <img src="img/main_page_mobile-doctor.png" alt="Main_page_mobile_doctor" style="margin-bottom: 5px;" width="250">
 
 <img src="img/create_post_mobile.png" alt="Create_Post" style="margin-bottom: 5px;" width="250">
 
 **Patients** <br>
-Estas ventanas son para la gestión que realiza el doctor una vez que el paciente reservada una cita, donde puede verlos, añadir una nueva entrada a la historia médica con el tratamiento que se le recetó en su última cita.<br>
+<p align="justify">
+Estas ventanas son para la gestión que realiza el doctor una vez que el paciente reservada una cita, donde puede verlos, añadir una nueva entrada a la historia médica con el tratamiento que se le recetó en su última cita.
+</p>
 
 <img src="img/my_patients_mobile.png" alt="My_Patients" style="margin-bottom: 5px;" width="250">
 
@@ -2593,47 +2627,65 @@ Estas ventanas son para la gestión que realiza el doctor una vez que el pacient
 <div id='4.4.2.'><h4>4.4.2. Mobile Applications Wireflow Diagrams</h4></div>
 
 **User Goal: Registro e inicio de sesión** <br>
-En este User Goal, se muestra el proceso que realizan los usuarios para registrarse o iniciar sesión para entrar a la aplicación.<br>
+<p align="justify">
+En este User Goal, se muestra el proceso que realizan los usuarios para registrarse o iniciar sesión para entrar a la aplicación.
+</p>
 
 <img src="img/wireflow_mobile-1.png" alt="Autentificacion WireFlow" style="margin-bottom: 5px;" width="500">
 
 **User Goal: Reservar y ver citas agendadas** <br>
-Para la realización de este User Goal, el usuario podrá ver como puede agendar una cita y en donde puede ver su publicación.<br>
+<p align="justify">
+Para la realización de este User Goal, el usuario podrá ver como puede agendar una cita y en donde puede ver su publicación.
+</p>
 
 <img src="img/wireflow_mobile-2.png" alt="Appointments WireFlow" style="margin-bottom: 5px;" width="500">
 
 **User Goal: Ver y publicar posts** <br>
-Para este User Goal, el usuario puede visualizar y realizar posts de acuerdo a sus respectivos roles que pertenecesn.<br>
+<p align="justify">
+Para este User Goal, el usuario puede visualizar y realizar posts de acuerdo a sus respectivos roles que pertenecesn.
+</p>
 
 <img src="img/wireflow_mobile-3.png" alt="Communities WireFlow" style="margin-bottom: 5px;" width="500">
 
 **User Goal: Registrar estados de ánimo** <br>
-Para este User Goal, el usuario puede visualizar y registrar como se siente.<br>
+<p align="justify">
+Para este User Goal, el usuario puede visualizar y registrar como se siente.
+</p>
 
 <img src="img/wireflow_mobile-4.png" alt="Journal WireFlow" style="margin-bottom: 5px;" width="500">
 
 **User Goal: Registrar estado de salud diario** <br>
-Para este User Goal, el usuario puede visualizar y registrar de manera constante el estado de salud que tiene en ese momento.<br>
+<p align="justify">
+Para este User Goal, el usuario puede visualizar y registrar de manera constante el estado de salud que tiene en ese momento.
+</p>
 
 <img src="img/wireflow_mobile-5.png" alt="Health state WireFlow" style="margin-bottom: 5px;" width="500">
 
 **User Goal: Registrar comida diaria** <br>
-En el User Goal sobre este registro, el usuario puede colocar cuales fueron los alimentos que digerio de manera diaria.<br>
+<p align="justify">
+En el User Goal sobre este registro, el usuario puede colocar cuales fueron los alimentos que digerio de manera diaria.
+</p>
 
 <img src="img/wireflow_mobile-6.png" alt="Food WireFlow" style="margin-bottom: 5px;" width="500">
 
 **User Goal: Ver y publicar posts** <br>
-Se muestra el flujo que debe seguir los usuarios para la publicación de posts de acuerdo a la edad y género le corresponde.<br>
+<p align="justify">
+Se muestra el flujo que debe seguir los usuarios para la publicación de posts de acuerdo a la edad y género le corresponde.
+</p>
 
 <img src="img/wireflow_mobile-7.png" alt="Doc Community WireFlow" style="margin-bottom: 5px;" width="500">
 
 **User Goal: Gestionar entrada de historia médica y tratamiento** <br>
-Se muestra el flujo donde el doctor puede realizar una nueva entrada para el historial clínico y la opción donde puede añadir algún tratamiento que necesite el paciente.<br>
+<p align="justify">
+Se muestra el flujo donde el doctor puede realizar una nueva entrada para el historial clínico y la opción donde puede añadir algún tratamiento que necesite el paciente.
+</p>
 
 <img src="img/wireflow_mobile-8.png" alt="Medical Histories WireFlow" style="margin-bottom: 5px;" width="500">
 
 **User goal: Ver tratamientos y registrar alarmas de medicamentos** <br>
-Se muestra como los pacientes pueden revisar el tratamiento que se le asignó tras la cita, además de añadir alarmas para el consumo de los medicamentos en su debido tiempo.<br>
+<p align="justify">
+Se muestra como los pacientes pueden revisar el tratamiento que se le asignó tras la cita, además de añadir alarmas para el consumo de los medicamentos en su debido tiempo.
+</p>
 
 <img src="img/wireflow_mobile-9.png" alt="Artist WireFlow" style="margin-bottom: 5px;" width="500">
 
