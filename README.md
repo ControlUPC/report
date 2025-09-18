@@ -61,7 +61,10 @@ Para el desarrollo del informe perteneciente a la entrega TF, se dividió la imp
 
 | Integrante | Tareas Asignadas |
 | ---------- | ---------------- |
-| a          | a                |
+| Huapaya Cuevas Anthony       |Startup Profile, desarrollo UX/UI |
+|Huanaco Huayta Elizabeth | Startup Profile, desarrollo UX/UI |
+|Góngora Castillejos Williams | Startup Profile, NeedFinding |
+|Uribe Quispe Jesús | Arquitectura de software del producto, Documentación de implementación de producto |
 
 **Github Collaboration Insights**
 
@@ -69,7 +72,6 @@ Github también presenta un timeline de las ramas principales y los procesos de 
 
 Los integrantes son:
 
-- l
 - Huanaco Huayta, Elizabeth Lucero (lucerohh)
 - Huapaya Cuevas, Anthony (AnthonyHuapaya)
 - Gongora Castillejos, Williams (WiJeGo)
@@ -157,13 +159,14 @@ Los integrantes son:
    5.1.3. [Source Code Style Guide & Conventions.](#5.1.3.)<br>
    5.1.4. [Software Deployment Configuration.](#5.1.4.)<br>
    5.2. [Product Implementation & Deployment.](#5.2.)<br>
-   5.2.1. [Sprint Backlogs.](#5.2.1.)<br>
-   5.2.2. [Implemented Landing Page Evidence.](#5.2.2.)<br>
-   5.2.3. [Implemented Frontend-Web Application Evidence.](#5.2.3.)<br>
-   5.2.4. [Implemented Native-Mobile Application Evidence.](#5.2.4.)<br>
-   5.2.5. [Implemented RESTful API and/or Serverless Backend Evidence.](#5.2.5.)<br>
-   5.2.6. [RESTful API documentation.](#5.2.6.)<br>
-   5.2.7. [Team Collaboration Insights.](#5.2.7.)<br>
+   5.2.1.1. [Sprint Backlogs.](#5.2.1.1)<br>
+   5.2.1.2. [Implemented Landing Page Evidence.](#5.2.1.2.)<br>
+   5.2.1.3. [Implemented Frontend-Web Application Evidence.](#5.2.1.3.)<br>
+   5.2.1.4. [Acuerdo de Servicio - SaaS](#5.2.1.4.)<br>
+   5.2.1.5. [Implemented Native-Mobile Application Evidence.](#5.2.1.5.)<br>
+   5.2.1.6. [Implemented RESTful API and/or Serverless Backend Evidence.](#5.2.1.6.)<br>
+   5.2.1.7 [RESTful API documentation.](#5.2.1.7.)<br>
+   5.2.1.8. [Team Collaboration Insights.](#5.2.1.8.)<br>
    5.3. [Video About-the-Product.](#5.3.)<br>
 
 6. [Conclusiones](#6.)<br>
@@ -188,7 +191,9 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td style="font-weight:bold">4.C.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
       <td>
       <strong>Huanaco Huayta, Elizabeth Lucero</strong> <br> 
-      <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reconocer mi responsabilidad ética y profesional en la ingeniería de software. Estas tareas me ayudaron a diseñar interfaces centradas en la experiencia del usuario, priorizando la claridad, la accesibilidad y la usabilidad. Asimismo, al trabajar en el prototipado para Android e iOS, comprendí la importancia de seguir estándares de calidad y adaptar la aplicación a cada plataforma. Todo este proceso reforzó mi compromiso con crear soluciones confiables y útiles, considerando siempre el impacto que tienen las decisiones de diseño en la vida de pacientes y doctores.</p><br>
+      <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reconocer mi responsabilidad ética y profesional en la ingeniería de software. Estas tareas me ayudaron a diseñar interfaces centradas en la experiencia del usuario, priorizando la claridad, la accesibilidad y la usabilidad. Asimismo, al trabajar en el prototipado para Android e iOS, comprendí la importancia de seguir estándares de calidad y adaptar la aplicación a cada plataforma. Todo este proceso reforzó mi compromiso con crear soluciones confiables y útiles, considerando siempre el impacto que tienen las decisiones de diseño en la vida de pacientes y doctores. <br><br>
+      <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
+      <strong>TB1:</strong> <p align="justify"> Durante el desarrollo del proyecto, asumí la responsabilidad ética y profesional al diseñar la arquitectura de software, elaborando el diagrama de contenedores, de componentes, de clases y el modelo de bases de datos, asegurándome de que cada decisión fuera clara, documentada y trazable para facilitar la comprensión del equipo y garantizar la mantenibilidad del sistema. </p><br>
       </td>
       <td>
         <!--conclusion -->
@@ -198,7 +203,9 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td  style="font-weight:bold">4.C.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
       <td>
       <strong>Huanaco Huayta, Elizabeth Lucero</strong> <br> 
-      <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me ayudó a emitir juicios informados sobre el impacto de la aplicación. Al diseñar las vistas pensé en el efecto social, facilitando la comunicación y accesibilidad para pacientes y doctores. También en el aspecto económico, al optimizar la gestión de citas y tratamientos. Consideré el impacto global, al crear un diseño adaptable a diferentes plataformas. Estas tareas me permitieron entender que las decisiones de diseño tienen consecuencias más allá de lo técnico, influyendo directamente en la vida de los usuarios y en el contexto en el que se aplica la solución.</p><br>
+      <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me ayudó a emitir juicios informados sobre el impacto de la aplicación. Al diseñar las vistas pensé en el efecto social, facilitando la comunicación y accesibilidad para pacientes y doctores. También en el aspecto económico, al optimizar la gestión de citas y tratamientos. Consideré el impacto global, al crear un diseño adaptable a diferentes plataformas. Estas tareas me permitieron entender que las decisiones de diseño tienen consecuencias más allá de lo técnico, influyendo directamente en la vida de los usuarios y en el contexto en el que se aplica la solución.</p><br><br>
+      <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
+      <strong>TB1:</strong> <p align="justify"> Al preparar la documentación de implementación del producto, emití juicios informados considerando el impacto que las soluciones de software podrían tener en el contexto global, económico, ambiental y social. Esto me llevó a priorizar decisiones que promuevan la eficiencia en el uso de recursos, la escalabilidad y la accesibilidad del sistema, contribuyendo a un producto sostenible y con potencial de adaptarse a diferentes escenarios. </p><br>
       </td>
       <td>
         <!-- conclusion -->
@@ -251,9 +258,9 @@ Como valor diferencial, OnControl integra sensores IoT que permiten medir parám
     <td>U20221C186</td>
   </tr>
   <tr>
-    <td><img src=""></td>
-    <td></td>
-    <td></td>
+    <td><img src="https://github.com/TF-AplicacionesMoviles/Documentation/raw/main/Img/ju.jpeg"></td>
+    <td>Soy estudiante de Ingenieria de Software en la UPC y actualmente estoy en el 7to ciclo. Elegí esta carrera porque me interesó el campo del software y la matemáticas. Me comprometo a ayudar a mis compañeros con el trabajo asi como también fuera de este.</td>
+    <td>U202221876</td>
   </tr>
 </table>
 
@@ -2911,7 +2918,7 @@ Este documento describe la estrategia de despliegue del sistema, indicando las t
 </table>
 
 
-<div id='5.2.2.'><h4>5.2.2. Implemented Landing Page Evidence</h4></div>
+<div id='5.2.1.2.'><h4>5.2.1.2. Implemented Landing Page Evidence</h4></div>
 
 <table border="1" cellspacing="0" cellpadding="5">
   <tr>
@@ -2933,22 +2940,25 @@ Este documento describe la estrategia de despliegue del sistema, indicando las t
 </table>
 
 
-<div id='5.2.3.'><h4>5.2.3. Implemented Frontend-Web Application Evidence</h4></div>
+<div id='5.2.1.3.'><h4>5.2.1.3. Implemented Frontend-Web Application Evidence</h4></div>
 
 Para este entregable no se requieren implementaciones sobre la aplicación web.
 
-<div id='5.2.4.'><h4>5.2.4. Implemented Native-Mobile Application Evidence</h4></div>
+<div id='5.2.1.4.'><h4>5.2.1.4. Acuerdo de Servicio - SaaS</h4></div>
+Esta sección establece los derechos, obligaciones y restricciones aplicables a los usuarios de la plataforma, garantizando transparencia en el uso del servicio SaaS. Debe integrarse públicamente en la sección "Terms and Conditions" del website, cumpliendo con los criterios de claridad, accesibilidad y cumplimiento normativo.
+
+<div id='5.2.1.5.'><h4>5.2.1.5 Implemented Native-Mobile Application Evidence</h4></div>
 
 Para este entregable no se requieren implementaciones sobre la aplicación móvil.
 
-<div id='5.2.5.'><h4>5.2.5. Implemented RESTful API and/or Serverless Backend Evidence</h4></div>
+<div id='5.2.1.6.'><h4>5.2.1.6 Implemented RESTful API and/or Serverless Backend Evidence</h4></div>
 
 Para este entregable no se requieren implementaciones sobre el servicio web.
 
-<div id='5.2.6.'><h4>5.2.6. RESTful API documentation</h4></div>
+<div id='5.2.1.7.'><h4>5.2.1.7 RESTful API documentation</h4></div>
 Para este entregable no se requieren implementaciones sobre el servicio web.
 
-<div id='5.2.7.'><h4>5.2.7. Team Collaboration Insights</h4></div>
+<div id='5.2.1.8.'><h4>5.2.1.8 Team Collaboration Insights</h4></div>
 En este apartado se evidencia la colaboración y desarrollo conjunto de los componentes abarcados del producto.
 
 <div align="center">
