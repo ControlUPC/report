@@ -24,7 +24,7 @@ width=50%"/>
   
 |                Nombre                 |   Código   |
 | :-----------------------------------: | :--------: |
-|                  -                    |     -      |
+| Quiñones Tintaya, Johan Jorge         | u202218183 |
 |  Huanaco Huayta, Elizabeth Lucero     | u20211g522 |
 |  Huapaya Cuevas, Anthony              | u202220235 |
 |  Gongora Castillejos, Williams        | u20221c186 |
@@ -238,9 +238,9 @@ Como valor diferencial, OnControl integra sensores IoT que permiten medir parám
     <th>Codigo de usuario</th>
   </tr>
   <tr>
-    <td><img src=""></td>
-    <td></td>
-    <td></td>
+    <td><img src="img/JohanQuinones.jpeg" alt="Johan Quiñones"></td>
+    <td>Mi nombre es Johan Jorge Quiñones Tintaya, tengo 19 años y soy estudiante de ingeniería de software en la UPC, cursando el quinto ciclo. He adquirido una base sólida en algoritmos y programación orientada a objetos, lo que me permite enfrentar desafíos de desarrollo con eficacia. Además, me destaco por mi capacidad para trabajar en equipo, manteniendo una comunicación clara y efectiva que facilita la colaboración. Estoy comprometido con mi crecimiento profesional y busco constantemente mejorar mis habilidades para contribuir de manera significativa en proyectos y equipos, ofreciendo soluciones innovadoras.</td>
+    <td>U202218183</td>
   </tr>
   <tr>
     <td><img src="img/Elizabeth-Huanaco.jpg" alt="Elizabeth Huanaco" style="margin-bottom: 5px;"></td>
