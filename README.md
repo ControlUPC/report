@@ -2110,7 +2110,49 @@ Figma: [Enlace Figma](https://www.figma.com/design/lQZOGmsUK2ZbFdNXzVZ2Go/OnCont
 
 <div id='4.4.'><h3>4.4. Mobile Applications UX/UI Design</h3></div>
 <div id='4.4.1.'><h4>4.4.1. Mobile Applications Wireframes</h4></div>
+
+**Register** <br>
+
+<img src="img/register_mobile.png" alt="Register_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/register_mobile-patient.png" alt="Register_mobile_patient" style="margin-bottom: 5px;" width="250">
+
+<img src="img/register_mobile-doctor.png" alt="Register_mobile_doctor" style="margin-bottom: 5px;" width="250">
+
+**Login** <br>
+
+<img src="img/login_mobile.png" alt="Login_mobile" style="margin-bottom: 5px;" width="250">
+
+**Perfil** <br>
+
+<img src="img/profile_mobile-patient.png" alt="Profile_mobile_patient" style="margin-bottom: 5px;" width="250">
+
+<img src="img/profile_mobile-doctor.png" alt="Profile_mobile_doctor" style="margin-bottom: 5px;" width="250">
+
+**Página principal** <br>
+
+<img src="img/main_page_mobile-patient.png" alt="Main_page_mobile_patient" style="margin-bottom: 5px;" width="250">
+
+<img src="img/main_page_mobile-doctor.png" alt="Main_page_mobile_doctor" style="margin-bottom: 5px;" width="250">
+
 <div id='4.4.2.'><h4>4.4.2. Mobile Applications Wireflow Diagrams</h4></div>
+
+**User Goal: Registro e inicio de sesión** <br>
+
+<img src="img/wireflow_mobile-1.png" alt="Autentificacion WireFlow" style="margin-bottom: 5px;" width="500">
+
+**User Goal: Reservar y ver citas agendadas** <br>
+
+<img src="img/wireflow_mobile-2.png" alt="Appointments WireFlow" style="margin-bottom: 5px;" width="500">
+
+**User Goal: Ver y publicar posts** <br>
+
+<img src="img/wireflow_mobile-3.png" alt="Communities WireFlow" style="margin-bottom: 5px;" width="500">
+
+**User Goal: Registrar estados de ánimo** <br>
+
+<img src="img/wireflow_mobile-4.png" alt="Journal WireFlow" style="margin-bottom: 5px;" width="500">
+
 <div id='4.4.3.'><h4>4.4.3. Mobile Applications Mock-ups</h4></div>
 <div id='4.4.4.'><h4>4.4.4. Mobile Applications User Flow Diagrams</h4></div>
 
