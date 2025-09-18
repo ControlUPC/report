@@ -574,14 +574,14 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 
 * **Segmento 1: Médicos Oncológicos**
 
-|Entevistado 1|-|
+|Entevistado 1| Christian Matos |
 |-|-|
-|Edad|-|
-|Distrito|-|
-|Foto|-|
-|Link|-|
-|Time | - |
-|Analisis de Entrevista| -|
+|Edad| 20 |
+|Distrito| San Juan de Lurigancho|
+|Foto | <img src="img/entrevista-medico-christian.png" alt="Entrevista Medico 1">|
+|Link| https://drive.google.com/file/d/1hQQWK2VDFlh6e3TRzEjQq3fTU-l9EI-3/view?usp=sharing |
+|Time | 0:40 - 3:20 |
+|Analisis de Entrevista| El médico entrevistado refleja una práctica con alta carga asistencial (40–50 pacientes semanales) y procesos poco integrados, lo que genera pains como duplicidad de esfuerzos, sobrecarga administrativa y riesgo de errores en citas y tratamientos al depender de agendas, Excel y sistemas hospitalarios aislados. La falta de centralización limita su capacidad de seguimiento eficiente y le resta tiempo a la atención clínica. Frente a esto, reconoce como gains de OnControl la posibilidad de contar con un dashboard en tiempo real para visualizar pacientes activos y citas pendientes, un historial clínico digital unificado que reduzca la dispersión de datos, reportes consolidados exportables que faciliten auditorías y comités, así como el monitoreo remoto de signos vitales, que le permitiría actuar con rapidez ante complicaciones. En conjunto, la entrevista valida que OnControl responde a una necesidad real del médico: optimizar tiempo, reducir errores y mejorar la calidad del seguimiento clínico. |
 
 * **Segmento 2: Pacientes Oncológicos**
 
