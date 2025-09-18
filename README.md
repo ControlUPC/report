@@ -594,7 +594,7 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 
 * **Segmento 2: Pacientes Oncológicos**
 
-|Entevistado 1|Jesus Sanchez|
+|Entrevistado 1|Jesus Sanchez|
 |-|-|
 |Edad|27|
 |Distrito|San Juan de Miraflores|
@@ -603,14 +603,23 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 |Time | 0:03 - 06:31 |
 |Analisis de Entrevista| Jesús, paciente oncológico diagnosticado con cáncer de estómago, comenta que está siguiendo un tratamiento oncológico desde hace 4 meses. Señala que sufre de altos niveles de estrés debido a la complejidad del proceso y la falta de organización en el registro de citas médicas, lo que le genera retrasos y confusiones. Además, menciona la dificultad para recordar horarios de medicamentos y para acceder a información confiable sobre su tratamiento. Expresa que un sistema que centralice la gestión de citas, recordatorios y el seguimiento del tratamiento sería de gran ayuda para reducir su ansiedad y mejorar su adherencia al proceso médico.|
 
-|Entevistado 2|Fabrisio Belahonia|
+|Entrevistado 2|Fabrisio Belahonia|
 |-|-|
-|Edad|24|
-|Distrito|Ate|
+|Edad|30|
+|Distrito|San Juan de Lurigancho|
 |Foto|<img src="img/Entrevista Fabrisio Belahonia.png" alt="Entrevista a paciente Fabrisio Belahoi" style="margin-bottom: 5px;" width="740">|
 |Link|--Colocar link--|
 |Time | --Colocar timing-- |
 |Analisis de Entrevista| Fabrisio, paciente oncológico diagnosticado con cáncer de estómago, comenta que está siguiendo un tratamiento oncológico en el hospital Rebagliati desde hace una año y medio. Señala que usualmente usa su celular para gestionar las actividades, como citas, exámenes y medicamentos mediante una agenda física o una aplicación básica que no tiene las funcionalidades esenciales para este tipo de tratamiento, lo que le genera malestar y confusiones ya que usualmente olvida fechas importantes durante su tratamiento. Además, menciona la dificultad para gestionar sus citas con diferentes especialistas y para acceder a información centralizada sobre su tratamiento. Este paciente menciona que un sistema práctico que centralice la gestión de citas, recordatorios y el seguimiento del tratamiento integral supervisado con médicos de distintas especialidades sería valioso y le brindaría mayor tranquilidad.|
+
+|Entrevistado 3|Anthony Urbano|
+|-|-|
+|Edad|24|
+|Distrito|Ate|
+|Foto|<img src="img/Entrevista Anthony Urbano.png" alt="Entrevista a paciente Anthony Urbano" style="margin-bottom: 5px;" width="740">|
+|Link|--Colocar link--|
+|Time | --Colocar timing-- |
+|Analisis de Entrevista| Anthony, paciente oncológico diagnosticado con cáncer de colon de 24 años, comenta que está siguiendo un tratamiento oncológico en el Hospital Nacional Guillermo Almenara desde hace aproximadamente ocho meses, incluyendo quimioterapia y consultas con nutrición y psicología. Señala que principalmente utiliza su smartphone para gestionar recordatorios de medicación, citas y resultados de laboratorio, complementando con notas en papel y su laptop para organizar fechas importantes. Indica que las herramientas actuales, como agendas o aplicaciones básicas de recordatorios, no le permiten registrar síntomas ni efectos secundarios, lo que genera confusión y estrés, especialmente cuando olvida citas o cambios en el tratamiento. Además, menciona la dificultad encontrar un sistema centralizado que integre toda la información de su tratamiento. Este paciente considera que una aplicación práctica que centralice la gestión de citas, recordatorios, registro de síntomas y evolución supervisada por su médico le brindaría mayor organización, seguridad y tranquilidad.|
 
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
 
