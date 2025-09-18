@@ -61,7 +61,10 @@ Para el desarrollo del informe perteneciente a la entrega TF, se dividió la imp
 
 | Integrante | Tareas Asignadas |
 | ---------- | ---------------- |
-| a          | a                |
+| Huapaya Cuevas Anthony       |Startup Profile, desarrollo UX/UI |
+|Huanaco Huayta Elizabeth | Startup Profile, desarrollo UX/UI |
+|Góngora Castillejos Williams | Startup Profile, NeedFinding |
+|Uribe Quispe Jesús | Arquitectura de software del producto, Documentación de implementación de producto |
 
 **Github Collaboration Insights**
 
@@ -69,7 +72,6 @@ Github también presenta un timeline de las ramas principales y los procesos de 
 
 Los integrantes son:
 
-- l
 - Huanaco Huayta, Elizabeth Lucero (lucerohh)
 - Huapaya Cuevas, Anthony (AnthonyHuapaya)
 - Gongora Castillejos, Williams (WiJeGo)
@@ -157,13 +159,14 @@ Los integrantes son:
    5.1.3. [Source Code Style Guide & Conventions.](#5.1.3.)<br>
    5.1.4. [Software Deployment Configuration.](#5.1.4.)<br>
    5.2. [Product Implementation & Deployment.](#5.2.)<br>
-   5.2.1. [Sprint Backlogs.](#5.2.1.)<br>
-   5.2.2. [Implemented Landing Page Evidence.](#5.2.2.)<br>
-   5.2.3. [Implemented Frontend-Web Application Evidence.](#5.2.3.)<br>
-   5.2.4. [Implemented Native-Mobile Application Evidence.](#5.2.4.)<br>
-   5.2.5. [Implemented RESTful API and/or Serverless Backend Evidence.](#5.2.5.)<br>
-   5.2.6. [RESTful API documentation.](#5.2.6.)<br>
-   5.2.7. [Team Collaboration Insights.](#5.2.7.)<br>
+   5.2.1.1. [Sprint Backlogs.](#5.2.1.1)<br>
+   5.2.1.2. [Implemented Landing Page Evidence.](#5.2.1.2.)<br>
+   5.2.1.3. [Implemented Frontend-Web Application Evidence.](#5.2.1.3.)<br>
+   5.2.1.4. [Acuerdo de Servicio - SaaS](#5.2.1.4.)<br>
+   5.2.1.5. [Implemented Native-Mobile Application Evidence.](#5.2.1.5.)<br>
+   5.2.1.6. [Implemented RESTful API and/or Serverless Backend Evidence.](#5.2.1.6.)<br>
+   5.2.1.7 [RESTful API documentation.](#5.2.1.7.)<br>
+   5.2.1.8. [Team Collaboration Insights.](#5.2.1.8.)<br>
    5.3. [Video About-the-Product.](#5.3.)<br>
 
 6. [Conclusiones](#6.)<br>
@@ -187,6 +190,10 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr>
       <td style="font-weight:bold">4.C.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
       <td>
+      <strong>Huanaco Huayta, Elizabeth Lucero</strong> <br> 
+      <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reconocer mi responsabilidad ética y profesional en la ingeniería de software. Estas tareas me ayudaron a diseñar interfaces centradas en la experiencia del usuario, priorizando la claridad, la accesibilidad y la usabilidad. Asimismo, al trabajar en el prototipado para Android e iOS, comprendí la importancia de seguir estándares de calidad y adaptar la aplicación a cada plataforma. Todo este proceso reforzó mi compromiso con crear soluciones confiables y útiles, considerando siempre el impacto que tienen las decisiones de diseño en la vida de pacientes y doctores. <br><br>
+      <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
+      <strong>TB1:</strong> <p align="justify"> Durante el desarrollo del proyecto, asumí la responsabilidad ética y profesional al diseñar la arquitectura de software, elaborando el diagrama de contenedores, de componentes, de clases y el modelo de bases de datos, asegurándome de que cada decisión fuera clara, documentada y trazable para facilitar la comprensión del equipo y garantizar la mantenibilidad del sistema. </p><br>
       </td>
       <td>
         <!--conclusion -->
@@ -195,6 +202,10 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     <tr>
       <td  style="font-weight:bold">4.C.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
       <td>
+      <strong>Huanaco Huayta, Elizabeth Lucero</strong> <br> 
+      <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me ayudó a emitir juicios informados sobre el impacto de la aplicación. Al diseñar las vistas pensé en el efecto social, facilitando la comunicación y accesibilidad para pacientes y doctores. También en el aspecto económico, al optimizar la gestión de citas y tratamientos. Consideré el impacto global, al crear un diseño adaptable a diferentes plataformas. Estas tareas me permitieron entender que las decisiones de diseño tienen consecuencias más allá de lo técnico, influyendo directamente en la vida de los usuarios y en el contexto en el que se aplica la solución.</p><br><br>
+      <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
+      <strong>TB1:</strong> <p align="justify"> Al preparar la documentación de implementación del producto, emití juicios informados considerando el impacto que las soluciones de software podrían tener en el contexto global, económico, ambiental y social. Esto me llevó a priorizar decisiones que promuevan la eficiencia en el uso de recursos, la escalabilidad y la accesibilidad del sistema, contribuyendo a un producto sostenible y con potencial de adaptarse a diferentes escenarios. </p><br>
       </td>
       <td>
         <!-- conclusion -->
@@ -232,9 +243,9 @@ Como valor diferencial, OnControl integra sensores IoT que permiten medir parám
     <td></td>
   </tr>
   <tr>
-    <td><img src=""></td>
-    <td></td>
-    <td></td>
+    <td><img src="img/Elizabeth-Huanaco.jpg" alt="Elizabeth Huanaco" style="margin-bottom: 5px;"></td>
+    <td>Estoy en el séptimo ciclo de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona organizada, resiliente y asertiva. Elegí enfocarme en esta carrera por el interés que tengo en el desarrollo de software, ya que considero que es un área clave para el futuro de la innovación tecnológica. Actualmente tengo conocimientos de tecnologías como Java, SQL y desarrollo de aplicaciones modernas con el enfoque Domain Driven Design. En este proyecto, me comprometo a aplicar mis conocimientos y a contribuir con el logro de los objetivos de mi equipo, fomentando un ambiente colaborativo.</td>
+    <td>U20211G522</td>
   </tr>
   <tr>
     <td><img src="img/Anthony.jpg"></td>
@@ -247,9 +258,9 @@ Como valor diferencial, OnControl integra sensores IoT que permiten medir parám
     <td>U20221C186</td>
   </tr>
   <tr>
-    <td><img src=""></td>
-    <td></td>
-    <td></td>
+    <td><img src="https://github.com/TF-AplicacionesMoviles/Documentation/raw/main/Img/ju.jpeg"></td>
+    <td>Soy estudiante de Ingenieria de Software en la UPC y actualmente estoy en el 7to ciclo. Elegí esta carrera porque me interesó el campo del software y la matemáticas. Me comprometo a ayudar a mis compañeros con el trabajo asi como también fuera de este.</td>
+    <td>U202221876</td>
   </tr>
 </table>
 
@@ -561,7 +572,7 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 
 <div id='2.2.2.'><h4>2.2.2. Registro de entrevistas</h4></div>
 
-* **Segmento 1: Doctores**
+* **Segmento 1: Médicos Oncológicos**
 
 |Entevistado 1|Sebastián Silva|
 |-|-|
@@ -591,6 +602,15 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 |Link|https://drive.google.com/file/d/1N9oO-yed5IWPqpY7R-YMtQKD5IZbXpbd/view?usp=sharing|
 |Time | 0:03 - 06:31 |
 |Analisis de Entrevista| Jesús, paciente oncológico diagnosticado con cáncer de estómago, comenta que está siguiendo un tratamiento oncológico desde hace 4 meses. Señala que sufre de altos niveles de estrés debido a la complejidad del proceso y la falta de organización en el registro de citas médicas, lo que le genera retrasos y confusiones. Además, menciona la dificultad para recordar horarios de medicamentos y para acceder a información confiable sobre su tratamiento. Expresa que un sistema que centralice la gestión de citas, recordatorios y el seguimiento del tratamiento sería de gran ayuda para reducir su ansiedad y mejorar su adherencia al proceso médico.|
+
+|Entevistado 2|Fabrisio Belahonia|
+|-|-|
+|Edad|24|
+|Distrito|Ate|
+|Foto|<img src="img/Entrevista Fabrisio Belahonia.png" alt="Entrevista a paciente Fabrisio Belahoi" style="margin-bottom: 5px;" width="740">|
+|Link|--Colocar link--|
+|Time | --Colocar timing-- |
+|Analisis de Entrevista| Fabrisio, paciente oncológico diagnosticado con cáncer de estómago, comenta que está siguiendo un tratamiento oncológico en el hospital Rebagliati desde hace una año y medio. Señala que usualmente usa su celular para gestionar las actividades, como citas, exámenes y medicamentos mediante una agenda física o una aplicación básica que no tiene las funcionalidades esenciales para este tipo de tratamiento, lo que le genera malestar y confusiones ya que usualmente olvida fechas importantes durante su tratamiento. Además, menciona la dificultad para gestionar sus citas con diferentes especialistas y para acceder a información centralizada sobre su tratamiento. Este paciente menciona que un sistema práctico que centralice la gestión de citas, recordatorios y el seguimiento del tratamiento integral supervisado con médicos de distintas especialidades sería valioso y le brindaría mayor tranquilidad.|
 
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
 
@@ -748,289 +768,1012 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 
 
 <div id='3.2.'><h3>3.2. User Stories</h3></div>
+<style>
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .th1, .td1 {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  th.section {
+    background-color: #f2f2f2;
+    text-align: left;
+    font-weight: bold;
+  }
+</style>
 
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>StoryID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Criterios de aceptación</th>
-      <th>Epic ID</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US01</td>
-      <td>Registrar cuenta</td>
-      <td>Como usuario general<br>Quiero registrarme<br>Para acceder a la aplicación OnControl</td>
-      <td><strong>E01 – Registro exitoso:</strong> Dado que el usuario está en el formulario de registro Cuando completa todos los campos obligatorios con datos válidos Entonces el sistema crea su cuenta y lo redirige al dashboard.<br><br><strong>E02 – Datos inválidos:</strong> Dado que el usuario está en el formulario de registro Cuando falta algún campo obligatorio o el formato es incorrecto Entonces el sistema muestra un mensaje de validación y no crea la cuenta.</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US02</td>
-      <td>Configurar pagos</td>
-      <td>Como usuario general<br>Quiero añadir métodos de pago<br>Para acceder a servicios adicionales</td>
-      <td><strong>E01 – Añadir método válido:</strong> Dado que el usuario está en la sección de pagos Cuando ingresa los datos de tarjeta válidos Entonces el sistema registra el método y lo muestra en la lista.<br><br><strong>E02 – Método inválido:</strong> Dado que el usuario intenta añadir un método Cuando los datos son incorrectos o caducados Entonces el sistema muestra un error y no guarda el método.</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US03</td>
-      <td>Iniciar sesión</td>
-      <td>Como usuario general<br>Quiero iniciar sesión<br>Para acceder a las funciones de la app</td>
-      <td><strong>E01 – Autenticación exitosa:</strong> Dado que el usuario está en la pantalla de login Cuando ingresa credenciales válidas Entonces el sistema lo autentica y muestra el dashboard.<br><br><strong>E02 – Credenciales inválidas:</strong> Dado que el usuario está en la pantalla de login Cuando ingresa credenciales incorrectas Entonces el sistema muestra un mensaje de error.</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US04</td>
-      <td>Cerrar sesión</td>
-      <td>Como usuario general<br>Quiero cerrar mi sesión<br>Para proteger mi cuenta tras usar la app</td>
-      <td><strong>E01 – Cierre exitoso:</strong> Dado que el usuario está autenticado Cuando selecciona “Cerrar sesión” Entonces el sistema lo redirige a la landing page.<br><br><strong>E02 – Prevención de acceso:</strong> Dado que el usuario cierra sesión Cuando intenta navegar con la sesión cerrada Entonces el sistema lo obliga a loguearse de nuevo.</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US05</td>
-      <td>Recuperación de cuenta</td>
-      <td>Como usuario general<br>Quiero recuperar mi cuenta<br>Para no perder mis datos registrados</td>
-      <td><strong>E01 – Recuperación por email:</strong> Dado que el usuario no recuerda su contraseña Cuando elige “Recuperar por email” Entonces el sistema envía un enlace de restablecimiento.<br><br><strong>E02 – Recuperación por SMS:</strong> Dado que el usuario no recuerda su contraseña Cuando elige “Recuperar por SMS” Entonces el sistema envía un código de verificación al móvil.</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US06</td>
-      <td>Cambio de número telefónico</td>
-      <td>Como usuario general<br>Quiero actualizar mi número de teléfono<br>Para recibir notificaciones correctamente</td>
-      <td><strong>E01 – Cambio exitoso:</strong> Dado que el usuario está en su perfil Cuando ingresa un número válido Entonces el sistema actualiza el teléfono.<br><br><strong>E02 – Número inválido:</strong> Dado que el usuario ingresa un formato incorrecto Cuando guarda cambios Entonces el sistema muestra un error y no lo actualiza.</td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US07</td>
-      <td>Cambio de contraseña</td>
-      <td>Como usuario general<br>Quiero cambiar mi contraseña<br>Para mantener segura mi cuenta</td>
-      <td><strong>E01 – Contraseña actualizada:</strong> Dado que el usuario está en su perfil Cuando ingresa la contraseña actual y una nueva válida Entonces el sistema la actualiza y confirma el cambio.<br><br><strong>E02 – Parámetros no cumplidos:</strong> Dado que la nueva contraseña no cumple requisitos Cuando intenta guardarla Entonces el sistema muestra un mensaje de error.</td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US08</td>
-      <td>Actualizar foto de perfil</td>
-      <td>Como usuario general<br>Quiero cambiar mi foto de perfil<br>Para mantener mi información al día</td>
-      <td><strong>E01 – Subida exitosa:</strong> Dado que el usuario selecciona una imagen válida Cuando la sube Entonces el sistema la guarda como avatar.<br><br><strong>E02 – Formato no permitido:</strong> Dado que el archivo no cumple el formato Cuando intenta subirlo Entonces el sistema muestra un error.</td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US09</td>
-      <td>Mandar solicitud de cita</td>
-      <td>Como médico<br>Quiero registrar fecha y hora de cita<br>Para coordinar atención con mis pacientes</td>
-      <td><strong>E01 – Solicitud registrada:</strong> Dado que el médico elige fecha y hora válidas Cuando envía la petición Entonces la cita queda en el calendario y el paciente recibe notificación.<br><br><strong>E02 – Datos incompletos:</strong> Dado que falta fecha u hora Cuando intenta enviar Entonces el sistema muestra un error.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US10</td>
-      <td>Aceptar cita</td>
-      <td>Como paciente<br>Quiero aceptar una cita<br>Para confirmar mi disponibilidad</td>
-      <td><strong>E01 – Cita confirmada:</strong> Dado que el paciente recibe la solicitud Cuando pulsa “Aceptar” Entonces la cita se añade a su calendario.<br><br><strong>E02 – Cita expirada:</strong> Dado que la fecha ya pasó Cuando intenta aceptar Entonces el sistema informa que no es posible.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US11</td>
-      <td>Cancelar cita</td>
-      <td>Como paciente<br>Quiero cancelar una cita confirmada<br>Para reorganizar mi agenda</td>
-      <td><strong>E01 – Cancelación exitosa:</strong> Dado que la cita está activa Cuando pulsa “Cancelar” Entonces se elimina y el médico recibe notificación.<br><br><strong>E02 – Cita no cancelable:</strong> Dado que la cita ya fue atendida o cancelada Cuando intenta cancelarla de nuevo Entonces el sistema muestra un mensaje de error.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US12</td>
-      <td>Reprogramar cita</td>
-      <td>Como paciente<br>Quiero reprogramar una cita<br>Para ajustarla a mi disponibilidad</td>
-      <td><strong>E01 – Nueva fecha válida:</strong> Dado que hay disponibilidad en la fecha elegida Cuando selecciona y guarda Entonces se actualiza la cita y notifica al médico.<br><br><strong>E02 – Sin disponibilidad:</strong> Dado que no hay huecos en esa fecha Cuando intenta reprogramar Entonces el sistema sugiere otras fechas.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US13</td>
-      <td>Mandar solicitud de tratamiento</td>
-      <td>Como médico<br>Quiero enviar una solicitud de tratamiento<br>Para iniciar o modificar el plan del paciente</td>
-      <td><strong>E01 – Solicitud enviada:</strong> Dado que el médico completa el formulario Cuando pulsa “Enviar” Entonces el paciente recibe notificación con detalles.<br><br><strong>E02 – Campos vacíos:</strong> Dado que faltan datos obligatorios Cuando intenta enviar Entonces el sistema bloquea la acción y muestra error.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US14</td>
-      <td>Aceptar/Rechazar cambios en tratamiento</td>
-      <td>Como paciente<br>Quiero decidir sobre cambios en mi tratamiento<br>Para mantener control de mi plan</td>
-      <td><strong>E01 – Aceptar cambio:</strong> Dado que recibe la solicitud Cuando pulsa “Aceptar” Entonces el cambio se aplica y notifica al médico.<br><br><strong>E02 – Rechazar cambio:</strong> Dado que revisa la solicitud Cuando pulsa “Rechazar” Entonces el cambio no se aplica y el médico recibe notificación.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US15</td>
-      <td>Personalizar fecha de inicio</td>
-      <td>Como paciente<br>Quiero definir la fecha de inicio de mi tratamiento<br>Para adaptarlo a mi rutina</td>
-      <td><strong>E01 – Fecha válida:</strong> Dado que el paciente elige una fecha futura Cuando guarda Entonces el sistema actualiza el inicio y genera recordatorios.<br><br><strong>E02 – Fecha inválida:</strong> Dado que elige una fecha pasada Cuando intenta guardar Entonces muestra un mensaje de error.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US16</td>
-      <td>Marcar cumplimiento de tratamiento</td>
-      <td>Como paciente<br>Quiero marcar mi cumplimiento diario<br>Para llevar seguimiento de mi progreso</td>
-      <td><strong>E01 – Registro diario:</strong> Dado que sigue su tratamiento Cuando marca el día Entonces el sistema guarda el progreso.<br><br><strong>E02 – Registro retroactivo:</strong> Dado que olvida marcar un día Cuando lo hace después Entonces el sistema permite la fecha pasada y actualiza su historial.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US17</td>
-      <td>Asignar especialista</td>
-      <td>Como médico<br>Quiero derivar a un paciente a un especialista<br>Para asegurar la mejor atención</td>
-      <td><strong>E01 – Especialista existente:</strong> Dado que el médico elige un especialista del listado Cuando asigna Entonces el paciente recibe notificación para agendar cita.<br><br><strong>E02 – Especialista no listado:</strong> Dado que no encuentra al especialista Cuando ingresa nombre y contacto Entonces el sistema guarda la referencia y notifica al paciente.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US18</td>
-      <td>Enviar síntomas</td>
-      <td>Como paciente<br>Quiero reportar mis síntomas<br>Para que el doctor haga seguimiento clínico</td>
-      <td><strong>E01 – Reporte exitoso:</strong> Dado que el paciente completa el formulario Cuando envía Entonces el síntoma queda registrado en el panel del médico.<br><br><strong>E02 – Sin tratamiento activo:</strong> Dado que no hay tratamiento asociado Cuando intenta reportar Entonces el sistema muestra un mensaje para seleccionar uno.</td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>US19</td>
-      <td>Revisar síntomas</td>
-      <td>Como doctor<br>Quiero ver los síntomas reportados<br>Para evaluar la evolución del tratamiento</td>
-      <td><strong>E01 – Síntomas disponibles:</strong> Dado que el paciente ha reportado síntomas Cuando el doctor accede al historial Entonces ve la lista ordenada por fecha.<br><br><strong>E02 – Sin reportes:</strong> Dado que no hay registros Cuando el doctor accede Entonces el sistema muestra un mensaje indicándolo.</td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>US20</td>
-      <td>Consultar medicamento</td>
-      <td>Como paciente<br>Quiero consultar composición y reacciones<br>Para identificar efectos adversos</td>
-      <td><strong>E01 – Detalles mostrados:</strong> Dado que el paciente selecciona un medicamento asignado Cuando abre su ficha Entonces ve ingredientes, dosis y advertencias.<br><br><strong>E02 – Reportar reacción:</strong> Dado que detecta un efecto adverso Cuando pulsa “Reportar” Entonces el sistema notifica al médico con detalles.</td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>US21</td>
-      <td>Notificaciones de cambios en tratamiento</td>
-      <td>Como paciente<br>Quiero recibir avisos de cambios<br>Para estar siempre informado</td>
-      <td><strong>E01 – Cambio propuesto:</strong> Dado que el médico envía una modificación Cuando el paciente abre la app Entonces recibe notificación con los detalles.<br><br><strong>E02 – Historial de cambios:</strong> Dado que hay notificaciones previas Cuando accede a notificaciones Entonces puede revisar todas las propuestas anteriores.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US22</td>
-      <td>Notificación de fin de tratamiento</td>
-      <td>Como doctor<br>Quiero recibir aviso de finalización<br>Para agendar cita de cierre</td>
-      <td><strong>E01 – Marcado completado:</strong> Dado que el paciente marca el fin de tratamiento Cuando eso ocurre Entonces el sistema notifica al doctor.<br><br><strong>E02 – Agendar post-tratamiento:</strong> Dado que el doctor recibe la notificación Cuando accede al perfil del paciente Entonces puede programar la cita de evaluación.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US23</td>
-      <td>Consulta a doctor</td>
-      <td>Como paciente<br>Quiero hacer consultas via chat<br>Para resolver dudas sobre mi tratamiento</td>
-      <td><strong>E01 – Envío de mensaje:</strong> Dado que el paciente redactor un mensaje Cuando pulsa “Enviar” Entonces el doctor recibe la consulta y queda registrada.<br><br><strong>E02 – Respuesta en tiempo real:</strong> Dado que el doctor responde Cuando publica la respuesta Entonces el paciente la ve inmediatamente.</td>
-      <td>EP05</td>
-    </tr>
-    <tr>
-      <td>US24</td>
-      <td>Agregar paciente</td>
-      <td>Como doctor<br>Quiero invitar a un paciente por usuario<br>Para añadirlo a mi lista y asignarle tratamiento</td>
-      <td><strong>E01 – Usuario válido:</strong> Dado que el doctor introduce un username existente Cuando envía la invitación Entonces el paciente recibe notificación y puede aceptar.<br><br><strong>E02 – Usuario inexistente:</strong> Dado que el username no está registrado Cuando intenta enviar Entonces el sistema muestra un mensaje de error.</td>
-      <td>EP05</td>
-    </tr>
-    <tr>
-      <td>US25</td>
-      <td>Crear procedimiento</td>
-      <td>Como doctor<br>Quiero definir procedimientos médicos<br>Para estructurar el plan de tratamiento</td>
-      <td><strong>E01 – Procedimiento guardado:</strong> Dado que el doctor completa todos los datos Cuando guarda Entonces el procedimiento queda asociado al tratamiento.<br><br><strong>E02 – Campos obligatorios vacíos:</strong> Dado que falta información Cuando intenta guardar Entonces el sistema advierte y no registra.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US26</td>
-      <td>Resumen de tratamiento</td>
-      <td>Como paciente<br>Quiero ver un resumen de mi tratamiento<br>Para conocer fechas, medicación y procedimientos</td>
-      <td><strong>E01 – Vista previa completa:</strong> Dado que el paciente accede antes de aceptar Cuando abre el resumen Entonces ve todos los detalles del plan.<br><br><strong>E02 – Aceptar desde resumen:</strong> Dado que revisa el contenido Cuando pulsa “Aceptar” Entonces el tratamiento se activa en su cuenta.</td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>US27</td>
-      <td>Configurar procedimiento</td>
-      <td>Como doctor<br>Quiero ajustar duración y frecuencia<br>Para adaptar cada procedimiento al caso</td>
-      <td><strong>E01 – Parámetros válidos:</strong> Dado que define duración y repeticiones dentro de rango Cuando guarda Entonces el sistema los registra correctamente.<br><br><strong>E02 – Valores fuera de rango:</strong> Dado que ingresa datos inválidos Cuando intenta guardar Entonces se bloquea la operación y muestra error.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US28</td>
-      <td>Modificar fecha de inicio</td>
-      <td>Como paciente<br>Quiero cambiar la fecha de inicio<br>Para disponer de tiempo para prepararme</td>
-      <td><strong>E01 – Cambio válido:</strong> Dado que selecciona una fecha futura Cuando guarda Entonces la fecha se actualiza y notifica al doctor.<br><br><strong>E02 – Fecha pasada:</strong> Dado que elige un día anterior Cuando intenta guardar Entonces el sistema muestra un error.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US29</td>
-      <td>Configurar recordatorios</td>
-      <td>Como usuario general<br>Quiero personalizar mis notificaciones<br>Para adaptarlas a mi rutina diaria</td>
-      <td><strong>E01 – Ajuste exitoso:</strong> Dado que modifica tono y frecuencia Cuando guarda Entonces los recordatorios se actualizan.<br><br><strong>E02 – Horario no seleccionado:</strong> Dado que no define hora alguna Cuando intenta guardar Entonces el sistema indica que debe elegir al menos un horario.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US30</td>
-      <td>Aviso de cambios en el sistema</td>
-      <td>Como usuario general<br>Quiero recibir notificaciones de cambios<br>Para estar al tanto de reprogramaciones y ajustes</td>
-      <td><strong>E01 – Notificación inmediata:</strong> Dado que se reprograma o cancela una cita Cuando ocurre el cambio Entonces el usuario recibe alerta en la app.<br><br><strong>E02 – Historial de avisos:</strong> Dado que hay varios cambios Cuando consulta el buzón de notificaciones Entonces ve el listado cronológico.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US31</td>
-      <td>Eliminar paciente</td>
-      <td>Como médico<br>Quiero eliminar pacientes finalizados<br>Para mantener organizada mi lista</td>
-      <td><strong>E01 – Eliminación exitosa:</strong> Dado que el paciente marcó tratamiento como completo Cuando el doctor pulsa “Eliminar” Entonces se remueve de su lista.<br><br><strong>E02 – Paciente activo:</strong> Dado que aún hay un tratamiento en curso Cuando intenta eliminar Entonces el sistema deniega la acción.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US32</td>
-      <td>Contactar con soporte</td>
-      <td>Como usuario general<br>Quiero contactar con el equipo de soporte<br>Para resolver dudas o reportar errores</td>
-      <td><strong>E01 – Mensaje enviado:</strong> Dado que completa el formulario de contacto Cuando pulsa “Enviar” Entonces llega al equipo y el usuario recibe confirmación.<br><br><strong>E02 – Campos vacíos:</strong> Dado que faltan datos obligatorios Cuando intenta enviar Entonces el sistema muestra error y bloquea envío.</td>
-      <td>EP05</td>
-    </tr>
-    <tr>
-      <td>US33</td>
-      <td>Lista de pacientes</td>
-      <td>Como médico<br>Quiero ver mi lista de pacientes<br>Para acceder a sus tratamientos y progreso</td>
-      <td><strong>E01 – Lista poblada:</strong> Dado que hay pacientes asignados Cuando el doctor accede Entonces ve la lista con nombres y estado de tratamiento.<br><br><strong>E02 – Lista vacía:</strong> Dado que no tiene pacientes aún Cuando accede Entonces se muestra un mensaje indicándolo.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US34</td>
-      <td>Revisar historial de tratamientos</td>
-      <td>Como médico<br>Quiero ver el historial de tratamientos<br>Para tener visión cronológica de la evolución</td>
-      <td><strong>E01 – Historial disponible:</strong> Dado que el paciente tiene registros anteriores Cuando el doctor abre su perfil Entonces ve la lista ordenada cronológicamente.<br><br><strong>E02 – Sin historial:</strong> Dado que no hay registros Cuando intenta ver el historial Entonces el sistema muestra un mensaje de ausencia de datos.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US35</td>
-      <td>Lista de procedimientos</td>
-      <td>Como paciente<br>Quiero ver los procedimientos del día<br>Para cumplir correctamente mi tratamiento</td>
-      <td><strong>E01 – Procedimientos mostrados:</strong> Dado que hay procedimientos asignados hoy Cuando el paciente accede Entonces ve la lista detallada.<br><br><strong>E02 – Ninguno asignado:</strong> Dado que no hay procedimientos para la fecha Cuando consulta Entonces el sistema informa que no hay tareas.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US36</td>
-      <td>Visualizar landing page</td>
-      <td>Como usuario general<br>Quiero ver la landing page<br>Para entender la propuesta de valor</td>
-      <td><strong>E01 – Contenido cargado:</strong> Dado que accede al sitio Cuando entra en la landing Entonces ve descripción clara y beneficios.<br><br><strong>E02 – Error de carga:</strong> Dado que falla el servidor Cuando entra Entonces el sistema muestra mensaje de indisponibilidad.</td>
-      <td>EP07</td>
-    </tr>
-    <tr>
-      <td>US37</td>
-      <td>Acceso a la app</td>
-      <td>Como usuario<br>Quiero ser redirigido a la tienda de apps<br>Para descargar fácilmente OnControl</td>
-      <td><strong>E01 – Redirección válida:</strong> Dado que pulsa el botón de descarga Cuando está en la landing Entonces va a App Store o Play Store según dispositivo.<br><br><strong>E02 – Enlace roto:</strong> Dado que el enlace falla Cuando pulsa el botón Entonces el sistema muestra un error y ofrece contacto con soporte.</td>
-      <td>EP07</td>
-    </tr>
-    <tr>
-      <td>US38</td>
-      <td>Recibir información por correo</td>
-      <td>Como usuario general<br>Quiero recibir mis registros por email<br>Para conservar un respaldo de mis actividades</td>
-      <td><strong>E01 – Envío exitoso:</strong> Dado que introduce un correo válido Cuando solicita el envío Entonces el sistema envía el resumen de actividad.<br><br><strong>E02 – Correo inválido:</strong> Dado que el formato no es correcto Cuando confirma Entonces el sistema muestra un error y no envía el email.</td>
-      <td>EP07</td>
-    </tr>
-  </tbody>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">US001</td>
+    <td class="td1">Usuario</td>
+    <td class="td1">HIGH</td>
+    <td class="td1">E001</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Registrar cuenta </td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">	Como usuario general, quiero registrarme para acceder a la aplicación OnControl.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">
+    E01 – Registro exitoso: Dado que el usuario está en el formulario de registro Cuando completa todos los campos obligatorios con datos válidos Entonces el sistema crea la cuenta y se redirecciona al dashboard.<br>
+    E02 – Datos inválidos: Dado que el usuario está en el formulario de registro Cuando falta algún campo obligatorio o el formato es incorrecto, Entonces el sistema muestra un mensaje de error y no crea la cuenta.
+    </td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">US002</td>
+    <td class="td1">Usuario</td>
+    <td class="td1">HIGH</td>
+    <td class="td1">E001</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Iniciar Sesión</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como usuario general, quiero iniciar sesión para acceder a las funciones de la app.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">E01 – Autenticación exitosa: Dado que el usuario está en la pantalla de login Cuando ingresa credenciales válidas Entonces el sistema lo autentica y muestra el dashboard.<br>
+    E02 – Credenciales inválidas: Dado que el usuario está en la pantalla de login Cuando ingresa credenciales incorrectas Entonces el sistema muestra un mensaje de error.</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">US003</td>
+    <td class="td1">Usuario</td>
+    <td class="td1">HIGH</td>
+    <td class="td1">E001</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Cerrar sesión</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como usuario general, quiero cerrar mi sesión para proteger mi cuenta tras usar la app</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">E01 – Cierre exitoso: Dado que el usuario está autenticado Cuando selecciona “Cerrar sesión” Entonces el sistema lo redirige a la landing page.<br>
+    E02 – Prevención de acceso: Dado que el usuario cierra sesión Cuando intenta navegar con la sesión cerrada Entonces el sistema lo obliga a loguearse de nuevo.</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">US004</td>
+    <td class="td1">Usuario</td>
+    <td class="td1">HIGH</td>
+    <td class="td1">E001</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Recuperar cuenta</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como usuario general, quiero recuperar mi cuenta en caso de olvidar o perder mis credenciales de autenticación.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">E01 – Recuperación por email: Dado que el usuario no recuerda su contraseña Cuando elige “Recuperar por email” Entonces el sistema envía un enlace de restablecimiento.<br>
+    E02 – Recuperación por SMS: Dado que el usuario no recuerda su contraseña Cuando elige “Recuperar por SMS” Entonces el sistema envía un código de verificación al móvil.</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">US005</td>
+    <td class="td1">Usuario general</td>
+    <td class="td1">HIGH</td>
+    <td class="td1">E002</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Cambio de número telefónico</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como usuario general, Quiero actualizar mi número de teléfono, Para recibir notificaciones correctamente.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">E01 – Cambio exitoso: Dado que el usuario está en su perfil Cuando ingresa un número válido Entonces el sistema actualiza el teléfono.<br>
+    E02 – Número inválido: Dado que el usuario ingresa un formato incorrecto Cuando guarda cambios Entonces el sistema muestra un error y no lo actualiza.</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">US006</td>
+    <td class="td1">Usuario general</td>
+    <td class="td1">HIGH</td>
+    <td class="td1">E002</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Cambio de contraseña</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">	Como usuario general, Quiero cambiar mi contraseña Para mantener segura mi cuenta</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">E01 – Contraseña actualizada: Dado que el usuario está en su perfil Cuando ingresa la contraseña actual y una nueva válida Entonces el sistema la actualiza y confirma el cambio.<br>
+    E02 – Parámetros no cumplidos: Dado que la nueva contraseña no cumple requisitos Cuando intenta guardarla Entonces el sistema muestra un mensaje de error.</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">US007</td>
+    <td class="td1">Usuario general</td>
+    <td class="td1">HIGH</td>
+    <td class="td1">E002</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Cambio de Datos personales</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como usuario general, quiero cambiar mis datos personales para tenerlos actualizados en la plataforma.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">E01 - Datos personales actualizados: Dado que el usuario entra a su perfil, Cuando seleccione la opción de cambiar datos personales e ingrese los nuevos. Entonces el sistema confirmará el cambio.</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">(ID USER STORY)</td>
+    <td class="td1">(USER)</td>
+    <td class="td1">(PRIORITY)</td>
+    <td class="td1">(EPIC)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(TITLE)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(DESCRIPTION)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">(ID USER STORY)</td>
+    <td class="td1">(USER)</td>
+    <td class="td1">(PRIORITY)</td>
+    <td class="td1">(EPIC)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(TITLE)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(DESCRIPTION)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">(ID USER STORY)</td>
+    <td class="td1">(USER)</td>
+    <td class="td1">(PRIORITY)</td>
+    <td class="td1">(EPIC)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(TITLE)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(DESCRIPTION)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">(ID USER STORY)</td>
+    <td class="td1">(USER)</td>
+    <td class="td1">(PRIORITY)</td>
+    <td class="td1">(EPIC)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(TITLE)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(DESCRIPTION)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">(ID USER STORY)</td>
+    <td class="td1">(USER)</td>
+    <td class="td1">(PRIORITY)</td>
+    <td class="td1">(EPIC)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(TITLE)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(DESCRIPTION)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">(ID USER STORY)</td>
+    <td class="td1">(USER)</td>
+    <td class="td1">(PRIORITY)</td>
+    <td class="td1">(EPIC)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(TITLE)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(DESCRIPTION)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">(ID USER STORY)</td>
+    <td class="td1">(USER)</td>
+    <td class="td1">(PRIORITY)</td>
+    <td class="td1">(EPIC)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(TITLE)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(DESCRIPTION)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">(ID USER STORY)</td>
+    <td class="td1">(USER)</td>
+    <td class="td1">(PRIORITY)</td>
+    <td class="td1">(EPIC)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(TITLE)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(DESCRIPTION)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">(ID USER STORY)</td>
+    <td class="td1">(USER)</td>
+    <td class="td1">(PRIORITY)</td>
+    <td class="td1">(EPIC)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(TITLE)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(DESCRIPTION)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">US XX</td>
+    <td class="td1">Usuario general</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Ver información principal en la página inicial</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero ver un mensaje claro sobre el propósito de OnControl en la página inicial, para entender de inmediato cómo me ayudará.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando la página carga
+
+Entonces debo visualizar un título destacado con el mensaje “Apoyo integral para pacientes oncológicos”
+
+Y un subtítulo con la descripción del propósito de la aplicación.</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Navegar entre secciones desde el menú superior</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero navegar a distintas secciones (Características, Beneficios, Problemática, Acerca de, Testimonios, Contacto), para acceder a la información de forma rápida.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando hago clic en un ítem del menú (ejemplo: "Características")
+
+Entonces debo ser redirigido automáticamente a la sección correspondiente dentro de la misma página.</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Descargar la aplicación</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero tener la opción de descargar la aplicación, para comenzar a usar OnControl en mi dispositivo.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando hago clic en el botón "Descargar" en el menú superior
+
+Entonces debo ser redirigido a una página o enlace de descarga (App Store, Google Play o un archivo APK/instalador).</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Contactar con el equipo</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero poder contactar al equipo de OnControl, para resolver dudas o recibir información personalizada.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando hago clic en el botón "Contáctanos"
+
+Entonces debo ser redirigido a un formulario de contacto o a la sección de contacto de la página
+
+Y debo poder enviar un mensaje con mis datos.</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Visualizar imagen representativa</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero ver imágenes que representen el uso de OnControl en contexto médico, para entender mejor su propósito.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando la página carga
+
+Entonces debo visualizar al costado del texto principal una imagen ilustrativa que muestre a un médico y paciente usando la aplicación.</td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Conocer las características de OnControl</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero ver las características principales de OnControl, para entender qué funcionalidades ofrece.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando hago clic en la sección "Características" del menú
+
+Entonces debo visualizar una lista de funcionalidades explicadas de manera clara y concisa.</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00x</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Ver los beneficios de usar OnControl</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero ver los beneficios que OnControl ofrece a pacientes y médicos, para evaluar el valor que aporta.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando accedo a la sección "Beneficios"
+
+Entonces debo visualizar un listado de ventajas presentadas en un formato claro (ejemplo: íconos + texto).</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Conocer la problemática que resuelve OnControl</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero entender la problemática que aborda OnControl, para identificarme con las necesidades que soluciona.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando hago scroll o clic en "Problemática"
+
+Entonces debo visualizar un texto explicativo sobre los desafíos actuales en el tratamiento oncológico.</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Conocer la sección "Acerca de"</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero leer quiénes son y cuál es la misión de OnControl, para confiar en la seriedad del producto.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando accedo a la sección "Acerca de"
+
+Entonces debo visualizar información sobre el equipo, la misión y visión del proyecto.</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">USXX</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">MEDIUM</td>
+    <td class="td1">E00X</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Leer testimonios de pacientes y médicos</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero ver testimonios de usuarios reales (pacientes/médicos), para validar la efectividad de OnControl.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando hago scroll hasta la sección "Testimonios"
+
+Entonces debo visualizar citas o reseñas de pacientes/médicos
+
+Y cada testimonio debe estar acompañado del nombre o rol del testigo.</td>
+  </tr>
+</table>
+
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">(ID USER STORY)</td>
+    <td class="td1">(USER)</td>
+    <td class="td1">(PRIORITY)</td>
+    <td class="td1">(EPIC)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Acceder a la sección de contacto</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero ver la sección de contacto con formulario o información, para poder comunicarme con el equipo.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando entro a la sección "Contacto"
+
+Entonces debo visualizar un formulario de contacto con campos básicos (nombre, correo, mensaje)
+
+Y debo poder enviar el formulario exitosamente.</td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">(ID USER STORY)</td>
+    <td class="td1">(USER)</td>
+    <td class="td1">(PRIORITY)</td>
+    <td class="td1">(EPIC)</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Navegar fácilmente por la landing page</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Como visitante, quiero que el menú superior esté siempre visible, para acceder a cualquier sección sin necesidad de hacer scroll manualmente.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Dado que estoy en la landing page
+
+Cuando hago scroll hacia abajo
+
+Entonces el menú superior debe permanecer fijo en la parte superior de la pantalla.</td>
+  </tr>
 </table>
 
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
+
+
 <div id='3.4.'><h3>3.4. Impact Mapping</h3></div>
+
+En esta sección se elaboró el impact mapping, tomando como punto de partida las metas comerciales definidas para cada user persona. A partir de ello, se identificaron los impactos esperados, los entregables requeridos y se estableció la relación con las historias de usuario correspondientes.
+
+Segmento objetivo: Pacientes y familiares
+
+<img src="https://github.com/user-attachments/assets/3aa5f839-07f7-4c58-80f3-f4f6b9d007b7" >
+
+
+Segmento objetivo: Oncólogos
+
+
+<img src="https://github.com/user-attachments/assets/59b450d1-59c0-4f12-9870-d5696374a1b0">
 
 <div id='4.'><h2>4. Capítulo IV: Product Design</h2></div>
 
@@ -1886,10 +2629,233 @@ Se muestra como los pacientes pueden revisar el tratamiento que se le asignó tr
 <img src="img/wireflow_mobile-9.png" alt="Artist WireFlow" style="margin-bottom: 5px;" width="500">
 
 <div id='4.4.3.'><h4>4.4.3. Mobile Applications Mock-ups</h4></div>
+
+**Register and Login** <br>
+
+<p align="justify">
+Las pantallas de Login y Registro permiten a pacientes y doctores acceder de manera segura a la aplicación. A través del login, los usuarios ingresan con su correo y contraseña de forma rápida e intuitiva, mientras que el registro facilita la creación de una cuenta con información básica para habilitar el acceso personalizado a funciones de la aplicación.
+</p>
+
+<img src="img/Sign In Sign Up.png" alt="Sign in_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Type user Patient.png" alt="Users type_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Sign In Sign Up-1.png" alt="Patient sign up_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Sign In Sign Up-2.png" alt="Doctor sign up_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**A continuación, se presentarán los mock-ups de los pacientes en la aplicación móvil.** <br>
+
+**Communities** <br>
+
+<p align="justify">
+En la vista de comunidad, el paciente puede interactuar con otros pacientes y con los doctores a través de publicaciones. Esta sección ofrece un espacio para compartir experiencias personales, hábitos de vida y avances en el tratamiento, además de acceder a posts informativos creados por los doctores. De esta manera, se fomenta tanto el apoyo entre pacientes como la orientación profesional, creando una red integral de acompañamiento durante el proceso oncológico.
+</p>
+
+<img src="img/Community Navigation.png" alt="Patient navigation_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Community.png" alt="Patient community_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Create Post.png" alt="Patient create post_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Doctors Community for Patients.png" alt="Doctors community for Patients_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**Perfil** <br>
+
+<p align="justify">
+La vista de perfil del paciente reúne su información personal y médica. Su diseño busca centralizar la información más importante para que el paciente tenga un acceso rápido y organizado a su estado de salud.
+</p>
+
+<img src="img/Patient profile.png" alt="Patient profile_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**Resources** <br>
+
+<p align="justify">
+La vista de recursos ofrece al paciente un acceso centralizado a las principales funcionalidades de la aplicación. Desde aquí puede agendar y consultar citas médicas, revisar sus tratamientos activos, llevar un control de su medicación, acceder a su diario personal y registrar hábitos como comidas o síntomas diarios. Esta sección funciona como un punto de partida para que el paciente gestione de forma sencilla y organizada su proceso de atención oncológica.
+</p>
+
+<img src="img/Resources.png" alt="Patient resources_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**Appointments** <br>
+
+<p align="justify">
+La vista de citas permite al paciente buscar, programar y consultar sus próximas atenciones médicas con oncólogos, nutricionistas, psicólogos y otros especialistas. Desde esta sección, el paciente puede revisar la disponibilidad de los especialistas, seleccionar la fecha y hora que mejor se ajuste a su agenda y confirmar la cita en pocos pasos.
+</p>
+
+<img src="img/Looking for an appointment.png" alt="Patient appointments searching_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Making an appointment.png" alt="Making an appointment_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/My appointments.png" alt="My appointments_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**My journal** <br>
+
+<p align="justify">
+La vista My Journal ofrece al paciente un espacio personal para registrar su día a día durante el tratamiento. En esta sección puede anotar sus emocione y reflexiones, creando así un diario que le permite llevar un seguimiento más humano y cercano de su proceso.
+</p>
+
+<img src="img/My journal.png" alt="My journal_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Health Journal New Entry.png" alt="Registering a new entry in the journal_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+
+**Autocontrol** <br>
+
+<p align="justify">
+La vista de autocontrol permite al paciente registrar de forma estructurada aspectos relacionados con su salud diaria, como síntomas y nivel de dolor. Este registro continuo ayuda al paciente a llevar un control detallado de su evolución y a detectar cambios importantes durante el tratamiento.
+</p>
+
+<img src="img/Autocontrol.png" alt="Autocontrol_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Autocontrol New Entry.png" alt="Registering a new entry in the autocontrol register_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+
+**Food Diary** <br>
+
+<p align="justify">
+La vista Diario de Comida permite al paciente llevar un registro detallado de su alimentación diaria. En esta sección puede anotar los alimentos consumidos en cada comida. Esta funcionalidad busca apoyar a los pacientes en el control de su nutrición durante el tratamiento, facilitando que tanto ellos como los especialistas identifiquen patrones, mejoren hábitos alimenticios y evalúen la relación entre dieta y evolución de la salud.
+</p>
+
+<img src="img/Food Diary.png" alt="Food diary_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Food New Entry.png" alt="Registering a new entry in the food diary_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**My treatments** <br>
+
+<p align="justify">
+La vista Mis Tratamientos ofrece al paciente un acceso centralizado a la información de los tratamientos que tiene en curso. Desde esta sección puede consultar detalles como tipo de tratamiento y medicamentos recetados. Esta funcionalidad facilita la organización, mejora la adherencia al tratamiento y brinda mayor seguridad al mantener toda la información accesible en un solo lugar.
+</p>
+
+<img src="img/My treatments patient.png" alt="My treatments patient_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Medications.png" alt="Medications_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Adding reminder.png" alt="Adding reminder_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**A continuación, se presentarán los mock-ups de los doctores en la aplicación móvil.** <br>
+
+**Communities** <br>
+
+<p align="justify">
+La vista de comunidad de doctores funciona como un espacio colaborativo donde los especialistas pueden compartir publicaciones informativas, artículos de interés, consejos de cuidado y novedades relacionadas con la oncología y disciplinas complementarias como nutrición o psicología. Esta sección ofrece a los pacientes acceso a información confiable y validada por expertos.
+</p>
+
+<img src="img/Doctors Community.png" alt="Doctors community_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Create Post Doctor.png" alt="Doctor creating post_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**Profile** <br>
+
+<p align="justify">
+La vista de perfil del doctor muestra la información profesional del especialista registrada en la plataforma. Desde esta vista, el doctor puede gestionar su información básica.
+</p>
+
+<img src="img/Doctor profile.png" alt="Doctor profile_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+**My patients and medical histories** <br>
+
+<p align="justify">
+La vista de mis pacientes e historias médicas permite al doctor acceder al listado de todos los pacientes que tiene a su cargo dentro de la plataforma. Desde aquí, el especialista puede consultar información relevante de cada paciente, incluyendo sus datos básicos, tratamientos en curso e historial clínico. Esta funcionalidad busca centralizar la información médica en un solo lugar, facilitando la gestión y la toma de decisiones clínicas de manera más eficiente y organizada.
+</p>
+
+<img src="img/My patients.png" alt="My patients_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Mental Health Assessment.png" alt="Mental Health Assessment_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Patient profile.png" alt="Patient profile for Doctors_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Medical Histories.png" alt="Medical histories_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Making a new medical history entry.png" alt="Making a new medical history entry_mobile" style="margin-bottom: 5px;" width="250"><br>
+
+<img src="img/Adding treatment.png" alt="Adding treatment_mobile" style="margin-bottom: 5px;" width="250"><br>
+
 <div id='4.4.4.'><h4>4.4.4. Mobile Applications User Flow Diagrams</h4></div>
 
+**User goal: Registrarse e iniciar sesión** <br>
+
+<p align="justify">
+La vista de registro e inicio de sesión permite a pacientes y doctores crear una cuenta en la plataforma o acceder a una existente. A través de formularios simples y seguros, los usuarios pueden registrarse ingresando sus datos básicos o iniciar sesión con sus credenciales para acceder a su perfil y funcionalidades personalizadas.
+</p>
+
+<img src="img/register and login user flow.png" alt="register and login user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+**User goal: Reservar y ver citas agendadas** <br>
+
+<p align="justify">
+Este flujo permite al paciente buscar y seleccionar un médico de la especialidad que necesita (oncólogo, nutricionista o psicólogo), agendar una cita y visualizar de manera clara las citas futuras.
+</p>
+
+<img src="img/reservar y ver citas agendadas user flow.png" alt="reservar y ver citas agendadas user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+**User goal: Ver y publicar posts para pacientes** <br>
+
+<p align="justify">
+Este flujo permite a los pacientes acceder a publicaciones informativas creadas por los médicos y, a su vez, compartir sus propias experiencias relacionadas con el tratamiento, el estilo de vida o el bienestar. El objetivo es fomentar la comunidad, el aprendizaje y el apoyo mutuo entre pacientes y especialistas.
+</p>
+
+<img src="img/ver y publicar posts user flow.png" alt="ver y publicar posts user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+**User goal: Registrar estados de ánimo** <br>
+
+<p align="justify">
+Este flujo permite al paciente llevar un registro diario de su estado emocional, añadiendo notas o selecciones rápidas que reflejen cómo se siente. El objetivo es brindar un espacio de autocontrol y seguimiento personal, que pueda servir tanto para el propio paciente como para sus médicos en la evaluación integral de su tratamiento.
+</p>
+
+<img src="img/registrar estados de animo user flow.png" alt="registrar estados de animo user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+**User goal: Registrar estado de salud diario** <br>
+
+<p align="justify">
+Este flujo permite al paciente anotar información sobre su bienestar físico y síntomas experimentados durante el día. El objetivo es facilitar un seguimiento constante de la evolución del tratamiento, ayudando tanto al paciente a reconocer patrones como a los médicos a contar con datos más completos para una atención personalizada.
+</p>
+
+<img src="img/registrar estado de salud diario user flow.png" alt="registrar estado de salud diario user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+**User goal: Registrar comida diaria** <br>
+
+<p align="justify">
+Este flujo permite al paciente llevar un registro de sus comidas diarias, detallando alimentos. El objetivo es apoyar el control nutricional, favorecer hábitos alimenticios saludables y proporcionar a los médicos información valiosa para complementar el tratamiento oncológico.
+</p>
+
+<img src="img/registrar comida diaria user flow.png" alt="registrar comida diaria user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+**User goal: Ver tratamientos y registrar alarmas de medicamentos** <br>
+
+<p align="justify">
+Este flujo permite al paciente consultar de manera organizada los tratamientos asignados por sus médicos, incluyendo detalles de medicación, dosis y frecuencia. Además, brinda la opción de configurar alarmas y recordatorios para la toma de medicamentos, ayudando a mejorar la adherencia al tratamiento y reduciendo el riesgo de olvidos.
+</p>
+
+<img src="img/tratamientos para pacientes user flow.png" alt="tratamientos para pacientes user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+**User goal: Ver y publicar posts para doctores** <br>
+
+<p align="justify">
+Este flujo permite a los médicos acceder a publicaciones realizadas por otros especialistas y compartir contenido informativo con la comunidad de pacientes. El objetivo es difundir conocimiento validado, brindar orientación en torno a la salud oncológica y fortalecer la interacción entre profesionales y pacientes dentro de la plataforma.
+</p>
+
+<img src="img/ver y publicas posts doctores user flow.png" alt="ver y publicas posts doctores user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+**User goal: Gestionar entrada de historia médica y tratamiento** <br>
+
+<p align="justify">
+Este flujo permite a los médicos registrar, actualizar y consultar la historia clínica de cada paciente, así como definir y documentar sus planes de tratamiento. El objetivo es centralizar la información médica de manera clara y accesible, facilitando el seguimiento integral de la evolución del paciente y mejorando la coordinación en la atención.
+</p>
+
+<img src="img/historias clínicas y tratamientos user flow.png" alt="historias clínicas y tratamientos user flow_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+
+
 <div id='4.5.'><h3>4.5. Mobile Applications Prototyping</h3></div>
+
+<p align="justify">El prototipo muestra la aplicación diseñada para pacientes oncológicos y médicos, con vistas adaptadas tanto a Android como a iOS. Incluye funciones clave como registro e inicio de sesión, gestión de citas, tratamientos, autocontrol y comunidad. Su objetivo es brindar una experiencia clara y accesible en ambos sistemas operativos, facilitando la comunicación y el seguimiento integral entre pacientes y especialistas.</p 
+
 <div id='4.5.1.'><h4>4.5.1. Android Mobile Applications Prototyping</h4></div>
+
+<img src="img/screenshot prototipo mobile android.png" alt="screenshot prototipo mobile android_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+[Enlace al video del prototipo versión Android en Figma](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g522_upc_edu_pe/EdbNel48ZeZGrsi8I4XhG_cBJOQWAdNOkd-pRxkl4d9C3Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=9BNg3F)
+
 <div id='4.5.2.'><h4>4.5.2. iOS Mobile Applications Prototyping</h4></div>
 
 <img src="img/iOS_prototype.png" alt="screenshot prototipo mobile iOS_mobile" style="margin-bottom: 5px;" width="600"><br>
@@ -1906,8 +2872,21 @@ Se muestra como los pacientes pueden revisar el tratamiento que se le asignó tr
 
 <div id='4.8.'><h3>4.8. Domain-Driven Software Architecture</h3></div>
 <div id='4.8.1.'><h4>4.8.1. Software Architecture Context Diagram</h4></div>
+<div align="center">
+<img src="./img/soft_arq0.png">
+</div>
+
 <div id='4.8.2.'><h4>4.8.2. Software Architecture Container Diagrams</h4></div>
+
+<div align="center">
+<img src="./img/soft_arq.png">
+</div>
+
 <div id='4.8.3.'><h4>4.8.3. Software Architecture Components Diagrams</h4></div>
+
+<div align="center">
+<img src="" alt="components">
+</div>
 
 <div id='4.9.'><h3>4.9. Software Object-Oriented Design</h3></div>
 <div id='4.9.1.'><h4>4.9.1. Class Diagrams</h4></div>
@@ -2008,16 +2987,442 @@ Ramas temporales y que son eliminadas luego de cumplir su función.
 
 
 <div id='5.1.3.'><h4>5.1.3. Source Code Style Guide & Conventions</h4></div>
+
+# 6.1.3. Source Code Style Guide & Conventions
+
+Este documento define las convenciones de estilo y buenas prácticas a seguir en el desarrollo de software dentro del proyecto. Su objetivo es garantizar **legibilidad, consistencia y mantenibilidad** del código entre equipos.  
+
+---
+
+#### Nomenclatura General
+- Todo el código debe escribirse en **inglés** (variables, funciones, clases, archivos).
+- Usar nombres **claros y descriptivos**, evitando abreviaturas innecesarias.
+- No utilizar **mayúsculas arbitrarias**.  
+
+**Ejemplos:**
+```plaintext
+✔ UserProfile.kt
+✔ getMedication()
+✔ .login {}
+```
+
+#### Sangría y Formato
+- Utilizar 2 espacios para la indentación (no tabulador).
+
+- Mantener consistencia en todos los lenguajes.
+
+**Ejemplo en HTML:**
+```
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+</table>
+```
+
+**Ejemplo en CSS:**
+```
+html {
+  background: #fff;
+  color: #404;
+}
+```
+**Ejemplo en JavaScript:**
+
+```
+Copiar código
+function toCelsius(fahrenheit) {
+  return (5 / 9) * (fahrenheit - 32);
+}
+```
+
+#### HTML
+- Usar siempre <!DOCTYPE html>.
+
+- Incluir <"title"> en todas las páginas.
+
+- Usar comillas dobles en atributos.
+
+- Evitar líneas de código excesivamente largas.
+
+- Separar bloques extensos con líneas en blanco.
+
+- Asegurar fallbacks para multimedia y definir dimensiones.
+
+#### CSS
+- Usar propiedades shorthand cuando sea posible.
+
+- Cada declaración debe terminar con ;.
+
+- Agregar un espacio después de :.
+
+- Dejar un espacio entre el selector y {.
+
+- Usar comillas simples en selectores y valores de atributos.
+
+Ejemplo:
+
+```
+.card {
+  margin: 0 auto;
+  padding: 10px 15px;
+  font-family: 'Roboto', sans-serif;
+}
+```
+#### JavaScript
+
+- Incluir espacios alrededor de los operadores (+, -, =, etc.).
+
+- Finalizar siempre las sentencias con ;.
+
+- Llaves {}: abrir al final de la primera línea y cerrar en una línea propia.
+
+Ejemplo:
+
+```
+function add(a, b) {
+  return a + b;
+}
+```
+#### Vue.js
+- Componentes en PascalCase: UserCard.vue, LoginForm.vue.
+
+- Props en camelCase en JavaScript y kebab-case en plantillas.
+
+- Usar script setup en Vue 3.
+
+- Separar bloques <"template">, <"script"> y <"style"> con líneas en blanco.
+
+- Mantener estilos scoped si son específicos del componente.
+
+- Evitar lógica compleja en plantillas; delegar al script.
+
+- Ejemplo:
+
+```
+<template>
+  <UserCard :user-name="userName" />
+</template>
+
+<script setup>
+import UserCard from './UserCard.vue'
+
+const userName = 'Alice'
+</script>
+
+<style scoped>
+.card {
+  padding: 1rem;
+}
+</style>
+
+```
+
+#### Java
+- Clases, interfaces y enums en UpperCamelCase (UserService, OrderRepository).
+
+- Variables y métodos en lowerCamelCase (userName, getTotal()).
+
+- Constantes en UPPER_SNAKE_CASE (MAX_USERS, API_KEY).
+
+- Usar siempre modificadores de visibilidad (private, public).
+
+- Seguir el principio KISS (Keep It Simple, Stupid): evitar código innecesario.
+
+- Mantener imports ordenados y evitar import *.
+
+- Documentar métodos públicos con JavaDoc.
+
+Ejemplo:
+
+```
+public class UserService {
+    private final UserRepository userRepository;
+
+    public UserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+    public User getUserById(Long id) {
+        return userRepository.findById(id).orElse(null);
+    }
+}
+```
+
+#### MySQL
+Nombres de tablas y columnas en snake_case (user_profile, order_items).
+
+- Evitar nombres genéricos (data, info, value).
+
+- Definir claves primarias con id autoincremental (user_id, order_id).
+
+- Usar singular para nombres de tabla (user, order) salvo excepciones.
+
+- Definir índices en columnas de búsqueda frecuente.
+
+- Usar NOT NULL siempre que sea posible para evitar valores ambiguos.
+
+- Prefijar relaciones con FK (user_id, order_id).
+
+Ejemplo:
+
+```
+CREATE TABLE user (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(100) NOT NULL,
+    last_name VARCHAR(100) NOT NULL,
+    email VARCHAR(150) UNIQUE NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
+
+
+
+
+
 <div id='5.1.4.'><h4>5.1.4. Software Deployment Configuration</h4></div>
+
+#### Deployment Documentation
+
+Este documento describe la estrategia de despliegue del sistema, indicando las tecnologías, servicios de nube y entornos de hosting a utilizar para garantizar disponibilidad, escalabilidad y facilidad de mantenimiento.  
+
+---
+
+#### Frontend (Vue.js)
+
+- **Framework:** Vue 3 con Vite  
+- **Hosting:** [Netlify](https://www.netlify.com/)  
+- **Proceso de despliegue:**
+  1. El código fuente del frontend se encuentra en un repositorio de GitHub.
+  2. Netlify se integra con GitHub para realizar despliegues automáticos en cada `push` a la rama principal (`main` o `master`).
+  3. Se configura el **build command**:
+     ```bash
+     npm run build
+     ```
+  4. Se especifica la carpeta de salida (`dist/`) como directorio de publicación.
+  5. Se habilita HTTPS automáticamente mediante certificados SSL.
+
+- **Beneficios:**
+  - CI/CD integrado con GitHub.
+  - Entorno optimizado para SPA (Single Page Applications).
+  - Escalabilidad y CDN global.
+
+---
+
+#### Backend (Java 17 - Spring Boot)
+
+- **Lenguaje y Framework:** Java 17 con Spring Boot  
+- **Hosting:** Azure Web Services (App Service o Azure Spring Apps)  
+- **Base de Datos:** Azure MySQL Database Service  
+
+- **Proceso de despliegue:**
+  1. El backend se empaqueta como un archivo **JAR** o **WAR** usando Maven.
+     ```bash
+     mvn clean package
+     ```
+  2. Se despliega el artefacto en **Azure App Service** o **Azure Spring Apps**.
+  3. Se configuran **variables de entorno** en Azure:
+     - `SPRING_DATASOURCE_URL`
+     - `SPRING_DATASOURCE_USERNAME`
+     - `SPRING_DATASOURCE_PASSWORD`
+     - `SPRING_PROFILES_ACTIVE`
+  4. Se habilita escalado automático y logging desde Azure Portal.
+  5. La API se expone mediante HTTPS con dominio personalizado (opcional).
+
+---
+
+#### Base de Datos (MySQL)
+
+- **Motor:** MySQL 8.x  
+- **Servicio:** Azure Database for MySQL Flexible Server  
+- **Configuración:**
+  - Creación de servidor de base de datos en Azure.
+  - Definición de un **usuario administrador** con credenciales seguras.
+  - Configuración de reglas de firewall para permitir conexiones desde:
+    - App Service (Backend)
+    - IP de desarrolladores autorizados
+  - Habilitar TLS para conexiones seguras.
+
+- **Migraciones:**
+  - Se recomienda el uso de herramientas como **Flyway** o **Liquibase** para mantener control de versiones en el esquema de la base de datos.
+
+---
+
+#### Landing Page
+
+- **Tecnología:** HTML, CSS y JS estáticos  
+- **Hosting:** GitHub Pages  
+- **Proceso de despliegue:**
+  1. En GitHub, se habilita **Pages** desde la configuración del repositorio y se selecciona una rama.
+  3. GitHub Pages servirá los archivos estáticos automáticamente.
+  4. Se configura un dominio personalizado (opcional).
+
+- **Objetivo:**
+  - Proporcionar una **página informativa** (landing) para usuarios finales.
+  - Redirigir al frontend desplegado en Netlify.
+
+---
+
+#### Resumen de Despliegues
+
+| Componente      | Tecnología     | Hosting / Servicio        | Características Clave |
+|-----------------|----------------|---------------------------|-----------------------|
+| Frontend        | Vue 3 + Vite   | Netlify                  | CI/CD, CDN, HTTPS     |
+| Backend         | Java 17 + Spring Boot | Azure Web Services | Variables de entorno, escalado automático |
+| Base de Datos   | MySQL 8.x      | Azure Database for MySQL  | TLS, firewall, migraciones con Flyway/Liquibase |
+| Landing Page    | HTML + CSS + JS| GitHub Pages              | Hosting estático gratuito, dominio opcional |
+
+---
+
 
 <div id='5.2.'><h3>5.2. Product Implementation & Deployment</h3></div>
 <div id='5.2.1.'><h4>5.2.1. Sprint Backlogs</h4></div>
-<div id='5.2.2.'><h4>5.2.2. Implemented Landing Page Evidence</h4></div>
-<div id='5.2.3.'><h4>5.2.3. Implemented Frontend-Web Application Evidence</h4></div>
-<div id='5.2.4.'><h4>5.2.4. Implemented Native-Mobile Application Evidence</h4></div>
-<div id='5.2.5.'><h4>5.2.5. Implemented RESTful API and/or Serverless Backend Evidence</h4></div>
-<div id='5.2.6.'><h4>5.2.6. RESTful API documentation</h4></div>
-<div id='5.2.7.'><h4>5.2.7. Team Collaboration Insights</h4></div>
+<div id='5.2.1.1.'><h4>5.2.1.1. Sprint #1</h4></div>
+
+
+
+##### SPRINT PLANNING: 
+<table>
+    <tr>
+        <th>Sprint 1</th>
+        <td>Sprint 1</td>
+    </tr>
+    <tr>
+        <th>Sprint Planning Date</th>
+        <td>10-09-2025</td>
+    </tr>
+    <tr>
+        <th>Time</th>
+        <td>03:00 PM</td>
+    </tr>
+    <tr>
+        <th>Location</th>
+        <td>Meet</td>
+    </tr>
+    <tr>
+        <th>Prepared By</th>
+        <td>Jesús Uribe</td>
+    </tr>
+    <tr>
+        <th>Attendees</th>
+        <td>Williams Góngora / Anthony Huapaya / Elizabeth Lucero</td>
+    </tr>
+    <tr>
+        <th>Sprint Goal</th>
+        <td>Entregar Landing Page funcional en base a las historias de usuario planteadas. Además evidenciar y fundamentar la arquitectura, modelo de negocio y desarrollo del producto.</td>
+    </tr>
+    <tr>
+        <th>Sprint Velocity</th>
+        <td>X</td>
+    </tr>
+    <tr>
+        <th>Sum of Story Points</th>
+        <td>X</td>
+    </tr>
+</table>
+
+##### ASPECT LEADERS AND COLLABORATORS:
+
+##### SPRINT BACKLOG:
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th colspan="7">Sprint # | Sprint n</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="2">Work-Item / Task</th>
+    <th rowspan="2">Description</th>
+    <th rowspan="2">Estimation (Hours)</th>
+    <th rowspan="2">Assigned To</th>
+    <th rowspan="2">Status <br>(To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
+<div id='5.2.1.2.'><h4>5.2.1.2. Implemented Landing Page Evidence</h4></div>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+    <td>user/repositoryname</td>
+    <td>feature/loremipsum</td>
+    <td>14ca4e3</td>
+    <td>feat: consectetur adipiscing elit</td>
+    <td>Curabitur quis placerat nulla. Fusce malesuada faucibus quam, ut condimentum velit rutrum ut.</td>
+    <td>04/09/2021</td>
+  </tr>
+</table>
+
+
+<div id='5.2.1.3.'><h4>5.2.1.3. Implemented Frontend-Web Application Evidence</h4></div>
+
+Para este entregable no se requieren implementaciones sobre la aplicación web.
+
+<div id='5.2.1.4.'><h4>5.2.1.4. Acuerdo de Servicio - SaaS</h4></div>
+Esta sección establece los derechos, obligaciones y restricciones aplicables a los usuarios de la plataforma, garantizando transparencia en el uso del servicio SaaS. Debe integrarse públicamente en la sección "Terms and Conditions" del website, cumpliendo con los criterios de claridad, accesibilidad y cumplimiento normativo.
+
+<div id='5.2.1.5.'><h4>5.2.1.5 Implemented Native-Mobile Application Evidence</h4></div>
+
+Para este entregable no se requieren implementaciones sobre la aplicación móvil.
+
+<div id='5.2.1.6.'><h4>5.2.1.6 Implemented RESTful API and/or Serverless Backend Evidence</h4></div>
+
+Para este entregable no se requieren implementaciones sobre el servicio web.
+
+<div id='5.2.1.7.'><h4>5.2.1.7 RESTful API documentation</h4></div>
+Para este entregable no se requieren implementaciones sobre el servicio web.
+
+<div id='5.2.1.8.'><h4>5.2.1.8 Team Collaboration Insights</h4></div>
+En este apartado se evidencia la colaboración y desarrollo conjunto de los componentes abarcados del producto.
+
+<div align="center">
+  <img src="" alt="insights">
+</div>
 
 <div id='5.3.'><h3>5.3. Video About-the-Product</h3></div>
 
