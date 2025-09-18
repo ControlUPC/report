@@ -237,9 +237,9 @@ Como valor diferencial, OnControl integra sensores IoT que permiten medir parám
     <td></td>
   </tr>
   <tr>
-    <td><img src=""></td>
-    <td></td>
-    <td></td>
+    <td><img src="img/Anthony.jpg"></td>
+    <td>Mi nombre es Anthony Huapaya y soy estudiante de la carrera de Ingeniería de Software, cursando el séptimo ciclo. Mis conocimientos con respecto a tecnologías son Java, SQL y un poco de Python, aplicando esto al modelo de Domain Driven Design. Me considero una persona que apoya constantemente al grupo, mantiene un ambiente laboral estable, me gusta escuchar las opiniones o puntos de vista de los demás y soy alguien que se adapta a cualquier forma de trabajo.</td>
+    <td>U202220235</td>
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/ee883a44-1f5c-4ccf-ad74-2a2dae64dd4a"></td>
@@ -1891,6 +1891,10 @@ Se muestra como los pacientes pueden revisar el tratamiento que se le asignó tr
 <div id='4.5.'><h3>4.5. Mobile Applications Prototyping</h3></div>
 <div id='4.5.1.'><h4>4.5.1. Android Mobile Applications Prototyping</h4></div>
 <div id='4.5.2.'><h4>4.5.2. iOS Mobile Applications Prototyping</h4></div>
+
+<img src="img/iOS_prototype.png" alt="screenshot prototipo mobile iOS_mobile" style="margin-bottom: 5px;" width="600"><br>
+
+[Enlace al video del prototipo versión iOS en Figma](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERILJ5Up5otPs5A5qEMl0ZwBivHsFiBP7TqjRrI0YR0lpQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1gY0S8)
 
 <div id='4.6.'><h3>4.6. Web Applications UX/UI Design</h3></div>
 <div id='4.6.1.'><h4>4.6.1. Web Applications Wireframes</h4></div>
