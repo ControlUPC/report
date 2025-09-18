@@ -561,16 +561,25 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 
 <div id='2.2.2.'><h4>2.2.2. Registro de entrevistas</h4></div>
 
-* **Segmento 1: Pacientes Oncológicos**
+* **Segmento 1: Doctores**
 
-|Entevistado 1|-|
+|Entevistado 1|Sebastián Silva|
 |-|-|
-|Edad|-|
-|Distrito|-|
-|Foto|-|
+|Edad|27|
+|Distrito|San Isidro|
+|Foto|<img height="268" alt="image" src="img/doctor_interview_1.png" />|
 |Link|-|
-|Time | - |
-|Analisis de Entrevista| -|
+|Time | 0:00 - 04:36 |
+|Analisis de Entrevista| Sebastián trabaja actualmente en una clínica privada en San Isidro, utiliza normalmente la computadora para realizar algunos registros y una tablet por comodidad. Usa un sistema simple para gestionar lo justo y necesario, pero necesita que sea más eficiente. Atiende entre 5 a 6 pacientes a la semana, ya que le dedica tiempo para ellos. Realiza diagnósticos y pruebas para descartar si tiene alguna enfermedad cancerígena. Organiza las citas mediante correos o mensajes por la aplicación Whatsapp, donde presenta dificultades con respecto al recordatorio para la cita de los pacientes. Desea un mejor gestor dedicado para que le pueda ayudar a sus pacientes, indicando más rapidez y eficiencia. También le parece interesante realizar un control continuo para el paciente.|
+
+|Entevistado 2|Edith Gutierrez|
+|-|-|
+|Edad|37|
+|Distrito|España, Madrid|
+|Foto|<img height="268" alt="image" src="img/doctor_interview_2.png" />|
+|Link|-|
+|Time | 0:00 - 06:19 |
+|Analisis de Entrevista| Edith es médico general en Perú y actualmente se encuentra en Madrid, España, ocupando el cargo de médico geriatra. Ella usa actualmente el IDoctus y el Memsa, también usa a veces la IA. Antes usaba algunas aplicaciones y tuve una buena experiencia, pero uso más los programas que ofrece la institución. Atiende en promedio entre 20 a 25 en un turno de 8 horas. Supervisa normalmente enfermedades crónicas, pacientes oncológicos, pacientes terminales; cada uno teniendo que supervisar cómo sobrelleva la enfermedad, dando un control constante de ello. Usa un software que le ayuda a gestionar las citas de los pacientes, donde se le da un aviso al paciente o familiares mediante una alerta a su dispositivo móvil. La principal dificultad son los pacientes, quienes se pueden olvidar o no llegaron a ver la alerta de la cita. Ella desea un recordatorio para sus pacientes que les avise con 2 días de antelación. Le resultaría útil el estado del paciente para investigar el progreso del paciente, pero a nivel grupal, por lo que le interesa un monitoreo constante de los signos vitales de los pacientes.|
 
 * **Segmento 2: Pacientes Oncológicos**
 
@@ -1722,6 +1731,7 @@ Figma: [Enlace Figma](https://www.figma.com/design/lQZOGmsUK2ZbFdNXzVZ2Go/OnCont
 <div id='4.4.1.'><h4>4.4.1. Mobile Applications Wireframes</h4></div>
 
 **Register** <br>
+Permite a nuevos usuarios (pacientes y médicos) crear una cuenta ingresando información básica como nombre, correo electrónico y contraseña. Esto asegura un acceso seguro y una experiencia personalizada dentro de la aplicación.<br>
 
 <img src="img/register_mobile.png" alt="Register_mobile" style="margin-bottom: 5px;" width="250"><br>
 
@@ -1730,38 +1740,150 @@ Figma: [Enlace Figma](https://www.figma.com/design/lQZOGmsUK2ZbFdNXzVZ2Go/OnCont
 <img src="img/register_mobile-doctor.png" alt="Register_mobile_doctor" style="margin-bottom: 5px;" width="250">
 
 **Login** <br>
+Brinda acceso autenticado a la aplicación. Los usuarios ingresan sus credenciales para acceder a las funciones de monitoreo, alertas y datos personales de manera segura.<br>
 
 <img src="img/login_mobile.png" alt="Login_mobile" style="margin-bottom: 5px;" width="250">
 
 **Perfil** <br>
+Cada usuario cuenta con un perfil personal donde puede actualizar su información. Esto garantiza que la aplicación se adapte a las necesidades de cada usuario.<br>
 
 <img src="img/profile_mobile-patient.png" alt="Profile_mobile_patient" style="margin-bottom: 5px;" width="250">
 
 <img src="img/profile_mobile-doctor.png" alt="Profile_mobile_doctor" style="margin-bottom: 5px;" width="250">
 
+**Pacientes:** <br>
+
 **Página principal** <br>
+Esta es la primera ventana que le muestra al paciente una vez que inicia sesión en la aplicación, mostrando los grupos que puede revisar, como las comunidades para pacientes y para doctores.<br>
 
 <img src="img/main_page_mobile-patient.png" alt="Main_page_mobile_patient" style="margin-bottom: 5px;" width="250">
 
+**Resource** <br>
+Esta ventana funciona como una navegación entre distintas opciones que le brinda una mejor distribución entre las distintas opciones al usuario.<br>
+
+<img src="img/resources.png" alt="Resources_mobile" style="margin-bottom: 5px;" width="250">
+
+**Appointment** <br>
+Estas ventanas son para el registro de las citas del paciente y como este puede visualizar las citas que agendo.<br>
+
+<img src="img/appointment_mobile-1.png" alt="Looking_Appointment_mobile" style="margin-bottom: 5px;" width="250">
+
+<img src="img/appointment_mobile-2.png" alt="Making_Appointment_mobile" style="margin-bottom: 5px;" width="250">
+
+<img src="img/appointment_mobile-3.png" alt="My_Appointments_mobile" style="margin-bottom: 5px;" width="250">
+
+**Treatments** <br>
+Estas ventanas muestran lo que el paciente puede ver el tratamiento que el doctor le receto tras su cita y como puede configurar las alarmas para que pueda medicarse.<br>
+
+<img src="img/treatments_mobile-1.png" alt="Treatment_recipe" style="margin-bottom: 5px;" width="250">
+
+<img src="img/medications_mobile.png" alt="Medications" style="margin-bottom: 5px;" width="250">
+
+<img src="img/reminder_mobile.png" alt="Reminder" style="margin-bottom: 5px;" width="250">
+
+**Community** <br>
+Estas ventanas son para la visualización de los posts que pueden hacer otros pacientes y como el usuario puede realizar su post, además de la visualización de novedades con respecto a los doctores.<br>
+
+<img src="img/community_patient_mobile.png" alt="Community" style="margin-bottom: 5px;" width="250">
+
+<img src="img/community_doctor_mobile.png" alt="Community" style="margin-bottom: 5px;" width="250">
+
+<img src="img/create_post_mobile.png" alt="Create_Post" style="margin-bottom: 5px;" width="250">
+
+**My Journal** <br>
+Estas ventanas le permite al usuario colocar un registro acerca de como le va el día a día, colocando como se siente y que le ocurrió en ese día.<br>
+
+<img src="img/journal_mobile.png" alt="Journal" style="margin-bottom: 5px;" width="250">
+
+<img src="img/journal_entry_mobile.png" alt="Create_journal" style="margin-bottom: 5px;" width="250">
+
+**Autocontrol** <br>
+Estas ventanas le permite al usuario colocar que tanto siente dolor con una breve descripción, ayudando de esa manera estar en constante autoevaluación y ver los avances.<br>
+
+<img src="img/autocontrol_mobile.png" alt="Autocontrol" style="margin-bottom: 5px;" width="250">
+
+<img src="img/autocontrol_entry_mobile.png" alt="Create_autocontrol" style="margin-bottom: 5px;" width="250">
+
+**Food** <br>
+Estas ventanas le permite registrar las comidas que el paciente ingirió durante el día.<br>
+
+<img src="img/food_mobile.png" alt="My food" style="margin-bottom: 5px;" width="250">
+
+<img src="img/food_entry_mobile.png" alt="Create_food" style="margin-bottom: 5px;" width="250">
+
+**Doctor:** <br>
+
+**Página principal** <br>
+Esta es la primera ventana que le muestra al paciente una vez que inicia sesión en la aplicación, la comunidad de doctores, donde puede visualizar distintos posts que hacen otros médicos.<br>
+
 <img src="img/main_page_mobile-doctor.png" alt="Main_page_mobile_doctor" style="margin-bottom: 5px;" width="250">
+
+**Community** <br>
+Estas son las ventanas donde el usuario puede ver las publicaciones de los doctores, además de realizar un post en dicha comunidad.<br>
+
+<img src="img/main_page_mobile-doctor.png" alt="Main_page_mobile_doctor" style="margin-bottom: 5px;" width="250">
+
+<img src="img/create_post_mobile.png" alt="Create_Post" style="margin-bottom: 5px;" width="250">
+
+**Patients** <br>
+Estas ventanas son para la gestión que realiza el doctor una vez que el paciente reservada una cita, donde puede verlos, añadir una nueva entrada a la historia médica con el tratamiento que se le recetó en su última cita.<br>
+
+<img src="img/my_patients_mobile.png" alt="My_Patients" style="margin-bottom: 5px;" width="250">
+
+<img src="img/add_treatment_mobile.png" alt="Create_traeatment" style="margin-bottom: 5px;" width="250">
+
+<img src="img/medical_history_mobile.png" alt="Medical_history" style="margin-bottom: 5px;" width="250">
+
+<img src="img/medical_history_entry_mobile.png" alt="Create_medical" style="margin-bottom: 5px;" width="250">
+
+<img src="img/my_appointments_doctor_mobile.png" alt="Create_Post" style="margin-bottom: 5px;" width="250">
 
 <div id='4.4.2.'><h4>4.4.2. Mobile Applications Wireflow Diagrams</h4></div>
 
 **User Goal: Registro e inicio de sesión** <br>
+En este User Goal, se muestra el proceso que realizan los usuarios para registrarse o iniciar sesión para entrar a la aplicación.<br>
 
 <img src="img/wireflow_mobile-1.png" alt="Autentificacion WireFlow" style="margin-bottom: 5px;" width="500">
 
 **User Goal: Reservar y ver citas agendadas** <br>
+Para la realización de este User Goal, el usuario podrá ver como puede agendar una cita y en donde puede ver su publicación.<br>
 
 <img src="img/wireflow_mobile-2.png" alt="Appointments WireFlow" style="margin-bottom: 5px;" width="500">
 
 **User Goal: Ver y publicar posts** <br>
+Para este User Goal, el usuario puede visualizar y realizar posts de acuerdo a sus respectivos roles que pertenecesn.<br>
 
 <img src="img/wireflow_mobile-3.png" alt="Communities WireFlow" style="margin-bottom: 5px;" width="500">
 
 **User Goal: Registrar estados de ánimo** <br>
+Para este User Goal, el usuario puede visualizar y registrar como se siente.<br>
 
 <img src="img/wireflow_mobile-4.png" alt="Journal WireFlow" style="margin-bottom: 5px;" width="500">
+
+**User Goal: Registrar estado de salud diario** <br>
+Para este User Goal, el usuario puede visualizar y registrar de manera constante el estado de salud que tiene en ese momento.<br>
+
+<img src="img/wireflow_mobile-5.png" alt="Health state WireFlow" style="margin-bottom: 5px;" width="500">
+
+**User Goal: Registrar comida diaria** <br>
+En el User Goal sobre este registro, el usuario puede colocar cuales fueron los alimentos que digerio de manera diaria.<br>
+
+<img src="img/wireflow_mobile-6.png" alt="Food WireFlow" style="margin-bottom: 5px;" width="500">
+
+**User Goal: Ver y publicar posts** <br>
+Se muestra el flujo que debe seguir los usuarios para la publicación de posts de acuerdo a la edad y género le corresponde.<br>
+
+<img src="img/wireflow_mobile-7.png" alt="Doc Community WireFlow" style="margin-bottom: 5px;" width="500">
+
+**User Goal: Gestionar entrada de historia médica y tratamiento** <br>
+Se muestra el flujo donde el doctor puede realizar una nueva entrada para el historial clínico y la opción donde puede añadir algún tratamiento que necesite el paciente.<br>
+
+<img src="img/wireflow_mobile-8.png" alt="Medical Histories WireFlow" style="margin-bottom: 5px;" width="500">
+
+**User goal: Ver tratamientos y registrar alarmas de medicamentos** <br>
+Se muestra como los pacientes pueden revisar el tratamiento que se le asignó tras la cita, además de añadir alarmas para el consumo de los medicamentos en su debido tiempo.<br>
+
+<img src="img/wireflow_mobile-9.png" alt="Artist WireFlow" style="margin-bottom: 5px;" width="500">
 
 <div id='4.4.3.'><h4>4.4.3. Mobile Applications Mock-ups</h4></div>
 <div id='4.4.4.'><h4>4.4.4. Mobile Applications User Flow Diagrams</h4></div>
