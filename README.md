@@ -805,40 +805,6 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">E001</td>
-    <td class="td1">-</td>
-    <td class="td1">-</td>
-    <td class="td1">-</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">Autenticación y Seguridad</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">Epic relacionada a autenticación y seguridad de datos personales y cuenta</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">
-    </td>
-  </tr>
-</table>
-
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
     <td class="td1">US001</td>
     <td class="td1">Usuario</td>
     <td class="td1">HIGH</td>
@@ -966,39 +932,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
     E02 – Recuperación por SMS: Dado que el usuario no recuerda su contraseña Cuando elige “Recuperar por SMS” Entonces el sistema envía un código de verificación al móvil.</td>
   </tr>
 </table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">E002</td>
-    <td class="td1">-</td>
-    <td class="td1">-</td>
-    <td class="td1">-</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">Perfil e Información</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">Epic relacionada a datos personales e información de cuenta.</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">
-    </td>
-  </tr>
-</table>
+
 <table class="table">
   <tr>
     <th class="th1" style="width: 25%;">Story ID</th>
@@ -1098,40 +1032,6 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
   </tr>
 </table>
 
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">E003</td>
-    <td class="td1">-</td>
-    <td class="td1">-</td>
-    <td class="td1">-</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">Citas y Tratamientos</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">Epic relacionada a la gestión de citas y tratamientos entre paciente y doctor</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">
-    </td>
-  </tr>
-</table>
-
 <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US08</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">E003</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Buscar especialidad y médico para cita</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero seleccionar una especialidad y ver la lista de médicos disponibles (con foto y nombre) para poder elegir a quién agendarle una cita.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Filtrar médicos por especialidad<br> Cuando el paciente seleccione una especialidad <br> Y existan médicos registrados en esa especialidad <br> Entonces se mostrará la lista de médicos con foto y nombre.<br><br>
   Escenario 2: No hay médicos disponibles<br>
   Cuando el paciente seleccione una especialidad <br>
@@ -1196,40 +1096,6 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 
 </tr> </table>
 
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">E004</td>
-    <td class="td1">-</td>
-    <td class="td1">-</td>
-    <td class="td1">-</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">Comunidad</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">Epic relacionada a la comunidad dentro de la aplicación</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">
-    </td>
-  </tr>
-</table>
-
 <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US14</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">E004</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Acceder a la comunidad de pacientes</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero acceder a la comunidad de pacientes para leer y compartir publicaciones con otros usuarios.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver publicaciones<br> Cuando el paciente acceda a “Patients Community”<br> Entonces se mostrarán las publicaciones con autor, fecha, texto, imágenes y hashtags.<br><br>
   Escenario 2: No hay publicaciones<br>
   Cuando no existan publicaciones en la comunidad<br>
@@ -1264,40 +1130,6 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 
 </tr> </table>
 
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">E005</td>
-    <td class="td1">-</td>
-    <td class="td1">-</td>
-    <td class="td1">-</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">Autoseguimiento</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">Epic relacionada al cuidado personal y autoseguimiento del paciente.</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">
-    </td>
-  </tr>
-</table>
-
 <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US17</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">E005</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar entradas en mi diario personal</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero documentar mis emociones y experiencias diarias en un diario personal para llevar seguimiento de mi estado mental.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear nueva entrada<br> Cuando el paciente ingrese un título, seleccione una emoción y escriba una nota<br> Y presione “Create Journal”<br> Entonces la entrada se guardará y aparecerá en “My Journal”.<br><br>
   Escenario 2: Campos obligatorios vacíos<br>
   Cuando el paciente intente guardar sin título o emoción seleccionada<br>
@@ -1331,40 +1163,6 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 </td>
 
 </tr> </table>
-
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">E006</td>
-    <td class="td1">-</td>
-    <td class="td1">-</td>
-    <td class="td1">-</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">Gestión de Paciente</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">Epic relacionada a la gestión de los pacientes por parte de los doctores.</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">
-    </td>
-  </tr>
-</table>
 
 <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US20</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1">E006</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Consultar lista de mis pacientes</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero visualizar una lista de mis pacientes para poder acceder rápidamente a su información médica y diagnósticos.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver listado de pacientes<br> Cuando el médico acceda a “My Patients”<br> Entonces verá la lista de pacientes asignados con nombre, foto y tipo de cáncer.<br><br>
   Escenario 2: Pacientes inexistentes<br>
@@ -1421,41 +1219,6 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 </td>
 
 </tr> </table>
-
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">E007</td>
-    <td class="td1">-</td>
-    <td class="td1">-</td>
-    <td class="td1">-</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">Información General del producto</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">Epic relacionada a la vista general e información del producto</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">
-    </td>
-  </tr>
-</table>
-
 <table class="table">
   <tr>
     <th class="th1" style="width: 25%;">Story ID</th>
