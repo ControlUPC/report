@@ -789,6 +789,39 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 
 
 <div id='3.2.'><h3>3.2. User Stories</h3></div>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">E001</td>
+    <td class="td1">-</td>
+    <td class="td1">-</td>
+    <td class="td1">-</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Autenticación y Seguridad</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Epic relacionada a autenticación y seguridad de datos personales y cuenta</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">
+    </td>
+  </tr>
+</table>
 
 <table class="table">
   <tr>
@@ -933,6 +966,39 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
+    <td class="td1">E002</td>
+    <td class="td1">-</td>
+    <td class="td1">-</td>
+    <td class="td1">-</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Perfil e Información</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Epic relacionada a datos personales e información de cuenta.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">
+    </td>
+  </tr>
+</table>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
     <td class="td1">US005</td>
     <td class="td1">Usuario general</td>
     <td class="td1">HIGH</td>
@@ -1024,7 +1090,41 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
   </tr>
 </table>
 
-<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US08</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Buscar especialidad y médico para cita</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero seleccionar una especialidad y ver la lista de médicos disponibles (con foto y nombre) para poder elegir a quién agendarle una cita.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Filtrar médicos por especialidad<br> Cuando el paciente seleccione una especialidad <br> Y existan médicos registrados en esa especialidad <br> Entonces se mostrará la lista de médicos con foto y nombre.<br><br>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">E003</td>
+    <td class="td1">-</td>
+    <td class="td1">-</td>
+    <td class="td1">-</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Citas y Tratamientos</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Epic relacionada a la gestión de citas y tratamientos entre paciente y doctor</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">
+    </td>
+  </tr>
+</table>
+
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US08</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">E003</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Buscar especialidad y médico para cita</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero seleccionar una especialidad y ver la lista de médicos disponibles (con foto y nombre) para poder elegir a quién agendarle una cita.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Filtrar médicos por especialidad<br> Cuando el paciente seleccione una especialidad <br> Y existan médicos registrados en esa especialidad <br> Entonces se mostrará la lista de médicos con foto y nombre.<br><br>
   Escenario 2: No hay médicos disponibles<br>
   Cuando el paciente seleccione una especialidad <br>
   Y no existan médicos en esa especialidad <br>
@@ -1035,7 +1135,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
   Entonces se seleccionará ese médico y se podrá continuar al formulario de creación de cita.
 </td>
 
-</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US09</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Agendar una nueva cita médica</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero seleccionar el médico, la fecha, la hora y el motivo para crear una cita y guardarla en mi lista de citas.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear cita exitosa<br> Cuando el paciente complete los campos obligatorios (doctor, fecha, hora, motivo) <br> Y presione el botón “Create Appointment” <br> Entonces la cita será registrada y aparecerá en la pantalla “My Appointments”.<br><br>
+</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US09</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">EP003</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Agendar una nueva cita médica</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero seleccionar el médico, la fecha, la hora y el motivo para crear una cita y guardarla en mi lista de citas.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear cita exitosa<br> Cuando el paciente complete los campos obligatorios (doctor, fecha, hora, motivo) <br> Y presione el botón “Create Appointment” <br> Entonces la cita será registrada y aparecerá en la pantalla “My Appointments”.<br><br>
   Escenario 2: Campos obligatorios vacíos<br>
   Cuando el paciente deje algún campo obligatorio vacío <br>
   Y presione “Create Appointment” <br>
@@ -1046,7 +1146,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
   Entonces se mostrará un mensaje “Hora no disponible” y no se permitirá crear la cita hasta elegir otra hora.
 </td>
 
-</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US10</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Visualizar mis citas agendadas</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero ver la lista de mis citas con el nombre del doctor, la fecha y la hora para llevar control de mis próximas consultas.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Mostrar citas registradas<br> Cuando el paciente tenga citas agendadas <br> Entonces se listarán en la pantalla “My Appointments” mostrando el nombre del doctor, la fecha y la hora.<br><br>
+</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US10</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">EP003</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Visualizar mis citas agendadas</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero ver la lista de mis citas con el nombre del doctor, la fecha y la hora para llevar control de mis próximas consultas.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Mostrar citas registradas<br> Cuando el paciente tenga citas agendadas <br> Entonces se listarán en la pantalla “My Appointments” mostrando el nombre del doctor, la fecha y la hora.<br><br>
   Escenario 2: No hay citas agendadas<br>
   Cuando el paciente no tenga citas registradas <br>
   Entonces se mostrará un mensaje de “No tienes citas agendadas”.<br><br>
@@ -1056,7 +1156,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
   Entonces se abrirá una vista con los detalles completos de la cita (doctor, fecha, hora, motivo).
 </td>
 
-</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US11</td> <td class="td1">Como paciente</td> <td class="td1">MEDIUM</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Visualizar tratamientos asignados</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero consultar mis tratamientos (prescripciones) con dosis y frecuencia para seguir las indicaciones del médico.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver tratamientos activos<br> Cuando el paciente acceda a “My Treatments” <br> Y existan tratamientos asignados <br> Entonces se mostrará la lista de tratamientos con medicamentos, dosis y frecuencia.<br><br>
+</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US11</td> <td class="td1">Como paciente</td> <td class="td1">MEDIUM</td> <td class="td1">EP003</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Visualizar tratamientos asignados</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero consultar mis tratamientos (prescripciones) con dosis y frecuencia para seguir las indicaciones del médico.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver tratamientos activos<br> Cuando el paciente acceda a “My Treatments” <br> Y existan tratamientos asignados <br> Entonces se mostrará la lista de tratamientos con medicamentos, dosis y frecuencia.<br><br>
   Escenario 2: No hay tratamientos<br>
   Cuando el paciente no tenga tratamientos asignados <br>
   Entonces se mostrará un mensaje de “No tienes tratamientos asignados”.<br><br>
@@ -1066,7 +1166,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
   Entonces se mostrará la descripción completa del tratamiento y un botón “Go to my medications”.
 </td>
 
-</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US12</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Visualizar mis medicamentos</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero ver la lista de mis medicamentos con hora, notas y secciones (Hoy, Última semana) para saber qué debo tomar y cuándo.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Mostrar medicamentos<br> Cuando el paciente tenga medicamentos registrados <br> Entonces se listarán agrupados por “Today” y “Last Week”, mostrando nombre y hora de cada medicamento.<br><br>
+</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US12</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">E003</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Visualizar mis medicamentos</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero ver la lista de mis medicamentos con hora, notas y secciones (Hoy, Última semana) para saber qué debo tomar y cuándo.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Mostrar medicamentos<br> Cuando el paciente tenga medicamentos registrados <br> Entonces se listarán agrupados por “Today” y “Last Week”, mostrando nombre y hora de cada medicamento.<br><br>
   Escenario 2: No hay medicamentos<br>
   Cuando el paciente no tenga medicamentos registrados <br>
   Entonces se mostrará un mensaje de “No tienes medicamentos registrados”.<br><br>
@@ -1076,7 +1176,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
   Entonces se mostrará la pantalla de detalle con fecha, notas y opción para agregar recordatorio.
 </td>
 
-</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US13</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Agregar recordatorio de medicamento</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero crear un recordatorio indicando nombre del medicamento, hora, días activos y notas para recibir alertas y no olvidar mis dosis.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear recordatorio exitoso<br> Cuando el paciente complete nombre, hora y al menos un día activo <br> Y presione “Save” <br> Entonces el recordatorio se guardará y aparecerá en la lista de recordatorios.<br><br>
+</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US13</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">E003</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Agregar recordatorio de medicamento</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero crear un recordatorio indicando nombre del medicamento, hora, días activos y notas para recibir alertas y no olvidar mis dosis.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear recordatorio exitoso<br> Cuando el paciente complete nombre, hora y al menos un día activo <br> Y presione “Save” <br> Entonces el recordatorio se guardará y aparecerá en la lista de recordatorios.<br><br>
   Escenario 2: Campos obligatorios vacíos<br>
   Cuando el paciente intente guardar sin completar nombre u hora <br>
   Entonces se mostrará un mensaje de error indicando los campos obligatorios.<br><br>
@@ -1088,7 +1188,41 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 
 </tr> </table>
 
-<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US14</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Acceder a la comunidad de pacientes</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero acceder a la comunidad de pacientes para leer y compartir publicaciones con otros usuarios.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver publicaciones<br> Cuando el paciente acceda a “Patients Community”<br> Entonces se mostrarán las publicaciones con autor, fecha, texto, imágenes y hashtags.<br><br>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">E004</td>
+    <td class="td1">-</td>
+    <td class="td1">-</td>
+    <td class="td1">-</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Comunidad</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Epic relacionada a la comunidad dentro de la aplicación</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">
+    </td>
+  </tr>
+</table>
+
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US14</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">E004</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Acceder a la comunidad de pacientes</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero acceder a la comunidad de pacientes para leer y compartir publicaciones con otros usuarios.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver publicaciones<br> Cuando el paciente acceda a “Patients Community”<br> Entonces se mostrarán las publicaciones con autor, fecha, texto, imágenes y hashtags.<br><br>
   Escenario 2: No hay publicaciones<br>
   Cuando no existan publicaciones en la comunidad<br>
   Entonces se mostrará un mensaje “Aún no hay publicaciones”.<br><br>
@@ -1099,7 +1233,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 </td>
 
 </tr> </table>
-<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US15</td> <td class="td1">Como médico</td> <td class="td1">MEDIUM</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Crear una publicación en la comunidad</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero redactar una publicación con texto e imágenes para compartir información o experiencias en la comunidad.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Publicación exitosa<br> Cuando el médico escriba un texto válido<br> Y presione el botón “Post”<br> Entonces la publicación se guardará y aparecerá en la comunidad.<br><br>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US15</td> <td class="td1">Como médico</td> <td class="td1">MEDIUM</td> <td class="td1">E004</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Crear una publicación en la comunidad</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero redactar una publicación con texto e imágenes para compartir información o experiencias en la comunidad.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Publicación exitosa<br> Cuando el médico escriba un texto válido<br> Y presione el botón “Post”<br> Entonces la publicación se guardará y aparecerá en la comunidad.<br><br>
   Escenario 2: Publicación con imagen<br>
   Cuando el médico agregue una imagen junto al texto<br>
   Entonces la publicación mostrará la imagen en la comunidad.<br><br>
@@ -1110,7 +1244,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 </td>
 
 </tr> </table>
-<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US16</td> <td class="td1">Como médico</td> <td class="td1">MEDIUM</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Acceder a la comunidad de médicos</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero acceder a la comunidad de médicos para leer y compartir publicaciones solo entre profesionales de la salud.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver publicaciones<br> Cuando el médico acceda a “Doctors Community”<br> Entonces se mostrarán publicaciones de otros médicos con autor, fecha, texto e imágenes.<br><br>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US16</td> <td class="td1">Como médico</td> <td class="td1">MEDIUM</td> <td class="td1">E004</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Acceder a la comunidad de médicos</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero acceder a la comunidad de médicos para leer y compartir publicaciones solo entre profesionales de la salud.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver publicaciones<br> Cuando el médico acceda a “Doctors Community”<br> Entonces se mostrarán publicaciones de otros médicos con autor, fecha, texto e imágenes.<br><br>
   Escenario 2: Crear publicación<br>
   Cuando el médico presione el botón “+”<br>
   Entonces podrá crear una publicación con texto e imágenes.<br><br>
@@ -1121,7 +1255,42 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 </td>
 
 </tr> </table>
-<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US17</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar entradas en mi diario personal</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero documentar mis emociones y experiencias diarias en un diario personal para llevar seguimiento de mi estado mental.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear nueva entrada<br> Cuando el paciente ingrese un título, seleccione una emoción y escriba una nota<br> Y presione “Create Journal”<br> Entonces la entrada se guardará y aparecerá en “My Journal”.<br><br>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">E005</td>
+    <td class="td1">-</td>
+    <td class="td1">-</td>
+    <td class="td1">-</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Autoseguimiento</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Epic relacionada al cuidado personal y autoseguimiento del paciente.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">
+    </td>
+  </tr>
+</table>
+
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US17</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">E005</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar entradas en mi diario personal</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero documentar mis emociones y experiencias diarias en un diario personal para llevar seguimiento de mi estado mental.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear nueva entrada<br> Cuando el paciente ingrese un título, seleccione una emoción y escriba una nota<br> Y presione “Create Journal”<br> Entonces la entrada se guardará y aparecerá en “My Journal”.<br><br>
   Escenario 2: Campos obligatorios vacíos<br>
   Cuando el paciente intente guardar sin título o emoción seleccionada<br>
   Entonces se mostrará un mensaje de error.<br><br>
@@ -1132,7 +1301,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 </td>
 
 </tr> </table>
-<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US18</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar nivel de dolor en autoseguimiento</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero registrar mi nivel de dolor y una breve descripción para hacer seguimiento de mi evolución durante el tratamiento.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear entrada de dolor<br> Cuando el paciente seleccione un nivel de dolor del 1 al 10<br> Y escriba una descripción opcional<br> Y presione “Create Entry”<br> Entonces la entrada se guardará y aparecerá en “Autocontrol”.<br><br>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US18</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">E005</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar nivel de dolor en autoseguimiento</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero registrar mi nivel de dolor y una breve descripción para hacer seguimiento de mi evolución durante el tratamiento.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear entrada de dolor<br> Cuando el paciente seleccione un nivel de dolor del 1 al 10<br> Y escriba una descripción opcional<br> Y presione “Create Entry”<br> Entonces la entrada se guardará y aparecerá en “Autocontrol”.<br><br>
   Escenario 2: Sin nivel de dolor<br>
   Cuando el paciente intente guardar sin seleccionar un nivel de dolor<br>
   Entonces se mostrará un mensaje de error indicando que debe seleccionarlo.<br><br>
@@ -1143,7 +1312,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 </td>
 
 </tr> </table>
-<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US19</td> <td class="td1">Como paciente</td> <td class="td1">MEDIUM</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar comidas en mi diario de alimentación</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero registrar lo que consumo diariamente en un diario de alimentación para llevar control de mi dieta.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear nueva entrada de comida<br> Cuando el paciente ingrese el nombre del alimento<br> Y presione “Create Entry”<br> Entonces la comida se registrará en “Food Diary”.<br><br>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US19</td> <td class="td1">Como paciente</td> <td class="td1">MEDIUM</td> <td class="td1">E005</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar comidas en mi diario de alimentación</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero registrar lo que consumo diariamente en un diario de alimentación para llevar control de mi dieta.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear nueva entrada de comida<br> Cuando el paciente ingrese el nombre del alimento<br> Y presione “Create Entry”<br> Entonces la comida se registrará en “Food Diary”.<br><br>
   Escenario 2: Campo vacío<br>
   Cuando el paciente intente guardar sin ingresar el nombre de la comida<br>
   Entonces se mostrará un mensaje de error.<br><br>
@@ -1155,7 +1324,41 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 
 </tr> </table>
 
-<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US20</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Consultar lista de mis pacientes</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero visualizar una lista de mis pacientes para poder acceder rápidamente a su información médica y diagnósticos.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver listado de pacientes<br> Cuando el médico acceda a “My Patients”<br> Entonces verá la lista de pacientes asignados con nombre, foto y tipo de cáncer.<br><br>
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
+    <td class="td1">E006</td>
+    <td class="td1">-</td>
+    <td class="td1">-</td>
+    <td class="td1">-</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Gestión de Paciente</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Epic relacionada a la gestión de los pacientes por parte de los doctores.</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">
+    </td>
+  </tr>
+</table>
+
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US20</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1">E006</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Consultar lista de mis pacientes</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero visualizar una lista de mis pacientes para poder acceder rápidamente a su información médica y diagnósticos.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver listado de pacientes<br> Cuando el médico acceda a “My Patients”<br> Entonces verá la lista de pacientes asignados con nombre, foto y tipo de cáncer.<br><br>
   Escenario 2: Pacientes inexistentes<br>
   Cuando el médico no tenga pacientes registrados<br>
   Entonces se mostrará un mensaje “No hay pacientes asignados”.<br><br>
@@ -1166,7 +1369,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 </td>
 
 </tr> </table>
-<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US21</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Consultar perfil del paciente</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero consultar el perfil completo de un paciente con información personal y clínica relevante.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Acceso al perfil<br> Cuando el médico seleccione un paciente en “My Patients”<br> Entonces se mostrará su perfil con datos personales y clínicos (nombre, email, género, tipo de cáncer, ubicación).<br><br>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US21</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1">E006</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Consultar perfil del paciente</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero consultar el perfil completo de un paciente con información personal y clínica relevante.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Acceso al perfil<br> Cuando el médico seleccione un paciente en “My Patients”<br> Entonces se mostrará su perfil con datos personales y clínicos (nombre, email, género, tipo de cáncer, ubicación).<br><br>
   Escenario 2: Acceso a historial médico<br>
   Cuando el médico seleccione la opción “Medical History”<br>
   Entonces será redirigido a la vista de historial médico del paciente.<br><br>
@@ -1177,7 +1380,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 </td>
 
 </tr> </table>
-<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US22</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Consultar historial médico de un paciente</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero visualizar el historial médico de un paciente para dar seguimiento a sus citas y tratamientos previos.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver historial<br> Cuando el médico acceda a la sección “Medical History”<br> Entonces verá una lista cronológica de entradas médicas con fecha y hora.<br><br>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US22</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1">E006</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Consultar historial médico de un paciente</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero visualizar el historial médico de un paciente para dar seguimiento a sus citas y tratamientos previos.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver historial<br> Cuando el médico acceda a la sección “Medical History”<br> Entonces verá una lista cronológica de entradas médicas con fecha y hora.<br><br>
   Escenario 2: Historial vacío<br>
   Cuando el paciente no tenga entradas médicas registradas<br>
   Entonces se mostrará el mensaje “No hay registros médicos”.<br><br>
@@ -1188,7 +1391,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 </td>
 
 </tr> </table>
-<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US23</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar nueva entrada en historial médico</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero crear una nueva entrada en el historial médico de un paciente para registrar detalles del tratamiento o evolución.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear entrada exitosa<br> Cuando el médico ingrese una descripción<br> Y presione “Create Entry”<br> Entonces la entrada se guardará y se añadirá al historial médico del paciente.<br><br>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US23</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1">E006</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar nueva entrada en historial médico</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero crear una nueva entrada en el historial médico de un paciente para registrar detalles del tratamiento o evolución.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear entrada exitosa<br> Cuando el médico ingrese una descripción<br> Y presione “Create Entry”<br> Entonces la entrada se guardará y se añadirá al historial médico del paciente.<br><br>
   Escenario 2: Campos vacíos<br>
   Cuando el médico intente guardar sin descripción<br>
   Entonces se mostrará un mensaje de error indicando que debe escribir información.<br><br>
@@ -1199,7 +1402,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 </td>
 
 </tr> </table>
-<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US24</td> <td class="td1">Como médico</td> <td class="td1">MEDIUM</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar un tratamiento médico</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero registrar un tratamiento médico con nombre y detalles para incluirlo en el historial del paciente.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear tratamiento exitoso<br> Cuando el médico ingrese nombre y detalles del tratamiento<br> Y presione “Create Treatment”<br> Entonces el tratamiento se guardará y se vinculará al historial médico correspondiente.<br><br>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US24</td> <td class="td1">Como médico</td> <td class="td1">MEDIUM</td> <td class="td1">E006</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar un tratamiento médico</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero registrar un tratamiento médico con nombre y detalles para incluirlo en el historial del paciente.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear tratamiento exitoso<br> Cuando el médico ingrese nombre y detalles del tratamiento<br> Y presione “Create Treatment”<br> Entonces el tratamiento se guardará y se vinculará al historial médico correspondiente.<br><br>
   Escenario 2: Nombre vacío<br>
   Cuando el médico intente guardar sin nombre de tratamiento<br>
   Entonces se mostrará un mensaje de error.<br><br>
@@ -1219,10 +1422,44 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
+    <td class="td1">E007</td>
+    <td class="td1">-</td>
+    <td class="td1">-</td>
+    <td class="td1">-</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Title</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Información General del producto</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Description</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">Epic relacionada a la vista general e información del producto</td>
+  </tr>
+  <tr>
+    <th colspan="4" class="section th1">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td class="td1" colspan="4">
+    </td>
+  </tr>
+</table>
+
+<table class="table">
+  <tr>
+    <th class="th1" style="width: 25%;">Story ID</th>
+    <th  class="th1" style="width: 35%;">User</th>
+    <th  class="th1" style="width: 35%;">Priority</th>
+    <th  class="th1" style="width: 25%;">Epic</th>
+  </tr>
+  <tr>
     <td class="td1">US 25</td>
     <td class="td1">Usuario general</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1261,7 +1498,7 @@ Y un subtítulo con la descripción del propósito de la aplicación.</td>
     <td class="td1">US26</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1298,7 +1535,7 @@ Entonces debo ser redirigido automáticamente a la sección correspondiente dent
     <td class="td1">US27</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1334,7 +1571,7 @@ Entonces debo ser redirigido a una página o enlace de descarga (App Store, Goog
     <td class="td1">US28</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1372,7 +1609,7 @@ Y debo poder enviar un mensaje con mis datos.</td>
     <td class="td1">US29</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1408,7 +1645,7 @@ Entonces debo visualizar al costado del texto principal una imagen ilustrativa q
     <td class="td1">US30</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1445,7 +1682,7 @@ Entonces debo visualizar una lista de funcionalidades explicadas de manera clara
     <td class="td1">US31</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00x</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1482,7 +1719,7 @@ Entonces debo visualizar un listado de ventajas presentadas en un formato claro 
     <td class="td1">US32</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1519,7 +1756,7 @@ Entonces debo visualizar un texto explicativo sobre los desafíos actuales en el
     <td class="td1">US33</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1556,7 +1793,7 @@ Entonces debo visualizar información sobre el equipo, la misión y visión del 
     <td class="td1">US34</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1596,7 +1833,7 @@ Y cada testimonio debe estar acompañado del nombre o rol del testigo.</td>
     <td class="td1">US35</td>
     <td class="td1">Usuario general</td>
     <td class="td1">LOW</td>
-    <td class="td1">(EPIC)</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1635,7 +1872,7 @@ Y debo poder enviar el formulario exitosamente.</td>
     <td class="td1">US36</td>
     <td class="td1">Usuario General</td>
     <td class="td1">LOW</td>
-    <td class="td1">(EPIC)</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
