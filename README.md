@@ -24,6 +24,9 @@ width=50%"/>
   
 |                Nombre                 |   Código   |
 | :-----------------------------------: | :--------: |
+| Quiñones Tintaya, Johan Jorge         | u202218183 |
+|  Huanaco Huayta, Elizabeth Lucero     | u20211g522 |
+|  Huapaya Cuevas, Anthony              | u202220235 |
 |  Gongora Castillejos, Williams        | u20221c186 |
 |  Huanaco Huayta, Elizabeth Lucero     | u20211g522 |
 |  Huapaya Cuevas, Anthony Martin       | u202220235 |
@@ -244,9 +247,9 @@ Como valor diferencial, OnControl integra sensores IoT que permiten medir parám
     <th>Codigo de usuario</th>
   </tr>
   <tr>
-    <td><img src=""></td>
-    <td></td>
-    <td></td>
+    <td><img src="img/JohanQuinones.jpeg" alt="Johan Quiñones"></td>
+    <td>Mi nombre es Johan Jorge Quiñones Tintaya, tengo 19 años y soy estudiante de ingeniería de software en la UPC, cursando el quinto ciclo. He adquirido una base sólida en algoritmos y programación orientada a objetos, lo que me permite enfrentar desafíos de desarrollo con eficacia. Además, me destaco por mi capacidad para trabajar en equipo, manteniendo una comunicación clara y efectiva que facilita la colaboración. Estoy comprometido con mi crecimiento profesional y busco constantemente mejorar mis habilidades para contribuir de manera significativa en proyectos y equipos, ofreciendo soluciones innovadoras.</td>
+    <td>U202218183</td>
   </tr>
   <tr>
     <td><img src="img/Elizabeth-Huanaco.jpg" alt="Elizabeth Huanaco" style="margin-bottom: 5px;"></td>
@@ -581,6 +584,7 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 * **Segmento 1: Médicos Oncológicos**
 
 |Entevistado 1|Sebastián Silva|
+|Entevistado 1| Christian Matos |
 |-|-|
 |Edad|27|
 |Distrito|San Isidro|
@@ -597,6 +601,12 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 |Link|[Link]()|
 |Time | - |
 |Analisis de Entrevista| Edith es médico general en Perú y actualmente se encuentra en Madrid, España, ocupando el cargo de médico geriatra. Ella usa actualmente el IDoctus y el Memsa, también usa a veces la IA. Antes usaba algunas aplicaciones y tuve una buena experiencia, pero uso más los programas que ofrece la institución. Atiende en promedio entre 20 a 25 en un turno de 8 horas. Supervisa normalmente enfermedades crónicas, pacientes oncológicos, pacientes terminales; cada uno teniendo que supervisar cómo sobrelleva la enfermedad, dando un control constante de ello. Usa un software que le ayuda a gestionar las citas de los pacientes, donde se le da un aviso al paciente o familiares mediante una alerta a su dispositivo móvil. La principal dificultad son los pacientes, quienes se pueden olvidar o no llegaron a ver la alerta de la cita. Ella desea un recordatorio para sus pacientes que les avise con 2 días de antelación. Le resultaría útil el estado del paciente para investigar el progreso del paciente, pero a nivel grupal, por lo que le interesa un monitoreo constante de los signos vitales de los pacientes.|
+|Edad| 20 |
+|Distrito| San Juan de Lurigancho|
+|Foto | <img src="img/entrevista-medico-christian.png" alt="Entrevista Medico 1">|
+|Link| https://drive.google.com/file/d/1hQQWK2VDFlh6e3TRzEjQq3fTU-l9EI-3/view?usp=sharing |
+|Time | 0:40 - 3:20 |
+|Analisis de Entrevista| El médico entrevistado refleja una práctica con alta carga asistencial (40–50 pacientes semanales) y procesos poco integrados, lo que genera pains como duplicidad de esfuerzos, sobrecarga administrativa y riesgo de errores en citas y tratamientos al depender de agendas, Excel y sistemas hospitalarios aislados. La falta de centralización limita su capacidad de seguimiento eficiente y le resta tiempo a la atención clínica. Frente a esto, reconoce como gains de OnControl la posibilidad de contar con un dashboard en tiempo real para visualizar pacientes activos y citas pendientes, un historial clínico digital unificado que reduzca la dispersión de datos, reportes consolidados exportables que faciliten auditorías y comités, así como el monitoreo remoto de signos vitales, que le permitiría actuar con rapidez ante complicaciones. En conjunto, la entrevista valida que OnControl responde a una necesidad real del médico: optimizar tiempo, reducir errores y mejorar la calidad del seguimiento clínico. |
 
 * **Segmento 2: Pacientes Oncológicos**
 
