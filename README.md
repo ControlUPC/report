@@ -4458,5 +4458,5 @@ En conclusión, OnControl no es únicamente una aplicación, sino un ecosistema 
 |Link de Despliegue de Landing Page | https://controlupc.github.io/LandingPage/|
 |Link de Diseño Figma |[Figma]( https://www.figma.com/design/lQZOGmsUK2ZbFdNXzVZ2Go/OnControl--Exp-?node-id=4036-2&t=VuH0WreENKt6JrTd-1) |
 |Link de video de entrevista | [Enlace de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EaLKPHgZ0b5PqTvfCB6MDkQB93evnDKGf300qhOaOZDn7A?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=lUXNgm) |
-|Link de video de exposición | [Link de Video]() |
+|Link de video de exposición | [Link de Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EX0gzL2mHzBImWdXpYLGEkYB6O6DfgPKQLI79eQTIOvvRQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jj4FmS) |
 
