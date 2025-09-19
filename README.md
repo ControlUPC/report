@@ -28,9 +28,6 @@ width=50%"/>
 |  Huanaco Huayta, Elizabeth Lucero     | u20211g522 |
 |  Huapaya Cuevas, Anthony              | u202220235 |
 |  Gongora Castillejos, Williams        | u20221c186 |
-|  Huanaco Huayta, Elizabeth Lucero     | u20211g522 |
-|  Huapaya Cuevas, Anthony Martin       | u202220235 |
-|  Quiñones Tintaya, Johan Jorge        | u202218183 |
 |  Uribe Quispe, Jesús Guillermo        | u202221876 |
 
 
@@ -44,21 +41,18 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-----: | :---: | :---: | --------------------------- |
-|    a    |   a   |   a   | a                           |
+|    TB1    |   19/09/2025   |   Jesús Uribe Quispe   | Adición del contenido de startup profile, needfinding, user stories, UX/UI Design & Software configuration development                        |
 
 # Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto:
+URL del repositorio para el reporte del proyecto: [https://github.com/ControlUPC/report/](https://github.com/ControlUPC/report/)
 
 **TB1**
 
 <div align="center">
-  <img src="" alt="insights">
+  <img src="./img/insights_tb1.png" alt="insights">
 </div>
 
-<div align="center">
-  <img src="" alt="insights">
-</div>
 
 Para el desarrollo del informe perteneciente a la entrega TF, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
@@ -795,21 +789,6 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 
 
 <div id='3.2.'><h3>3.2. User Stories</h3></div>
-<style>
-  .table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  .th1, .td1 {
-    border: 1px solid black;
-    padding: 8px;
-  }
-  th.section {
-    background-color: #f2f2f2;
-    text-align: left;
-    font-weight: bold;
-  }
-</style>
 
 <table class="table">
   <tr>
@@ -1044,230 +1023,193 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
     <td class="td1" colspan="4">E01 - Datos personales actualizados: Dado que el usuario entra a su perfil, Cuando seleccione la opción de cambiar datos personales e ingrese los nuevos. Entonces el sistema confirmará el cambio.</td>
   </tr>
 </table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
+
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US08</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Buscar especialidad y médico para cita</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero seleccionar una especialidad y ver la lista de médicos disponibles (con foto y nombre) para poder elegir a quién agendarle una cita.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Filtrar médicos por especialidad<br> Cuando el paciente seleccione una especialidad <br> Y existan médicos registrados en esa especialidad <br> Entonces se mostrará la lista de médicos con foto y nombre.<br><br>
+  Escenario 2: No hay médicos disponibles<br>
+  Cuando el paciente seleccione una especialidad <br>
+  Y no existan médicos en esa especialidad <br>
+  Entonces se mostrará un mensaje de “No hay médicos disponibles”.<br><br>
+
+  Escenario 3: Selección de médico<br>
+  Cuando el paciente toque la tarjeta de un médico <br>
+  Entonces se seleccionará ese médico y se podrá continuar al formulario de creación de cita.
+</td>
+
+</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US09</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Agendar una nueva cita médica</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero seleccionar el médico, la fecha, la hora y el motivo para crear una cita y guardarla en mi lista de citas.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear cita exitosa<br> Cuando el paciente complete los campos obligatorios (doctor, fecha, hora, motivo) <br> Y presione el botón “Create Appointment” <br> Entonces la cita será registrada y aparecerá en la pantalla “My Appointments”.<br><br>
+  Escenario 2: Campos obligatorios vacíos<br>
+  Cuando el paciente deje algún campo obligatorio vacío <br>
+  Y presione “Create Appointment” <br>
+  Entonces se mostrará un mensaje de error indicando que debe completar los campos.<br><br>
+
+  Escenario 3: Hora no disponible<br>
+  Cuando el paciente seleccione una hora que ya está ocupada para ese doctor <br>
+  Entonces se mostrará un mensaje “Hora no disponible” y no se permitirá crear la cita hasta elegir otra hora.
+</td>
+
+</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US10</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Visualizar mis citas agendadas</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero ver la lista de mis citas con el nombre del doctor, la fecha y la hora para llevar control de mis próximas consultas.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Mostrar citas registradas<br> Cuando el paciente tenga citas agendadas <br> Entonces se listarán en la pantalla “My Appointments” mostrando el nombre del doctor, la fecha y la hora.<br><br>
+  Escenario 2: No hay citas agendadas<br>
+  Cuando el paciente no tenga citas registradas <br>
+  Entonces se mostrará un mensaje de “No tienes citas agendadas”.<br><br>
+
+  Escenario 3: Ver detalles de cita<br>
+  Cuando el paciente toque una cita en la lista <br>
+  Entonces se abrirá una vista con los detalles completos de la cita (doctor, fecha, hora, motivo).
+</td>
+
+</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US11</td> <td class="td1">Como paciente</td> <td class="td1">MEDIUM</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Visualizar tratamientos asignados</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero consultar mis tratamientos (prescripciones) con dosis y frecuencia para seguir las indicaciones del médico.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver tratamientos activos<br> Cuando el paciente acceda a “My Treatments” <br> Y existan tratamientos asignados <br> Entonces se mostrará la lista de tratamientos con medicamentos, dosis y frecuencia.<br><br>
+  Escenario 2: No hay tratamientos<br>
+  Cuando el paciente no tenga tratamientos asignados <br>
+  Entonces se mostrará un mensaje de “No tienes tratamientos asignados”.<br><br>
+
+  Escenario 3: Ver detalle de un tratamiento<br>
+  Cuando el paciente seleccione un tratamiento de la lista <br>
+  Entonces se mostrará la descripción completa del tratamiento y un botón “Go to my medications”.
+</td>
+
+</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US12</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Visualizar mis medicamentos</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero ver la lista de mis medicamentos con hora, notas y secciones (Hoy, Última semana) para saber qué debo tomar y cuándo.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Mostrar medicamentos<br> Cuando el paciente tenga medicamentos registrados <br> Entonces se listarán agrupados por “Today” y “Last Week”, mostrando nombre y hora de cada medicamento.<br><br>
+  Escenario 2: No hay medicamentos<br>
+  Cuando el paciente no tenga medicamentos registrados <br>
+  Entonces se mostrará un mensaje de “No tienes medicamentos registrados”.<br><br>
+
+  Escenario 3: Ver detalle de medicamento<br>
+  Cuando el paciente seleccione un medicamento de la lista <br>
+  Entonces se mostrará la pantalla de detalle con fecha, notas y opción para agregar recordatorio.
+</td>
+
+</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US13</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Agregar recordatorio de medicamento</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero crear un recordatorio indicando nombre del medicamento, hora, días activos y notas para recibir alertas y no olvidar mis dosis.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear recordatorio exitoso<br> Cuando el paciente complete nombre, hora y al menos un día activo <br> Y presione “Save” <br> Entonces el recordatorio se guardará y aparecerá en la lista de recordatorios.<br><br>
+  Escenario 2: Campos obligatorios vacíos<br>
+  Cuando el paciente intente guardar sin completar nombre u hora <br>
+  Entonces se mostrará un mensaje de error indicando los campos obligatorios.<br><br>
+
+  Escenario 3: Selección de días<br>
+  Cuando el paciente toque los botones de días (Monday, Tuesday, ...) <br>
+  Entonces esos días quedarán marcados/desmarcados según la selección antes de guardar.
+</td>
+
+</tr> </table>
+
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US14</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Acceder a la comunidad de pacientes</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero acceder a la comunidad de pacientes para leer y compartir publicaciones con otros usuarios.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver publicaciones<br> Cuando el paciente acceda a “Patients Community”<br> Entonces se mostrarán las publicaciones con autor, fecha, texto, imágenes y hashtags.<br><br>
+  Escenario 2: No hay publicaciones<br>
+  Cuando no existan publicaciones en la comunidad<br>
+  Entonces se mostrará un mensaje “Aún no hay publicaciones”.<br><br>
+
+  Escenario 3: Crear nueva publicación<br>
+  Cuando el paciente presione el botón “+”<br>
+  Entonces será dirigido a la pantalla de creación de publicación.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US15</td> <td class="td1">Como médico</td> <td class="td1">MEDIUM</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Crear una publicación en la comunidad</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero redactar una publicación con texto e imágenes para compartir información o experiencias en la comunidad.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Publicación exitosa<br> Cuando el médico escriba un texto válido<br> Y presione el botón “Post”<br> Entonces la publicación se guardará y aparecerá en la comunidad.<br><br>
+  Escenario 2: Publicación con imagen<br>
+  Cuando el médico agregue una imagen junto al texto<br>
+  Entonces la publicación mostrará la imagen en la comunidad.<br><br>
+
+  Escenario 3: Texto vacío<br>
+  Cuando el médico intente publicar sin texto<br>
+  Entonces se mostrará un mensaje de error indicando que debe escribir contenido.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US16</td> <td class="td1">Como médico</td> <td class="td1">MEDIUM</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Acceder a la comunidad de médicos</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero acceder a la comunidad de médicos para leer y compartir publicaciones solo entre profesionales de la salud.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver publicaciones<br> Cuando el médico acceda a “Doctors Community”<br> Entonces se mostrarán publicaciones de otros médicos con autor, fecha, texto e imágenes.<br><br>
+  Escenario 2: Crear publicación<br>
+  Cuando el médico presione el botón “+”<br>
+  Entonces podrá crear una publicación con texto e imágenes.<br><br>
+
+  Escenario 3: Acceso restringido<br>
+  Cuando un paciente intente acceder a la comunidad de médicos<br>
+  Entonces se mostrará un mensaje de “Acceso no permitido”.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US17</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar entradas en mi diario personal</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero documentar mis emociones y experiencias diarias en un diario personal para llevar seguimiento de mi estado mental.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear nueva entrada<br> Cuando el paciente ingrese un título, seleccione una emoción y escriba una nota<br> Y presione “Create Journal”<br> Entonces la entrada se guardará y aparecerá en “My Journal”.<br><br>
+  Escenario 2: Campos obligatorios vacíos<br>
+  Cuando el paciente intente guardar sin título o emoción seleccionada<br>
+  Entonces se mostrará un mensaje de error.<br><br>
+
+  Escenario 3: Consultar entradas<br>
+  Cuando el paciente acceda a “My Journal”<br>
+  Entonces se listarán todas las entradas previas ordenadas por fecha.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US18</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar nivel de dolor en autoseguimiento</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero registrar mi nivel de dolor y una breve descripción para hacer seguimiento de mi evolución durante el tratamiento.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear entrada de dolor<br> Cuando el paciente seleccione un nivel de dolor del 1 al 10<br> Y escriba una descripción opcional<br> Y presione “Create Entry”<br> Entonces la entrada se guardará y aparecerá en “Autocontrol”.<br><br>
+  Escenario 2: Sin nivel de dolor<br>
+  Cuando el paciente intente guardar sin seleccionar un nivel de dolor<br>
+  Entonces se mostrará un mensaje de error indicando que debe seleccionarlo.<br><br>
+
+  Escenario 3: Consultar historial<br>
+  Cuando el paciente acceda a “Autocontrol”<br>
+  Entonces verá todas sus entradas previas con fecha y nivel de dolor.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US19</td> <td class="td1">Como paciente</td> <td class="td1">MEDIUM</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar comidas en mi diario de alimentación</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero registrar lo que consumo diariamente en un diario de alimentación para llevar control de mi dieta.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear nueva entrada de comida<br> Cuando el paciente ingrese el nombre del alimento<br> Y presione “Create Entry”<br> Entonces la comida se registrará en “Food Diary”.<br><br>
+  Escenario 2: Campo vacío<br>
+  Cuando el paciente intente guardar sin ingresar el nombre de la comida<br>
+  Entonces se mostrará un mensaje de error.<br><br>
+
+  Escenario 3: Consultar diario de alimentación<br>
+  Cuando el paciente acceda a “Food Diary”<br>
+  Entonces verá todas las entradas previas con fecha y lista de comidas registradas.
+</td>
+
+</tr> </table>
+
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US20</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Consultar lista de mis pacientes</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero visualizar una lista de mis pacientes para poder acceder rápidamente a su información médica y diagnósticos.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver listado de pacientes<br> Cuando el médico acceda a “My Patients”<br> Entonces verá la lista de pacientes asignados con nombre, foto y tipo de cáncer.<br><br>
+  Escenario 2: Pacientes inexistentes<br>
+  Cuando el médico no tenga pacientes registrados<br>
+  Entonces se mostrará un mensaje “No hay pacientes asignados”.<br><br>
+  
+  Escenario 3: Acceso al perfil del paciente<br>
+  Cuando el médico seleccione un paciente de la lista<br>
+  Entonces será redirigido al perfil del paciente.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US21</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Consultar perfil del paciente</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero consultar el perfil completo de un paciente con información personal y clínica relevante.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Acceso al perfil<br> Cuando el médico seleccione un paciente en “My Patients”<br> Entonces se mostrará su perfil con datos personales y clínicos (nombre, email, género, tipo de cáncer, ubicación).<br><br>
+  Escenario 2: Acceso a historial médico<br>
+  Cuando el médico seleccione la opción “Medical History”<br>
+  Entonces será redirigido a la vista de historial médico del paciente.<br><br>
+  
+  Escenario 3: Validación de datos<br>
+  Cuando el perfil no tenga información cargada<br>
+  Entonces se mostrará un mensaje “Datos no disponibles”.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US22</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Consultar historial médico de un paciente</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero visualizar el historial médico de un paciente para dar seguimiento a sus citas y tratamientos previos.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver historial<br> Cuando el médico acceda a la sección “Medical History”<br> Entonces verá una lista cronológica de entradas médicas con fecha y hora.<br><br>
+  Escenario 2: Historial vacío<br>
+  Cuando el paciente no tenga entradas médicas registradas<br>
+  Entonces se mostrará el mensaje “No hay registros médicos”.<br><br>
+  
+  Escenario 3: Acceso a nueva entrada<br>
+  Cuando el médico presione el botón “+”<br>
+  Entonces podrá crear una nueva entrada en el historial médico.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US23</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar nueva entrada en historial médico</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero crear una nueva entrada en el historial médico de un paciente para registrar detalles del tratamiento o evolución.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear entrada exitosa<br> Cuando el médico ingrese una descripción<br> Y presione “Create Entry”<br> Entonces la entrada se guardará y se añadirá al historial médico del paciente.<br><br>
+  Escenario 2: Campos vacíos<br>
+  Cuando el médico intente guardar sin descripción<br>
+  Entonces se mostrará un mensaje de error indicando que debe escribir información.<br><br>
+  
+  Escenario 3: Añadir tratamiento<br>
+  Cuando el médico seleccione la opción “Add a treatment”<br>
+  Entonces será redirigido a la pantalla de creación de tratamiento.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US24</td> <td class="td1">Como médico</td> <td class="td1">MEDIUM</td> <td class="td1"></td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar un tratamiento médico</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero registrar un tratamiento médico con nombre y detalles para incluirlo en el historial del paciente.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear tratamiento exitoso<br> Cuando el médico ingrese nombre y detalles del tratamiento<br> Y presione “Create Treatment”<br> Entonces el tratamiento se guardará y se vinculará al historial médico correspondiente.<br><br>
+  Escenario 2: Nombre vacío<br>
+  Cuando el médico intente guardar sin nombre de tratamiento<br>
+  Entonces se mostrará un mensaje de error.<br><br>
+  
+  Escenario 3: Tratamiento vinculado<br>
+  Cuando el tratamiento sea guardado<br>
+  Entonces aparecerá en la entrada médica donde fue añadido.
+</td>
+
+</tr> </table>
 
 <table class="table">
   <tr>
@@ -1277,73 +1219,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">US XX</td>
+    <td class="td1">US 25</td>
     <td class="td1">Usuario general</td>
     <td class="td1">MEDIUM</td>
     <td class="td1">E00X</td>
@@ -1382,7 +1258,7 @@ Y un subtítulo con la descripción del propósito de la aplicación.</td>
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US26</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
     <td class="td1">E00X</td>
@@ -1419,7 +1295,7 @@ Entonces debo ser redirigido automáticamente a la sección correspondiente dent
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US27</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
     <td class="td1">E00X</td>
@@ -1455,7 +1331,7 @@ Entonces debo ser redirigido a una página o enlace de descarga (App Store, Goog
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US28</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
     <td class="td1">E00X</td>
@@ -1493,7 +1369,7 @@ Y debo poder enviar un mensaje con mis datos.</td>
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US29</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
     <td class="td1">E00X</td>
@@ -1529,7 +1405,7 @@ Entonces debo visualizar al costado del texto principal una imagen ilustrativa q
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US30</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
     <td class="td1">E00X</td>
@@ -1566,7 +1442,7 @@ Entonces debo visualizar una lista de funcionalidades explicadas de manera clara
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US31</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
     <td class="td1">E00x</td>
@@ -1603,7 +1479,7 @@ Entonces debo visualizar un listado de ventajas presentadas en un formato claro 
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US32</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
     <td class="td1">E00X</td>
@@ -1640,7 +1516,7 @@ Entonces debo visualizar un texto explicativo sobre los desafíos actuales en el
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US33</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
     <td class="td1">E00X</td>
@@ -1677,7 +1553,7 @@ Entonces debo visualizar información sobre el equipo, la misión y visión del 
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US34</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
     <td class="td1">E00X</td>
@@ -1717,9 +1593,9 @@ Y cada testimonio debe estar acompañado del nombre o rol del testigo.</td>
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
+    <td class="td1">US35</td>
+    <td class="td1">Usuario general</td>
+    <td class="td1">LOW</td>
     <td class="td1">(EPIC)</td>
   </tr>
   <tr>
@@ -1756,9 +1632,9 @@ Y debo poder enviar el formulario exitosamente.</td>
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
+    <td class="td1">US36</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">LOW</td>
     <td class="td1">(EPIC)</td>
   </tr>
   <tr>
@@ -1786,6 +1662,273 @@ Entonces el menú superior debe permanecer fijo en la parte superior de la panta
 </table>
 
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Orden</th>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>US09</td>
+      <td>Agendar una nueva cita médica</td>
+      <td>Quiero seleccionar el médico, la fecha, la hora y el motivo para crear una cita.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>US22</td>
+      <td>Consultar historial médico de un paciente</td>
+      <td>Quiero visualizar el historial médico de un paciente con entradas médicas.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>US23</td>
+      <td>Registrar nueva entrada en historial médico</td>
+      <td>Quiero crear una nueva entrada en el historial médico con detalles del tratamiento.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>US08</td>
+      <td>Buscar especialidad y médico</td>
+      <td>Quiero seleccionar una especialidad y ver la lista de médicos disponibles.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>US10</td>
+      <td>Visualizar mis citas agendadas</td>
+      <td>Quiero ver la lista de mis citas con doctor, fecha y hora.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>US12</td>
+      <td>Visualizar mis medicamentos</td>
+      <td>Quiero ver la lista de mis medicamentos con horarios y notas.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>US13</td>
+      <td>Agregar recordatorio de medicamento</td>
+      <td>Quiero crear recordatorios con hora y días activos.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>US14</td>
+      <td>Acceder a la comunidad de pacientes</td>
+      <td>Quiero leer y compartir publicaciones con otros pacientes.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>US17</td>
+      <td>Registrar entradas en diario personal</td>
+      <td>Quiero documentar emociones y experiencias en un diario.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>US18</td>
+      <td>Registrar nivel de dolor</td>
+      <td>Quiero registrar mi nivel de dolor y descripción para seguimiento.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>US20</td>
+      <td>Consultar lista de mis pacientes</td>
+      <td>Quiero visualizar una lista de mis pacientes asignados.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>US21</td>
+      <td>Consultar perfil del paciente</td>
+      <td>Quiero consultar el perfil completo de un paciente.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>US24</td>
+      <td>Registrar un tratamiento médico</td>
+      <td>Quiero registrar un tratamiento con nombre y detalles.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>US11</td>
+      <td>Visualizar tratamientos asignados</td>
+      <td>Quiero consultar mis tratamientos con dosis y frecuencia.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>US15</td>
+      <td>Crear publicación en comunidad (médico)</td>
+      <td>Quiero redactar publicaciones con texto e imágenes.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>US16</td>
+      <td>Acceder a la comunidad de médicos</td>
+      <td>Quiero acceder a comunidad exclusiva de médicos.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>US19</td>
+      <td>Registrar comidas</td>
+      <td>Quiero registrar lo que consumo en un diario de alimentación.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>US25</td>
+      <td>Ver información principal en página inicial</td>
+      <td>Quiero ver un mensaje claro sobre el propósito de OnControl.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>US26</td>
+      <td>Navegar entre secciones</td>
+      <td>Quiero navegar a distintas secciones desde el menú superior.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>US27</td>
+      <td>Descargar la aplicación</td>
+      <td>Quiero poder descargar OnControl desde la landing page.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>US28</td>
+      <td>Contactar con el equipo</td>
+      <td>Quiero contactar al equipo de OnControl mediante formulario.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>US29</td>
+      <td>Visualizar imagen representativa</td>
+      <td>Quiero ver imágenes ilustrativas en la página inicial.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>US30</td>
+      <td>Conocer las características</td>
+      <td>Quiero ver la lista de funcionalidades principales.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>US31</td>
+      <td>Ver beneficios</td>
+      <td>Quiero ver los beneficios de usar OnControl.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>US32</td>
+      <td>Conocer la problemática</td>
+      <td>Quiero entender la problemática que resuelve OnControl.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>US33</td>
+      <td>Sección "Acerca de"</td>
+      <td>Quiero leer la misión y visión de OnControl.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>US34</td>
+      <td>Leer testimonios</td>
+      <td>Quiero leer testimonios de pacientes y médicos.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>US35</td>
+      <td>Acceder a sección de contacto</td>
+      <td>Quiero ver un formulario o información de contacto.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>US36</td>
+      <td>Navegación fija</td>
+      <td>Quiero que el menú superior esté siempre visible.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>US005</td>
+      <td>Cambio de número telefónico</td>
+      <td>Quiero actualizar mi número de teléfono para notificaciones.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>US006</td>
+      <td>Cambio de contraseña</td>
+      <td>Quiero cambiar mi contraseña para mayor seguridad.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>US007</td>
+      <td>Cambio de datos personales</td>
+      <td>Quiero actualizar mis datos personales en la plataforma.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>US001</td>
+      <td>Registrar cuenta</td>
+      <td>Quiero registrarme para acceder a la aplicación.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>US002</td>
+      <td>Iniciar sesión</td>
+      <td>Quiero iniciar sesión para acceder a la app.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>US003</td>
+      <td>Cerrar sesión</td>
+      <td>Quiero cerrar mi sesión para proteger mi cuenta.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>US004</td>
+      <td>Recuperar cuenta</td>
+      <td>Quiero recuperar mi cuenta en caso de olvidar credenciales.</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 <div id='3.4.'><h3>3.4. Impact Mapping</h3></div>
@@ -2958,15 +3101,105 @@ Este flujo permite a los médicos registrar, actualizar y consultar la historia 
 <div id='4.8.3.'><h4>4.8.3. Software Architecture Components Diagrams</h4></div>
 
 <div align="center">
-<img src="" alt="components">
+<img src="./img/struct-comp.png" alt="components">
 </div>
 
 <div id='4.9.'><h3>4.9. Software Object-Oriented Design</h3></div>
 <div id='4.9.1.'><h4>4.9.1. Class Diagrams</h4></div>
+<div align="center">
+<img src="./img/class_diagram.png" alt="components">
+</div>
 <div id='4.9.2.'><h4>4.9.2. Class Dictionary</h4></div>
+
+# Diccionario de Clases del Sistema Healthcare
+
+##### **Clase: TipoUsuario**
+| Nombre | Tipo | Descripción |
+|--------|------|-------------|
+| `E` | Enumeración | Indica el tipo de enumeración para clasificar usuarios |
+| `PACIENTE` | Valor Enum | Tipo de usuario paciente |
+| `MEDICO` | Valor Enum | Tipo de usuario médico |
+
+---
+
+##### **Clase: Usuario**
+| Nombre | Tipo | Descripción |
+|--------|------|-------------|
+| `id` | Atributo (UUID) | Identificador único del usuario |
+| `nombre` | Atributo (String) | Nombre del usuario |
+| `apellido` | Atributo (String) | Apellido del usuario |
+| `email` | Atributo (String) | Correo electrónico del usuario |
+| `contrasena` | Atributo (String) | Contraseña encriptada del usuario |
+| `numeroTelefono` | Atributo (String) | Número de teléfono del usuario |
+| `fechaRegistro` | Atributo (DateTime) | Fecha y hora de registro en el sistema |
+| `cambiarContrasena()` | Método | Permite al usuario cambiar su contraseña actual |
+| `cambiarEmail()` | Método | Permite al usuario actualizar su correo electrónico |
+| `cambiarNumero()` | Método | Permite al usuario modificar su número de teléfono |
+| `asignarRol()` | Método | Asigna un tipo de usuario (PACIENTE/MEDICO) |
+
+---
+
+##### **Clase: Medico**
+| Nombre | Tipo | Descripción |
+|--------|------|-------------|
+| `id` | Atributo (UUID) | Identificador único del médico |
+| `especializacion` | Atributo (String) | Especialidad médica del doctor |
+| `registrarPaciente()` | Método | Registra un nuevo paciente en el sistema |
+| `revisarHistorialPaciente()` | Método | Consulta el historial médico de un paciente |
+| `asignarMedicamento()` | Método | Prescribe medicamentos a un paciente |
+| `asignarTratamiento()` | Método | Asigna un plan de tratamiento |
+| `asignarProcedimiento()` | Método | Programa procedimientos médicos |
+
+---
+
+##### **Clase: Paciente**
+| Nombre | Tipo | Descripción |
+|--------|------|-------------|
+| `id` | Atributo (UUID) | Identificador único del paciente |
+| `revisarHistorial()` | Método | Permite al paciente consultar su historial médico |
+| `agregarMedicamento()` | Método | Registra medicamentos tomados por el paciente |
+
+---
+
+##### **Clase: HistorialMedico**
+| Nombre | Tipo | Descripción |
+|--------|------|-------------|
+| `id` | Atributo (UUID) | Identificador único del historial |
+| `añadirEntrada()` | Método | Agrega una nueva entrada al historial médico |
+| `listarEntradas()` | Método | Obtiene lista de todas las entradas del historial |
+
+---
+
+#### **Relaciones entre Clases**
+
+##### **Usuario → TipoUsuario**
+- **Relación**: Asociación
+- **Cardinalidad**: 1:1
+- **Descripción**: Cada usuario tiene asignado un tipo específico
+
+##### **Usuario → Medico**
+- **Relación**: Herencia/Especialización
+- **Cardinalidad**: 1:1 (opcional)
+- **Descripción**: Un usuario puede especializarse como médico
+
+##### **Usuario → Paciente**
+- **Relación**: Herencia/Especialización  
+- **Cardinalidad**: 1:1 (opcional)
+- **Descripción**: Un usuario puede especializarse como paciente
+
+##### **Paciente → HistorialMedico**
+- **Relación**: Composición
+- **Cardinalidad**: 1:1
+- **Descripción**: Cada paciente tiene un historial médico asociado
+
+---
 
 <div id='4.10.'><h3>4.10. Database Design</h3></div>
 <div id='4.10.1.'><h4>4.10.1. Relational/Non-Relational Database Diagram</h4></div>
+
+<div align="center">
+<img src="./img/diagram_db.png" alt="components">
+</div>
 
 <div id='5.'><h2>5. Capítulo V: Product Implementation</h2></div>
 
@@ -2975,25 +3208,25 @@ Este flujo permite a los médicos registrar, actualizar y consultar la historia 
 
 #### Product UX/UI Design
 
-- Uxpressia: Herramienta en línea para mapeo de trayectoria del cliente, creación de mapas de impacto y personas.  
+- Uxpressia: Herramienta en línea para mapeo de trayectoria del cliente, creación de mapas de impacto y personas. [link](https://uxpressia.com/)
 
 - Figma: Herramienta en línea para diseño UX / UI para las aplicaciones brindadas al usuario final.  
-[link]()
+[link](https://www.figma.com/)
 
 - Structurizr: Herramienta de diseño que soporta el modelo C4 para visualizar arquitecturas de software.  
 [https://structurizr.com/](https://structurizr.com/)
 
 - Lucid Chart: Herramienta en línea para diagramar la estructura de base de datos y proyectos.
-[link]()
+[link](https://www.lucidchart.com/pages/es?gad_campaignid=1501207859&gad_source=1&km_CPC_AdGroupID=63362175812&km_CPC_CampaignId=1501207859&km_CPC_Country=1011114&km_CPC_Creative=286841060342&km_CPC_Device=c&km_CPC_Keyword=lucid%20chart&km_CPC_MatchType=e&km_CPC_Network=g&km_CPC_TargetID=kwd-55720648523&utm_campaign=_chart_es_tier2_mixed_search_brand_exact_&utm_medium=cpc&utm_source=google&_gl=1*164xugu*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjw267GBhCSARIsAOjVJ4HZUbe-aEx7rt1Qlt4757jgQZK1SLAAaXy3B0UT0B7CNfdu0BmC0AgaArN1EALw_wcB&gbraid=0AAAAADLdSjAFcPvM5paFQtu9EIsjkg-0k)
 - MIRO: Pizarra digital colaborativa en línea para diversas actividades colaborativas y lluvia de ideas.  
-[link]()
+[link](https://miro.com/es/)
 
 #### Software Development
 
 Estructura aplicada al desarrollo de un producto de software.
 
 - Git: Control de versión para proyectos.
-[link]()
+[link](https://git-scm.com/)
 
 - Github: Repositorio comunitario para almacenar avances de proyectos colaborativos.  
 [https://github.com/ControlUPC](https://github.com/ControlUPC)
@@ -3008,10 +3241,10 @@ Estructura aplicada al desarrollo de un producto de software.
 [https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion](https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion)
 
 - Flutter: Lenguaje de programación principal para aplicaciones móviles cross platform, utilizada para desarrollar la aplicación hacia los pacientes.
-[link]()
+[link](https://flutter.dev/)
 
 - Java + Spring Boot: Lenguaje de programación y Framework de desarrollo para la creación de aplicaciones web, servicios web y microservicios respectivamente.
-[link]()
+[link](https://spring.io/projects/spring-boot)
 
 **Sustentación:** 
 
@@ -3032,9 +3265,9 @@ Estructura aplicada al desarrollo de un producto de software.
 
 Enlaces a repositorios del software desarrollado:
 
-- **Landing Page:** 
-- **Aplicación móvil:**
-- **Aplicación Web:**
+- **Landing Page:** [https://github.com/ControlUPC/LandingPage](https://github.com/ControlUPC/LandingPage)
+- **Aplicación móvil:** [https://github.com/ControlUPC/OnControlMobile](https://github.com/ControlUPC/OnControlMobile)
+- **Aplicación Web:** [https://github.com/ControlUPC/OnControlWeb](https://github.com/ControlUPC/OnControlWeb)
 
 #### Git Flow:
 
@@ -3061,7 +3294,7 @@ Ramas temporales y que son eliminadas luego de cumplir su función.
 
 <div id='5.1.3.'><h4>5.1.3. Source Code Style Guide & Conventions</h4></div>
 
-# 6.1.3. Source Code Style Guide & Conventions
+# 5.1.3. Source Code Style Guide & Conventions
 
 Este documento define las convenciones de estilo y buenas prácticas a seguir en el desarrollo de software dentro del proyecto. Su objetivo es garantizar **legibilidad, consistencia y mantenibilidad** del código entre equipos.  
 
@@ -3418,39 +3651,133 @@ Este documento describe la estrategia de despliegue del sistema, indicando las t
     <th>Title</th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>US25</td>
+    <td>Ver información principal en la página inicial</td>
+    <td>WT01</td>
+    <td>Ver información principal en la página inicial</td>
+    <td>Como visitante, quiero ver un mensaje claro sobre el propósito de OnControl en la página inicial, para entender de inmediato cómo me ayudará.</td>
+    <td>4h</td>
+    <td>Anthony Huapaya</td>
+    <td>Done</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>US26</td>
+    <td>Navegar entre secciones desde el menú superior</td>
+    <td>WT02</td>
+    <td>Navegar entre secciones desde el menú superior</td>
+    <td>Como visitante, quiero navegar a distintas secciones (Características, Beneficios, Problemática, Acerca de, Testimonios, Contacto), para acceder a la información de forma rápida.</td>
+    <td>4h</td>
+    <td>Elizabeth Huanaco</td>
+    <td>Done</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>US27</td>
+    <td>Descargar la aplicación</td>
+    <td>WT03</td>
+    <td>Descargar la aplicación</td>
+    <td>Como visitante, quiero tener la opción de descargar la aplicación, para comenzar a usar OnControl en mi dispositivo.</td>
+    <td>3h</td>
+    <td>William Gongora</td>
+    <td>Done</td>
   </tr>
+  <tr>
+    <td>US28</td>
+    <td>Contactar con el equipo</td>
+    <td>WT04</td>
+    <td>Contactar con el equipo</td>
+    <td>Como visitante, quiero poder contactar al equipo de OnControl, para resolver dudas o recibir información personalizada.</td>
+    <td>4h</td>
+    <td>Jesus Uribe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US29</td>
+    <td>Visualizar imagen representativa</td>
+    <td>WT05</td>
+    <td>Visualizar imagen representativa</td>
+    <td>Como visitante, quiero ver imágenes que representen el uso de OnControl en contexto médico, para entender mejor su propósito</td>
+    <td>4h</td>
+    <td>William Gongora</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US30</td>
+    <td>Conocer las características de OnControl</td>
+    <td>WT06</td>
+    <td>Conocer las características de OnControl</td>
+    <td>Como visitante, quiero ver las características principales de OnControl, para entender qué funcionalidades ofrece.</td>
+    <td>4h</td>
+    <td>Jesús Uribe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US31</td>
+    <td>Ver los beneficios de usar OnControl</td>
+    <td>WT07</td>
+    <td>Ver los beneficios de usar OnControl</td>
+    <td>Como visitante, quiero ver los beneficios que OnControl ofrece a pacientes y médicos, para evaluar el valor que aporta</td>
+    <td>4h</td>
+    <td>Elizabeth Huanaco</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US32</td>
+    <td>Conocer la problemática que resuelve OnControl</td>
+    <td>WT08</td>
+    <td>Conocer la problemática que resuelve OnControl/td>
+    <td>Como visitante, quiero entender la problemática que aborda OnControl, para identificarme con las necesidades que soluciona.</td>
+    <td>4h</td>
+    <td>Anthony Huapaya</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US33</td>
+    <td>Conocer la sección "Acerca de"</td>
+    <td>WT09</td>
+    <td>Conocer la sección "Acerca de"</td>
+    <td>Como visitante, quiero leer quiénes son y cuál es la misión de OnControl, para confiar en la seriedad del producto.</td>
+    <td>4h</td>
+    <td>William Gongora</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US34</td>
+    <td>Leer testimonios de pacientes y médicos</td>
+    <td>WT10</td>
+    <td>Leer testimonios de pacientes y médicos</td>
+    <td>Como visitante, quiero ver testimonios de usuarios reales (pacientes/médicos), para validar la efectividad de OnControl.</td>
+    <td>4h</td>
+    <td>William Gongora</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US35</td>
+    <td>Acceder a la sección de contacto</td>
+    <td>WT11</td>
+    <td>Acceder a la sección de contacto</td>
+    <td>Como visitante, quiero ver la sección de contacto con formulario o información, para poder comunicarme con el equipo.</td>
+    <td>4h</td>
+    <td>Jesús Uribe</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US36</td>
+    <td>Navegar fácilmente por la landing page</td>
+    <td>WT12</td>
+    <td>Navegar fácilmente por la landing page</td>
+    <td>Como visitante, quiero que el menú superior esté siempre visible, para acceder a cualquier sección sin necesidad de hacer scroll manualmente.</td>
+    <td>4h</td>
+    <td>Elizabeth Huanaco</td>
+    <td>Done</td>
+  </tr>
+  
+
 </table>
 
 
 <div id='5.2.1.2.'><h4>5.2.1.2. Implemented Landing Page Evidence</h4></div>
+
+El repositorio fue reinicializado como parte de la transición del proyecto desde la fase de prototipo a desarrollo de producción. Esta decisión se tomó para establecer un historial limpio que refleje únicamente la arquitectura final del sistema, tras múltiples iteraciones de reestructuración técnica y consolidación de funcionalidades core.
 
 <table border="1" cellspacing="0" cellpadding="5">
   <tr>
@@ -3462,15 +3789,38 @@ Este documento describe la estrategia de despliegue del sistema, indicando las t
     <th>Committed on (Date)</th>
   </tr>
   <tr>
-    <td>user/repositoryname</td>
-    <td>feature/loremipsum</td>
-    <td>14ca4e3</td>
-    <td>feat: consectetur adipiscing elit</td>
-    <td>Curabitur quis placerat nulla. Fusce malesuada faucibus quam, ut condimentum velit rutrum ut.</td>
+    <td>ControlUPC/LandingPage</td>
+    <td>main/</td>
+    <td>bc12f2bc776ad984a5a6f42265bdb1221ad54a34</td>
+    <td>initial commit</td>
+    <td>initial commit</td>
     <td>04/09/2021</td>
   </tr>
 </table>
 
+#### Despliegue de Landing Page
+
+**Configuración de GitHub Pages:**
+- Paso 1: Acceder a la Configuración
+
+  - Navega a tu repositorio en GitHub
+  - Haz clic en la pestaña "Settings" (Configuración)
+  - Desplázate hacia abajo hasta la sección "Pages" en el menú - lateral
+<br>
+- Paso 2: Seleccionar la Fuente
+En la sección "Source" (Fuente):
+  - **Opción A:** Deploy from a branch<br>
+
+    **Branch:** Selecciona la rama (generalmente main o gh-pages)
+    **Folder:** Elige / (root) o /docs según tu estructura
+    Es la opción más común y sencilla
+
+**link de despliegue de landing page:** [https://controlupc.github.io/LandingPage/](https://controlupc.github.io/LandingPage/)
+
+
+<div aling="center">
+<img src="./img/deploy_landing.png">
+</div>
 
 <div id='5.2.1.3.'><h4>5.2.1.3. Implemented Frontend-Web Application Evidence</h4></div>
 
@@ -3478,6 +3828,203 @@ Para este entregable no se requieren implementaciones sobre la aplicación web.
 
 <div id='5.2.1.4.'><h4>5.2.1.4. Acuerdo de Servicio - SaaS</h4></div>
 Esta sección establece los derechos, obligaciones y restricciones aplicables a los usuarios de la plataforma, garantizando transparencia en el uso del servicio SaaS. Debe integrarse públicamente en la sección "Terms and Conditions" del website, cumpliendo con los criterios de claridad, accesibilidad y cumplimiento normativo.
+
+# TÉRMINOS Y CONDICIONES DE USO
+## PLATAFORMA HEALTHCARE - CONEXIÓN PACIENTE-DOCTOR
+
+**Fecha de última actualización:** [Fecha]
+
+---
+
+## 1. INFORMACIÓN GENERAL
+
+### 1.1 Identificación del Prestador
+- **Razón Social:** OncoTech
+
+### 1.2 Objeto del Servicio
+La presente plataforma es un **Software como Servicio (SaaS)** que facilita la conexión entre pacientes y profesionales de la salud especializados en tratamiento integral de cáncer, incluyendo oncólogos, nutricionistas, psicólogos y otros especialistas afines.
+
+---
+
+## 2. MARCO NORMATIVO APLICABLE
+
+### 2.1 Legislación Nacional Vigente
+El presente servicio se rige bajo las siguientes normas peruanas:
+
+#### **Protección de Datos Personales**
+- **Ley N° 29733** - Ley de Protección de Datos Personales
+- **Decreto Supremo N° 003-2013-JUS** - Reglamento de la Ley de Protección de Datos Personales
+- Directrices de la Autoridad Nacional de Protección de Datos Personales
+
+#### **Sector Salud**
+- **Ley N° 26842** - Ley General de Salud
+- **Ley N° 29414** - Ley que Establece los Derechos de las Personas Usuarias de los Servicios de Salud
+- **Decreto Legislativo N° 1412** - Ley de Gobierno Digital
+- Normas técnicas del Ministerio de Salud sobre telemedicina
+
+#### **Marco Digital**
+- **Ley N° 30096** - Ley de Delitos Informáticos
+- **Decreto Legislativo N° 1246** - Decreto Legislativo que aprueba diversas medidas de simplificación administrativa
+- Código de Protección y Defensa del Consumidor (Ley N° 29571)
+
+---
+
+## 3. CONDICIONES DE USO
+
+### 3.1 Capacidad Legal
+Para utilizar nuestros servicios, el usuario debe:
+- Ser mayor de edad (18 años) o contar con autorización de padre/tutor
+- Tener capacidad legal para contratar según la legislación peruana
+- Proporcionar información veraz y actualizada
+
+### 3.2 Registro y Verificación
+**Para Profesionales de la Salud:**
+- Colegiatura vigente en el Colegio Médico del Perú u organismo competente
+- Verificación de licencia profesional y especialización
+- Cumplimiento de requisitos establecidos por el Ministerio de Salud
+
+**Para Pacientes:**
+- Documento Nacional de Identidad (DNI) válido
+- Consentimiento informado para tratamiento de datos médicos
+- Aceptación de términos específicos para teleconsulta
+
+---
+
+## 4. PROTECCIÓN DE DATOS PERSONALES Y MÉDICOS
+
+### 4.1 Tratamiento de Datos Sensibles
+En cumplimiento con la Ley N° 29733, informamos que:
+
+**Datos Recopilados:**
+- Datos personales de identificación
+- **Datos sensibles de salud** (diagnósticos, tratamientos, medicamentos)
+- Registros de citas médicas y consultas
+- Diarios emocionales y autocontrol de síntomas
+
+**Finalidad del Tratamiento:**
+- Facilitar la conexión paciente-profesional de salud
+- Gestión de citas médicas y seguimiento de tratamientos
+- Mejora continua de servicios de salud digital
+- Cumplimiento de obligaciones legales del sector salud
+
+### 4.2 Consentimiento Informado
+El usuario otorga consentimiento **libre, previo, expreso e informado** para:
+- Recopilación y tratamiento de datos personales y de salud
+- Compartición de información médica con profesionales autorizados
+- Almacenamiento seguro en servidores con medidas de seguridad
+- Uso de datos anonimizados para estudios estadísticos
+
+### 4.3 Derechos del Titular
+Conforme a la normativa peruana, los usuarios tienen derecho a:
+- **Información** sobre el tratamiento de sus datos
+- **Acceso** a sus datos personales almacenados
+- **Rectificación** de datos inexactos o incompletos
+- **Cancelación** de datos cuando corresponda
+- **Oposición** al tratamiento en casos específicos
+
+---
+
+## 5. RESPONSABILIDADES Y LIMITACIONES
+
+### 5.1 Responsabilidades de la Plataforma
+- Mantener medidas de seguridad técnica y organizacional
+- Garantizar disponibilidad del servicio 99.5% del tiempo
+- Proporcionar soporte técnico durante horarios establecidos
+- Cumplir con regulaciones de protección de datos
+
+### 5.2 Limitaciones del Servicio
+**IMPORTANTE:** Esta plataforma es una herramienta de **conexión y gestión**, NO constituye:
+- Diagnóstico médico automatizado
+- Reemplazo de consulta médica presencial cuando sea necesaria
+- Servicio de emergencias médicas
+- Garantía de resultados terapéuticos
+
+### 5.3 Exclusiones de Responsabilidad
+La plataforma no se responsabiliza por:
+- Decisiones médicas tomadas por profesionales de salud
+- Calidad o efectividad de tratamientos prescritos
+- Incompatibilidades entre medicamentos
+- Resultados adversos derivados de seguimiento de recomendaciones
+
+---
+
+## 6. PROPIEDAD INTELECTUAL
+
+### 6.1 Derechos Reservados
+- Software, diseño e interface: propiedad de [Nombre de la empresa]
+- Contenido médico publicado: propiedad de profesionales autores
+- Base de datos: protegida por derechos de autor y normativa de datos
+
+### 6.2 Licencia de Uso
+Se otorga licencia **limitada, no exclusiva y revocable** para:
+- Uso personal de la plataforma conforme a términos
+- Acceso a contenido médico para fines informativos
+- Prohibido: reproducción, distribución o modificación no autorizada
+
+---
+
+## 7. FACTURACIÓN Y PAGOS
+
+### 7.1 Modelo SaaS
+- Suscripción mensual/anual según plan elegido
+- Pagos procesados mediante pasarelas seguras
+- Facturación electrónica conforme a normativa SUNAT
+- Moneda: Soles peruanos (PEN)
+
+### 7.2 Política de Reembolsos
+- Cancelación antes de 7 días: reembolso completo
+- Problemas técnicos imputables a la plataforma: compensación proporcional
+- Servicios ya utilizados: no reembolsables
+
+---
+
+## 8. RESOLUCIÓN DE CONTROVERSIAS
+
+### 8.1 Jurisdicción
+Las controversias se someterán a:
+- **Primera instancia:** INDECOPI (protección al consumidor)
+- **Jurisdicción competente:** Tribunales de Lima, Perú
+- **Ley aplicable:** Legislación peruana
+
+### 8.2 Mecanismos Alternativos
+Se promueve la resolución mediante:
+- Mediación ante Centro de Arbitraje y Mediación
+- Conciliación extrajudicial
+- Mesa de diálogo con defensoría del usuario
+
+---
+
+## 9. VIGENCIA Y MODIFICACIONES
+
+### 9.1 Entrada en Vigor
+Estos términos entran en vigencia desde la fecha de aceptación por el usuario.
+
+### 9.2 Modificaciones
+- Cambios comunicados con 30 días de anticipación
+- Notificación vía email registrado y publicación en plataforma
+- Uso continuado implica aceptación de nuevas condiciones
+
+---
+
+## 10. CONTACTO Y ATENCIÓN AL USUARIO
+
+### 10.1 Canales de Comunicación
+- **Email:** oncontrol@oncotech.pe
+- **Teléfono:** +51 924 055 322
+- **Horario de atención:** Lunes a viernes, 8:00 AM - 6:00 PM
+
+### 10.2 Oficial de Protección de Datos
+Para consultas sobre tratamiento de datos personales:
+- **Email:** soporte@oncontech.pe
+- **Responsable:** Luis Angel Carrasco
+
+
+
+**Al utilizar esta plataforma, el usuario declara haber leído, entendido y aceptado íntegramente los presentes términos y condiciones, reconociendo su carácter vinculante conforme a la legislación peruana.**
+
+---
+
+*Documento elaborado en cumplimiento de la Ley N° 29733, Ley General de Salud N° 26842, y demás normativa aplicable en el territorio peruano.*
 
 <div id='5.2.1.5.'><h4>5.2.1.5 Implemented Native-Mobile Application Evidence</h4></div>
 
@@ -3493,12 +4040,50 @@ Para este entregable no se requieren implementaciones sobre el servicio web.
 <div id='5.2.1.8.'><h4>5.2.1.8 Team Collaboration Insights</h4></div>
 En este apartado se evidencia la colaboración y desarrollo conjunto de los componentes abarcados del producto.
 
+| Integrante | Tareas Asignadas |
+| ---------- | ---------------- |
+|Góngora Castillejos Williams | Startup Profile, NeedFinding |
+| Huapaya Cuevas Anthony       |Startup Profile, desarrollo UX/UI, Desarrollo de Landing page|
+|Huanaco Huayta Elizabeth | Startup Profile, desarrollo UX/UI, Desarrollo de Landing page|
+|Quiñones Quintaya, Johan | Startup Profile, desarrollo UX/UI, Desarrollo de Landing page |
+|Uribe Quispe Jesús | Arquitectura de software del producto, Documentación de implementación de producto, Desarrollo de Landing page |
+
 <div align="center">
-  <img src="" alt="insights">
+  <img src="./img/insights_tb1.png" alt="insights">
 </div>
 
-<div id='5.3.'><h3>5.3. Video About-the-Product</h3></div>
-
 <div id='6.'><h2>6. Conclusiones</h2></div>
+
+El proyecto OnControl, dedicado a pacientes con cáncer, se plantea como una plataforma integral de salud digital que conecta a los usuarios con médicos especializados en oncología, nutrición, salud mental y otras áreas relacionadas. Su propuesta no se limita al agendamiento de citas, sino que integra también funcionalidades como recordatorios de medicación, gestión de tratamientos, espacios comunitarios de apoyo y herramientas de autocontrol. El modelo de negocio se basa en un marketplace de salud digital con un enfoque freemium, donde los pacientes pueden acceder gratuitamente a funciones básicas como registro, búsqueda de médicos, agendamiento de citas y participación en la comunidad, mientras que los servicios premium incluyen consultas especializadas por telemedicina, reportes avanzados y seguimiento personalizado. Para los médicos, la plataforma representa un canal de visibilidad, acceso a nuevos pacientes y gestión digital de historiales clínicos, generando valor tanto para el paciente como para el profesional de la salud y asegurando sostenibilidad en el tiempo.
+
+El diseño UI/UX debe centrarse en la empatía, simplicidad y accesibilidad, transmitiendo confianza y reduciendo la carga cognitiva en pacientes en tratamiento. Se recomiendan colores suaves, tipografías legibles y flujos guiados que permitan completar fácilmente las tareas más relevantes como registro, búsqueda de especialidad, selección de médico y agendamiento de citas, además de accesos rápidos a medicamentos, recordatorios, comunidad y tratamientos. La experiencia de usuario es un factor decisivo para la adherencia a la aplicación y su éxito en el mercado.
+
+En cuanto a la configuración del desarrollo, la metodología ágil mediante Scrum permite avanzar con entregas incrementales y validar con usuarios en cada sprint. El frontend puede implementarse en Flutter para garantizar aplicaciones nativas en iOS y Android, mientras que el backend puede construirse con Java Spring Boot, gestionando la lógica de negocio mediante microservicios y APIs REST seguras con autenticación JWT. La infraestructura en la nube, soportada en servicios como Firebase o Azure, facilita almacenamiento seguro de documentos médicos, notificaciones push, autenticación y analítica.
+
+La arquitectura de software se plantea modular y escalable, con una capa de presentación en Flutter, una capa de negocio en microservicios para usuarios, citas, comunidad, tratamientos y recordatorios, y una capa de datos soportada en bases relacionales como MySQL para información estructurada. Los servicios en la nube proveen soporte adicional en autenticación, notificaciones y almacenamiento seguro, y la seguridad se garantiza mediante cifrado de datos sensibles y cumplimiento con normativas como HIPAA y GDPR.
+
+Finalmente, las user stories levantadas reflejan un panorama completo de funcionalidades, desde la autenticación y gestión de cuentas hasta la búsqueda de médicos, agendamiento de citas, visualización de tratamientos y recordatorios, participación en comunidades, autocontrol mediante diarios y registros de dolor o alimentación, y servicios específicos para médicos como la gestión de pacientes, consulta de historiales médicos y creación de tratamientos. La priorización de estas historias mediante story points permite una planificación ágil y ordenada, asegurando que el desarrollo avance primero en las funcionalidades críticas y luego en las complementarias.
+
+En conclusión, OnControl no es únicamente una aplicación, sino un ecosistema digital de acompañamiento oncológico que combina un modelo de negocio sostenible, un diseño UI/UX centrado en la empatía, una arquitectura modular y escalable, un modelo de datos sólido y un backlog bien definido. La clave de su éxito será integrar tecnología, accesibilidad y sensibilidad humana para ofrecer a pacientes y médicos una plataforma confiable, segura y orientada a mejorar la calidad de vida y el seguimiento integral del tratamiento oncológico.
+
 <div id='7.'><h2>7. Bibliografía</h2></div>
+
+- Congreso de la República del Perú. (2011, 3 de julio). Ley N.° 29733, Ley de Protección de Datos Personales. Diario Oficial El Peruano. https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/243470-29733
+<br>
+- Presidencia de la República del Perú. (2013, 22 de marzo). Decreto Supremo N.° 003-2013-JUS que aprueba el Reglamento de la Ley N.° 29733, Ley de Protección de Datos Personales. Diario Oficial El Peruano. https://www.minjus.gob.pe/wp-content/uploads/2013/04/LEY-29733.pdf
+<br>
+- Congreso de la República del Perú. (1997, 20 de julio). Ley N.° 26842, Ley General de Salud. Diario Oficial El Peruano. https://www.minsa.gob.pe/Recursos/OGTI/SINADEF/Ley-29733.pdf
+
+
 <div id='8.'><h2>8. Anexo</h2></div>
+
+| Título del Video                  | Link de Video                                  |
+|-----------------------------------|-----------------------------------------------|
+|Link de Organización | https://github.com/ControlUPC/ |
+| Link de Documentación | https://github.com/ControlUPC/report/ |
+| Link de Repositorio de Landing Page | https://github.com/ControlUPC/LandingPage/|
+|Link de Despliegue de Landing Page | https://controlupc.github.io/LandingPage/|
+|Link de Diseño Figma |[Figma]( https://www.figma.com/design/lQZOGmsUK2ZbFdNXzVZ2Go/OnControl--Exp-?node-id=4036-2&t=VuH0WreENKt6JrTd-1) |
+|Link de video de entrevista | [Enlace de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EaLKPHgZ0b5PqTvfCB6MDkQB93evnDKGf300qhOaOZDn7A?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=lUXNgm) |
+|Link de video de exposición | [Link de Video]() |
+
