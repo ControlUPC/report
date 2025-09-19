@@ -2937,11 +2937,135 @@ Este flujo permite a los médicos registrar, actualizar y consultar la historia 
 
 <div id='4.6.'><h3>4.6. Web Applications UX/UI Design</h3></div>
 <div id='4.6.1.'><h4>4.6.1. Web Applications Wireframes</h4></div>
-<div id='4.6.2.'><h4>4.6.2. Web Applications Wireflow Diagrams</h4></div>
-<div id='4.6.3.'><h4>4.6.3. Web Applications Mock-ups</h4></div>
-<div id='4.6.4.'><h4>4.6.4. Web Applications User Flow Diagrams</h4></div>
+
+**Register**
+
+<img src="img/wireframes-web/Web Register Wireframe.png" alt="Register Wireframe" width=1000px>
+
+**Login**
+
+<img src="img/wireframes-web/Web Inicio Sesion Wireframe.png" alt="Login Wireframe" width=1000px>
+
+**Dashboard**
+
+<img src="img/wireframes-web/Web Dashboard Wireframe.png" alt="Dashboard Wireframe" width=1000px>
+
+**Pacientes**
+
+<img src="img/wireframes-web/Web Pacientes Wireframe.png" alt="Pacientes Wireframe" width=1000px>
+
+**Reportes**
+
+<img src="img/wireframes-web/Web Reportes Wireframes.png" alt="Reportes Wireframe" width=1000px>
+
+**Tratamientos**
+
+<img src="img/wireframes-web/Web Tratamientos Wireframe.png" alt="Tratamientos Wireframe" width=1000px>
+
+<div id='4.6.3.'><h4>4.6.2. Web Applications Mock-ups</h4></div>
+
+**Login**
+
+<img src="img/mockups-web/login.png" alt="Login Mockup" width=1000px>
+
+**Register**
+
+<img src="img/mockups-web/register.png" alt="Register Mockup" width=1000px>
+
+**Paciente pages**
+
+<img src="img/mockups-web/paciente-perfil.png" alt="paciente-perfil" width=1000px>
+
+<img src="img/mockups-web/paciente-dashboard.png" alt="paciente-dashboard" width=1000px>
+
+<img src="img/mockups-web/paciente-citas.png" alt="paciente-citas" width=1000px>
+<img src="img/mockups-web/paciente-nueva-cita.png" alt="paciente-nueva-cita" width=1000px>
+
+<img src="img/mockups-web/paciente-sintomas.png" alt="paciente-sintomas" width=1000px>
+<img src="img/mockups-web/paciente-reportar-sintoma.png" alt="paciente-reportar-sintoma" width=1000px>
+
+<img src="img/mockups-web/paciente-medicamentos.png" alt="paciente-medicamento" width=1000px>
+
+<img src="img/mockups-web/paciente-notificaciones.png" alt="paciente-notificaciones" width=1000px>
+
+<img src="img/mockups-web/paciente-historial.png" alt="paciente-historial" width=1000px>
+
+<img src="img/mockups-web/paciente-tratamiento.png" alt="paciente-tratamiento" width=1000px>
+
+**Medico pages**
+
+<img src="img/mockups-web/medico-perfil.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-dashboard.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-pacientes.png" alt="" width=1000px>
+<img src="img/mockups-web/medico-nuevo-paciente.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-calendario.png" alt="" width=1000px>
+<img src="img/mockups-web/medico-nueva-cita.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-tratamientos.png" alt="" width=1000px>
+<img src="img/mockups-web/medico-nuevo-tratamiento.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-notificaciones.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-reportes.png" alt="" width=1000px>
+
+
+<div id='4.6.4.'><h4>4.6.3. Web Applications User Flow Diagrams</h4></div>
+
+**User Goal: Registrarse e iniciar sesión**
+
+Este flujo describe cómo un usuario (médico o paciente) accede a la aplicación. El flujo inicia en la pantalla de login, donde el usuario debe ingresar sus credenciales.
+- Happy path: Si las credenciales son correctas, el sistema valida e ingresa al Dashboard correspondiente (médico o paciente).
+-  Unhappy path: Si los datos no son válidos, se muestra un mensaje de error y se solicita reintento. También se contempla la opción de registrar un nuevo usuario en caso de no tener cuenta.
+
+<img src="img/user-goals/User goal_Registrarse e iniciar sesión.jpg" alt="Registrarse e iniciar sesión" width=1000px>
+
+**User Goal: Ver reportes de mis pacientes**
+
+Este flujo está orientado al médico que desea acceder a los reportes consolidados. Desde el Dashboard Médico selecciona la opción de reportes.
+- Happy path: Si decide ver un reporte, puede aplicar filtros y acceder a gráficos y métricas de sus pacientes.
+- Unhappy path: Si no requiere reportes en ese momento, el flujo finaliza y el médico regresa a su Dashboard.
+
+<img src="img/user-goals/User goal_Ver reportes de mis pacientes.jpg" alt="Ver reportes de mis pacientes" width=1000px>
+
+**User Goal: Registrar nuevo paciente**
+
+El flujo comienza en el Dashboard Médico, desde donde se accede a la gestión de pacientes.
+- Happy path: El médico selecciona nuevo paciente, completa el formulario con información requerida y guarda, obteniendo confirmación de registro.
+- Unhappy path: Si los datos están incompletos o inválidos, el sistema muestra un mensaje de error y solicita corrección.
+
+<img src="img/user-goals/User goal_Registrar nuevo paciente.jpg" alt="Registrar nuevo paciente" width=1000px>
+
+**User Goal: Crear y ver citas agendadas**
+Este flujo permite al médico organizar las citas de sus pacientes.
+- Happy path: Desde el Dashboard Médico accede al calendario, selecciona una fecha y hora, programa la cita y obtiene confirmación. Las citas quedan visibles en el calendario.
+- Unhappy path: Si el horario está ocupado o los datos son inválidos, el sistema notifica el error y pide reprogramación.
+
+<img src="img/user-goals/User goal_Crear y ver citas agendadas.jpg" alt="Crear y ver citas agendadas" width=1000px>
+
+**User Goal: Registrar y Agendar nueva cita**
+
+Este flujo combina el registro de paciente con la programación de una cita.
+- Happy path: El médico ingresa a la gestión de pacientes, registra a un nuevo paciente y de inmediato agenda su cita en el calendario. Se genera confirmación y notificación.
+- Unhappy path: Si hay error en el registro o en la programación (ej. horario ocupado), el sistema alerta y solicita corrección.
+
+<img src="img/user-goals//User goal_Registrar y Agendar nuevo cita.jpg" alt="Registrar y Agendar nuevo cita" width=1000px>
+
+**User Goal: Registrar síntoma (paciente)**
+
+Este flujo está diseñado para el paciente. Desde el Dashboard Paciente, accede a la opción de síntomas.
+- Happy path: Completa el formulario, selecciona el tipo de síntoma, intensidad y frecuencia, y guarda. El síntoma queda registrado en el historial.
+- Unhappy path: Si no completa la información o selecciona datos inválidos, el sistema alerta al paciente para que corrija antes de guardar.
+
+<img src="img/user-goals/User goal_Registrar Sintoma.jpg" alt="Registrar síntoma" width=1000px>
 
 <div id='4.7.'><h3>4.7. Web Applications Prototyping</h3></div>
+
+<img src="img/prototyping-web.png" alt="Prototyping web" width=1000px>
+
+*Enlace del video:* https://drive.google.com/file/d/15SJY29n_yAYg7pox_Fyss1j0h5ETidr4/view?usp=sharing
 
 <div id='4.8.'><h3>4.8. Domain-Driven Software Architecture</h3></div>
 <div id='4.8.1.'><h4>4.8.1. Software Architecture Context Diagram</h4></div>
