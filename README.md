@@ -25,6 +25,9 @@ width=50%"/>
 |                Nombre                 |   Código   |
 | :-----------------------------------: | :--------: |
 |  Gongora Castillejos, Williams        | u20221c186 |
+| Quiñones Tintaya, Johan Jorge         | u202218183 |
+|  Huanaco Huayta, Elizabeth Lucero     | u20211g522 |
+|  Huapaya Cuevas, Anthony              | u202220235 |
 |  Uribe Quispe, Jesús Guillermo        | u202221876 |
 
 
