@@ -3648,87 +3648,98 @@ CREATE TABLE user (
 
 Esta seccion describe la estrategia de despliegue del sistema, indicando las tecnologías, servicios de nube y entornos de hosting a utilizar para garantizar disponibilidad, escalabilidad y facilidad de mantenimiento.  
 
+### **Despliegue de Landing Page**
 
-#### Frontend (Vue.js)
+**Configuración de GitHub Pages:**
+- **Paso 1: Acceder a la Configuración**
+  - Navega a tu repositorio en GitHub
+  - Haz clic en la pestaña "Settings" (Configuración)
+  - Desplázate hacia abajo hasta la sección "Pages" en el menú lateral
 
-- **Framework:** Vue 3 con Vite  
-- **Hosting:** [Netlify](https://www.netlify.com/)  
-- **Proceso de despliegue:**
-  1. El código fuente del frontend se encuentra en un repositorio de GitHub.
-  2. Netlify se integra con GitHub para realizar despliegues automáticos en cada `push` a la rama principal (`main` o `master`).
-  3. Se configura el **build command**:
-     ```bash
-     npm run build
-     ```
-  4. Se especifica la carpeta de salida (`dist/`) como directorio de publicación.
-  5. Se habilita HTTPS automáticamente mediante certificados SSL.
+- **Paso 2: Seleccionar la Fuente**
+  En la sección "Source" (Fuente):
+  - **Opción A:** Deploy from a branch
+    - **Branch:** Selecciona la rama (generalmente main o gh-pages)
+    - **Folder:** Elige / (root) o /docs según tu estructura
+    - Es la opción más común y sencilla
 
-- **Beneficios:**
-  - CI/CD integrado con GitHub.
-  - Entorno optimizado para SPA (Single Page Applications).
-  - Escalabilidad y CDN global.
+**Link de despliegue de landing page:** [https://controlupc.github.io/LandingPage/](https://controlupc.github.io/LandingPage/)
 
-#### Backend (Java 17 - Spring Boot)
+<div align="center">
+<img src="./img/deploy_landing.png">
+</div>
 
-- **Lenguaje y Framework:** Java 17 con Spring Boot  
-- **Hosting:** Azure Web Services (App Service o Azure Spring Apps)  
-- **Base de Datos:** Azure MySQL Database Service  
+### **Despliegue del Frontend (Vercel)**
 
-- **Proceso de despliegue:**
-  1. El backend se empaqueta como un archivo **JAR** o **WAR** usando Maven.
-     ```bash
-     mvn clean package
-     ```
-  2. Se despliega el artefacto en **Azure App Service** o **Azure Spring Apps**.
-  3. Se configuran **variables de entorno** en Azure:
-     - `SPRING_DATASOURCE_URL`
-     - `SPRING_DATASOURCE_USERNAME`
-     - `SPRING_DATASOURCE_PASSWORD`
-     - `SPRING_PROFILES_ACTIVE`
-  4. Se habilita escalado automático y logging desde Azure Portal.
-  5. La API se expone mediante HTTPS con dominio personalizado (opcional).
+**Configuración en Vercel:**
+- **Paso 1: Conectar Repositorio**
+  - Inicia sesión en Vercel y haz clic en "Add New Project"
+  - Conecta tu cuenta de GitHub y selecciona el repositorio ControlUPC/OnControl
+  - Autoriza los permisos necesarios
 
-#### Base de Datos (MySQL)
+- **Paso 2: Configurar el Proyecto**
+  - **Framework Preset:** Next.js (se detecta automáticamente)
+  - **Build Command:** `npm run build` o `yarn build`
+  - **Output Directory:** `.next`
+  - **Install Command:** `npm install` o `yarn install`
 
-- **Motor:** MySQL 8.x  
-- **Servicio:** Azure Database for MySQL Flexible Server  
+- **Paso 3: Variables de Entorno**
+  - Agrega las variables de entorno necesarias:
+    - `NEXT_PUBLIC_API_URL`: URL de tu backend desplegado
+    - `NEXT_PUBLIC_APP_ENV`: production
+
+**Link de despliegue del frontend:** [https://oncontrol.vercel.app/](https://on-control.vercel.app/auth/login)
+
+![DeploymentFront](https://github.com/user-attachments/assets/1a8f0061-83ed-4d26-a321-069808cde3e3)
+
+### **Despliegue del Backend (Render)**
+
+**Configuración en Render:**
+- **Paso 1: Crear Servicio Web**
+  - Selecciona "New Web Service" in Render
+  - Conecta el repositorio ControlUPC/oncontrol-backend
+  - Configura el servicio como servicio web
+
+- **Paso 2: Configuración del Build**
+  - **Runtime:** Java
+  - **Build Command:** `./mvnw clean package -DskipTests`
+  - **Start Command:** `java -jar target/oncontrol-backend-1.0.0.jar`
+  - **Plan:** Free o según requerimientos
+
+- **Paso 3: Variables de Entorno**
+  - `SPRING_PROFILES_ACTIVE`: production
+  - `SPRING_DATASOURCE_URL`: URL de base de datos MySQL
+  - `JWT_SECRET`: Clave secreta para JWT
+  - `SERVER_PORT`: 8080
+
+**Link de despliegue del backend:** [https://oncontrol-backend.onrender.com/](https://oncontrol-backend.onrender.com/)
+
+![DeployBack](https://github.com/user-attachments/assets/93a47f72-4a18-46b0-be63-111a1f0cfab7)
+
+### **Base de Datos (MySQL)**
+
+**Configuración en Render:**
+- **Servicio:** MySQL Database en Render
 - **Configuración:**
-  - Creación de servidor de base de datos en Azure.
-  - Definición de un **usuario administrador** con credenciales seguras.
-  - Configuración de reglas de firewall para permitir conexiones desde:
-    - App Service (Backend)
-    - IP de desarrolladores autorizados
-  - Habilitar TLS para conexiones seguras.
+  - Creación de base de datos MySQL en Render
+  - Definición de usuario administrador con credenciales seguras
+  - Configuración automática de conexión SSL/TLS
+  - Backup automático y mantenimiento
 
+### **Resumen de Despliegues**
 
-#### Landing Page
-
-- **Tecnología:** HTML, CSS y JS estáticos  
-- **Hosting:** GitHub Pages  
-- **Proceso de despliegue:**
-  1. En GitHub, se habilita **Pages** desde la configuración del repositorio y se selecciona una rama.
-  3. GitHub Pages servirá los archivos estáticos automáticamente.
-  4. Se configura un dominio personalizado (opcional).
-
-- **Objetivo:**
-  - Proporcionar una **página informativa** (landing) para usuarios finales.
-  - Redirigir al frontend desplegado en Netlify.
-
-
-#### Resumen de Despliegues
-
-| Componente      | Tecnología     | Hosting / Servicio        | Características Clave |
-|-----------------|----------------|---------------------------|-----------------------|
-| Frontend        | Vue 3 + Vite   | Vercel                  | CI/CD, CDN, HTTPS     |
-| Backend         | Java 17 + Spring Boot | Azure Web Services | Variables de entorno, escalado automático |
-| Base de Datos   | MySQL 8.x      | Azure Database for MySQL  | TLS, firewall, migraciones con Flyway/Liquibase |
-| Landing Page    | HTML + CSS + JS| GitHub Pages              | Hosting estático gratuito, dominio opcional |
+| Componente      | Tecnología          | Hosting / Servicio | Características Clave |
+|-----------------|---------------------|-------------------|-----------------------|
+| Frontend        | Next.js + TypeScript| Vercel            | CI/CD automático, CDN global, HTTPS |
+| Backend         | Java 17 + Spring Boot | Render          | Auto-scaling, variables de entorno, logs integrados |
+| Base de Datos   | MySQL 8.x           | Render Database   | TLS, backups automáticos, alta disponibilidad |
+| Landing Page    | HTML + CSS + JS     | GitHub Pages      | Hosting estático gratuito, despliegue continuo |
 
 <div id='5.2.'><h3>5.2. Product Implementation & Deployment</h3></div>
 <div id='5.2.1.'><h4>5.2.1. Sprint Backlogs</h4></div>
 <div id='5.2.1.1.'><h4>5.2.1.1. Sprint #1</h4></div>
 
-
+El Sprint 1 marca el inicio del desarrollo técnico de nuestra solución, enfocándose en establecer los cimientos fundamentales de la plataforma mediante la implementación paralela de tres componentes críticos: un landing page para la captación de usuarios y validación del mercado, un frontend web que constituya la interfaz principal de la aplicación, y un backend RESTful escalable que soporte la lógica de negocio y la gestión de datos, sentando así las bases técnicas para iteraciones futuras y la validación integral del producto.
 
 ##### SPRINT PLANNING: 
 <table>
@@ -3779,105 +3790,195 @@ Esta seccion describe la estrategia de despliegue del sistema, indicando las tec
 
 El repositorio fue reinicializado como parte de la transición del proyecto desde la fase de prototipo a desarrollo de producción. Esta decisión se tomó para establecer un historial limpio que refleje únicamente la arquitectura final del sistema, tras múltiples iteraciones de reestructuración técnica y consolidación de funcionalidades core.
 
-<table border="1" cellspacing="0" cellpadding="5">
-  <tr>
-    <th>Repository</th>
-    <th>Branch</th>
-    <th>Commit Id</th>
-    <th>Commit Message</th>
-    <th>Commit Message Body</th>
-    <th>Committed on (Date)</th>
-  </tr>
-  <tr>
-    <td>ControlUPC/LandingPage</td>
-    <td>main/</td>
-    <td>bc12f2bc776ad984a5a6f42265bdb1221ad54a34</td>
-    <td>initial commit</td>
-    <td>initial commit</td>
-    <td>04/09/2021</td>
-  </tr>
-</table>
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|
+| ControlUPC/LandingPage	 | main | bc12f2b | feat: Add initial structure for landing page layout | 18/09/2025 |
+| ControlUPC/oncontrol-backend | main | bf86e39 | Optimizar filtro JWT para no mostrar warnings en rutas públicas | 02/10/2025 |
+| ControlUPC/oncontrol-backend | main | d08a334 | Agregar rutas públicas y controlador de salud para el endpoint raíz |  02/10/2025 |
+| ControlUPC/oncontrol-backend | main | 4b81733 | Actualizar configuración de application.properties |  02/10/2025 |
+| ControlUPC/oncontrol-backend | main | efff8b7 | chore: desactivar DataSeeder para producción |  02/10/2025 |
+| ControlUPC/oncontrol-backend | main | ala7f52 | fix: Add type field to organization registration response  | 02/10/2025 |
+| ControlUPC/oncontrol-backend | main | 2alab94 | fix: Configurar HikariCP, corregir tipos en controladores y agregar soporte bilingüe en SymptomSeverity  | 02/10/2025 |
+| ControlUPC/oncontrol-backend | main | 6b183e7 | feat: Implementar JWT en login de perfiles y agregar módulos de Treatments, Medications, Medical History y Reports  | 02/10/2025 |
+| ControlUPC/oncontrol-backend | main | 998b2e4 | feat: Add DataSeeder with initial test data - Creates 1 org, 2 doctors, 4 patients, 5 appointments, 7 symptoms  |02/10/2025 |
+| ControlUPC/oncontrol-backend | main | af22521 | feat: OnControl Backend v2.0 - Complete system with 33 endpoints and dashboards  |02/10/2025 |
+| ControlUPC/OnControl | main | 46426b8 | Remove unused useState imports from medico and paciente dashboard pages |  06/10/2025 |
+| ControlUPC/OnControl | main | 29a1c82 | Fix ESLint errors: remove unused imports and variables, fix explicit any type |  06/10/2025 |
+| ControlUPC/OnControl | main | blbal12 | Fix TypeScript error in handleInputChange function - add undefined to union type  | 06/10/2025 |
+| ControlUPC/OnControl | main | 697cb5f | Fix TypeScript and ESLint errors for production build  | 06/10/2025 |
+| ControlUPC/OnControl | main | 58bc4a | Initial commit: OnControl - Sistema de Gestión Médica Oncológica  | 06/10/2025 |
+| ControlUPC/OnControl | main | cadcb48 | fix: Eliminate early returns in organization dashboard to prevent hooks error  | 06/10/2025 |
+| ControlUPC/OnControl | main | ce99free | fix: Resolve hooks inconsistency errors in organization dashboard pages  | 06/10/2025 |
+| ControlUPC/OnControl | main | fb40ce8 | refactor: Remove reports section from organization dashboard navigation  | 06/10/2025 |
+| ControlUPC/OnControl | main | a69aef5 | feat: Enhance doctor registration forms with predefined specializations and formatted license number  | 06/10/2025 |
+| ControlUPC/OnControl | main | a249564 | fix: Improve error handling and logging in API client |  06/10/2025 |
+| ControlUPC/OnControl | main | 1977421 | feat: Complete backend integration and remove all mock data  | 06/10/2025 |
 
-#### Despliegue de Landing Page
+#### **Despliegue de Landing Page**
 
 **Configuración de GitHub Pages:**
-- Paso 1: Acceder a la Configuración
-
+- **Paso 1: Acceder a la Configuración**
   - Navega a tu repositorio en GitHub
   - Haz clic en la pestaña "Settings" (Configuración)
-  - Desplázate hacia abajo hasta la sección "Pages" en el menú - lateral
-<br>
-- Paso 2: Seleccionar la Fuente
-En la sección "Source" (Fuente):
-  - **Opción A:** Deploy from a branch<br>
+  - Desplázate hacia abajo hasta la sección "Pages" en el menú lateral
 
-    **Branch:** Selecciona la rama (generalmente main o gh-pages)
-    **Folder:** Elige / (root) o /docs según tu estructura
-    Es la opción más común y sencilla
+- **Paso 2: Seleccionar la Fuente**
+  En la sección "Source" (Fuente):
+  - **Opción A:** Deploy from a branch
+    - **Branch:** Selecciona la rama (generalmente main o gh-pages)
+    - **Folder:** Elige / (root) o /docs según tu estructura
+    - Es la opción más común y sencilla
 
-**link de despliegue de landing page:** [https://controlupc.github.io/LandingPage/](https://controlupc.github.io/LandingPage/)
-
+**Link de despliegue de landing page:** [https://controlupc.github.io/LandingPage/](https://controlupc.github.io/LandingPage/)
 
 <div aling="center">
 <img src="./img/deploy_landing.png">
 </div>
 
+#### **Despliegue del Frontend (Vercel)**
+
+**Configuración en Vercel:**
+- **Paso 1: Conectar Repositorio**
+  - Inicia sesión en Vercel y haz clic en "Add New Project"
+  - Conecta tu cuenta de GitHub y selecciona el repositorio ControlUPC/OnControl
+  - Autoriza los permisos necesarios
+
+- **Paso 2: Configurar el Proyecto**
+  - **Framework Preset:** Next.js (se detecta automáticamente)
+  - **Build Command:** `npm run build` o `yarn build`
+  - **Output Directory:** `.next`
+  - **Install Command:** `npm install` o `yarn install`
+
+- **Paso 3: Variables de Entorno**
+  - Agrega las variables de entorno necesarias:
+    - `NEXT_PUBLIC_API_URL`: URL de tu backend desplegado
+    - `NEXT_PUBLIC_APP_ENV`: production
+
+**Link de despliegue del frontend:** [https://oncontrol.vercel.app/](https://on-control.vercel.app/auth/login)
+
+![DeploymentFront](https://github.com/user-attachments/assets/1a8f0061-83ed-4d26-a321-069808cde3e3)
+
+
+#### **Despliegue del Backend (Render/Railway)**
+
+**Configuración en Render:**
+- **Paso 1: Crear Servicio Web**
+  - Selecciona "New Web Service" en Render
+  - Conecta el repositorio ControlUPC/oncontrol-backend
+  - Configura el servicio como servicio web
+
+- **Paso 2: Configuración del Build**
+  - **Runtime:** Java
+  - **Build Command:** `./mvnw clean package -DskipTests`
+  - **Start Command:** `java -jar target/oncontrol-backend-1.0.0.jar`
+  - **Plan:** Free o según requerimientos
+
+- **Paso 3: Variables de Entorno**
+  - `SPRING_PROFILES_ACTIVE`: production
+  - `SPRING_DATASOURCE_URL`: URL de base de datos MySQL
+  - `JWT_SECRET`: Clave secreta para JWT
+  - `SERVER_PORT`: 8080
+
+**Link de despliegue del backend:** [https://oncontrol-backend.onrender.com/](https://oncontrol-backend.onrender.com/)
+
+![DeployBack](https://github.com/user-attachments/assets/93a47f72-4a18-46b0-be63-111a1f0cfab7)
+
 <div id='5.2.1.3.'><h4>5.2.1.3. Implemented Frontend-Web Application Evidence</h4></div>
 
-Para este entregable no se requieren implementaciones sobre la aplicación web.
+El frontend web de OnControl representa la materialización de los diseños UX/UI en una aplicación funcional construida con Next.js, que implementa de manera integral todos los módulos del sistema de gestión oncológica mediante una arquitectura de componentes reutilizables, enrutamiento dinámico y una experiencia de usuario responsive que se conecta de forma segura con la API RESTful backend, demostrando la completa implementación de los flujos de trabajo médicos diseñados para oncólogos y pacientes.
+
+**Login**
+
+<img src="img/mockups-web/login.png" alt="Login Mockup" width=1000px>
+
+**Register**
+
+<img src="img/mockups-web/register.png" alt="Register Mockup" width=1000px>
+
+**Paciente pages**
+
+<img src="img/mockups-web/paciente-perfil.png" alt="paciente-perfil" width=1000px>
+
+<img src="img/mockups-web/paciente-dashboard.png" alt="paciente-dashboard" width=1000px>
+
+<img src="img/mockups-web/paciente-citas.png" alt="paciente-citas" width=1000px>
+<img src="img/mockups-web/paciente-nueva-cita.png" alt="paciente-nueva-cita" width=1000px>
+
+<img src="img/mockups-web/paciente-sintomas.png" alt="paciente-sintomas" width=1000px>
+<img src="img/mockups-web/paciente-reportar-sintoma.png" alt="paciente-reportar-sintoma" width=1000px>
+
+<img src="img/mockups-web/paciente-medicamentos.png" alt="paciente-medicamento" width=1000px>
+
+<img src="img/mockups-web/paciente-notificaciones.png" alt="paciente-notificaciones" width=1000px>
+
+<img src="img/mockups-web/paciente-historial.png" alt="paciente-historial" width=1000px>
+
+<img src="img/mockups-web/paciente-tratamiento.png" alt="paciente-tratamiento" width=1000px>
+
+**Medico pages**
+
+<img src="img/mockups-web/medico-perfil.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-dashboard.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-pacientes.png" alt="" width=1000px>
+<img src="img/mockups-web/medico-nuevo-paciente.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-calendario.png" alt="" width=1000px>
+<img src="img/mockups-web/medico-nueva-cita.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-tratamientos.png" alt="" width=1000px>
+<img src="img/mockups-web/medico-nuevo-tratamiento.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-notificaciones.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-reportes.png" alt="" width=1000px>
+
 
 <div id='5.2.1.4.'><h4>5.2.1.4. Acuerdo de Servicio - SaaS</h4></div>
+
 Esta sección establece los derechos, obligaciones y restricciones aplicables a los usuarios de la plataforma, garantizando transparencia en el uso del servicio SaaS. Debe integrarse públicamente en la sección "Terms and Conditions" del website, cumpliendo con los criterios de claridad, accesibilidad y cumplimiento normativo.
 
-# TÉRMINOS Y CONDICIONES DE USO
-## PLATAFORMA HEALTHCARE - CONEXIÓN PACIENTE-DOCTOR
+### **TÉRMINOS Y CONDICIONES DE USO:**
 
-**Fecha de última actualización:** [Fecha]
+#### **1. INFORMACIÓN GENERAL**
 
----
-
-## 1. INFORMACIÓN GENERAL
-
-### 1.1 Identificación del Prestador
+#### 1.1 Identificación del Prestador
 - **Razón Social:** OncoTech
 
-### 1.2 Objeto del Servicio
+#### 1.2 Objeto del Servicio
 La presente plataforma es un **Software como Servicio (SaaS)** que facilita la conexión entre pacientes y profesionales de la salud especializados en tratamiento integral de cáncer, incluyendo oncólogos, nutricionistas, psicólogos y otros especialistas afines.
 
----
+#### **2. MARCO NORMATIVO APLICABLE**
 
-## 2. MARCO NORMATIVO APLICABLE
-
-### 2.1 Legislación Nacional Vigente
+#### 2.1 Legislación Nacional Vigente
 El presente servicio se rige bajo las siguientes normas peruanas:
 
-#### **Protección de Datos Personales**
+**Protección de Datos Personales**
 - **Ley N° 29733** - Ley de Protección de Datos Personales
 - **Decreto Supremo N° 003-2013-JUS** - Reglamento de la Ley de Protección de Datos Personales
 - Directrices de la Autoridad Nacional de Protección de Datos Personales
 
-#### **Sector Salud**
+**Sector Salud**
 - **Ley N° 26842** - Ley General de Salud
 - **Ley N° 29414** - Ley que Establece los Derechos de las Personas Usuarias de los Servicios de Salud
 - **Decreto Legislativo N° 1412** - Ley de Gobierno Digital
 - Normas técnicas del Ministerio de Salud sobre telemedicina
 
-#### **Marco Digital**
+**Marco Digital**
 - **Ley N° 30096** - Ley de Delitos Informáticos
 - **Decreto Legislativo N° 1246** - Decreto Legislativo que aprueba diversas medidas de simplificación administrativa
 - Código de Protección y Defensa del Consumidor (Ley N° 29571)
 
----
+#### **3. CONDICIONES DE USO**
 
-## 3. CONDICIONES DE USO
-
-### 3.1 Capacidad Legal
+#### 3.1 Capacidad Legal
 Para utilizar nuestros servicios, el usuario debe:
 - Ser mayor de edad (18 años) o contar con autorización de padre/tutor
 - Tener capacidad legal para contratar según la legislación peruana
 - Proporcionar información veraz y actualizada
 
-### 3.2 Registro y Verificación
+#### 3.2 Registro y Verificación
 **Para Profesionales de la Salud:**
 - Colegiatura vigente en el Colegio Médico del Perú u organismo competente
 - Verificación de licencia profesional y especialización
@@ -3888,11 +3989,9 @@ Para utilizar nuestros servicios, el usuario debe:
 - Consentimiento informado para tratamiento de datos médicos
 - Aceptación de términos específicos para teleconsulta
 
----
+#### **4. PROTECCIÓN DE DATOS PERSONALES Y MÉDICOS**
 
-## 4. PROTECCIÓN DE DATOS PERSONALES Y MÉDICOS
-
-### 4.1 Tratamiento de Datos Sensibles
+#### 4.1 Tratamiento de Datos Sensibles
 En cumplimiento con la Ley N° 29733, informamos que:
 
 **Datos Recopilados:**
@@ -3907,14 +4006,14 @@ En cumplimiento con la Ley N° 29733, informamos que:
 - Mejora continua de servicios de salud digital
 - Cumplimiento de obligaciones legales del sector salud
 
-### 4.2 Consentimiento Informado
+#### 4.2 Consentimiento Informado
 El usuario otorga consentimiento **libre, previo, expreso e informado** para:
 - Recopilación y tratamiento de datos personales y de salud
 - Compartición de información médica con profesionales autorizados
 - Almacenamiento seguro en servidores con medidas de seguridad
 - Uso de datos anonimizados para estudios estadísticos
 
-### 4.3 Derechos del Titular
+#### 4.3 Derechos del Titular
 Conforme a la normativa peruana, los usuarios tienen derecho a:
 - **Información** sobre el tratamiento de sus datos
 - **Acceso** a sus datos personales almacenados
@@ -3922,131 +4021,248 @@ Conforme a la normativa peruana, los usuarios tienen derecho a:
 - **Cancelación** de datos cuando corresponda
 - **Oposición** al tratamiento en casos específicos
 
----
+#### **5. RESPONSABILIDADES Y LIMITACIONES**
 
-## 5. RESPONSABILIDADES Y LIMITACIONES
-
-### 5.1 Responsabilidades de la Plataforma
+#### 5.1 Responsabilidades de la Plataforma
 - Mantener medidas de seguridad técnica y organizacional
 - Garantizar disponibilidad del servicio 99.5% del tiempo
 - Proporcionar soporte técnico durante horarios establecidos
 - Cumplir con regulaciones de protección de datos
 
-### 5.2 Limitaciones del Servicio
+#### 5.2 Limitaciones del Servicio
 **IMPORTANTE:** Esta plataforma es una herramienta de **conexión y gestión**, NO constituye:
 - Diagnóstico médico automatizado
 - Reemplazo de consulta médica presencial cuando sea necesaria
 - Servicio de emergencias médicas
 - Garantía de resultados terapéuticos
 
-### 5.3 Exclusiones de Responsabilidad
+#### 5.3 Exclusiones de Responsabilidad
 La plataforma no se responsabiliza por:
 - Decisiones médicas tomadas por profesionales de salud
 - Calidad o efectividad de tratamientos prescritos
 - Incompatibilidades entre medicamentos
 - Resultados adversos derivados de seguimiento de recomendaciones
 
----
+#### **6. PROPIEDAD INTELECTUAL**
 
-## 6. PROPIEDAD INTELECTUAL
-
-### 6.1 Derechos Reservados
-- Software, diseño e interface: propiedad de [Nombre de la empresa]
+#### 6.1 Derechos Reservados
+- Software, diseño e interface: propiedad de OncoTech
 - Contenido médico publicado: propiedad de profesionales autores
 - Base de datos: protegida por derechos de autor y normativa de datos
 
-### 6.2 Licencia de Uso
+#### 6.2 Licencia de Uso
 Se otorga licencia **limitada, no exclusiva y revocable** para:
 - Uso personal de la plataforma conforme a términos
 - Acceso a contenido médico para fines informativos
 - Prohibido: reproducción, distribución o modificación no autorizada
 
----
+#### **7. FACTURACIÓN Y PAGOS**
 
-## 7. FACTURACIÓN Y PAGOS
-
-### 7.1 Modelo SaaS
+#### 7.1 Modelo SaaS
 - Suscripción mensual/anual según plan elegido
 - Pagos procesados mediante pasarelas seguras
 - Facturación electrónica conforme a normativa SUNAT
 - Moneda: Soles peruanos (PEN)
 
-### 7.2 Política de Reembolsos
+#### 7.2 Política de Reembolsos
 - Cancelación antes de 7 días: reembolso completo
 - Problemas técnicos imputables a la plataforma: compensación proporcional
 - Servicios ya utilizados: no reembolsables
 
----
+#### **8. RESOLUCIÓN DE CONTROVERSIAS**
 
-## 8. RESOLUCIÓN DE CONTROVERSIAS
-
-### 8.1 Jurisdicción
+#### 8.1 Jurisdicción
 Las controversias se someterán a:
 - **Primera instancia:** INDECOPI (protección al consumidor)
 - **Jurisdicción competente:** Tribunales de Lima, Perú
 - **Ley aplicable:** Legislación peruana
 
-### 8.2 Mecanismos Alternativos
+#### 8.2 Mecanismos Alternativos
 Se promueve la resolución mediante:
 - Mediación ante Centro de Arbitraje y Mediación
 - Conciliación extrajudicial
 - Mesa de diálogo con defensoría del usuario
 
----
+#### **9. VIGENCIA Y MODIFICACIONES**
 
-## 9. VIGENCIA Y MODIFICACIONES
-
-### 9.1 Entrada en Vigor
+#### 9.1 Entrada en Vigor
 Estos términos entran en vigencia desde la fecha de aceptación por el usuario.
 
-### 9.2 Modificaciones
+#### 9.2 Modificaciones
 - Cambios comunicados con 30 días de anticipación
 - Notificación vía email registrado y publicación en plataforma
 - Uso continuado implica aceptación de nuevas condiciones
 
----
+#### **10. CONTACTO Y ATENCIÓN AL USUARIO**
 
-## 10. CONTACTO Y ATENCIÓN AL USUARIO
-
-### 10.1 Canales de Comunicación
+#### 10.1 Canales de Comunicación
 - **Email:** oncontrol@oncotech.pe
 - **Teléfono:** +51 924 055 322
 - **Horario de atención:** Lunes a viernes, 8:00 AM - 6:00 PM
 
-### 10.2 Oficial de Protección de Datos
+#### 10.2 Oficial de Protección de Datos
 Para consultas sobre tratamiento de datos personales:
 - **Email:** soporte@oncontech.pe
 - **Responsable:** Luis Angel Carrasco
 
-
-
-**Al utilizar esta plataforma, el usuario declara haber leído, entendido y aceptado íntegramente los presentes términos y condiciones, reconociendo su carácter vinculante conforme a la legislación peruana.**
-
----
+**Al utilizar esta plataforma, el usuario declara haber leído, entendido y aceptado íntegramente los presentes términos y condiciones, reconociendo su carácter vinculante conforme a la legislación peruano.**
 
 *Documento elaborado en cumplimiento de la Ley N° 29733, Ley General de Salud N° 26842, y demás normativa aplicable en el territorio peruano.*
 
 <div id='5.2.1.5.'><h4>5.2.1.5 Implemented Native-Mobile Application Evidence</h4></div>
 
-Para este entregable no se requieren implementaciones sobre la aplicación móvil.
+La aplicación móvil de OnControl, desarrollada con Flutter, implementa una experiencia nativa unificada para iOS y Android que replica todas las funcionalidades clave del sistema de gestión oncológica, permitiendo a pacientes y médicos acceder a historiales médicos, gestionar tratamientos y realizar seguimiento de síntomas desde cualquier lugar con una interfaz optimizada para dispositivos móviles.
+
+<img width="375" height="812" alt="image" src="https://github.com/user-attachments/assets/a509c7fe-7400-4adb-8400-f1ed55df8104" />
+
+<img width="383" height="808" alt="image" src="https://github.com/user-attachments/assets/d69ed871-f7eb-4400-ac08-458eb886380b" />
+
+<img width="375" height="1212" alt="image" src="https://github.com/user-attachments/assets/13840a94-bf95-426d-8fdf-700639679a12" />
+
+<img width="375" height="1212" alt="image" src="https://github.com/user-attachments/assets/9ca46602-3292-41e5-84fb-448420501e34" />
+
 
 <div id='5.2.1.6.'><h4>5.2.1.6 Implemented RESTful API and/or Serverless Backend Evidence</h4></div>
 
-Para este entregable no se requieren implementaciones sobre el servicio web.
+El backend de OnControl, desarrollado con Spring Boot y desplegado en Render, implementa una API RESTful completa con 47 endpoints que soporta todos los módulos del sistema de gestión oncológica, incluyendo autenticación JWT segura, gestión de pacientes, tratamientos, citas médicas, medicamentos y reportes analíticos, demostrando una arquitectura escalable y robusta que garantiza la integridad de los datos médicos y el rendimiento del sistema.
+
+<img width="921" height="857" alt="image" src="https://github.com/user-attachments/assets/cb2043a6-2816-4763-89bf-ac59e973485f" />
+
+<img width="926" height="688" alt="image" src="https://github.com/user-attachments/assets/f69e630b-af23-412d-af30-758c1608a140" />
+
+<img width="926" height="823" alt="image" src="https://github.com/user-attachments/assets/3be392b8-5185-4c9e-83a3-b237c7eafb0e" />
+
+<img width="923" height="562" alt="image" src="https://github.com/user-attachments/assets/8f84ac21-0a75-482f-9b41-08e5b1fd6cd8" />
+
+<img width="929" height="453" alt="image" src="https://github.com/user-attachments/assets/96bffad2-ce9c-4543-979e-78a85a1563fe" />
+
+<img width="931" height="945" alt="image" src="https://github.com/user-attachments/assets/5be0cca6-c2a2-495d-a9d9-864b739ef959" />
 
 <div id='5.2.1.7.'><h4>5.2.1.7 RESTful API documentation</h4></div>
-Para este entregable no se requieren implementaciones sobre el servicio web.
+
+La aplicación cuenta con documentación generada automáticamente mediante Swagger UI (OpenAPI), la cual permite explorar, probar y visualizar todos los endpoints disponibles en el backend de forma clara y estructurada. Esta documentación está disponible en la ruta: `/api-docs` y facilita tanto la comprensión del API como la integración por parte de otros desarrolladores o sistemas externos.
+
+### **Módulos y Endpoints Disponibles**
+
+#### **Authentication Module**
+- `POST /api/auth/register/organization` - Register a new organization
+- `POST /api/auth/login` - Login
+
+#### **Patients Module**
+- `GET /api/patients/{patientProfileId}/summary` - Get patient summary
+- `GET /api/patients/{patientProfileId}/dashboard` - Get patient dashboard
+
+#### **Treatments Module**
+- `GET /api/treatments/{treatmentId}` - Get treatment
+- `GET /api/treatments/{treatmentId}/sessions` - Get treatment sessions
+- `GET /api/treatments/patient/{patientProfileId}` - Get patient treatments
+- `GET /api/treatments/patient/{patientProfileId}/sessions/upcoming` - Get upcoming sessions
+- `GET /api/treatments/patient/{patientProfileId}/current` - Get current treatment
+- `GET /api/treatments/doctor/{doctorProfileId}` - Get doctor treatments
+- `GET /api/treatments/doctor/{doctorProfileId}/stats` - Get treatment statistics
+- `PATCH /api/treatments/{treatmentId}/status` - Update treatment status
+- `POST /api/treatments/{treatmentId}/sessions` - Register session
+- `POST /api/treatments/doctor/{doctorProfileId}/patient/{patientProfileId}` - Create treatment
+- `PUT /api/treatments/{treatmentId}` - Update treatment
+
+#### **Symptoms Module**
+- `GET /api/symptoms/patient/{patientProfileId}` - Get patient symptoms
+- `GET /api/symptoms/patient/{patientProfileId}/stats` - Get symptom statistics
+- `GET /api/symptoms/patient/{patientProfileId}/recent` - Get recent symptoms
+- `POST /api/symptoms/patient/{patientProfileId}` - Report symptom
+
+#### **Appointments Module**
+- `GET /api/appointments/{id}` - Get appointment by ID
+- `GET /api/appointments/patient/{patientProfileId}` - Get patient appointments
+- `GET /api/appointments/doctor/{doctorProfileId}` - Get doctor appointments
+- `PATCH /api/appointments/{id}/status` - Update appointment status
+- `PATCH /api/appointments/{id}/follow-up` - Add follow-up notes
+- `POST /api/appointments/doctor/{doctorProfileId}/patient/{patientProfileId}` - Create appointment
+
+#### **Doctors Module**
+- `GET /api/doctors/{doctorProfileId}/patients` - Get doctor patients
+- `GET /api/doctors/{doctorProfileId}/patients/{patientId}` - Get patient by ID
+- `GET /api/doctors/{doctorProfileId}/patients/{patientId}/symptoms` - Get patient symptoms
+- `GET /api/doctors/{doctorProfileId}/dashboard` - Get doctor dashboard
+- `POST /api/doctors/{doctorProfileId}/patients` - Create patient
+
+#### **Organizations Module**
+- `GET /api/organizations/{organizationId}/doctors` - Get organization doctors
+- `GET /api/organizations/{organizationId}/doctors/{doctorId}` - Get doctor by ID
+- `GET /api/organizations/{organizationId}/dashboard` - Get organization dashboard
+- `POST /api/organizations/{organizationId}/doctors` - Create doctor
+
+#### **Medications Module**
+- `DELETE /api/medications/{medicationId}` - Discontinue medication
+- `GET /api/medications/{medicationId}` - Get medication
+- `GET /api/medications/patient/{patientProfileId}` - Get patient medications
+- `GET /api/medications/patient/{patientProfileId}/upcoming-doses` - Get upcoming doses
+- `GET /api/medications/patient/{patientProfileId}/active` - Get active medications
+- `GET /api/medications/doctor/{doctorProfileId}` - Get doctor medications
+- `POST /api/medications/{medicationId}/mark-taken` - Mark dose as taken
+- `POST /api/medications/doctor/{doctorProfileId}/patient/{patientProfileId}` - Prescribe medication
+- `PUT /api/medications/{medicationId}` - Update medication
+
+#### **Medical History Module**
+- `DELETE /api/medical-history/allergies/{allergyId}` - Delete allergy
+- `GET /api/medical-history/patient/{patientProfileId}` - Get medical history
+- `GET /api/medical-history/patient/{patientProfileId}/allergies` - Get allergies
+- `GET /api/medical-history/patient/{patientProfileId}/type/{type}` - Get history by type
+- `GET /api/medical-history/patient/{patientProfileId}/date-range` - Get history by date range
+- `POST /api/medical-history/patient/{patientProfileId}` - Add history entry
+- `POST /api/medical-history/patient/{patientProfileId}/allergies` - Add allergy
+
+#### **Dashboard Module**
+- `GET /api/dashboard/patient/{patientProfileId}` - Get Patient Dashboard
+- `GET /api/dashboard/patient/{patientProfileId}/stats` - Get Patient Statistics
+- `GET /api/dashboard/organization/{organizationId}` - Get Organization Dashboard
+- `GET /api/dashboard/organization/{organizationId}/stats` - Get Organization Statistics
+- `GET /api/dashboard/organization/{organizationId}/filter/doctor/{doctorId}` - Get Organization Dashboard Filtered by Doctor
+- `GET /api/dashboard/doctor/{doctorProfileId}` - Get Doctor Dashboard
+- `GET /api/dashboard/doctor/{doctorProfileId}/stats` - Get Doctor Statistics
+- `GET /api/dashboard/doctor/{doctorProfileId}/filter/patient/{patientId}` - Get Doctor Dashboard Filtered by Patient
+
+#### **Reports Module**
+- `GET /api/reports/doctor/{doctorProfileId}/treatments-by-type` - Get treatments by type
+- `GET /api/reports/doctor/{doctorProfileId}/patients-by-month` - Get patients by month
+- `GET /api/reports/doctor/{doctorProfileId}/overview` - Get doctor reports
+- `GET /api/reports/doctor/{doctorProfileId}/appointments-by-day` - Get appointments by day
+
+#### **Health Check**
+- `GET /health` - Health check endpoint
+- `GET /` - Root endpoint
+
+#### **Características de la Documentación Swagger**
+
+- Esquema OpenAPI 3.0 completo
+- Pruebas interactivas de endpoints
+- Modelos de datos detallados (Schemas)
+- Ejemplos de requests/responses
+- Autenticación JWT integrada
+- Códigos de respuesta HTTP documentados
+- Parámetros de consulta y validaciones
+
+#### **Esquemas de Datos Disponibles**
+
+La documentación incluye esquemas completos para todos los objetos de transferencia de datos utilizados en la API, incluyendo UpdateTreatmentRequest, CreateAppointmentRequest, LoginRequest, RegisterRequest, y modelos de respuesta como TreatmentStatsResponse, DoctorReportsResponse, PatientStatistics, entre otros.
+
+La documentación Swagger asegura que todos los desarrolladores tengan acceso a especificaciones técnicas precisas y actualizadas de los 47 endpoints disponibles, facilitando el desarrollo frontend y la integración de terceros.
+
+En este caso, el back-end esta desplegado en: [https://oncontrol-backend.onrender.com/swagger-ui/index.html#](https://oncontrol-backend.onrender.com/swagger-ui/index.html#)
 
 <div id='5.2.1.8.'><h4>5.2.1.8 Team Collaboration Insights</h4></div>
-En este apartado se evidencia la colaboración y desarrollo conjunto de los componentes abarcados del producto.
 
-| Integrante | Tareas Asignadas |
-| ---------- | ---------------- |
-|Góngora Castillejos Williams | Startup Profile, NeedFinding |
-| Huapaya Cuevas Anthony       |Startup Profile, desarrollo UX/UI, Desarrollo de Landing page|
-|Huanaco Huayta Elizabeth | Startup Profile, desarrollo UX/UI, Desarrollo de Landing page|
-|Quiñones Quintaya, Johan | Startup Profile, desarrollo UX/UI, Desarrollo de Landing page |
-|Uribe Quispe Jesús | Arquitectura de software del producto, Documentación de implementación de producto, Desarrollo de Landing page |
+En este apartado se evidencia la colaboración y desarrollo conjunto de los componentes abarcados del producto durante el Sprint 1, donde cada integrante contribuyó significativamente al desarrollo integral de la solución OnControl.
+
+### **Distribución de Responsabilidades**
+
+| Integrante | Tareas y Contribuciones |
+| ---------- | ----------------------- |
+| **Góngora Castillejos Williams** | Desarrollo del backend con Spring Boot, implementación de pruebas unitarias e integrales, configuración de la base de datos MySQL, y contribución al Startup Profile y actividades de NeedFinding |
+| **Huapaya Cuevas Anthony** | Desarrollo del frontend con Next.js, implementación de interfaces de usuario, diseño de componentes React, integración con API RESTful, y contribución al desarrollo UX/UI y Landing Page |
+| **Huanaco Huayta Elizabeth** | Desarrollo del frontend móvil con Flutter, creación de mockups para aplicaciones nativas, implementación de interfaces móviles responsivas, y contribución al desarrollo UX/UI y Landing Page |
+| **Quiñones Quintaya, Johan** | Desarrollo completo del backend con Spring Boot, implementación de los 47 endpoints RESTful, configuración de seguridad JWT, integración con base de datos, y contribución al desarrollo UX/UI |
+| **Uribe Quispe Jesús** | Diseño de la arquitectura de software, documentación técnica completa del producto, implementación de la Landing Page, y coordinación de la integración entre frontend, backend y componentes móviles |
 
 <div align="center">
   <img src="./img/insights_tb1.png" alt="insights">
