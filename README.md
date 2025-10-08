@@ -1,4 +1,3 @@
-<div align="center">
 <h1 style="text-align: center;"> Informe del Trabajo Final </h1>
 <h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 
@@ -24,13 +23,10 @@ width=50%"/>
   
 |                Nombre                 |   Código   |
 | :-----------------------------------: | :--------: |
+|  Gongora Castillejos, Williams        | u20221c186 |
 | Quiñones Tintaya, Johan Jorge         | u202218183 |
 |  Huanaco Huayta, Elizabeth Lucero     | u20211g522 |
 |  Huapaya Cuevas, Anthony              | u202220235 |
-|  Gongora Castillejos, Williams        | u20221c186 |
-|  Huanaco Huayta, Elizabeth Lucero     | u20211g522 |
-|  Huapaya Cuevas, Anthony Martin       | u202220235 |
-|  Quiñones Tintaya, Johan Jorge        | u202218183 |
 |  Uribe Quispe, Jesús Guillermo        | u202221876 |
 
 
@@ -44,21 +40,18 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-----: | :---: | :---: | --------------------------- |
-|    a    |   a   |   a   | a                           |
+|    TB1    |   19/09/2025   |   Jesús Uribe Quispe   | Adición del contenido de startup profile, needfinding, user stories, UX/UI Design & Software configuration development                        |
 
 # Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto:
+URL del repositorio para el reporte del proyecto: [https://github.com/ControlUPC/report/](https://github.com/ControlUPC/report/)
 
 **TB1**
 
-<div align="center">
-  <img src="" alt="insights">
+<div align="">
+  <img src="./img/insights_tb1.png" alt="insights">
 </div>
 
-<div align="center">
-  <img src="" alt="insights">
-</div>
 
 Para el desarrollo del informe perteneciente a la entrega TF, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
@@ -81,6 +74,8 @@ Los integrantes son:
 - Huapaya Cuevas, Anthony Martin (AnthonyHuapaya)
 - Quiñones Quintaya, Johan Jorge (johaanq)
 - Uribe Quispe, Jesús Guillermo(JesusU27)
+
+# Contenido
 
 # Contenido
 
@@ -174,9 +169,28 @@ Los integrantes son:
    5.2.1.8. [Team Collaboration Insights.](#5.2.1.8.)<br>
    5.3. [Video About-the-Product.](#5.3.)<br>
 
-6. [Conclusiones](#6.)<br>
-7. [Bibliografía](#7.)<br>
-8. [Anexo](#8.)<br>
+6. [**Capítulo VI: Product Verification & Validation.**](#6.)<br>
+   6.1. [Testing Suites & Validation.](#6.1.)<br>
+   6.1.1. [Core Entities Unit Tests.](#6.1.1.)<br>
+   6.1.2. [Core Integration Tests.](#6.1.2.)<br>
+   6.1.3. [Core Behavior-Driven Development.](#6.1.3.)<br>
+   6.1.4. [Core System Tests.](#6.1.4.)<br>
+
+7. [**Capítulo VII: DevOps Practices.**](#7.)<br>
+   7.1. [Continuous Integration.](#7.1.)<br>
+   7.1.1. [Tools and Practices.](#7.1.1.)<br>
+   7.1.2. [Build & Test Suite Pipeline Components.](#7.1.2.)<br>
+   7.2. [Continuous Delivery.](#7.2.)<br>
+   7.2.1. [Tools and Practices.](#7.2.1.)<br>
+   7.2.2. [Stages Deployment Pipeline Components.](#7.2.2.)<br>
+   7.3. [Continuous Deployment.](#7.3.)<br>
+   7.3.1. [Tools and Practices.](#7.3.1.)<br>
+   7.3.2. [Production Deployment Pipeline Components.](#7.3.2.)<br>
+
+8. [Conclusiones](#8.)<br>
+9. [Bibliografía](#9.)<br>
+10. [Anexo](#10.)<br>
+
 
 # STUDENT OUTCOME
 
@@ -201,9 +215,15 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <strong>TB1:</strong> <p align="justify">La elaboración de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reflexionar sobre mi responsabilidad ética y profesional en el ámbito de la ingeniería de software. Estas actividades fueron clave para diseñar interfaces centradas en la experiencia del usuario, donde se priorizó la claridad, la accesibilidad y la facilidad de uso. Además, al desarrollar prototipos tanto para Android como para iOS, comprendí la relevancia de cumplir con los estándares de calidad y de adaptar la aplicación a las particularidades de cada plataforma. En conjunto, este proceso fortaleció mi compromiso con la creación de soluciones confiables y efectivas, teniendo siempre en cuenta el impacto que las decisiones de diseño generan en la vida de pacientes y profesionales de la salud. </p><br>
       <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Durante el desarrollo del proyecto, asumí la responsabilidad ética y profesional al diseñar la arquitectura de software, elaborando el diagrama de contenedores, de componentes, de clases y el modelo de bases de datos, asegurándome de que cada decisión fuera clara, documentada y trazable para facilitar la comprensión del equipo y garantizar la mantenibilidad del sistema. </p><br>
+      <strong>Gongora Castillejos, Williams</strong> <br>
+      <strong>TB1:</strong> <p align="justify">Durante el desarrollo de los capítulos 1 y 2, reconocí mi responsabilidad ética y profesional al definir claramente el Startup Profile, la problemática real y los segmentos objetivo, asegurando que la solución responda a necesidades genuinas de médicos y pacientes. Asimismo, en el análisis competitivo, entrevistas y construcción de artefactos de Needfinding, apliqué buenas prácticas de ingeniería de software, priorizando la transparencia, la privacidad de los datos y la utilidad social de la aplicación, lo que refleja un compromiso ético con los usuarios y la sociedad. </p><br>
+      <strong>Quiñones Tintaya, Johan Jorge</strong> <br>
+      <strong>TB1:</strong> <p align="justify"> En el desarrollo de los Wireframes, Wireflows, Mock-ups y User Flows de OnControl, reconocí la importancia de la responsabilidad ética y profesional en el diseño de soluciones dirigidas al sector salud. Durante este proceso, tomé decisiones orientadas a garantizar la seguridad de la información médica, la usabilidad para médicos y pacientes y la precisión en la representación de datos sensibles como historiales clínicos, tratamientos y síntomas. Este trabajo reflejó mi compromiso de que las interfaces no solo sean funcionales, sino que también respeten principios de confidencialidad, accesibilidad y confiabilidad, aspectos éticos esenciales en la ingeniería de software aplicada a contextos médicos. </p><br>
       </td>
       <td>
-        <!--conclusion -->
+        <p> <strong>TB1:</strong>
+        El desarrollo de interfaces y la construcción de la arquitectura del sistema permitieron reconocer la importancia de la responsabilidad ética y profesional en la ingeniería de software. Al priorizar la claridad, accesibilidad, usabilidad y estandarización en las decisiones de diseño y documentación, se consolidó el compromiso con la creación de soluciones confiables, adaptadas a las plataformas y sostenibles en el tiempo, siempre considerando el bienestar de pacientes y profesionales de la salud.
+        </p>
       </td>
     </tr>
     <tr>
@@ -215,9 +235,15 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <strong>TB1:</strong> <p align="justify">La creación de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reflexionar sobre el impacto que puede generar la aplicación. Durante el diseño de las vistas tuve en cuenta el efecto social, al fomentar una comunicación más fluida y accesible entre pacientes y doctores. También consideré la dimensión económica, al proponer una solución que optimiza la gestión de citas y tratamientos. Asimismo, valoré el alcance global al diseñar una interfaz adaptable a distintas plataformas. Este proceso me hizo comprender que las decisiones de diseño trascienden lo técnico, pues influyen directamente en la vida de los usuarios y en el entorno donde se implementa la solución. </p><br>
       <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Al preparar la documentación de implementación del producto, emití juicios informados considerando el impacto que las soluciones de software podrían tener en el contexto global, económico, ambiental y social. Esto me llevó a priorizar decisiones que promuevan la eficiencia en el uso de recursos, la escalabilidad y la accesibilidad del sistema, contribuyendo a un producto sostenible y con potencial de adaptarse a diferentes escenarios. </p><br>
+      <strong>Gongora Castillejos, Williams</strong> <br>
+      <strong>TB1:</strong> <p align="justify">En los capítulos 1 y 2 emití juicios informados al analizar la problemática oncológica en el Perú, considerando el impacto social de facilitar la comunicación entre médicos y pacientes, el potencial económico de un modelo de negocio sostenible, y la escalabilidad global hacia otras especialidades médicas. Además, evalué la importancia de la seguridad y privacidad de datos como un factor crítico con repercusiones éticas y sociales en el uso responsable de la tecnología. </p><br>
+      <strong>Quiñones Tintaya, Johan Jorge</strong> <br>
+      <strong>TB1:</strong> <p align="justify"> Al diseñar y documentar las interfaces de OnControl (wireframes, wireflows, mock-ups y user flows), emití juicios informados sobre cómo estas soluciones pueden impactar global y socialmente. Reconocí que una plataforma enfocada en oncología contribuye a mejorar el acceso a la salud digital, optimiza la gestión médica y reduce costos administrativos, lo cual tiene un impacto económico positivo en instituciones de salud. Asimismo, consideré que el diseño debía ser escalable y adaptable a distintos entornos, lo que abre la posibilidad de replicarse en contextos globales con similares necesidades. Además, busqué minimizar el uso excesivo de recursos físicos al digitalizar procesos antes manejados en papel, aportando indirectamente a un impacto ambiental positivo. </p><br>
       </td>
       <td>
-        <!-- conclusion -->
+        <p><strong>TB1:</strong>
+        La reflexión sobre los impactos globales, sociales, económicos y ambientales del software permitió emitir juicios informados que guían el desarrollo hacia la sostenibilidad y la eficiencia. Al diseñar interfaces accesibles, optimizar recursos y contemplar la escalabilidad, se comprendió que las soluciones de ingeniería no se limitan a lo técnico, sino que influyen directamente en la vida de los usuarios y en el contexto donde son implementadas.
+        </p>
       </td>
     </tr>
   </tbody>
@@ -795,22 +821,6 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
 
 
 <div id='3.2.'><h3>3.2. User Stories</h3></div>
-<style>
-  .table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  .th1, .td1 {
-    border: 1px solid black;
-    padding: 8px;
-  }
-  th.section {
-    background-color: #f2f2f2;
-    text-align: left;
-    font-weight: bold;
-  }
-</style>
-
 <table class="table">
   <tr>
     <th class="th1" style="width: 25%;">Story ID</th>
@@ -946,6 +956,7 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
     E02 – Recuperación por SMS: Dado que el usuario no recuerda su contraseña Cuando elige “Recuperar por SMS” Entonces el sistema envía un código de verificación al móvil.</td>
   </tr>
 </table>
+
 <table class="table">
   <tr>
     <th class="th1" style="width: 25%;">Story ID</th>
@@ -1044,297 +1055,194 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
     <td class="td1" colspan="4">E01 - Datos personales actualizados: Dado que el usuario entra a su perfil, Cuando seleccione la opción de cambiar datos personales e ingrese los nuevos. Entonces el sistema confirmará el cambio.</td>
   </tr>
 </table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
 
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US08</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">E003</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Buscar especialidad y médico para cita</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero seleccionar una especialidad y ver la lista de médicos disponibles (con foto y nombre) para poder elegir a quién agendarle una cita.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Filtrar médicos por especialidad<br> Cuando el paciente seleccione una especialidad <br> Y existan médicos registrados en esa especialidad <br> Entonces se mostrará la lista de médicos con foto y nombre.<br><br>
+  Escenario 2: No hay médicos disponibles<br>
+  Cuando el paciente seleccione una especialidad <br>
+  Y no existan médicos en esa especialidad <br>
+  Entonces se mostrará un mensaje de “No hay médicos disponibles”.<br><br>
 
-<table class="table">
-  <tr>
-    <th class="th1" style="width: 25%;">Story ID</th>
-    <th  class="th1" style="width: 35%;">User</th>
-    <th  class="th1" style="width: 35%;">Priority</th>
-    <th  class="th1" style="width: 25%;">Epic</th>
-  </tr>
-  <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Title</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(TITLE)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Description</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(DESCRIPTION)</td>
-  </tr>
-  <tr>
-    <th colspan="4" class="section th1">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td class="td1" colspan="4">(ACCEPTANCE CRITERIA)</td>
-  </tr>
-</table>
+  Escenario 3: Selección de médico<br>
+  Cuando el paciente toque la tarjeta de un médico <br>
+  Entonces se seleccionará ese médico y se podrá continuar al formulario de creación de cita.
+</td>
 
+</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US09</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">EP003</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Agendar una nueva cita médica</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero seleccionar el médico, la fecha, la hora y el motivo para crear una cita y guardarla en mi lista de citas.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear cita exitosa<br> Cuando el paciente complete los campos obligatorios (doctor, fecha, hora, motivo) <br> Y presione el botón “Create Appointment” <br> Entonces la cita será registrada y aparecerá en la pantalla “My Appointments”.<br><br>
+  Escenario 2: Campos obligatorios vacíos<br>
+  Cuando el paciente deje algún campo obligatorio vacío <br>
+  Y presione “Create Appointment” <br>
+  Entonces se mostrará un mensaje de error indicando que debe completar los campos.<br><br>
+
+  Escenario 3: Hora no disponible<br>
+  Cuando el paciente seleccione una hora que ya está ocupada para ese doctor <br>
+  Entonces se mostrará un mensaje “Hora no disponible” y no se permitirá crear la cita hasta elegir otra hora.
+</td>
+
+</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US10</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">EP003</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Visualizar mis citas agendadas</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero ver la lista de mis citas con el nombre del doctor, la fecha y la hora para llevar control de mis próximas consultas.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Mostrar citas registradas<br> Cuando el paciente tenga citas agendadas <br> Entonces se listarán en la pantalla “My Appointments” mostrando el nombre del doctor, la fecha y la hora.<br><br>
+  Escenario 2: No hay citas agendadas<br>
+  Cuando el paciente no tenga citas registradas <br>
+  Entonces se mostrará un mensaje de “No tienes citas agendadas”.<br><br>
+
+  Escenario 3: Ver detalles de cita<br>
+  Cuando el paciente toque una cita en la lista <br>
+  Entonces se abrirá una vista con los detalles completos de la cita (doctor, fecha, hora, motivo).
+</td>
+
+</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US11</td> <td class="td1">Como paciente</td> <td class="td1">MEDIUM</td> <td class="td1">EP003</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Visualizar tratamientos asignados</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero consultar mis tratamientos (prescripciones) con dosis y frecuencia para seguir las indicaciones del médico.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver tratamientos activos<br> Cuando el paciente acceda a “My Treatments” <br> Y existan tratamientos asignados <br> Entonces se mostrará la lista de tratamientos con medicamentos, dosis y frecuencia.<br><br>
+  Escenario 2: No hay tratamientos<br>
+  Cuando el paciente no tenga tratamientos asignados <br>
+  Entonces se mostrará un mensaje de “No tienes tratamientos asignados”.<br><br>
+
+  Escenario 3: Ver detalle de un tratamiento<br>
+  Cuando el paciente seleccione un tratamiento de la lista <br>
+  Entonces se mostrará la descripción completa del tratamiento y un botón “Go to my medications”.
+</td>
+
+</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US12</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">E003</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Visualizar mis medicamentos</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero ver la lista de mis medicamentos con hora, notas y secciones (Hoy, Última semana) para saber qué debo tomar y cuándo.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Mostrar medicamentos<br> Cuando el paciente tenga medicamentos registrados <br> Entonces se listarán agrupados por “Today” y “Last Week”, mostrando nombre y hora de cada medicamento.<br><br>
+  Escenario 2: No hay medicamentos<br>
+  Cuando el paciente no tenga medicamentos registrados <br>
+  Entonces se mostrará un mensaje de “No tienes medicamentos registrados”.<br><br>
+
+  Escenario 3: Ver detalle de medicamento<br>
+  Cuando el paciente seleccione un medicamento de la lista <br>
+  Entonces se mostrará la pantalla de detalle con fecha, notas y opción para agregar recordatorio.
+</td>
+
+</tr> </table> <br> <table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US13</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">E003</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Agregar recordatorio de medicamento</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero crear un recordatorio indicando nombre del medicamento, hora, días activos y notas para recibir alertas y no olvidar mis dosis.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear recordatorio exitoso<br> Cuando el paciente complete nombre, hora y al menos un día activo <br> Y presione “Save” <br> Entonces el recordatorio se guardará y aparecerá en la lista de recordatorios.<br><br>
+  Escenario 2: Campos obligatorios vacíos<br>
+  Cuando el paciente intente guardar sin completar nombre u hora <br>
+  Entonces se mostrará un mensaje de error indicando los campos obligatorios.<br><br>
+
+  Escenario 3: Selección de días<br>
+  Cuando el paciente toque los botones de días (Monday, Tuesday, ...) <br>
+  Entonces esos días quedarán marcados/desmarcados según la selección antes de guardar.
+</td>
+
+</tr> </table>
+
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US14</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">E004</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Acceder a la comunidad de pacientes</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero acceder a la comunidad de pacientes para leer y compartir publicaciones con otros usuarios.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver publicaciones<br> Cuando el paciente acceda a “Patients Community”<br> Entonces se mostrarán las publicaciones con autor, fecha, texto, imágenes y hashtags.<br><br>
+  Escenario 2: No hay publicaciones<br>
+  Cuando no existan publicaciones en la comunidad<br>
+  Entonces se mostrará un mensaje “Aún no hay publicaciones”.<br><br>
+
+  Escenario 3: Crear nueva publicación<br>
+  Cuando el paciente presione el botón “+”<br>
+  Entonces será dirigido a la pantalla de creación de publicación.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US15</td> <td class="td1">Como médico</td> <td class="td1">MEDIUM</td> <td class="td1">E004</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Crear una publicación en la comunidad</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero redactar una publicación con texto e imágenes para compartir información o experiencias en la comunidad.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Publicación exitosa<br> Cuando el médico escriba un texto válido<br> Y presione el botón “Post”<br> Entonces la publicación se guardará y aparecerá en la comunidad.<br><br>
+  Escenario 2: Publicación con imagen<br>
+  Cuando el médico agregue una imagen junto al texto<br>
+  Entonces la publicación mostrará la imagen en la comunidad.<br><br>
+
+  Escenario 3: Texto vacío<br>
+  Cuando el médico intente publicar sin texto<br>
+  Entonces se mostrará un mensaje de error indicando que debe escribir contenido.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US16</td> <td class="td1">Como médico</td> <td class="td1">MEDIUM</td> <td class="td1">E004</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Acceder a la comunidad de médicos</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero acceder a la comunidad de médicos para leer y compartir publicaciones solo entre profesionales de la salud.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver publicaciones<br> Cuando el médico acceda a “Doctors Community”<br> Entonces se mostrarán publicaciones de otros médicos con autor, fecha, texto e imágenes.<br><br>
+  Escenario 2: Crear publicación<br>
+  Cuando el médico presione el botón “+”<br>
+  Entonces podrá crear una publicación con texto e imágenes.<br><br>
+
+  Escenario 3: Acceso restringido<br>
+  Cuando un paciente intente acceder a la comunidad de médicos<br>
+  Entonces se mostrará un mensaje de “Acceso no permitido”.
+</td>
+
+</tr> </table>
+
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US17</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">E005</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar entradas en mi diario personal</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero documentar mis emociones y experiencias diarias en un diario personal para llevar seguimiento de mi estado mental.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear nueva entrada<br> Cuando el paciente ingrese un título, seleccione una emoción y escriba una nota<br> Y presione “Create Journal”<br> Entonces la entrada se guardará y aparecerá en “My Journal”.<br><br>
+  Escenario 2: Campos obligatorios vacíos<br>
+  Cuando el paciente intente guardar sin título o emoción seleccionada<br>
+  Entonces se mostrará un mensaje de error.<br><br>
+
+  Escenario 3: Consultar entradas<br>
+  Cuando el paciente acceda a “My Journal”<br>
+  Entonces se listarán todas las entradas previas ordenadas por fecha.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US18</td> <td class="td1">Como paciente</td> <td class="td1">HIGH</td> <td class="td1">E005</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar nivel de dolor en autoseguimiento</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero registrar mi nivel de dolor y una breve descripción para hacer seguimiento de mi evolución durante el tratamiento.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear entrada de dolor<br> Cuando el paciente seleccione un nivel de dolor del 1 al 10<br> Y escriba una descripción opcional<br> Y presione “Create Entry”<br> Entonces la entrada se guardará y aparecerá en “Autocontrol”.<br><br>
+  Escenario 2: Sin nivel de dolor<br>
+  Cuando el paciente intente guardar sin seleccionar un nivel de dolor<br>
+  Entonces se mostrará un mensaje de error indicando que debe seleccionarlo.<br><br>
+
+  Escenario 3: Consultar historial<br>
+  Cuando el paciente acceda a “Autocontrol”<br>
+  Entonces verá todas sus entradas previas con fecha y nivel de dolor.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US19</td> <td class="td1">Como paciente</td> <td class="td1">MEDIUM</td> <td class="td1">E005</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar comidas en mi diario de alimentación</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero registrar lo que consumo diariamente en un diario de alimentación para llevar control de mi dieta.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear nueva entrada de comida<br> Cuando el paciente ingrese el nombre del alimento<br> Y presione “Create Entry”<br> Entonces la comida se registrará en “Food Diary”.<br><br>
+  Escenario 2: Campo vacío<br>
+  Cuando el paciente intente guardar sin ingresar el nombre de la comida<br>
+  Entonces se mostrará un mensaje de error.<br><br>
+
+  Escenario 3: Consultar diario de alimentación<br>
+  Cuando el paciente acceda a “Food Diary”<br>
+  Entonces verá todas las entradas previas con fecha y lista de comidas registradas.
+</td>
+
+</tr> </table>
+
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US20</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1">E006</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Consultar lista de mis pacientes</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero visualizar una lista de mis pacientes para poder acceder rápidamente a su información médica y diagnósticos.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver listado de pacientes<br> Cuando el médico acceda a “My Patients”<br> Entonces verá la lista de pacientes asignados con nombre, foto y tipo de cáncer.<br><br>
+  Escenario 2: Pacientes inexistentes<br>
+  Cuando el médico no tenga pacientes registrados<br>
+  Entonces se mostrará un mensaje “No hay pacientes asignados”.<br><br>
+  
+  Escenario 3: Acceso al perfil del paciente<br>
+  Cuando el médico seleccione un paciente de la lista<br>
+  Entonces será redirigido al perfil del paciente.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US21</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1">E006</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Consultar perfil del paciente</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero consultar el perfil completo de un paciente con información personal y clínica relevante.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Acceso al perfil<br> Cuando el médico seleccione un paciente en “My Patients”<br> Entonces se mostrará su perfil con datos personales y clínicos (nombre, email, género, tipo de cáncer, ubicación).<br><br>
+  Escenario 2: Acceso a historial médico<br>
+  Cuando el médico seleccione la opción “Medical History”<br>
+  Entonces será redirigido a la vista de historial médico del paciente.<br><br>
+  
+  Escenario 3: Validación de datos<br>
+  Cuando el perfil no tenga información cargada<br>
+  Entonces se mostrará un mensaje “Datos no disponibles”.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US22</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1">E006</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Consultar historial médico de un paciente</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero visualizar el historial médico de un paciente para dar seguimiento a sus citas y tratamientos previos.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Ver historial<br> Cuando el médico acceda a la sección “Medical History”<br> Entonces verá una lista cronológica de entradas médicas con fecha y hora.<br><br>
+  Escenario 2: Historial vacío<br>
+  Cuando el paciente no tenga entradas médicas registradas<br>
+  Entonces se mostrará el mensaje “No hay registros médicos”.<br><br>
+  
+  Escenario 3: Acceso a nueva entrada<br>
+  Cuando el médico presione el botón “+”<br>
+  Entonces podrá crear una nueva entrada en el historial médico.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US23</td> <td class="td1">Como médico</td> <td class="td1">HIGH</td> <td class="td1">E006</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar nueva entrada en historial médico</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero crear una nueva entrada en el historial médico de un paciente para registrar detalles del tratamiento o evolución.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear entrada exitosa<br> Cuando el médico ingrese una descripción<br> Y presione “Create Entry”<br> Entonces la entrada se guardará y se añadirá al historial médico del paciente.<br><br>
+  Escenario 2: Campos vacíos<br>
+  Cuando el médico intente guardar sin descripción<br>
+  Entonces se mostrará un mensaje de error indicando que debe escribir información.<br><br>
+  
+  Escenario 3: Añadir tratamiento<br>
+  Cuando el médico seleccione la opción “Add a treatment”<br>
+  Entonces será redirigido a la pantalla de creación de tratamiento.
+</td>
+
+</tr> </table>
+<table class="table"> <tr> <th class="th1" style="width: 25%;">Story ID</th> <th class="th1" style="width: 35%;">User</th> <th class="th1" style="width: 35%;">Priority</th> <th class="th1" style="width: 25%;">Epic</th> </tr> <tr> <td class="td1">US24</td> <td class="td1">Como médico</td> <td class="td1">MEDIUM</td> <td class="td1">E006</td> </tr> <tr> <th colspan="4" class="section th1">Title</th> </tr> <tr> <td class="td1" colspan="4">Registrar un tratamiento médico</td> </tr> <tr> <th colspan="4" class="section th1">Description</th> </tr> <tr> <td class="td1" colspan="4">Quiero registrar un tratamiento médico con nombre y detalles para incluirlo en el historial del paciente.</td> </tr> <tr> <th colspan="4" class="section th1">Acceptance Criteria</th> </tr> <tr> <td class="td1" colspan="4"> Escenario 1: Crear tratamiento exitoso<br> Cuando el médico ingrese nombre y detalles del tratamiento<br> Y presione “Create Treatment”<br> Entonces el tratamiento se guardará y se vinculará al historial médico correspondiente.<br><br>
+  Escenario 2: Nombre vacío<br>
+  Cuando el médico intente guardar sin nombre de tratamiento<br>
+  Entonces se mostrará un mensaje de error.<br><br>
+  
+  Escenario 3: Tratamiento vinculado<br>
+  Cuando el tratamiento sea guardado<br>
+  Entonces aparecerá en la entrada médica donde fue añadido.
+</td>
+
+</tr> </table>
 <table class="table">
   <tr>
     <th class="th1" style="width: 25%;">Story ID</th>
@@ -1343,10 +1251,10 @@ En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno d
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">US XX</td>
+    <td class="td1">US 25</td>
     <td class="td1">Usuario general</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1382,10 +1290,10 @@ Y un subtítulo con la descripción del propósito de la aplicación.</td>
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US26</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1419,10 +1327,10 @@ Entonces debo ser redirigido automáticamente a la sección correspondiente dent
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US27</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1455,10 +1363,10 @@ Entonces debo ser redirigido a una página o enlace de descarga (App Store, Goog
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US28</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1493,10 +1401,10 @@ Y debo poder enviar un mensaje con mis datos.</td>
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US29</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1529,10 +1437,10 @@ Entonces debo visualizar al costado del texto principal una imagen ilustrativa q
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US30</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1566,10 +1474,10 @@ Entonces debo visualizar una lista de funcionalidades explicadas de manera clara
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US31</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00x</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1603,10 +1511,10 @@ Entonces debo visualizar un listado de ventajas presentadas en un formato claro 
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US32</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1640,10 +1548,10 @@ Entonces debo visualizar un texto explicativo sobre los desafíos actuales en el
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US33</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1677,10 +1585,10 @@ Entonces debo visualizar información sobre el equipo, la misión y visión del 
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">USXX</td>
+    <td class="td1">US34</td>
     <td class="td1">Usuario General</td>
     <td class="td1">MEDIUM</td>
-    <td class="td1">E00X</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1717,10 +1625,10 @@ Y cada testimonio debe estar acompañado del nombre o rol del testigo.</td>
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
+    <td class="td1">US35</td>
+    <td class="td1">Usuario general</td>
+    <td class="td1">LOW</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1756,10 +1664,10 @@ Y debo poder enviar el formulario exitosamente.</td>
     <th  class="th1" style="width: 25%;">Epic</th>
   </tr>
   <tr>
-    <td class="td1">(ID USER STORY)</td>
-    <td class="td1">(USER)</td>
-    <td class="td1">(PRIORITY)</td>
-    <td class="td1">(EPIC)</td>
+    <td class="td1">US36</td>
+    <td class="td1">Usuario General</td>
+    <td class="td1">LOW</td>
+    <td class="td1">E007</td>
   </tr>
   <tr>
     <th colspan="4" class="section th1">Title</th>
@@ -1786,6 +1694,273 @@ Entonces el menú superior debe permanecer fijo en la parte superior de la panta
 </table>
 
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Orden</th>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>US09</td>
+      <td>Agendar una nueva cita médica</td>
+      <td>Quiero seleccionar el médico, la fecha, la hora y el motivo para crear una cita.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>US22</td>
+      <td>Consultar historial médico de un paciente</td>
+      <td>Quiero visualizar el historial médico de un paciente con entradas médicas.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>US23</td>
+      <td>Registrar nueva entrada en historial médico</td>
+      <td>Quiero crear una nueva entrada en el historial médico con detalles del tratamiento.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>US08</td>
+      <td>Buscar especialidad y médico</td>
+      <td>Quiero seleccionar una especialidad y ver la lista de médicos disponibles.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>US10</td>
+      <td>Visualizar mis citas agendadas</td>
+      <td>Quiero ver la lista de mis citas con doctor, fecha y hora.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>US12</td>
+      <td>Visualizar mis medicamentos</td>
+      <td>Quiero ver la lista de mis medicamentos con horarios y notas.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>US13</td>
+      <td>Agregar recordatorio de medicamento</td>
+      <td>Quiero crear recordatorios con hora y días activos.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>US14</td>
+      <td>Acceder a la comunidad de pacientes</td>
+      <td>Quiero leer y compartir publicaciones con otros pacientes.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>US17</td>
+      <td>Registrar entradas en diario personal</td>
+      <td>Quiero documentar emociones y experiencias en un diario.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>US18</td>
+      <td>Registrar nivel de dolor</td>
+      <td>Quiero registrar mi nivel de dolor y descripción para seguimiento.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>US20</td>
+      <td>Consultar lista de mis pacientes</td>
+      <td>Quiero visualizar una lista de mis pacientes asignados.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>US21</td>
+      <td>Consultar perfil del paciente</td>
+      <td>Quiero consultar el perfil completo de un paciente.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>US24</td>
+      <td>Registrar un tratamiento médico</td>
+      <td>Quiero registrar un tratamiento con nombre y detalles.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>US11</td>
+      <td>Visualizar tratamientos asignados</td>
+      <td>Quiero consultar mis tratamientos con dosis y frecuencia.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>US15</td>
+      <td>Crear publicación en comunidad (médico)</td>
+      <td>Quiero redactar publicaciones con texto e imágenes.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>US16</td>
+      <td>Acceder a la comunidad de médicos</td>
+      <td>Quiero acceder a comunidad exclusiva de médicos.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>US19</td>
+      <td>Registrar comidas</td>
+      <td>Quiero registrar lo que consumo en un diario de alimentación.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>US25</td>
+      <td>Ver información principal en página inicial</td>
+      <td>Quiero ver un mensaje claro sobre el propósito de OnControl.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>US26</td>
+      <td>Navegar entre secciones</td>
+      <td>Quiero navegar a distintas secciones desde el menú superior.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>US27</td>
+      <td>Descargar la aplicación</td>
+      <td>Quiero poder descargar OnControl desde la landing page.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>US28</td>
+      <td>Contactar con el equipo</td>
+      <td>Quiero contactar al equipo de OnControl mediante formulario.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>US29</td>
+      <td>Visualizar imagen representativa</td>
+      <td>Quiero ver imágenes ilustrativas en la página inicial.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>US30</td>
+      <td>Conocer las características</td>
+      <td>Quiero ver la lista de funcionalidades principales.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>US31</td>
+      <td>Ver beneficios</td>
+      <td>Quiero ver los beneficios de usar OnControl.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>US32</td>
+      <td>Conocer la problemática</td>
+      <td>Quiero entender la problemática que resuelve OnControl.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>US33</td>
+      <td>Sección "Acerca de"</td>
+      <td>Quiero leer la misión y visión de OnControl.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>US34</td>
+      <td>Leer testimonios</td>
+      <td>Quiero leer testimonios de pacientes y médicos.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>US35</td>
+      <td>Acceder a sección de contacto</td>
+      <td>Quiero ver un formulario o información de contacto.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>US36</td>
+      <td>Navegación fija</td>
+      <td>Quiero que el menú superior esté siempre visible.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>US005</td>
+      <td>Cambio de número telefónico</td>
+      <td>Quiero actualizar mi número de teléfono para notificaciones.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>US006</td>
+      <td>Cambio de contraseña</td>
+      <td>Quiero cambiar mi contraseña para mayor seguridad.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>US007</td>
+      <td>Cambio de datos personales</td>
+      <td>Quiero actualizar mis datos personales en la plataforma.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>US001</td>
+      <td>Registrar cuenta</td>
+      <td>Quiero registrarme para acceder a la aplicación.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>US002</td>
+      <td>Iniciar sesión</td>
+      <td>Quiero iniciar sesión para acceder a la app.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>US003</td>
+      <td>Cerrar sesión</td>
+      <td>Quiero cerrar mi sesión para proteger mi cuenta.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>US004</td>
+      <td>Recuperar cuenta</td>
+      <td>Quiero recuperar mi cuenta en caso de olvidar credenciales.</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 <div id='3.4.'><h3>3.4. Impact Mapping</h3></div>
@@ -2937,19 +3112,152 @@ Este flujo permite a los médicos registrar, actualizar y consultar la historia 
 
 <div id='4.6.'><h3>4.6. Web Applications UX/UI Design</h3></div>
 <div id='4.6.1.'><h4>4.6.1. Web Applications Wireframes</h4></div>
-<div id='4.6.2.'><h4>4.6.2. Web Applications Wireflow Diagrams</h4></div>
-<div id='4.6.3.'><h4>4.6.3. Web Applications Mock-ups</h4></div>
-<div id='4.6.4.'><h4>4.6.4. Web Applications User Flow Diagrams</h4></div>
+
+Los wireframes de la aplicación web de OnControl definen la estructura fundamental y distribución de componentes de la interfaz, estableciendo la arquitectura de información y flujos de usuario mediante diseños esquemáticos que priorizan la funcionalidad sobre la estética, organizando elementos críticos como el dashboard de pacientes con métricas clave, el calendario de citas médicas con vistas semanales y mensuales, los formularios de registro de síntomas y tratamientos, y los paneles de historial médico en una disposición lógica que optimiza la eficiencia del trabajo clínico y garantiza que los profesionales de la oncología puedan acceder y gestionar la información vital con navegación intuitiva y mínima fricción operativa.
+
+**Register**
+
+<img src="img/wireframes-web/Web Register Wireframe.png" alt="Register Wireframe" width=1000px>
+
+**Login**
+
+<img src="img/wireframes-web/Web Inicio Sesion Wireframe.png" alt="Login Wireframe" width=1000px>
+
+**Dashboard**
+
+<img src="img/wireframes-web/Web Dashboard Wireframe.png" alt="Dashboard Wireframe" width=1000px>
+
+**Pacientes**
+
+<img src="img/wireframes-web/Web Pacientes Wireframe.png" alt="Pacientes Wireframe" width=1000px>
+
+**Reportes**
+
+<img src="img/wireframes-web/Web Reportes Wireframes.png" alt="Reportes Wireframe" width=1000px>
+
+**Tratamientos**
+
+<img src="img/wireframes-web/Web Tratamientos Wireframe.png" alt="Tratamientos Wireframe" width=1000px>
+
+<div id='4.6.3.'><h4>4.6.2. Web Applications Mock-ups</h4></div>
+
+Los mock-ups de la aplicación web de OnControl representan la materialización visual de los principios de diseño establecidos en las guías de estilo, presentando una interfaz limpia y profesional orientada a la usabilidad médica, donde se prioriza la claridad en la visualización de información crítica como historiales de pacientes, calendario de citas y seguimiento de tratamientos, mediante un sistema de componentes cohesivo que mantiene la consistencia visual en todos los módulos —dashboard médico, gestión de pacientes, agenda de citas y panel de reportes— asegurando una experiencia intuitiva tanto para oncólogos como para personal médico que requiere acceso rápido a datos clínicos fundamentales para la toma de decisiones.
+
+**Login**
+
+<img src="img/mockups-web/login.png" alt="Login Mockup" width=1000px>
+
+**Register**
+
+<img src="img/mockups-web/register.png" alt="Register Mockup" width=1000px>
+
+**Paciente pages**
+
+<img src="img/mockups-web/paciente-perfil.png" alt="paciente-perfil" width=1000px>
+
+<img src="img/mockups-web/paciente-dashboard.png" alt="paciente-dashboard" width=1000px>
+
+<img src="img/mockups-web/paciente-citas.png" alt="paciente-citas" width=1000px>
+<img src="img/mockups-web/paciente-nueva-cita.png" alt="paciente-nueva-cita" width=1000px>
+
+<img src="img/mockups-web/paciente-sintomas.png" alt="paciente-sintomas" width=1000px>
+<img src="img/mockups-web/paciente-reportar-sintoma.png" alt="paciente-reportar-sintoma" width=1000px>
+
+<img src="img/mockups-web/paciente-medicamentos.png" alt="paciente-medicamento" width=1000px>
+
+<img src="img/mockups-web/paciente-notificaciones.png" alt="paciente-notificaciones" width=1000px>
+
+<img src="img/mockups-web/paciente-historial.png" alt="paciente-historial" width=1000px>
+
+<img src="img/mockups-web/paciente-tratamiento.png" alt="paciente-tratamiento" width=1000px>
+
+**Medico pages**
+
+<img src="img/mockups-web/medico-perfil.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-dashboard.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-pacientes.png" alt="" width=1000px>
+<img src="img/mockups-web/medico-nuevo-paciente.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-calendario.png" alt="" width=1000px>
+<img src="img/mockups-web/medico-nueva-cita.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-tratamientos.png" alt="" width=1000px>
+<img src="img/mockups-web/medico-nuevo-tratamiento.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-notificaciones.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-reportes.png" alt="" width=1000px>
+
+
+<div id='4.6.4.'><h4>4.6.3. Web Applications User Flow Diagrams</h4></div>
+
+**User Goal: Registrarse e iniciar sesión**
+
+Este flujo describe cómo un usuario (médico o paciente) accede a la aplicación. El flujo inicia en la pantalla de login, donde el usuario debe ingresar sus credenciales.
+- Happy path: Si las credenciales son correctas, el sistema valida e ingresa al Dashboard correspondiente (médico o paciente).
+-  Unhappy path: Si los datos no son válidos, se muestra un mensaje de error y se solicita reintento. También se contempla la opción de registrar un nuevo usuario en caso de no tener cuenta.
+
+<img src="img/user-goals/User goal_Registrarse e iniciar sesión.jpg" alt="Registrarse e iniciar sesión" width=1000px>
+
+**User Goal: Ver reportes de mis pacientes**
+
+Este flujo está orientado al médico que desea acceder a los reportes consolidados. Desde el Dashboard Médico selecciona la opción de reportes.
+- Happy path: Si decide ver un reporte, puede aplicar filtros y acceder a gráficos y métricas de sus pacientes.
+- Unhappy path: Si no requiere reportes en ese momento, el flujo finaliza y el médico regresa a su Dashboard.
+
+<img src="img/user-goals/User goal_Ver reportes de mis pacientes.jpg" alt="Ver reportes de mis pacientes" width=1000px>
+
+**User Goal: Registrar nuevo paciente**
+
+El flujo comienza en el Dashboard Médico, desde donde se accede a la gestión de pacientes.
+- Happy path: El médico selecciona nuevo paciente, completa el formulario con información requerida y guarda, obteniendo confirmación de registro.
+- Unhappy path: Si los datos están incompletos o inválidos, el sistema muestra un mensaje de error y solicita corrección.
+
+<img src="img/user-goals/User goal_Registrar nuevo paciente.jpg" alt="Registrar nuevo paciente" width=1000px>
+
+**User Goal: Crear y ver citas agendadas**
+Este flujo permite al médico organizar las citas de sus pacientes.
+- Happy path: Desde el Dashboard Médico accede al calendario, selecciona una fecha y hora, programa la cita y obtiene confirmación. Las citas quedan visibles en el calendario.
+- Unhappy path: Si el horario está ocupado o los datos son inválidos, el sistema notifica el error y pide reprogramación.
+
+<img src="img/user-goals/User goal_Crear y ver citas agendadas.jpg" alt="Crear y ver citas agendadas" width=1000px>
+
+**User Goal: Registrar y Agendar nueva cita**
+
+Este flujo combina el registro de paciente con la programación de una cita.
+- Happy path: El médico ingresa a la gestión de pacientes, registra a un nuevo paciente y de inmediato agenda su cita en el calendario. Se genera confirmación y notificación.
+- Unhappy path: Si hay error en el registro o en la programación (ej. horario ocupado), el sistema alerta y solicita corrección.
+
+<img src="img/user-goals//User goal_Registrar y Agendar nuevo cita.jpg" alt="Registrar y Agendar nuevo cita" width=1000px>
+
+**User Goal: Registrar síntoma (paciente)**
+
+Este flujo está diseñado para el paciente. Desde el Dashboard Paciente, accede a la opción de síntomas.
+- Happy path: Completa el formulario, selecciona el tipo de síntoma, intensidad y frecuencia, y guarda. El síntoma queda registrado en el historial.
+- Unhappy path: Si no completa la información o selecciona datos inválidos, el sistema alerta al paciente para que corrija antes de guardar.
+
+<img src="img/user-goals/User goal_Registrar Sintoma.jpg" alt="Registrar síntoma" width=1000px>
 
 <div id='4.7.'><h3>4.7. Web Applications Prototyping</h3></div>
 
+<img src="img/prototyping-web.png" alt="Prototyping web" width=1000px>
+
+*Enlace del video:* https://drive.google.com/file/d/15SJY29n_yAYg7pox_Fyss1j0h5ETidr4/view?usp=sharing
+
 <div id='4.8.'><h3>4.8. Domain-Driven Software Architecture</h3></div>
 <div id='4.8.1.'><h4>4.8.1. Software Architecture Context Diagram</h4></div>
+
+El diagrama de contexto de OnControl define las fronteras del sistema ilustrando las interacciones entre los actores principales -el Doctor Oncólogo y el Paciente- y los sistemas externos con los que se integra, como "Recurrence" para el registro y login de terceros y "Phone service" para la gestión de contactos y llamadas, estableciendo claramente el ecosistema en el que opera la plataforma de gestión oncológica.
+
 <div align="center">
 <img src="./img/soft_arq0.png">
 </div>
 
 <div id='4.8.2.'><h4>4.8.2. Software Architecture Container Diagrams</h4></div>
+
+El diagrama de contenedores de OnControl describe la estructura interna de la aplicación, detallando los principales componentes tecnológicos que la conforman: la Landing Page como punto de contacto inicial, la Aplicación Web y Móvil que constituye el núcleo de la experiencia de usuario, la API RESTful que centraliza la lógica de negocio y la Base de Datos para la persistencia de información, complementándose con sistemas externos como Google Login para la autenticación y Phone Service para la gestión de comunicaciones, todos interconectados para ofrecer una plataforma integral de gestión oncológica.
 
 <div align="center">
 <img src="./img/soft_arq.png">
@@ -2957,16 +3265,105 @@ Este flujo permite a los médicos registrar, actualizar y consultar la historia 
 
 <div id='4.8.3.'><h4>4.8.3. Software Architecture Components Diagrams</h4></div>
 
+El diagrama de componentes de OnControl describe la arquitectura interna basada en microservicios que conforman el sistema de salud, donde cada servicio especializado -Treatment Service para planes terapéuticos, Medication Service para prescripciones, Appointment Service para gestión de citas, Journal Service para seguimiento emocional, Patient Service para historiales médicos, Doctor Service para información de especialistas y Profile Service para gestión de usuarios- opera de manera independiente pero coordinada, interactuando mediante APIs bien definidas y validaciones cruzadas para garantizar la integridad de los datos médicos y la consistencia del sistema integral de gestión oncológica
+
 <div align="center">
-<img src="" alt="components">
+<img src="./img/struct-comp.png" alt="components">
 </div>
 
 <div id='4.9.'><h3>4.9. Software Object-Oriented Design</h3></div>
 <div id='4.9.1.'><h4>4.9.1. Class Diagrams</h4></div>
+
+El diagrama de clases de OnControl representa la arquitectura central del sistema de gestión oncológica, diseñado bajo los principios de Domain-Driven Design (DDD) y Clean Architecture, donde las entidades fundamentales como Patient, Doctor y Treatment funcionan como agregados raíz que orchestan las operaciones del dominio, mientras que los servicios de aplicación facilitan la coordinación entre estas entidades y los repositorios abstractan la capa de persistencia, creando un ecosistema cohesivo que modela fielmente los procesos médicos oncológicos y asegura la separación de concerns mediante una estructura escalable y mantenible.
+
+<div align="center">
+<img src="./img/class_diagram.png" alt="components">
+</div>
 <div id='4.9.2.'><h4>4.9.2. Class Dictionary</h4></div>
+
+##### **Clase: TipoUsuario**
+| Nombre | Tipo | Descripción |
+|--------|------|-------------|
+| `E` | Enumeración | Indica el tipo de enumeración para clasificar usuarios |
+| `PACIENTE` | Valor Enum | Tipo de usuario paciente |
+| `MEDICO` | Valor Enum | Tipo de usuario médico |
+
+
+##### **Clase: Usuario**
+| Nombre | Tipo | Descripción |
+|--------|------|-------------|
+| `id` | Atributo (UUID) | Identificador único del usuario |
+| `nombre` | Atributo (String) | Nombre del usuario |
+| `apellido` | Atributo (String) | Apellido del usuario |
+| `email` | Atributo (String) | Correo electrónico del usuario |
+| `contrasena` | Atributo (String) | Contraseña encriptada del usuario |
+| `numeroTelefono` | Atributo (String) | Número de teléfono del usuario |
+| `fechaRegistro` | Atributo (DateTime) | Fecha y hora de registro en el sistema |
+| `cambiarContrasena()` | Método | Permite al usuario cambiar su contraseña actual |
+| `cambiarEmail()` | Método | Permite al usuario actualizar su correo electrónico |
+| `cambiarNumero()` | Método | Permite al usuario modificar su número de teléfono |
+| `asignarRol()` | Método | Asigna un tipo de usuario (PACIENTE/MEDICO) |
+
+
+##### **Clase: Medico**
+| Nombre | Tipo | Descripción |
+|--------|------|-------------|
+| `id` | Atributo (UUID) | Identificador único del médico |
+| `especializacion` | Atributo (String) | Especialidad médica del doctor |
+| `registrarPaciente()` | Método | Registra un nuevo paciente en el sistema |
+| `revisarHistorialPaciente()` | Método | Consulta el historial médico de un paciente |
+| `asignarMedicamento()` | Método | Prescribe medicamentos a un paciente |
+| `asignarTratamiento()` | Método | Asigna un plan de tratamiento |
+| `asignarProcedimiento()` | Método | Programa procedimientos médicos |
+
+
+##### **Clase: Paciente**
+| Nombre | Tipo | Descripción |
+|--------|------|-------------|
+| `id` | Atributo (UUID) | Identificador único del paciente |
+| `revisarHistorial()` | Método | Permite al paciente consultar su historial médico |
+| `agregarMedicamento()` | Método | Registra medicamentos tomados por el paciente |
+
+
+##### **Clase: HistorialMedico**
+| Nombre | Tipo | Descripción |
+|--------|------|-------------|
+| `id` | Atributo (UUID) | Identificador único del historial |
+| `añadirEntrada()` | Método | Agrega una nueva entrada al historial médico |
+| `listarEntradas()` | Método | Obtiene lista de todas las entradas del historial |
+
+
+#### **Relaciones entre Clases**
+
+##### **Usuario → TipoUsuario**
+- **Relación**: Asociación
+- **Cardinalidad**: 1:1
+- **Descripción**: Cada usuario tiene asignado un tipo específico
+
+##### **Usuario → Medico**
+- **Relación**: Herencia/Especialización
+- **Cardinalidad**: 1:1 (opcional)
+- **Descripción**: Un usuario puede especializarse como médico
+
+##### **Usuario → Paciente**
+- **Relación**: Herencia/Especialización  
+- **Cardinalidad**: 1:1 (opcional)
+- **Descripción**: Un usuario puede especializarse como paciente
+
+##### **Paciente → HistorialMedico**
+- **Relación**: Composición
+- **Cardinalidad**: 1:1
+- **Descripción**: Cada paciente tiene un historial médico asociado
+
 
 <div id='4.10.'><h3>4.10. Database Design</h3></div>
 <div id='4.10.1.'><h4>4.10.1. Relational/Non-Relational Database Diagram</h4></div>
+
+El diagrama de base de datos relacional de OnControl presenta un esquema normalizado centrado en la entidad USERS como núcleo principal, desde donde se derivan las especializaciones PATIENTS y DOCTORS mediante relaciones uno-a-uno, complementado con tablas transaccionales como APPOINTMENTS que conecta pacientes con doctores, TREATMENTS y MEDICATIONS para la gestión terapéutica, MEDICAL_RECORDS para el historial clínico, PATIENT_JOURNALS y PATIENT_AUTOCONTROL para el seguimiento emocional y de síntomas, junto con tablas de soporte como SPECIALTIES, DOCTOR_AVAILABILITY y REVIEWS, formando una estructura integral que soporta todos los flujos de atención oncológica mientras mantiene la integridad referencial y la consistencia de los datos médicos críticos.
+
+<div align="center">
+<img src="./img/diagram_db.png" alt="components">
+</div>
 
 <div id='5.'><h2>5. Capítulo V: Product Implementation</h2></div>
 
@@ -2975,25 +3372,25 @@ Este flujo permite a los médicos registrar, actualizar y consultar la historia 
 
 #### Product UX/UI Design
 
-- Uxpressia: Herramienta en línea para mapeo de trayectoria del cliente, creación de mapas de impacto y personas.  
+- Uxpressia: Herramienta en línea para mapeo de trayectoria del cliente, creación de mapas de impacto y personas. [link](https://uxpressia.com/)
 
 - Figma: Herramienta en línea para diseño UX / UI para las aplicaciones brindadas al usuario final.  
-[link]()
+[link](https://www.figma.com/)
 
 - Structurizr: Herramienta de diseño que soporta el modelo C4 para visualizar arquitecturas de software.  
 [https://structurizr.com/](https://structurizr.com/)
 
 - Lucid Chart: Herramienta en línea para diagramar la estructura de base de datos y proyectos.
-[link]()
+[link](https://www.lucidchart.com/pages/es?gad_campaignid=1501207859&gad_source=1&km_CPC_AdGroupID=63362175812&km_CPC_CampaignId=1501207859&km_CPC_Country=1011114&km_CPC_Creative=286841060342&km_CPC_Device=c&km_CPC_Keyword=lucid%20chart&km_CPC_MatchType=e&km_CPC_Network=g&km_CPC_TargetID=kwd-55720648523&utm_campaign=_chart_es_tier2_mixed_search_brand_exact_&utm_medium=cpc&utm_source=google&_gl=1*164xugu*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjw267GBhCSARIsAOjVJ4HZUbe-aEx7rt1Qlt4757jgQZK1SLAAaXy3B0UT0B7CNfdu0BmC0AgaArN1EALw_wcB&gbraid=0AAAAADLdSjAFcPvM5paFQtu9EIsjkg-0k)
 - MIRO: Pizarra digital colaborativa en línea para diversas actividades colaborativas y lluvia de ideas.  
-[link]()
+[link](https://miro.com/es/)
 
 #### Software Development
 
 Estructura aplicada al desarrollo de un producto de software.
 
 - Git: Control de versión para proyectos.
-[link]()
+[link](https://git-scm.com/)
 
 - Github: Repositorio comunitario para almacenar avances de proyectos colaborativos.  
 [https://github.com/ControlUPC](https://github.com/ControlUPC)
@@ -3008,10 +3405,10 @@ Estructura aplicada al desarrollo de un producto de software.
 [https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion](https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion)
 
 - Flutter: Lenguaje de programación principal para aplicaciones móviles cross platform, utilizada para desarrollar la aplicación hacia los pacientes.
-[link]()
+[link](https://flutter.dev/)
 
 - Java + Spring Boot: Lenguaje de programación y Framework de desarrollo para la creación de aplicaciones web, servicios web y microservicios respectivamente.
-[link]()
+[link](https://spring.io/projects/spring-boot)
 
 **Sustentación:** 
 
@@ -3032,9 +3429,9 @@ Estructura aplicada al desarrollo de un producto de software.
 
 Enlaces a repositorios del software desarrollado:
 
-- **Landing Page:** 
-- **Aplicación móvil:**
-- **Aplicación Web:**
+- **Landing Page:** [https://github.com/ControlUPC/LandingPage](https://github.com/ControlUPC/LandingPage)
+- **Aplicación móvil:** [https://github.com/ControlUPC/OnControlMobile](https://github.com/ControlUPC/OnControlMobile)
+- **Aplicación Web:** [https://github.com/ControlUPC/OnControlWeb](https://github.com/ControlUPC/OnControlWeb)
 
 #### Git Flow:
 
@@ -3061,11 +3458,7 @@ Ramas temporales y que son eliminadas luego de cumplir su función.
 
 <div id='5.1.3.'><h4>5.1.3. Source Code Style Guide & Conventions</h4></div>
 
-# 6.1.3. Source Code Style Guide & Conventions
-
-Este documento define las convenciones de estilo y buenas prácticas a seguir en el desarrollo de software dentro del proyecto. Su objetivo es garantizar **legibilidad, consistencia y mantenibilidad** del código entre equipos.  
-
----
+Esta sección define las convenciones de estilo y buenas prácticas a seguir en el desarrollo de software dentro del proyecto. Su objetivo es garantizar **legibilidad, consistencia y mantenibilidad** del código entre equipos.  
 
 #### Nomenclatura General
 - Todo el código debe escribirse en **inglés** (variables, funciones, clases, archivos).
@@ -3251,254 +3644,1002 @@ CREATE TABLE user (
 ```
 
 
-
-
-
 <div id='5.1.4.'><h4>5.1.4. Software Deployment Configuration</h4></div>
 
-#### Deployment Documentation
+Esta seccion describe la estrategia de despliegue del sistema, indicando las tecnologías, servicios de nube y entornos de hosting a utilizar para garantizar disponibilidad, escalabilidad y facilidad de mantenimiento.  
 
-Este documento describe la estrategia de despliegue del sistema, indicando las tecnologías, servicios de nube y entornos de hosting a utilizar para garantizar disponibilidad, escalabilidad y facilidad de mantenimiento.  
+### **Despliegue de Landing Page**
 
----
+**Configuración de GitHub Pages:**
+- **Paso 1: Acceder a la Configuración**
+  - Navega a tu repositorio en GitHub
+  - Haz clic en la pestaña "Settings" (Configuración)
+  - Desplázate hacia abajo hasta la sección "Pages" en el menú lateral
 
-#### Frontend (Vue.js)
+- **Paso 2: Seleccionar la Fuente**
+  En la sección "Source" (Fuente):
+  - **Opción A:** Deploy from a branch
+    - **Branch:** Selecciona la rama (generalmente main o gh-pages)
+    - **Folder:** Elige / (root) o /docs según tu estructura
+    - Es la opción más común y sencilla
 
-- **Framework:** Vue 3 con Vite  
-- **Hosting:** [Netlify](https://www.netlify.com/)  
-- **Proceso de despliegue:**
-  1. El código fuente del frontend se encuentra en un repositorio de GitHub.
-  2. Netlify se integra con GitHub para realizar despliegues automáticos en cada `push` a la rama principal (`main` o `master`).
-  3. Se configura el **build command**:
-     ```bash
-     npm run build
-     ```
-  4. Se especifica la carpeta de salida (`dist/`) como directorio de publicación.
-  5. Se habilita HTTPS automáticamente mediante certificados SSL.
+**Link de despliegue de landing page:** [https://controlupc.github.io/LandingPage/](https://controlupc.github.io/LandingPage/)
 
-- **Beneficios:**
-  - CI/CD integrado con GitHub.
-  - Entorno optimizado para SPA (Single Page Applications).
-  - Escalabilidad y CDN global.
+<div align="center">
+<img src="./img/deploy_landing.png">
+</div>
 
----
+### **Despliegue del Frontend (Vercel)**
 
-#### Backend (Java 17 - Spring Boot)
+**Configuración en Vercel:**
+- **Paso 1: Conectar Repositorio**
+  - Inicia sesión en Vercel y haz clic en "Add New Project"
+  - Conecta tu cuenta de GitHub y selecciona el repositorio ControlUPC/OnControl
+  - Autoriza los permisos necesarios
 
-- **Lenguaje y Framework:** Java 17 con Spring Boot  
-- **Hosting:** Azure Web Services (App Service o Azure Spring Apps)  
-- **Base de Datos:** Azure MySQL Database Service  
+- **Paso 2: Configurar el Proyecto**
+  - **Framework Preset:** Next.js (se detecta automáticamente)
+  - **Build Command:** `npm run build` o `yarn build`
+  - **Output Directory:** `.next`
+  - **Install Command:** `npm install` o `yarn install`
 
-- **Proceso de despliegue:**
-  1. El backend se empaqueta como un archivo **JAR** o **WAR** usando Maven.
-     ```bash
-     mvn clean package
-     ```
-  2. Se despliega el artefacto en **Azure App Service** o **Azure Spring Apps**.
-  3. Se configuran **variables de entorno** en Azure:
-     - `SPRING_DATASOURCE_URL`
-     - `SPRING_DATASOURCE_USERNAME`
-     - `SPRING_DATASOURCE_PASSWORD`
-     - `SPRING_PROFILES_ACTIVE`
-  4. Se habilita escalado automático y logging desde Azure Portal.
-  5. La API se expone mediante HTTPS con dominio personalizado (opcional).
+- **Paso 3: Variables de Entorno**
+  - Agrega las variables de entorno necesarias:
+    - `NEXT_PUBLIC_API_URL`: URL de tu backend desplegado
+    - `NEXT_PUBLIC_APP_ENV`: production
 
----
+**Link de despliegue del frontend:** [https://oncontrol.vercel.app/](https://on-control.vercel.app/auth/login)
 
-#### Base de Datos (MySQL)
+![DeploymentFront](https://github.com/user-attachments/assets/1a8f0061-83ed-4d26-a321-069808cde3e3)
 
-- **Motor:** MySQL 8.x  
-- **Servicio:** Azure Database for MySQL Flexible Server  
+### **Despliegue del Backend (Render)**
+
+**Configuración en Render:**
+- **Paso 1: Crear Servicio Web**
+  - Selecciona "New Web Service" in Render
+  - Conecta el repositorio ControlUPC/oncontrol-backend
+  - Configura el servicio como servicio web
+
+- **Paso 2: Configuración del Build**
+  - **Runtime:** Java
+  - **Build Command:** `./mvnw clean package -DskipTests`
+  - **Start Command:** `java -jar target/oncontrol-backend-1.0.0.jar`
+  - **Plan:** Free o según requerimientos
+
+- **Paso 3: Variables de Entorno**
+  - `SPRING_PROFILES_ACTIVE`: production
+  - `SPRING_DATASOURCE_URL`: URL de base de datos MySQL
+  - `JWT_SECRET`: Clave secreta para JWT
+  - `SERVER_PORT`: 8080
+
+**Link de despliegue del backend:** [https://oncontrol-backend.onrender.com/](https://oncontrol-backend.onrender.com/)
+
+![DeployBack](https://github.com/user-attachments/assets/93a47f72-4a18-46b0-be63-111a1f0cfab7)
+
+### **Base de Datos (MySQL)**
+
+**Configuración en Render:**
+- **Servicio:** MySQL Database en Render
 - **Configuración:**
-  - Creación de servidor de base de datos en Azure.
-  - Definición de un **usuario administrador** con credenciales seguras.
-  - Configuración de reglas de firewall para permitir conexiones desde:
-    - App Service (Backend)
-    - IP de desarrolladores autorizados
-  - Habilitar TLS para conexiones seguras.
+  - Creación de base de datos MySQL en Render
+  - Definición de usuario administrador con credenciales seguras
+  - Configuración automática de conexión SSL/TLS
+  - Backup automático y mantenimiento
 
-- **Migraciones:**
-  - Se recomienda el uso de herramientas como **Flyway** o **Liquibase** para mantener control de versiones en el esquema de la base de datos.
+### **Resumen de Despliegues**
 
----
-
-#### Landing Page
-
-- **Tecnología:** HTML, CSS y JS estáticos  
-- **Hosting:** GitHub Pages  
-- **Proceso de despliegue:**
-  1. En GitHub, se habilita **Pages** desde la configuración del repositorio y se selecciona una rama.
-  3. GitHub Pages servirá los archivos estáticos automáticamente.
-  4. Se configura un dominio personalizado (opcional).
-
-- **Objetivo:**
-  - Proporcionar una **página informativa** (landing) para usuarios finales.
-  - Redirigir al frontend desplegado en Netlify.
-
----
-
-#### Resumen de Despliegues
-
-| Componente      | Tecnología     | Hosting / Servicio        | Características Clave |
-|-----------------|----------------|---------------------------|-----------------------|
-| Frontend        | Vue 3 + Vite   | Netlify                  | CI/CD, CDN, HTTPS     |
-| Backend         | Java 17 + Spring Boot | Azure Web Services | Variables de entorno, escalado automático |
-| Base de Datos   | MySQL 8.x      | Azure Database for MySQL  | TLS, firewall, migraciones con Flyway/Liquibase |
-| Landing Page    | HTML + CSS + JS| GitHub Pages              | Hosting estático gratuito, dominio opcional |
-
----
-
+| Componente      | Tecnología          | Hosting / Servicio | Características Clave |
+|-----------------|---------------------|-------------------|-----------------------|
+| Frontend        | Next.js + TypeScript| Vercel            | CI/CD automático, CDN global, HTTPS |
+| Backend         | Java 17 + Spring Boot | Render          | Auto-scaling, variables de entorno, logs integrados |
+| Base de Datos   | MySQL 8.x           | Render Database   | TLS, backups automáticos, alta disponibilidad |
+| Landing Page    | HTML + CSS + JS     | GitHub Pages      | Hosting estático gratuito, despliegue continuo |
 
 <div id='5.2.'><h3>5.2. Product Implementation & Deployment</h3></div>
 <div id='5.2.1.'><h4>5.2.1. Sprint Backlogs</h4></div>
-<div id='5.2.1.1.'><h4>5.2.1.1. Sprint #1</h4></div>
+<div id='5.2.1.1.'><h4>5.2.1.1. Sprint 1</h4></div>
 
-
+El Sprint 1 marca el inicio del desarrollo técnico de nuestra solución, enfocándose en establecer los cimientos fundamentales de la plataforma mediante la implementación paralela de tres componentes críticos: un landing page para la captación de usuarios y validación del mercado, un frontend web que constituya la interfaz principal de la aplicación, y un backend RESTful escalable que soporte la lógica de negocio y la gestión de datos, sentando así las bases técnicas para iteraciones futuras y la validación integral del producto.
 
 ##### SPRINT PLANNING: 
-<table>
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%">
     <tr>
-        <th>Sprint 1</th>
-        <td>Sprint 1</td>
+        <th colspan="2" style="background-color:#f2f2f2; text-align:center; font-size:18px">Sprint 1 - Información General</th>
+    </tr>
+    <tr>
+        <th width="30%">Sprint ID</th>
+        <td width="70%">SPR-001</td>
     </tr>
     <tr>
         <th>Sprint Planning Date</th>
-        <td>10-09-2025</td>
+        <td>10 de Septiembre, 2025</td>
     </tr>
     <tr>
-        <th>Time</th>
-        <td>03:00 PM</td>
+        <th>Hora de Inicio</th>
+        <td>03:00 PM (GMT-5)</td>
     </tr>
     <tr>
-        <th>Location</th>
-        <td>Meet</td>
+        <th>Plataforma de Reunión</th>
+        <td>Google Meet</td>
     </tr>
     <tr>
-        <th>Prepared By</th>
-        <td>Jesús Uribe</td>
+        <th>Preparado Por</th>
+        <td>Williams Góngora Castillejos</td>
     </tr>
     <tr>
-        <th>Attendees</th>
-        <td>Williams Góngora / Anthony Huapaya / Elizabeth Lucero</td>
+        <th>Asistentes</th>
+        <td>Jesús Uribe Quispe / Anthony Huapaya Cuevas / Elizabeth Huanaco Huayta / Johan Quiñones Quintana</td>
     </tr>
     <tr>
-        <th>Sprint Goal</th>
-        <td>Entregar Landing Page funcional en base a las historias de usuario planteadas. Además evidenciar y fundamentar la arquitectura, modelo de negocio y desarrollo del producto.</td>
+        <th>Objetivo del Sprint</th>
+        <td>Implementar los componentes base del producto OnControl mediante el desarrollo simultáneo de la Landing Page, 
+            Frontend Web con Next.js, Backend API RESTful con Spring Boot, y la integración completa entre todos los módulos.</td>
     </tr>
     <tr>
-        <th>Sprint Velocity</th>
-        <td>X</td>
+        <th>Velocidad del Sprint</th>
+        <td>112 horas de desarrollo</td>
     </tr>
     <tr>
-        <th>Sum of Story Points</th>
-        <td>X</td>
+        <th>Total de Story Points</th>
+        <td>20 User Stories completadas</td>
     </tr>
 </table>
-
-##### ASPECT LEADERS AND COLLABORATORS:
 
 ##### SPRINT BACKLOG:
 
-<table border="1" cellspacing="0" cellpadding="5">
-  <tr>
-    <th colspan="7">Sprint # | Sprint n</th>
-  </tr>
-  <tr>
-    <th colspan="2">User Story</th>
-    <th colspan="2">Work-Item / Task</th>
-    <th rowspan="2">Description</th>
-    <th rowspan="2">Estimation (Hours)</th>
-    <th rowspan="2">Assigned To</th>
-    <th rowspan="2">Status <br>(To-do / In-Process / To-Review / Done)</th>
-  </tr>
-  <tr>
-    <th>Id</th>
-    <th>Title</th>
-    <th>Id</th>
-    <th>Title</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+<table border="1" cellspacing="0" cellpadding="5"> <tr> <th colspan="8">Sprint 1 | Implementación Base del Producto</th> </tr> <tr> <th colspan="2">User Story</th> <th colspan="2">Work-Item / Task</th> <th rowspan="2">Description</th> <th rowspan="2">Estimation (Hours)</th> <th rowspan="2">Assigned To</th> <th rowspan="2">Status <br>(To-do / In-Process / To-Review / Done)</th> </tr> <tr> <th>Id</th> <th>Title</th> <th>Id</th> <th>Title</th> </tr> <!-- Landing Page Tasks --> <tr> <td>US25</td> <td>Ver información principal en la página inicial</td> <td>WT01</td> <td>Implementar hero section con value proposition</td> <td>Como visitante, quiero ver un mensaje claro sobre el propósito de OnControl en la página inicial, para entender de inmediato cómo me ayudará.</td> <td>4h</td> <td>Anthony Huapaya</td> <td>Done</td> </tr> <tr> <td>US26</td> <td>Navegar entre secciones desde el menú superior</td> <td>WT02</td> <td>Desarrollar navbar responsive con navegación suave</td> <td>Como visitante, quiero navegar a distintas secciones (Características, Beneficios, Problemática, Acerca de, Testimonios, Contacto), para acceder a la información de forma rápida.</td> <td>4h</td> <td>Elizabeth Huanaco</td> <td>Done</td> </tr> <tr> <td>US27</td> <td>Descargar la aplicación</td> <td>WT03</td> <td>Implementar sección de descargas con enlaces a stores</td> <td>Como visitante, quiero tener la opción de descargar la aplicación, para comenzar a usar OnControl en mi dispositivo.</td> <td>3h</td> <td>William Gongora</td> <td>Done</td> </tr> <tr> <td>US28</td> <td>Contactar con el equipo</td> <td>WT04</td> <td>Desarrollar formulario de contacto funcional</td> <td>Como visitante, quiero poder contactar al equipo de OnControl, para resolver dudas o recibir información personalizada.</td> <td>4h</td> <td>Jesus Uribe</td> <td>Done</td> </tr> <tr> <td>US29</td> <td>Visualizar imagen representativa</td> <td>WT05</td> <td>Integrar imágenes médicas contextuales</td> <td>Como visitante, quiero ver imágenes que representen el uso de OnControl en contexto médico, para entender mejor su propósito</td> <td>4h</td> <td>William Gongora</td> <td>Done</td> </tr> <tr> <td>US30</td> <td>Conocer las características de OnControl</td> <td>WT06</td> <td>Crear sección de características con iconos</td> <td>Como visitante, quiero ver las características principales de OnControl, para entender qué funcionalidades ofrece.</td> <td>4h</td> <td>Jesús Uribe</td> <td>Done</td> </tr> <tr> <td>US31</td> <td>Ver los beneficios de usar OnControl</td> <td>WT07</td> <td>Desarrollar sección de beneficios diferenciados</td> <td>Como visitante, quiero ver los beneficios que OnControl ofrece a pacientes y médicos, para evaluar el valor que aporta</td> <td>4h</td> <td>Elizabeth Huanaco</td> <td>Done</td> </tr> <tr> <td>US32</td> <td>Conocer la problemática que resuelve OnControl</td> <td>WT08</td> <td>Implementar sección problemática-solución</td> <td>Como visitante, quiero entender la problemática que aborda OnControl, para identificarme con las necesidades que soluciona.</td> <td>4h</td> <td>Anthony Huapaya</td> <td>Done</td> </tr> <tr> <td>US33</td> <td>Conocer la sección "Acerca de"</td> <td>WT09</td> <td>Crear about section con misión y equipo</td> <td>Como visitante, quiero leer quiénes son y cuál es la misión de OnControl, para confiar en la seriedad del producto.</td> <td>4h</td> <td>William Gongora</td> <td>Done</td> </tr> <tr> <td>US34</td> <td>Leer testimonios de pacientes y médicos</td> <td>WT10</td> <td>Implementar carousel de testimonios</td> <td>Como visitante, quiero ver testimonios de usuarios reales (pacientes/médicos), para validar la efectividad de OnControl.</td> <td>4h</td> <td>William Gongora</td> <td>Done</td> </tr> <tr> <td>US35</td> <td>Acceder a la sección de contacto</td> <td>WT11</td> <td>Desarrollar página de contacto completa</td> <td>Como visitante, quiero ver la sección de contacto con formulario o información, para poder comunicarme con el equipo.</td> <td>4h</td> <td>Jesús Uribe</td> <td>Done</td> </tr> <tr> <td>US36</td> <td>Navegar fácilmente por la landing page</td> <td>WT12</td> <td>Optimizar UX y navegación responsive</td> <td>Como visitante, quiero que el menú superior esté siempre visible, para acceder a cualquier sección sin necesidad de hacer scroll manualmente.</td> <td>4h</td> <td>Elizabeth Huanaco</td> <td>Done</td> </tr> <!-- Backend API Tasks --> <tr> <td>US01</td> <td>Gestión de autenticación</td> <td>WT13</td> <td>Implementar endpoints de login y registro</td> <td>Como usuario, quiero autenticarme de forma segura para acceder al sistema.</td> <td>8h</td> <td>Anthony Huapaya</td> <td>Done</td> </tr> <tr> <td>US02</td> <td>Gestión de pacientes</td> <td>WT14</td> <td>Desarrollar CRUD pacientes y dashboards</td> <td>Como médico, quiero gestionar la información de mis pacientes de forma centralizada.</td> <td>12h</td> <td>Jesus Uribe</td> <td>Done</td> </tr> <tr> <td>US03</td> <td>Gestión de tratamientos</td> <td>WT15</td> <td>Implementar módulo completo de tratamientos</td> <td>Como médico, quiero crear y seguir el progreso de tratamientos oncológicos.</td> <td>10h</td> <td>Elizabeth Huanaco</td> <td>Done</td> </tr> <tr> <td>US04</td> <td>Seguimiento de síntomas</td> <td>WT16</td> <td>Desarrollar sistema de reporte de síntomas</td> <td>Como paciente, quiero reportar mis síntomas para que mi médico los monitorice.</td> <td>6h</td> <td>William Gongora</td> <td>Done</td> </tr> <!-- Frontend Web Application Tasks --> <tr> <td>US15</td> <td>Interfaz de dashboard médico</td> <td>WT17</td> <td>Desarrollar componente principal de dashboard</td> <td>Como médico, quiero ver un resumen de mis pacientes y actividades.</td> <td>8h</td> <td>Anthony Huapaya</td> <td>Done</td> </tr> <tr> <td>US16</td> <td>Gestión de citas médicas</td> <td>WT18</td> <td>Implementar calendario y agenda</td> <td>Como médico, quiero gestionar mis citas de forma visual e intuitiva.</td> <td>10h</td> <td>Elizabeth Huanaco</td> <td>Done</td> </tr> <tr> <td>US17</td> <td>Vista de historial médico</td> <td>WT19</td> <td>Crear componente de historial paciente</td> <td>Como médico, quiero acceder al historial completo de un paciente.</td> <td>6h</td> <td>Jesus Uribe</td> <td>Done</td> </tr> <tr> <td>US18</td> <td>Panel de gestión de medicamentos</td> <td>WT20</td> <td>Desarrollar módulo de prescripciones</td> <td>Como médico, quiero prescribir y gestionar medicamentos.</td> <td>8h</td> <td>William Gongora</td> <td>Done</td> </tr></table>
 
 
 <div id='5.2.1.2.'><h4>5.2.1.2. Implemented Landing Page Evidence</h4></div>
 
-<table border="1" cellspacing="0" cellpadding="5">
-  <tr>
-    <th>Repository</th>
-    <th>Branch</th>
-    <th>Commit Id</th>
-    <th>Commit Message</th>
-    <th>Commit Message Body</th>
-    <th>Committed on (Date)</th>
-  </tr>
-  <tr>
-    <td>user/repositoryname</td>
-    <td>feature/loremipsum</td>
-    <td>14ca4e3</td>
-    <td>feat: consectetur adipiscing elit</td>
-    <td>Curabitur quis placerat nulla. Fusce malesuada faucibus quam, ut condimentum velit rutrum ut.</td>
-    <td>04/09/2021</td>
-  </tr>
-</table>
+El repositorio fue reinicializado como parte de la transición del proyecto desde la fase de prototipo a desarrollo de producción. Esta decisión se tomó para establecer un historial limpio que refleje únicamente la arquitectura final del sistema, tras múltiples iteraciones de reestructuración técnica y consolidación de funcionalidades core.
 
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|
+| ControlUPC/LandingPage	 | main | bc12f2b | feat: Add initial structure for landing page layout | 18/09/2025 |
+| ControlUPC/oncontrol-backend | main | bf86e39 | Optimizar filtro JWT para no mostrar warnings en rutas públicas | 02/10/2025 |
+| ControlUPC/oncontrol-backend | main | d08a334 | Agregar rutas públicas y controlador de salud para el endpoint raíz |  02/10/2025 |
+| ControlUPC/oncontrol-backend | main | 4b81733 | Actualizar configuración de application.properties |  02/10/2025 |
+| ControlUPC/oncontrol-backend | main | efff8b7 | chore: desactivar DataSeeder para producción |  02/10/2025 |
+| ControlUPC/oncontrol-backend | main | ala7f52 | fix: Add type field to organization registration response  | 02/10/2025 |
+| ControlUPC/oncontrol-backend | main | 2alab94 | fix: Configurar HikariCP, corregir tipos en controladores y agregar soporte bilingüe en SymptomSeverity  | 02/10/2025 |
+| ControlUPC/oncontrol-backend | main | 6b183e7 | feat: Implementar JWT en login de perfiles y agregar módulos de Treatments, Medications, Medical History y Reports  | 02/10/2025 |
+| ControlUPC/oncontrol-backend | main | 998b2e4 | feat: Add DataSeeder with initial test data - Creates 1 org, 2 doctors, 4 patients, 5 appointments, 7 symptoms  |02/10/2025 |
+| ControlUPC/oncontrol-backend | main | af22521 | feat: OnControl Backend v2.0 - Complete system with 33 endpoints and dashboards  |02/10/2025 |
+| ControlUPC/OnControl | main | 46426b8 | Remove unused useState imports from medico and paciente dashboard pages |  06/10/2025 |
+| ControlUPC/OnControl | main | 29a1c82 | Fix ESLint errors: remove unused imports and variables, fix explicit any type |  06/10/2025 |
+| ControlUPC/OnControl | main | blbal12 | Fix TypeScript error in handleInputChange function - add undefined to union type  | 06/10/2025 |
+| ControlUPC/OnControl | main | 697cb5f | Fix TypeScript and ESLint errors for production build  | 06/10/2025 |
+| ControlUPC/OnControl | main | 58bc4a | Initial commit: OnControl - Sistema de Gestión Médica Oncológica  | 06/10/2025 |
+| ControlUPC/OnControl | main | cadcb48 | fix: Eliminate early returns in organization dashboard to prevent hooks error  | 06/10/2025 |
+| ControlUPC/OnControl | main | ce99free | fix: Resolve hooks inconsistency errors in organization dashboard pages  | 06/10/2025 |
+| ControlUPC/OnControl | main | fb40ce8 | refactor: Remove reports section from organization dashboard navigation  | 06/10/2025 |
+| ControlUPC/OnControl | main | a69aef5 | feat: Enhance doctor registration forms with predefined specializations and formatted license number  | 06/10/2025 |
+| ControlUPC/OnControl | main | a249564 | fix: Improve error handling and logging in API client |  06/10/2025 |
+| ControlUPC/OnControl | main | 1977421 | feat: Complete backend integration and remove all mock data  | 06/10/2025 |
+
+#### **Despliegue de Landing Page**
+
+**Configuración de GitHub Pages:**
+- **Paso 1: Acceder a la Configuración**
+  - Navega a tu repositorio en GitHub
+  - Haz clic en la pestaña "Settings" (Configuración)
+  - Desplázate hacia abajo hasta la sección "Pages" en el menú lateral
+
+- **Paso 2: Seleccionar la Fuente**
+  En la sección "Source" (Fuente):
+  - **Opción A:** Deploy from a branch
+    - **Branch:** Selecciona la rama (generalmente main o gh-pages)
+    - **Folder:** Elige / (root) o /docs según tu estructura
+    - Es la opción más común y sencilla
+
+**Link de despliegue de landing page:** [https://controlupc.github.io/LandingPage/](https://controlupc.github.io/LandingPage/)
+
+<div aling="center">
+<img src="./img/deploy_landing.png">
+</div>
+
+#### **Despliegue del Frontend (Vercel)**
+
+**Configuración en Vercel:**
+- **Paso 1: Conectar Repositorio**
+  - Inicia sesión en Vercel y haz clic en "Add New Project"
+  - Conecta tu cuenta de GitHub y selecciona el repositorio ControlUPC/OnControl
+  - Autoriza los permisos necesarios
+
+- **Paso 2: Configurar el Proyecto**
+  - **Framework Preset:** Next.js (se detecta automáticamente)
+  - **Build Command:** `npm run build` o `yarn build`
+  - **Output Directory:** `.next`
+  - **Install Command:** `npm install` o `yarn install`
+
+- **Paso 3: Variables de Entorno**
+  - Agrega las variables de entorno necesarias:
+    - `NEXT_PUBLIC_API_URL`: URL de tu backend desplegado
+    - `NEXT_PUBLIC_APP_ENV`: production
+
+**Link de despliegue del frontend:** [https://oncontrol.vercel.app/](https://on-control.vercel.app/auth/login)
+
+![DeploymentFront](https://github.com/user-attachments/assets/1a8f0061-83ed-4d26-a321-069808cde3e3)
+
+
+#### **Despliegue del Backend (Render/Railway)**
+
+**Configuración en Render:**
+- **Paso 1: Crear Servicio Web**
+  - Selecciona "New Web Service" en Render
+  - Conecta el repositorio ControlUPC/oncontrol-backend
+  - Configura el servicio como servicio web
+
+- **Paso 2: Configuración del Build**
+  - **Runtime:** Java
+  - **Build Command:** `./mvnw clean package -DskipTests`
+  - **Start Command:** `java -jar target/oncontrol-backend-1.0.0.jar`
+  - **Plan:** Free o según requerimientos
+
+- **Paso 3: Variables de Entorno**
+  - `SPRING_PROFILES_ACTIVE`: production
+  - `SPRING_DATASOURCE_URL`: URL de base de datos MySQL
+  - `JWT_SECRET`: Clave secreta para JWT
+  - `SERVER_PORT`: 8080
+
+**Link de despliegue del backend:** [https://oncontrol-backend.onrender.com/](https://oncontrol-backend.onrender.com/)
+
+![DeployBack](https://github.com/user-attachments/assets/93a47f72-4a18-46b0-be63-111a1f0cfab7)
 
 <div id='5.2.1.3.'><h4>5.2.1.3. Implemented Frontend-Web Application Evidence</h4></div>
 
-Para este entregable no se requieren implementaciones sobre la aplicación web.
+El frontend web de OnControl representa la materialización de los diseños UX/UI en una aplicación funcional construida con Next.js, que implementa de manera integral todos los módulos del sistema de gestión oncológica mediante una arquitectura de componentes reutilizables, enrutamiento dinámico y una experiencia de usuario responsive que se conecta de forma segura con la API RESTful backend, demostrando la completa implementación de los flujos de trabajo médicos diseñados para oncólogos y pacientes.
+
+**Login**
+
+<img src="img/mockups-web/login.png" alt="Login Mockup" width=1000px>
+
+**Register**
+
+<img src="img/mockups-web/register.png" alt="Register Mockup" width=1000px>
+
+**Paciente pages**
+
+<img src="img/mockups-web/paciente-perfil.png" alt="paciente-perfil" width=1000px>
+
+<img src="img/mockups-web/paciente-dashboard.png" alt="paciente-dashboard" width=1000px>
+
+<img src="img/mockups-web/paciente-citas.png" alt="paciente-citas" width=1000px>
+<img src="img/mockups-web/paciente-nueva-cita.png" alt="paciente-nueva-cita" width=1000px>
+
+<img src="img/mockups-web/paciente-sintomas.png" alt="paciente-sintomas" width=1000px>
+<img src="img/mockups-web/paciente-reportar-sintoma.png" alt="paciente-reportar-sintoma" width=1000px>
+
+<img src="img/mockups-web/paciente-medicamentos.png" alt="paciente-medicamento" width=1000px>
+
+<img src="img/mockups-web/paciente-notificaciones.png" alt="paciente-notificaciones" width=1000px>
+
+<img src="img/mockups-web/paciente-historial.png" alt="paciente-historial" width=1000px>
+
+<img src="img/mockups-web/paciente-tratamiento.png" alt="paciente-tratamiento" width=1000px>
+
+**Medico pages**
+
+<img src="img/mockups-web/medico-perfil.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-dashboard.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-pacientes.png" alt="" width=1000px>
+<img src="img/mockups-web/medico-nuevo-paciente.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-calendario.png" alt="" width=1000px>
+<img src="img/mockups-web/medico-nueva-cita.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-tratamientos.png" alt="" width=1000px>
+<img src="img/mockups-web/medico-nuevo-tratamiento.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-notificaciones.png" alt="" width=1000px>
+
+<img src="img/mockups-web/medico-reportes.png" alt="" width=1000px>
+
 
 <div id='5.2.1.4.'><h4>5.2.1.4. Acuerdo de Servicio - SaaS</h4></div>
+
 Esta sección establece los derechos, obligaciones y restricciones aplicables a los usuarios de la plataforma, garantizando transparencia en el uso del servicio SaaS. Debe integrarse públicamente en la sección "Terms and Conditions" del website, cumpliendo con los criterios de claridad, accesibilidad y cumplimiento normativo.
+
+### **TÉRMINOS Y CONDICIONES DE USO:**
+
+#### **1. INFORMACIÓN GENERAL**
+
+#### 1.1 Identificación del Prestador
+- **Razón Social:** OncoTech
+
+#### 1.2 Objeto del Servicio
+La presente plataforma es un **Software como Servicio (SaaS)** que facilita la conexión entre pacientes y profesionales de la salud especializados en tratamiento integral de cáncer, incluyendo oncólogos, nutricionistas, psicólogos y otros especialistas afines.
+
+#### **2. MARCO NORMATIVO APLICABLE**
+
+#### 2.1 Legislación Nacional Vigente
+El presente servicio se rige bajo las siguientes normas peruanas:
+
+**Protección de Datos Personales**
+- **Ley N° 29733** - Ley de Protección de Datos Personales
+- **Decreto Supremo N° 003-2013-JUS** - Reglamento de la Ley de Protección de Datos Personales
+- Directrices de la Autoridad Nacional de Protección de Datos Personales
+
+**Sector Salud**
+- **Ley N° 26842** - Ley General de Salud
+- **Ley N° 29414** - Ley que Establece los Derechos de las Personas Usuarias de los Servicios de Salud
+- **Decreto Legislativo N° 1412** - Ley de Gobierno Digital
+- Normas técnicas del Ministerio de Salud sobre telemedicina
+
+**Marco Digital**
+- **Ley N° 30096** - Ley de Delitos Informáticos
+- **Decreto Legislativo N° 1246** - Decreto Legislativo que aprueba diversas medidas de simplificación administrativa
+- Código de Protección y Defensa del Consumidor (Ley N° 29571)
+
+#### **3. CONDICIONES DE USO**
+
+#### 3.1 Capacidad Legal
+Para utilizar nuestros servicios, el usuario debe:
+- Ser mayor de edad (18 años) o contar con autorización de padre/tutor
+- Tener capacidad legal para contratar según la legislación peruana
+- Proporcionar información veraz y actualizada
+
+#### 3.2 Registro y Verificación
+**Para Profesionales de la Salud:**
+- Colegiatura vigente en el Colegio Médico del Perú u organismo competente
+- Verificación de licencia profesional y especialización
+- Cumplimiento de requisitos establecidos por el Ministerio de Salud
+
+**Para Pacientes:**
+- Documento Nacional de Identidad (DNI) válido
+- Consentimiento informado para tratamiento de datos médicos
+- Aceptación de términos específicos para teleconsulta
+
+#### **4. PROTECCIÓN DE DATOS PERSONALES Y MÉDICOS**
+
+#### 4.1 Tratamiento de Datos Sensibles
+En cumplimiento con la Ley N° 29733, informamos que:
+
+**Datos Recopilados:**
+- Datos personales de identificación
+- **Datos sensibles de salud** (diagnósticos, tratamientos, medicamentos)
+- Registros de citas médicas y consultas
+- Diarios emocionales y autocontrol de síntomas
+
+**Finalidad del Tratamiento:**
+- Facilitar la conexión paciente-profesional de salud
+- Gestión de citas médicas y seguimiento de tratamientos
+- Mejora continua de servicios de salud digital
+- Cumplimiento de obligaciones legales del sector salud
+
+#### 4.2 Consentimiento Informado
+El usuario otorga consentimiento **libre, previo, expreso e informado** para:
+- Recopilación y tratamiento de datos personales y de salud
+- Compartición de información médica con profesionales autorizados
+- Almacenamiento seguro en servidores con medidas de seguridad
+- Uso de datos anonimizados para estudios estadísticos
+
+#### 4.3 Derechos del Titular
+Conforme a la normativa peruana, los usuarios tienen derecho a:
+- **Información** sobre el tratamiento de sus datos
+- **Acceso** a sus datos personales almacenados
+- **Rectificación** de datos inexactos o incompletos
+- **Cancelación** de datos cuando corresponda
+- **Oposición** al tratamiento en casos específicos
+
+#### **5. RESPONSABILIDADES Y LIMITACIONES**
+
+#### 5.1 Responsabilidades de la Plataforma
+- Mantener medidas de seguridad técnica y organizacional
+- Garantizar disponibilidad del servicio 99.5% del tiempo
+- Proporcionar soporte técnico durante horarios establecidos
+- Cumplir con regulaciones de protección de datos
+
+#### 5.2 Limitaciones del Servicio
+**IMPORTANTE:** Esta plataforma es una herramienta de **conexión y gestión**, NO constituye:
+- Diagnóstico médico automatizado
+- Reemplazo de consulta médica presencial cuando sea necesaria
+- Servicio de emergencias médicas
+- Garantía de resultados terapéuticos
+
+#### 5.3 Exclusiones de Responsabilidad
+La plataforma no se responsabiliza por:
+- Decisiones médicas tomadas por profesionales de salud
+- Calidad o efectividad de tratamientos prescritos
+- Incompatibilidades entre medicamentos
+- Resultados adversos derivados de seguimiento de recomendaciones
+
+#### **6. PROPIEDAD INTELECTUAL**
+
+#### 6.1 Derechos Reservados
+- Software, diseño e interface: propiedad de OncoTech
+- Contenido médico publicado: propiedad de profesionales autores
+- Base de datos: protegida por derechos de autor y normativa de datos
+
+#### 6.2 Licencia de Uso
+Se otorga licencia **limitada, no exclusiva y revocable** para:
+- Uso personal de la plataforma conforme a términos
+- Acceso a contenido médico para fines informativos
+- Prohibido: reproducción, distribución o modificación no autorizada
+
+#### **7. FACTURACIÓN Y PAGOS**
+
+#### 7.1 Modelo SaaS
+- Suscripción mensual/anual según plan elegido
+- Pagos procesados mediante pasarelas seguras
+- Facturación electrónica conforme a normativa SUNAT
+- Moneda: Soles peruanos (PEN)
+
+#### 7.2 Política de Reembolsos
+- Cancelación antes de 7 días: reembolso completo
+- Problemas técnicos imputables a la plataforma: compensación proporcional
+- Servicios ya utilizados: no reembolsables
+
+#### **8. RESOLUCIÓN DE CONTROVERSIAS**
+
+#### 8.1 Jurisdicción
+Las controversias se someterán a:
+- **Primera instancia:** INDECOPI (protección al consumidor)
+- **Jurisdicción competente:** Tribunales de Lima, Perú
+- **Ley aplicable:** Legislación peruana
+
+#### 8.2 Mecanismos Alternativos
+Se promueve la resolución mediante:
+- Mediación ante Centro de Arbitraje y Mediación
+- Conciliación extrajudicial
+- Mesa de diálogo con defensoría del usuario
+
+#### **9. VIGENCIA Y MODIFICACIONES**
+
+#### 9.1 Entrada en Vigor
+Estos términos entran en vigencia desde la fecha de aceptación por el usuario.
+
+#### 9.2 Modificaciones
+- Cambios comunicados con 30 días de anticipación
+- Notificación vía email registrado y publicación en plataforma
+- Uso continuado implica aceptación de nuevas condiciones
+
+#### **10. CONTACTO Y ATENCIÓN AL USUARIO**
+
+#### 10.1 Canales de Comunicación
+- **Email:** oncontrol@oncotech.pe
+- **Teléfono:** +51 924 055 322
+- **Horario de atención:** Lunes a viernes, 8:00 AM - 6:00 PM
+
+#### 10.2 Oficial de Protección de Datos
+Para consultas sobre tratamiento de datos personales:
+- **Email:** soporte@oncontech.pe
+- **Responsable:** Luis Angel Carrasco
+
+**Al utilizar esta plataforma, el usuario declara haber leído, entendido y aceptado íntegramente los presentes términos y condiciones, reconociendo su carácter vinculante conforme a la legislación peruano.**
+
+*Documento elaborado en cumplimiento de la Ley N° 29733, Ley General de Salud N° 26842, y demás normativa aplicable en el territorio peruano.*
 
 <div id='5.2.1.5.'><h4>5.2.1.5 Implemented Native-Mobile Application Evidence</h4></div>
 
-Para este entregable no se requieren implementaciones sobre la aplicación móvil.
+La aplicación móvil de OnControl, desarrollada con Flutter, implementa una experiencia nativa unificada para iOS y Android que replica todas las funcionalidades clave del sistema de gestión oncológica, permitiendo a pacientes y médicos acceder a historiales médicos, gestionar tratamientos y realizar seguimiento de síntomas desde cualquier lugar con una interfaz optimizada para dispositivos móviles.
+
+<img width="375" height="812" alt="image" src="https://github.com/user-attachments/assets/a509c7fe-7400-4adb-8400-f1ed55df8104" />
+
+<img width="383" height="808" alt="image" src="https://github.com/user-attachments/assets/d69ed871-f7eb-4400-ac08-458eb886380b" />
+
+<img width="375" height="1212" alt="image" src="https://github.com/user-attachments/assets/13840a94-bf95-426d-8fdf-700639679a12" />
+
+<img width="375" height="1212" alt="image" src="https://github.com/user-attachments/assets/9ca46602-3292-41e5-84fb-448420501e34" />
+
 
 <div id='5.2.1.6.'><h4>5.2.1.6 Implemented RESTful API and/or Serverless Backend Evidence</h4></div>
 
-Para este entregable no se requieren implementaciones sobre el servicio web.
+El backend de OnControl, desarrollado con Spring Boot y desplegado en Render, implementa una API RESTful completa con 47 endpoints que soporta todos los módulos del sistema de gestión oncológica, incluyendo autenticación JWT segura, gestión de pacientes, tratamientos, citas médicas, medicamentos y reportes analíticos, demostrando una arquitectura escalable y robusta que garantiza la integridad de los datos médicos y el rendimiento del sistema.
+
+**OnControl Backend - SpringBoot:**
+
+* TreatmentController.java:
+
+Este controller gestiona las peticiones HTTP relacionadas con tratamientos médicos en la API. Permite crear, consultar, actualizar y cambiar el estado de tratamientos, así como registrar y listar sesiones asociadas a cada tratamiento. También ofrece endpoints para obtener estadísticas y próximas sesiones, tanto para doctores como para pacientes. 
+
+<img width="1120" height="860" alt="image" src="https://github.com/user-attachments/assets/5c4b058c-17b3-453f-b25d-81d48fc018dc" />
+
+* SymptomController.java:
+
+Este controller maneja las peticiones HTTP relacionadas con los síntomas de los pacientes. Permite que un paciente reporte un síntoma, consultar todos sus síntomas (con filtros de fecha), ver los síntomas recientes y obtener estadísticas sobre sus síntomas. 
+
+<img width="1123" height="871" alt="image" src="https://github.com/user-attachments/assets/27ec1c33-fefd-48dd-ad53-647971331960" />
+
+* PatientController.java:
+
+Este controller expone endpoints para obtener el dashboard y un resumen rápido del estado de un paciente. Permite consultar citas, síntomas recientes y estadísticas, devolviendo toda la información agregada en formato JSON. Maneja errores devolviendo mensajes claros si ocurre algún problema al recuperar los datos.
+
+<img width="1118" height="865" alt="image" src="https://github.com/user-attachments/assets/9c51769a-b2f6-4008-91eb-1c576af1f146" />
+
+* DoctorController.java:
+
+Este controller permite a los doctores gestionar a sus pacientes. Ofrece endpoints para crear pacientes, listar todos sus pacientes, consultar detalles de un paciente específico, ver los síntomas de un paciente y obtener un dashboard con el resumen de pacientes y citas. Todas las respuestas son en formato JSON y maneja errores devolviendo mensajes claros.
+
+<img width="1112" height="858" alt="image" src="https://github.com/user-attachments/assets/7d8337ae-59ce-43c8-8678-aaf3c9230cba" />
+
+* MedicalHistoryController.java:
+
+Este controller gestiona el historial médico de los pacientes. Permite agregar nuevas entradas al historial, consultar el historial completo, filtrar por tipo o rango de fechas, y manejar alergias (agregar, listar y eliminar).
+
+<img width="1113" height="849" alt="image" src="https://github.com/user-attachments/assets/d6bee524-683d-4d92-918b-36e1c3957bba" />
+
+* DashboardController.java:
+
+Este controller gestiona los dashboards centralizados de la aplicación, permitiendo obtener vistas generales y estadísticas tanto para organizaciones, doctores y pacientes. Ofrece endpoints para consultar dashboards completos y filtrados (por doctor o paciente), así como endpoints rápidos de estadísticas.
+
+<img width="1123" height="873" alt="image" src="https://github.com/user-attachments/assets/f5ac3e93-cad4-4f43-9766-594d8cb7a6e4" />
+
+* AppointmentController.java:
+
+Este controller gestiona las citas médicas entre doctores y pacientes. Permite crear nuevas citas, listar todas las citas de un doctor o paciente, consultar una cita específica por ID, actualizar el estado de una cita y agregar notas de seguimiento. 
+
+<img width="1118" height="862" alt="image" src="https://github.com/user-attachments/assets/d6e201b9-a463-4dca-80be-a634595c0718" />
+
+* ReportController.java:
+
+Este controller expone endpoints para obtener reportes y analíticas relacionados con los doctores. Permite consultar reportes generales, cantidad de pacientes por mes, distribución de tratamientos por tipo y citas por día de la semana.
+
+<img width="1112" height="881" alt="image" src="https://github.com/user-attachments/assets/256065d8-ecec-4a22-a954-5fb5f781756f" />
+
+
+**OnControl Backend API - Swagger:**
+
+<img width="921" height="857" alt="image" src="https://github.com/user-attachments/assets/cb2043a6-2816-4763-89bf-ac59e973485f" />
+
+<img width="926" height="688" alt="image" src="https://github.com/user-attachments/assets/f69e630b-af23-412d-af30-758c1608a140" />
+
+<img width="926" height="823" alt="image" src="https://github.com/user-attachments/assets/3be392b8-5185-4c9e-83a3-b237c7eafb0e" />
+
+<img width="923" height="562" alt="image" src="https://github.com/user-attachments/assets/8f84ac21-0a75-482f-9b41-08e5b1fd6cd8" />
+
+<img width="929" height="453" alt="image" src="https://github.com/user-attachments/assets/96bffad2-ce9c-4543-979e-78a85a1563fe" />
+
+<img width="931" height="945" alt="image" src="https://github.com/user-attachments/assets/5be0cca6-c2a2-495d-a9d9-864b739ef959" />
 
 <div id='5.2.1.7.'><h4>5.2.1.7 RESTful API documentation</h4></div>
-Para este entregable no se requieren implementaciones sobre el servicio web.
+
+La aplicación cuenta con documentación generada automáticamente mediante Swagger UI (OpenAPI), la cual permite explorar, probar y visualizar todos los endpoints disponibles en el backend de forma clara y estructurada. Esta documentación está disponible en la ruta: `/api-docs` y facilita tanto la comprensión del API como la integración por parte de otros desarrolladores o sistemas externos.
+
+### **Módulos y Endpoints Disponibles**
+
+#### **Authentication Module**
+- `POST /api/auth/register/organization` - Register a new organization
+- `POST /api/auth/login` - Login
+
+#### **Patients Module**
+- `GET /api/patients/{patientProfileId}/summary` - Get patient summary
+- `GET /api/patients/{patientProfileId}/dashboard` - Get patient dashboard
+
+#### **Treatments Module**
+- `GET /api/treatments/{treatmentId}` - Get treatment
+- `GET /api/treatments/{treatmentId}/sessions` - Get treatment sessions
+- `GET /api/treatments/patient/{patientProfileId}` - Get patient treatments
+- `GET /api/treatments/patient/{patientProfileId}/sessions/upcoming` - Get upcoming sessions
+- `GET /api/treatments/patient/{patientProfileId}/current` - Get current treatment
+- `GET /api/treatments/doctor/{doctorProfileId}` - Get doctor treatments
+- `GET /api/treatments/doctor/{doctorProfileId}/stats` - Get treatment statistics
+- `PATCH /api/treatments/{treatmentId}/status` - Update treatment status
+- `POST /api/treatments/{treatmentId}/sessions` - Register session
+- `POST /api/treatments/doctor/{doctorProfileId}/patient/{patientProfileId}` - Create treatment
+- `PUT /api/treatments/{treatmentId}` - Update treatment
+
+#### **Symptoms Module**
+- `GET /api/symptoms/patient/{patientProfileId}` - Get patient symptoms
+- `GET /api/symptoms/patient/{patientProfileId}/stats` - Get symptom statistics
+- `GET /api/symptoms/patient/{patientProfileId}/recent` - Get recent symptoms
+- `POST /api/symptoms/patient/{patientProfileId}` - Report symptom
+
+#### **Appointments Module**
+- `GET /api/appointments/{id}` - Get appointment by ID
+- `GET /api/appointments/patient/{patientProfileId}` - Get patient appointments
+- `GET /api/appointments/doctor/{doctorProfileId}` - Get doctor appointments
+- `PATCH /api/appointments/{id}/status` - Update appointment status
+- `PATCH /api/appointments/{id}/follow-up` - Add follow-up notes
+- `POST /api/appointments/doctor/{doctorProfileId}/patient/{patientProfileId}` - Create appointment
+
+#### **Doctors Module**
+- `GET /api/doctors/{doctorProfileId}/patients` - Get doctor patients
+- `GET /api/doctors/{doctorProfileId}/patients/{patientId}` - Get patient by ID
+- `GET /api/doctors/{doctorProfileId}/patients/{patientId}/symptoms` - Get patient symptoms
+- `GET /api/doctors/{doctorProfileId}/dashboard` - Get doctor dashboard
+- `POST /api/doctors/{doctorProfileId}/patients` - Create patient
+
+#### **Organizations Module**
+- `GET /api/organizations/{organizationId}/doctors` - Get organization doctors
+- `GET /api/organizations/{organizationId}/doctors/{doctorId}` - Get doctor by ID
+- `GET /api/organizations/{organizationId}/dashboard` - Get organization dashboard
+- `POST /api/organizations/{organizationId}/doctors` - Create doctor
+
+#### **Medications Module**
+- `DELETE /api/medications/{medicationId}` - Discontinue medication
+- `GET /api/medications/{medicationId}` - Get medication
+- `GET /api/medications/patient/{patientProfileId}` - Get patient medications
+- `GET /api/medications/patient/{patientProfileId}/upcoming-doses` - Get upcoming doses
+- `GET /api/medications/patient/{patientProfileId}/active` - Get active medications
+- `GET /api/medications/doctor/{doctorProfileId}` - Get doctor medications
+- `POST /api/medications/{medicationId}/mark-taken` - Mark dose as taken
+- `POST /api/medications/doctor/{doctorProfileId}/patient/{patientProfileId}` - Prescribe medication
+- `PUT /api/medications/{medicationId}` - Update medication
+
+#### **Medical History Module**
+- `DELETE /api/medical-history/allergies/{allergyId}` - Delete allergy
+- `GET /api/medical-history/patient/{patientProfileId}` - Get medical history
+- `GET /api/medical-history/patient/{patientProfileId}/allergies` - Get allergies
+- `GET /api/medical-history/patient/{patientProfileId}/type/{type}` - Get history by type
+- `GET /api/medical-history/patient/{patientProfileId}/date-range` - Get history by date range
+- `POST /api/medical-history/patient/{patientProfileId}` - Add history entry
+- `POST /api/medical-history/patient/{patientProfileId}/allergies` - Add allergy
+
+#### **Dashboard Module**
+- `GET /api/dashboard/patient/{patientProfileId}` - Get Patient Dashboard
+- `GET /api/dashboard/patient/{patientProfileId}/stats` - Get Patient Statistics
+- `GET /api/dashboard/organization/{organizationId}` - Get Organization Dashboard
+- `GET /api/dashboard/organization/{organizationId}/stats` - Get Organization Statistics
+- `GET /api/dashboard/organization/{organizationId}/filter/doctor/{doctorId}` - Get Organization Dashboard Filtered by Doctor
+- `GET /api/dashboard/doctor/{doctorProfileId}` - Get Doctor Dashboard
+- `GET /api/dashboard/doctor/{doctorProfileId}/stats` - Get Doctor Statistics
+- `GET /api/dashboard/doctor/{doctorProfileId}/filter/patient/{patientId}` - Get Doctor Dashboard Filtered by Patient
+
+#### **Reports Module**
+- `GET /api/reports/doctor/{doctorProfileId}/treatments-by-type` - Get treatments by type
+- `GET /api/reports/doctor/{doctorProfileId}/patients-by-month` - Get patients by month
+- `GET /api/reports/doctor/{doctorProfileId}/overview` - Get doctor reports
+- `GET /api/reports/doctor/{doctorProfileId}/appointments-by-day` - Get appointments by day
+
+#### **Health Check**
+- `GET /health` - Health check endpoint
+- `GET /` - Root endpoint
+
+#### **Características de la Documentación Swagger**
+
+- Esquema OpenAPI 3.0 completo
+- Pruebas interactivas de endpoints
+- Modelos de datos detallados (Schemas)
+- Ejemplos de requests/responses
+- Autenticación JWT integrada
+- Códigos de respuesta HTTP documentados
+- Parámetros de consulta y validaciones
+
+#### **Esquemas de Datos Disponibles**
+
+La documentación incluye esquemas completos para todos los objetos de transferencia de datos utilizados en la API, incluyendo UpdateTreatmentRequest, CreateAppointmentRequest, LoginRequest, RegisterRequest, y modelos de respuesta como TreatmentStatsResponse, DoctorReportsResponse, PatientStatistics, entre otros.
+
+La documentación Swagger asegura que todos los desarrolladores tengan acceso a especificaciones técnicas precisas y actualizadas de los 47 endpoints disponibles, facilitando el desarrollo frontend y la integración de terceros.
+
+En este caso, el back-end esta desplegado en: [https://oncontrol-backend.onrender.com/swagger-ui/index.html#](https://oncontrol-backend.onrender.com/swagger-ui/index.html#)
 
 <div id='5.2.1.8.'><h4>5.2.1.8 Team Collaboration Insights</h4></div>
-En este apartado se evidencia la colaboración y desarrollo conjunto de los componentes abarcados del producto.
+
+En este apartado se evidencia la colaboración y desarrollo conjunto de los componentes abarcados del producto durante el Sprint 1, donde cada integrante contribuyó significativamente al desarrollo integral de la solución OnControl.
+
+### **Distribución de Responsabilidades**
+
+| Integrante | Tareas y Contribuciones |
+| ---------- | ----------------------- |
+| **Góngora Castillejos Williams** | Desarrollo del backend con Spring Boot, implementación de pruebas unitarias e integrales, configuración de la base de datos MySQL, y contribución al Startup Profile y actividades de NeedFinding |
+| **Huapaya Cuevas Anthony** | Desarrollo del frontend con Next.js, implementación de interfaces de usuario, diseño de componentes React, integración con API RESTful, y contribución al desarrollo UX/UI y Landing Page |
+| **Huanaco Huayta Elizabeth** | Desarrollo del frontend móvil con Flutter, creación de mockups para aplicaciones nativas, implementación de interfaces móviles responsivas, y contribución al desarrollo UX/UI y Landing Page |
+| **Quiñones Quintaya, Johan** | Desarrollo completo del backend con Spring Boot, implementación de los 47 endpoints RESTful, configuración de seguridad JWT, integración con base de datos, y contribución al desarrollo UX/UI |
+| **Uribe Quispe Jesús** | Diseño de la arquitectura de software, documentación técnica completa del producto, implementación de la Landing Page, y coordinación de la integración entre frontend, backend y componentes móviles |
 
 <div align="center">
-  <img src="" alt="insights">
+  <img src="./img/insights_tb1.png" alt="insights">
 </div>
 
-<div id='5.3.'><h3>5.3. Video About-the-Product</h3></div>
 
-<div id='6.'><h2>6. Conclusiones</h2></div>
-<div id='7.'><h2>7. Bibliografía</h2></div>
-<div id='8.'><h2>8. Anexo</h2></div>
+<div id='6.'><h2>Capítulo VI: Product Verification & Validation</h2></div>
+
+<div id='6.1.'><h3>6.1. Testing Suites & Validation</h3></div>
+
+<div id='6.1.1.'><h4>6.1.1. Core Entities Unit Tests</h4></div>
+En esta sección se detallan las pruebas unitarias realizadas sobre las entidades principales del sistema, verificando que sus atributos, métodos y reglas de negocio funcionen correctamente de forma aislada. Estas pruebas aseguran que la lógica interna de cada componente cumple con los requisitos definidos y no presenta errores, contribuyendo a la solidez y confiabilidad de la aplicación.
+
+1. **testCreateAppointment_Success**(AppointmentServiceTest)
+
+Esta prueba verifica que el servicio puede crear una cita médica exitosamente cuando se proporcionan todos los datos válidos. Simula la búsqueda de perfiles de doctor y paciente en la base de datos, y valida que el objeto AppointmentResponse retornado contenga la información correcta incluyendo los nombres completos del doctor y paciente, el estado SCHEDULED, y que el método save del repositorio se haya invocado exactamente una vez.
+
+```java
+@Test
+void testCreateAppointment_Success() {
+    when(doctorRepository.findById(doctorId)).thenReturn(Optional.of(doctor));
+    when(patientRepository.findById(patientId)).thenReturn(Optional.of(patient));
+    when(appointmentRepository.save(any(Appointment.class))).thenReturn(appointment);
+
+    AppointmentResponse response = appointmentService.createAppointment(request);
+
+    assertEquals("SCHEDULED", response.getStatus());
+    assertEquals(doctor.getFullName(), response.getDoctorName());
+    assertEquals(patient.getFullName(), response.getPatientName());
+    verify(appointmentRepository, times(1)).save(any(Appointment.class));
+}
+
+```
+2. **testCreateAppointment_DoctorNotFound**(AppointmentServiceTest)
+
+Esta prueba valida el manejo de errores cuando se intenta crear una cita pero el perfil del doctor no existe en la base de datos. Verifica que el sistema lance una RuntimeException apropiada y, lo más importante, que NO se intente guardar ninguna cita en el repositorio cuando faltan datos críticos, garantizando la integridad de los datos.
+
+```java
+@Test
+void testCreateAppointment_DoctorNotFound() {
+    when(doctorRepository.findById(doctorId)).thenReturn(Optional.empty());
+
+    assertThrows(RuntimeException.class, () -> appointmentService.createAppointment(request));
+    verify(appointmentRepository, never()).save(any());
+}
+
+```
+
+3. **testGetAppointmentsByDoctor_Success**(AppointmentServiceTest)
+
+Esta prueba confirma que el servicio puede recuperar correctamente todas las citas asociadas a un doctor específico. Simula una lista de citas retornadas por el repositorio y valida que la respuesta contenga el número correcto de elementos y que los datos del doctor estén presentes en cada respuesta, verificando también que se haya llamado al método del repositorio con el ID correcto.
+
+```java
+@Test
+void testGetAppointmentsByDoctor_Success() {
+    when(appointmentRepository.findByDoctorId(doctorId)).thenReturn(List.of(appointment1, appointment2));
+
+    List<AppointmentResponse> responses = appointmentService.getAppointmentsByDoctor(doctorId);
+
+    assertEquals(2, responses.size());
+    responses.forEach(r -> assertEquals(doctor.getFullName(), r.getDoctorName()));
+    verify(appointmentRepository).findByDoctorId(doctorId);
+}
+
+```
+
+4. **testUpdateAppointmentStatus_ToCancelled**(AppointmentServiceTest)
+
+Esta prueba verifica la funcionalidad de cancelación de citas, asegurando que cuando se actualiza el estado a CANCELLED, el sistema también registre correctamente la razón de cancelación y la fecha/hora en que ocurrió. Valida que todos los campos relacionados con la cancelación se actualicen apropiadamente y que los cambios se persistan en la base de datos mediante el repositorio.
+
+```java
+@Test
+void testUpdateAppointmentStatus_ToCancelled() {
+    when(appointmentRepository.findById(appointmentId)).thenReturn(Optional.of(appointment));
+    when(appointmentRepository.save(any(Appointment.class))).thenReturn(appointment);
+
+    appointmentService.updateAppointmentStatus(appointmentId, "CANCELLED", "Motivo de cancelación");
+
+    assertEquals("CANCELLED", appointment.getStatus());
+    assertNotNull(appointment.getCancelledAt());
+    assertEquals("Motivo de cancelación", appointment.getCancellationReason());
+    verify(appointmentRepository).save(appointment);
+}
+
+```
+
+5. **testAddFollowUpNotes_Success**(AppointmentServiceTest)
+
+Esta prueba valida que el sistema puede agregar notas de seguimiento a una cita existente después de que ha ocurrido. Verifica que las notas se almacenen correctamente en el objeto Appointment y que los cambios se guarden en la base de datos, lo cual es crucial para mantener el historial médico y las recomendaciones post-consulta.
+
+```java
+@Test
+void testAddFollowUpNotes_Success() {
+    when(appointmentRepository.findById(appointmentId)).thenReturn(Optional.of(appointment));
+    when(appointmentRepository.save(any(Appointment.class))).thenReturn(appointment);
+
+    appointmentService.addFollowUpNotes(appointmentId, "Notas de seguimiento");
+
+    assertEquals("Notas de seguimiento", appointment.getFollowUpNotes());
+    verify(appointmentRepository).save(appointment);
+}
+
+```
+
+6. **testGenerateProfileId_Doctor**(ProfileTest)
+
+Esta prueba verifica la generación automática de identificadores únicos para perfiles de doctores. Valida que cuando se crea un perfil de tipo DOCTOR, el sistema genere automáticamente un profileId que comience con el prefijo "DOC-", asegurando un sistema de identificación consistente y fácilmente reconocible en toda la aplicación.
+
+```java
+@Test
+void testGenerateProfileId_Doctor() {
+    Profile doctor = new Profile(ProfileType.DOCTOR, "John", "Doe");
+    assertTrue(doctor.getProfileId().startsWith("DOC-"));
+}
+
+```
+
+7. **testGenerateProfileId_Patient**(ProfileTest)
+
+Similar a la prueba anterior pero para pacientes, esta prueba confirma que los perfiles de tipo PATIENT reciben identificadores con el prefijo "PAT-". Esto garantiza que el sistema pueda diferenciar rápidamente entre tipos de perfiles mediante sus identificadores únicos, facilitando búsquedas y validaciones.
+
+```java
+@Test
+void testGenerateProfileId_Patient() {
+    Profile patient = new Profile(ProfileType.PATIENT, "Jane", "Smith");
+    assertTrue(patient.getProfileId().startsWith("PAT-"));
+}
+
+```
+
+8. **testGetFullName**(ProfileTest)
+
+Esta prueba valida un método de utilidad simple pero importante que concatena el nombre y apellido de un perfil. Aunque parece trivial, es fundamental para asegurar que la presentación de nombres en la interfaz de usuario sea consistente en toda la aplicación y que no haya problemas con espacios o formato.
+
+```java
+@Test
+void testGetFullName() {
+    Profile profile = new Profile(ProfileType.PATIENT, "Ana", "García");
+    assertEquals("Ana García", profile.getFullName());
+}
+
+```
+
+9. **testGetAuthorities_Organization**(UserTest)
+
+Esta prueba verifica la implementación de Spring Security en el modelo User, específicamente que los usuarios con rol ORGANIZATION reciban las autoridades correctas. Valida que el método getAuthorities retorne una colección que contenga "ROLE_ORGANIZATION", lo cual es esencial para el control de acceso basado en roles en toda la aplicación.
+
+```java
+@Test
+void testGetAuthorities_Organization() {
+    User user = new User("org@example.com", "pass", Role.ORGANIZATION);
+    Collection<? extends GrantedAuthority> authorities = user.getAuthorities();
+    assertTrue(authorities.stream().anyMatch(a -> a.getAuthority().equals("ROLE_ORGANIZATION")));
+}
+
+```
+
+10. **testDefaultValues**(UserTest)
+
+Esta prueba integral verifica que cuando se crea un nuevo usuario, todos los valores predeterminados se establezcan correctamente. Valida que el rol sea ORGANIZATION por defecto, que la cuenta esté activa, que el email no esté verificado inicialmente, y que todas las banderas de seguridad de Spring (cuenta no expirada, no bloqueada, credenciales no expiradas) estén configuradas apropiadamente para un nuevo usuario.
+
+```java
+@Test
+void testDefaultValues() {
+    User user = new User("org@example.com", "pass");
+    assertEquals(Role.ORGANIZATION, user.getRole());
+    assertTrue(user.isActive());
+    assertFalse(user.isEmailVerified());
+    assertTrue(user.isAccountNonExpired());
+    assertTrue(user.isAccountNonLocked());
+    assertTrue(user.isCredentialsNonExpired());
+}
+
+```
+
+
+<div id='6.1.2.'><h4>6.1.2. Core Integration Tests</h4></div>
+
+
+
+
+<div id='6.1.3.'><h4>6.1.3. Core Behavior-Driven Development</h4></div>
+
+En esta sección se describe cómo el equipo utiliza la metodología Behavior-Driven Development (BDD) para asegurar que el sistema cumpla con los requisitos funcionales desde la perspectiva del usuario final. Se emplean escenarios escritos en lenguaje natural, utilizando la herramienta Cucumber junto con Gherkin, para definir y automatizar pruebas que validan los flujos principales de la aplicación, como el agendamiento de citas médicas. Esto permite una mejor comunicación entre desarrolladores, testers y stakeholders, facilitando la detección temprana de errores y asegurando que el software entregue valor real al usuario.
+
+**Acceptance Tests:**
+
+* appointment-booking.feature:
+
+<img width="605" height="521" alt="image" src="https://github.com/user-attachments/assets/29c7c932-f1a4-45cc-af5f-bf0945da29ad" />
+
+* appointment-list.feature:
+
+<img width="606" height="390" alt="image" src="https://github.com/user-attachments/assets/708a80a8-b4cc-4b78-ab31-30cef6497062" />
+
+  
+* landing-contact.feature:
+
+<img width="709" height="499" alt="image" src="https://github.com/user-attachments/assets/cca41da2-e07d-402f-82ff-c21f39d76a85" />
+
+* landing-navigation.feature:
+
+<img width="890" height="634" alt="image" src="https://github.com/user-attachments/assets/4ce18adc-5257-4e5e-97d4-92bf794e526c" />
+
+* login.feature:
+
+<img width="686" height="453" alt="image" src="https://github.com/user-attachments/assets/97ee8f85-30de-44d4-92fa-567274cb2fca" />
+
+* password-change.feature:
+
+<img width="579" height="450" alt="image" src="https://github.com/user-attachments/assets/efbc3ad9-731f-482b-90b5-58fbd5515789" />
+
+* profile-management.feature:
+
+<img width="652" height="628" alt="image" src="https://github.com/user-attachments/assets/0bd69be0-1c42-42ce-8118-fdc7717fff70" />
+
+* user-registration.feature:
+
+<img width="619" height="504" alt="image" src="https://github.com/user-attachments/assets/2a255a55-76e0-4611-9c40-1ed50f439bad" />
+
+<div id='6.1.4.'><h4>6.1.4. Core System Tests</h4></div>
+
+En esta sección se presentan las pruebas desarrolladas para verificar el correcto funcionamiento de los componentes individuales de la aplicación. Estas pruebas aseguran que cada clase y método cumpla con su responsabilidad de manera aislada, contribuyendo a la calidad, mantenibilidad y robustez del sistema, y permitiendo detectar errores de forma temprana durante el ciclo de desarrollo.
+
+**Verificacion de todas las pruebas**
+
+<br>
+<img width="812" height="548" alt="image" src="https://github.com/user-attachments/assets/1b3523c3-ea9d-43c1-baf7-9369fa110a19" />
+
+<br><br>
+
+* **Pruebas Unitarias:**
+
+<img width="1129" height="555" alt="image" src="https://github.com/user-attachments/assets/4f140deb-ddad-4034-8be4-1f0fc58c5507" />
+
+<br><br><br>
+
+<img width="1060" height="352" alt="image" src="https://github.com/user-attachments/assets/6612e122-b231-4265-83d1-cbaddeaa3d05" />
+
+<br><br><br>
+
+<img width="1078" height="303" alt="image" src="https://github.com/user-attachments/assets/fb121aff-33e2-4afe-8f27-efb876d844be" />
+
+<br><br><br>
+
+<img width="1053" height="395" alt="image" src="https://github.com/user-attachments/assets/0b23c281-31ea-4bca-b635-8405f17104a4" />
+
+<br><br><br>
+
+<img width="1052" height="326" alt="image" src="https://github.com/user-attachments/assets/fbd07d5c-8803-4730-8175-7d81a695e20f" />
+
+<br><br><br>
+
+<img width="746" height="694" alt="image" src="https://github.com/user-attachments/assets/8662b6a1-3d97-4d99-99b2-fe6264cfc79e" />
+
+<br><br><br>
+
+<img width="886" height="282" alt="image" src="https://github.com/user-attachments/assets/016c0a3d-d1ef-4ed6-8547-3eb44c1f293b" />
+
+<br><br><br>
+
+<img width="1081" height="445" alt="image" src="https://github.com/user-attachments/assets/2f5e95fc-4f52-4cb8-a072-ec794cdff800" />
+
+<br><br><br>
+
+<img width="638" height="456" alt="image" src="https://github.com/user-attachments/assets/6a5192e8-5613-4e02-86d8-d1b72f5c3793" />
+
+<br><br>
+
+<div id='7.'><h2>Capítulo VII: DevOps Practices</h2></div>
+
+<div id='7.1.'><h3>7.1. Continuous Integration</h3></div>
+
+<div id='7.1.1.'><h4>7.1.1. Tools and Practices</h4></div>
+
+<div id='7.1.2.'><h4>7.1.2. Build & Test Suite Pipeline Components</h4></div>
+
+<div id='7.2.'><h3>7.2. Continuous Delivery</h3></div>
+
+<div id='7.2.1.'><h4>7.2.1. Tools and Practices</h4></div>
+
+<div id='7.2.2.'><h4>7.2.2. Stages Deployment Pipeline Components</h4></div>
+
+<div id='7.3.'><h3>7.3. Continuous Deployment</h3></div>
+
+<div id='7.3.1.'><h4>7.3.1. Tools and Practices</h4></div>
+
+<div id='7.3.2.'><h4>7.3.2. Production Deployment Pipeline Components</h4></div>
+
+
+<div id='8.'><h2>8. Conclusiones</h2></div>
+
+1. **Plataforma Integral de Salud Digital**: OnControl se consolida como un ecosistema digital especializado en oncología que trasciende la simple gestión de citas médicas, integrando funcionalidades completas de seguimiento de tratamientos, recordatorios de medicación, comunidades de apoyo y herramientas de autocontrol para pacientes, estableciendo un nuevo estándar en el acompañamiento oncológico digital.
+
+2. **Modelo de Negocio Sostenible y Escalable**: La implementación del modelo freemium demuestra viabilidad económica al ofrecer servicios básicos gratuitos mientras genera ingresos mediante funcionalidades premium, creando valor tanto para pacientes que acceden a cuidados especializados como para profesionales de la salud que expanden su práctica médica digital.
+
+3. **Arquitectura Técnica Robusta y Segura**: El desarrollo con Next.js para el frontend web, Spring Boot para el backend API RESTful y MySQL para la gestión de datos, complementada con despliegue en Vercel y Render, provee una base tecnológica escalable que garantiza seguridad, rendimiento y cumplimiento normativo con estándares médicos internacionales.
+
+4. **Experiencia de Usuario Centrada en la Empatía**: El diseño UI/UX de la aplicación web prioriza la accesibilidad y reducción de carga cognitiva para pacientes en tratamiento, empleando interfaces intuitivas, flujos guiados y elementos visuales que transmiten confianza, mejorando la adherencia a la plataforma y la continuidad del cuidado médico.
+
+5. **Metodología de Desarrollo Efectiva**: La implementación mediante Scrum permitió entregas incrementales y validadas, con una distribución estratégica de roles que optimizó la productividad del equipo y aseguró la integración coherente entre el frontend web, backend API y landing page, demostrando la efectividad del trabajo colaborativo en el desarrollo de soluciones de salud digital.
+
+<div id='9.'><h2>9. Bibliografía</h2></div>
+
+- Congreso de la República del Perú. (2011, 3 de julio). Ley N.° 29733, Ley de Protección de Datos Personales. Diario Oficial El Peruano. https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/243470-29733
+
+- Presidencia de la República del Perú. (2013, 22 de marzo). Decreto Supremo N.° 003-2013-JUS que aprueba el Reglamento de la Ley N.° 29733, Ley de Protección de Datos Personales. Diario Oficial El Peruano. https://www.minjus.gob.pe/wp-content/uploads/2013/04/LEY-29733.pdf
+
+- Congreso de la República del Perú. (1997, 20 de julio). Ley N.° 26842, Ley General de Salud. Diario Oficial El Peruano. https://www.minsa.gob.pe/Recursos/OGTI/SINADEF/Ley-29733.pdf
+
+
+<div id='10.'><h2>10. Anexo</h2></div>
+
+| Título del Video                  | Link de Video                                  |
+|-----------------------------------|-----------------------------------------------|
+|Link de Organización | https://github.com/ControlUPC/ |
+| Link de Documentación | https://github.com/ControlUPC/report/ |
+| Link de Repositorio de Landing Page | https://github.com/ControlUPC/LandingPage/|
+|Link de Despliegue de Landing Page | https://controlupc.github.io/LandingPage/|
+|Link de Diseño Figma |[Figma]( https://www.figma.com/design/lQZOGmsUK2ZbFdNXzVZ2Go/OnControl--Exp-?node-id=4036-2&t=VuH0WreENKt6JrTd-1) |
+|Link de video de entrevista | [Enlace de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EaLKPHgZ0b5PqTvfCB6MDkQB93evnDKGf300qhOaOZDn7A?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=lUXNgm) |
+|Link de video de exposición | [Link de Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EX0gzL2mHzBImWdXpYLGEkYB6O6DfgPKQLI79eQTIOvvRQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jj4FmS) |
+
