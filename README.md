@@ -3737,47 +3737,51 @@ Esta seccion describe la estrategia de despliegue del sistema, indicando las tec
 
 <div id='5.2.'><h3>5.2. Product Implementation & Deployment</h3></div>
 <div id='5.2.1.'><h4>5.2.1. Sprint Backlogs</h4></div>
-<div id='5.2.1.1.'><h4>5.2.1.1. Sprint #1</h4></div>
+<div id='5.2.1.1.'><h4>5.2.1.1. Sprint 1</h4></div>
 
 El Sprint 1 marca el inicio del desarrollo técnico de nuestra solución, enfocándose en establecer los cimientos fundamentales de la plataforma mediante la implementación paralela de tres componentes críticos: un landing page para la captación de usuarios y validación del mercado, un frontend web que constituya la interfaz principal de la aplicación, y un backend RESTful escalable que soporte la lógica de negocio y la gestión de datos, sentando así las bases técnicas para iteraciones futuras y la validación integral del producto.
 
 ##### SPRINT PLANNING: 
-<table>
+<table border="1" cellspacing="0" cellpadding="8" style="width:100%">
     <tr>
-        <th>Sprint 1</th>
-        <td>Sprint 1</td>
+        <th colspan="2" style="background-color:#f2f2f2; text-align:center; font-size:18px">Sprint 1 - Información General</th>
+    </tr>
+    <tr>
+        <th width="30%">Sprint ID</th>
+        <td width="70%">SPR-001</td>
     </tr>
     <tr>
         <th>Sprint Planning Date</th>
-        <td>10-09-2025</td>
+        <td>10 de Septiembre, 2025</td>
     </tr>
     <tr>
-        <th>Time</th>
-        <td>03:00 PM</td>
+        <th>Hora de Inicio</th>
+        <td>03:00 PM (GMT-5)</td>
     </tr>
     <tr>
-        <th>Location</th>
-        <td>Meet</td>
+        <th>Plataforma de Reunión</th>
+        <td>Google Meet</td>
     </tr>
     <tr>
-        <th>Prepared By</th>
-        <td>Jesús Uribe</td>
+        <th>Preparado Por</th>
+        <td>Williams Góngora Castillejos</td>
     </tr>
     <tr>
-        <th>Attendees</th>
-        <td>Williams Góngora / Anthony Huapaya / Elizabeth Lucero</td>
+        <th>Asistentes</th>
+        <td>Jesús Uribe Quispe / Anthony Huapaya Cuevas / Elizabeth Huanaco Huayta / Johan Quiñones Quintana</td>
     </tr>
     <tr>
-        <th>Sprint Goal</th>
-        <td>Entregar Landing Page funcional en base a las historias de usuario planteadas. Además evidenciar y fundamentar la arquitectura, modelo de negocio y desarrollo del producto.</td>
+        <th>Objetivo del Sprint</th>
+        <td>Implementar los componentes base del producto OnControl mediante el desarrollo simultáneo de la Landing Page, 
+            Frontend Web con Next.js, Backend API RESTful con Spring Boot, y la integración completa entre todos los módulos.</td>
     </tr>
     <tr>
-        <th>Sprint Velocity</th>
-        <td>X</td>
+        <th>Velocidad del Sprint</th>
+        <td>112 horas de desarrollo</td>
     </tr>
     <tr>
-        <th>Sum of Story Points</th>
-        <td>X</td>
+        <th>Total de Story Points</th>
+        <td>20 User Stories completadas</td>
     </tr>
 </table>
 
@@ -4608,24 +4612,22 @@ En esta sección se presentan las pruebas desarrolladas para verificar el correc
 
 <div id='8.'><h2>8. Conclusiones</h2></div>
 
-El proyecto OnControl, dedicado a pacientes con cáncer, se plantea como una plataforma integral de salud digital que conecta a los usuarios con médicos especializados en oncología, nutrición, salud mental y otras áreas relacionadas. Su propuesta no se limita al agendamiento de citas, sino que integra también funcionalidades como recordatorios de medicación, gestión de tratamientos, espacios comunitarios de apoyo y herramientas de autocontrol. El modelo de negocio se basa en un marketplace de salud digital con un enfoque freemium, donde los pacientes pueden acceder gratuitamente a funciones básicas como registro, búsqueda de médicos, agendamiento de citas y participación en la comunidad, mientras que los servicios premium incluyen consultas especializadas por telemedicina, reportes avanzados y seguimiento personalizado. Para los médicos, la plataforma representa un canal de visibilidad, acceso a nuevos pacientes y gestión digital de historiales clínicos, generando valor tanto para el paciente como para el profesional de la salud y asegurando sostenibilidad en el tiempo.
+1. **Plataforma Integral de Salud Digital**: OnControl se consolida como un ecosistema digital especializado en oncología que trasciende la simple gestión de citas médicas, integrando funcionalidades completas de seguimiento de tratamientos, recordatorios de medicación, comunidades de apoyo y herramientas de autocontrol para pacientes, estableciendo un nuevo estándar en el acompañamiento oncológico digital.
 
-El diseño UI/UX debe centrarse en la empatía, simplicidad y accesibilidad, transmitiendo confianza y reduciendo la carga cognitiva en pacientes en tratamiento. Se recomiendan colores suaves, tipografías legibles y flujos guiados que permitan completar fácilmente las tareas más relevantes como registro, búsqueda de especialidad, selección de médico y agendamiento de citas, además de accesos rápidos a medicamentos, recordatorios, comunidad y tratamientos. La experiencia de usuario es un factor decisivo para la adherencia a la aplicación y su éxito en el mercado.
+2. **Modelo de Negocio Sostenible y Escalable**: La implementación del modelo freemium demuestra viabilidad económica al ofrecer servicios básicos gratuitos mientras genera ingresos mediante funcionalidades premium, creando valor tanto para pacientes que acceden a cuidados especializados como para profesionales de la salud que expanden su práctica médica digital.
 
-En cuanto a la configuración del desarrollo, la metodología ágil mediante Scrum permite avanzar con entregas incrementales y validar con usuarios en cada sprint. El frontend puede implementarse en Flutter para garantizar aplicaciones nativas en iOS y Android, mientras que el backend puede construirse con Java Spring Boot, gestionando la lógica de negocio mediante microservicios y APIs REST seguras con autenticación JWT. La infraestructura en la nube, soportada en servicios como Firebase o Azure, facilita almacenamiento seguro de documentos médicos, notificaciones push, autenticación y analítica.
+3. **Arquitectura Técnica Robusta y Segura**: El desarrollo con Next.js para el frontend web, Spring Boot para el backend API RESTful y MySQL para la gestión de datos, complementada con despliegue en Vercel y Render, provee una base tecnológica escalable que garantiza seguridad, rendimiento y cumplimiento normativo con estándares médicos internacionales.
 
-La arquitectura de software se plantea modular y escalable, con una capa de presentación en Flutter, una capa de negocio en microservicios para usuarios, citas, comunidad, tratamientos y recordatorios, y una capa de datos soportada en bases relacionales como MySQL para información estructurada. Los servicios en la nube proveen soporte adicional en autenticación, notificaciones y almacenamiento seguro, y la seguridad se garantiza mediante cifrado de datos sensibles y cumplimiento con normativas como HIPAA y GDPR.
+4. **Experiencia de Usuario Centrada en la Empatía**: El diseño UI/UX de la aplicación web prioriza la accesibilidad y reducción de carga cognitiva para pacientes en tratamiento, empleando interfaces intuitivas, flujos guiados y elementos visuales que transmiten confianza, mejorando la adherencia a la plataforma y la continuidad del cuidado médico.
 
-Finalmente, las user stories levantadas reflejan un panorama completo de funcionalidades, desde la autenticación y gestión de cuentas hasta la búsqueda de médicos, agendamiento de citas, visualización de tratamientos y recordatorios, participación en comunidades, autocontrol mediante diarios y registros de dolor o alimentación, y servicios específicos para médicos como la gestión de pacientes, consulta de historiales médicos y creación de tratamientos. La priorización de estas historias mediante story points permite una planificación ágil y ordenada, asegurando que el desarrollo avance primero en las funcionalidades críticas y luego en las complementarias.
-
-En conclusión, OnControl no es únicamente una aplicación, sino un ecosistema digital de acompañamiento oncológico que combina un modelo de negocio sostenible, un diseño UI/UX centrado en la empatía, una arquitectura modular y escalable, un modelo de datos sólido y un backlog bien definido. La clave de su éxito será integrar tecnología, accesibilidad y sensibilidad humana para ofrecer a pacientes y médicos una plataforma confiable, segura y orientada a mejorar la calidad de vida y el seguimiento integral del tratamiento oncológico.
+5. **Metodología de Desarrollo Efectiva**: La implementación mediante Scrum permitió entregas incrementales y validadas, con una distribución estratégica de roles que optimizó la productividad del equipo y aseguró la integración coherente entre el frontend web, backend API y landing page, demostrando la efectividad del trabajo colaborativo en el desarrollo de soluciones de salud digital.
 
 <div id='9.'><h2>9. Bibliografía</h2></div>
 
 - Congreso de la República del Perú. (2011, 3 de julio). Ley N.° 29733, Ley de Protección de Datos Personales. Diario Oficial El Peruano. https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/243470-29733
-<br>
+
 - Presidencia de la República del Perú. (2013, 22 de marzo). Decreto Supremo N.° 003-2013-JUS que aprueba el Reglamento de la Ley N.° 29733, Ley de Protección de Datos Personales. Diario Oficial El Peruano. https://www.minjus.gob.pe/wp-content/uploads/2013/04/LEY-29733.pdf
-<br>
+
 - Congreso de la República del Perú. (1997, 20 de julio). Ley N.° 26842, Ley General de Salud. Diario Oficial El Peruano. https://www.minsa.gob.pe/Recursos/OGTI/SINADEF/Ley-29733.pdf
 
 
