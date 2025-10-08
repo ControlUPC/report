@@ -3113,6 +3113,8 @@ Este flujo permite a los médicos registrar, actualizar y consultar la historia 
 <div id='4.6.'><h3>4.6. Web Applications UX/UI Design</h3></div>
 <div id='4.6.1.'><h4>4.6.1. Web Applications Wireframes</h4></div>
 
+Los wireframes de la aplicación web de OnControl definen la estructura fundamental y distribución de componentes de la interfaz, estableciendo la arquitectura de información y flujos de usuario mediante diseños esquemáticos que priorizan la funcionalidad sobre la estética, organizando elementos críticos como el dashboard de pacientes con métricas clave, el calendario de citas médicas con vistas semanales y mensuales, los formularios de registro de síntomas y tratamientos, y los paneles de historial médico en una disposición lógica que optimiza la eficiencia del trabajo clínico y garantiza que los profesionales de la oncología puedan acceder y gestionar la información vital con navegación intuitiva y mínima fricción operativa.
+
 **Register**
 
 <img src="img/wireframes-web/Web Register Wireframe.png" alt="Register Wireframe" width=1000px>
@@ -3138,6 +3140,8 @@ Este flujo permite a los médicos registrar, actualizar y consultar la historia 
 <img src="img/wireframes-web/Web Tratamientos Wireframe.png" alt="Tratamientos Wireframe" width=1000px>
 
 <div id='4.6.3.'><h4>4.6.2. Web Applications Mock-ups</h4></div>
+
+Los mock-ups de la aplicación web de OnControl representan la materialización visual de los principios de diseño establecidos en las guías de estilo, presentando una interfaz limpia y profesional orientada a la usabilidad médica, donde se prioriza la claridad en la visualización de información crítica como historiales de pacientes, calendario de citas y seguimiento de tratamientos, mediante un sistema de componentes cohesivo que mantiene la consistencia visual en todos los módulos —dashboard médico, gestión de pacientes, agenda de citas y panel de reportes— asegurando una experiencia intuitiva tanto para oncólogos como para personal médico que requiere acceso rápido a datos clínicos fundamentales para la toma de decisiones.
 
 **Login**
 
@@ -3244,11 +3248,16 @@ Este flujo está diseñado para el paciente. Desde el Dashboard Paciente, accede
 
 <div id='4.8.'><h3>4.8. Domain-Driven Software Architecture</h3></div>
 <div id='4.8.1.'><h4>4.8.1. Software Architecture Context Diagram</h4></div>
+
+El diagrama de contexto de OnControl define las fronteras del sistema ilustrando las interacciones entre los actores principales -el Doctor Oncólogo y el Paciente- y los sistemas externos con los que se integra, como "Recurrence" para el registro y login de terceros y "Phone service" para la gestión de contactos y llamadas, estableciendo claramente el ecosistema en el que opera la plataforma de gestión oncológica.
+
 <div align="center">
 <img src="./img/soft_arq0.png">
 </div>
 
 <div id='4.8.2.'><h4>4.8.2. Software Architecture Container Diagrams</h4></div>
+
+El diagrama de contenedores de OnControl describe la estructura interna de la aplicación, detallando los principales componentes tecnológicos que la conforman: la Landing Page como punto de contacto inicial, la Aplicación Web y Móvil que constituye el núcleo de la experiencia de usuario, la API RESTful que centraliza la lógica de negocio y la Base de Datos para la persistencia de información, complementándose con sistemas externos como Google Login para la autenticación y Phone Service para la gestión de comunicaciones, todos interconectados para ofrecer una plataforma integral de gestión oncológica.
 
 <div align="center">
 <img src="./img/soft_arq.png">
@@ -3256,18 +3265,21 @@ Este flujo está diseñado para el paciente. Desde el Dashboard Paciente, accede
 
 <div id='4.8.3.'><h4>4.8.3. Software Architecture Components Diagrams</h4></div>
 
+El diagrama de componentes de OnControl describe la arquitectura interna basada en microservicios que conforman el sistema de salud, donde cada servicio especializado -Treatment Service para planes terapéuticos, Medication Service para prescripciones, Appointment Service para gestión de citas, Journal Service para seguimiento emocional, Patient Service para historiales médicos, Doctor Service para información de especialistas y Profile Service para gestión de usuarios- opera de manera independiente pero coordinada, interactuando mediante APIs bien definidas y validaciones cruzadas para garantizar la integridad de los datos médicos y la consistencia del sistema integral de gestión oncológica
+
 <div align="center">
 <img src="./img/struct-comp.png" alt="components">
 </div>
 
 <div id='4.9.'><h3>4.9. Software Object-Oriented Design</h3></div>
 <div id='4.9.1.'><h4>4.9.1. Class Diagrams</h4></div>
+
+El diagrama de clases de OnControl representa la arquitectura central del sistema de gestión oncológica, diseñado bajo los principios de Domain-Driven Design (DDD) y Clean Architecture, donde las entidades fundamentales como Patient, Doctor y Treatment funcionan como agregados raíz que orchestan las operaciones del dominio, mientras que los servicios de aplicación facilitan la coordinación entre estas entidades y los repositorios abstractan la capa de persistencia, creando un ecosistema cohesivo que modela fielmente los procesos médicos oncológicos y asegura la separación de concerns mediante una estructura escalable y mantenible.
+
 <div align="center">
 <img src="./img/class_diagram.png" alt="components">
 </div>
 <div id='4.9.2.'><h4>4.9.2. Class Dictionary</h4></div>
-
-# Diccionario de Clases del Sistema Healthcare
 
 ##### **Clase: TipoUsuario**
 | Nombre | Tipo | Descripción |
@@ -3276,7 +3288,6 @@ Este flujo está diseñado para el paciente. Desde el Dashboard Paciente, accede
 | `PACIENTE` | Valor Enum | Tipo de usuario paciente |
 | `MEDICO` | Valor Enum | Tipo de usuario médico |
 
----
 
 ##### **Clase: Usuario**
 | Nombre | Tipo | Descripción |
@@ -3293,7 +3304,6 @@ Este flujo está diseñado para el paciente. Desde el Dashboard Paciente, accede
 | `cambiarNumero()` | Método | Permite al usuario modificar su número de teléfono |
 | `asignarRol()` | Método | Asigna un tipo de usuario (PACIENTE/MEDICO) |
 
----
 
 ##### **Clase: Medico**
 | Nombre | Tipo | Descripción |
@@ -3306,7 +3316,6 @@ Este flujo está diseñado para el paciente. Desde el Dashboard Paciente, accede
 | `asignarTratamiento()` | Método | Asigna un plan de tratamiento |
 | `asignarProcedimiento()` | Método | Programa procedimientos médicos |
 
----
 
 ##### **Clase: Paciente**
 | Nombre | Tipo | Descripción |
@@ -3315,7 +3324,6 @@ Este flujo está diseñado para el paciente. Desde el Dashboard Paciente, accede
 | `revisarHistorial()` | Método | Permite al paciente consultar su historial médico |
 | `agregarMedicamento()` | Método | Registra medicamentos tomados por el paciente |
 
----
 
 ##### **Clase: HistorialMedico**
 | Nombre | Tipo | Descripción |
@@ -3324,7 +3332,6 @@ Este flujo está diseñado para el paciente. Desde el Dashboard Paciente, accede
 | `añadirEntrada()` | Método | Agrega una nueva entrada al historial médico |
 | `listarEntradas()` | Método | Obtiene lista de todas las entradas del historial |
 
----
 
 #### **Relaciones entre Clases**
 
@@ -3348,10 +3355,11 @@ Este flujo está diseñado para el paciente. Desde el Dashboard Paciente, accede
 - **Cardinalidad**: 1:1
 - **Descripción**: Cada paciente tiene un historial médico asociado
 
----
 
 <div id='4.10.'><h3>4.10. Database Design</h3></div>
 <div id='4.10.1.'><h4>4.10.1. Relational/Non-Relational Database Diagram</h4></div>
+
+El diagrama de base de datos relacional de OnControl presenta un esquema normalizado centrado en la entidad USERS como núcleo principal, desde donde se derivan las especializaciones PATIENTS y DOCTORS mediante relaciones uno-a-uno, complementado con tablas transaccionales como APPOINTMENTS que conecta pacientes con doctores, TREATMENTS y MEDICATIONS para la gestión terapéutica, MEDICAL_RECORDS para el historial clínico, PATIENT_JOURNALS y PATIENT_AUTOCONTROL para el seguimiento emocional y de síntomas, junto con tablas de soporte como SPECIALTIES, DOCTOR_AVAILABILITY y REVIEWS, formando una estructura integral que soporta todos los flujos de atención oncológica mientras mantiene la integridad referencial y la consistencia de los datos médicos críticos.
 
 <div align="center">
 <img src="./img/diagram_db.png" alt="components">
@@ -3450,11 +3458,7 @@ Ramas temporales y que son eliminadas luego de cumplir su función.
 
 <div id='5.1.3.'><h4>5.1.3. Source Code Style Guide & Conventions</h4></div>
 
-# 5.1.3. Source Code Style Guide & Conventions
-
-Este documento define las convenciones de estilo y buenas prácticas a seguir en el desarrollo de software dentro del proyecto. Su objetivo es garantizar **legibilidad, consistencia y mantenibilidad** del código entre equipos.  
-
----
+Esta sección define las convenciones de estilo y buenas prácticas a seguir en el desarrollo de software dentro del proyecto. Su objetivo es garantizar **legibilidad, consistencia y mantenibilidad** del código entre equipos.  
 
 #### Nomenclatura General
 - Todo el código debe escribirse en **inglés** (variables, funciones, clases, archivos).
@@ -3640,16 +3644,10 @@ CREATE TABLE user (
 ```
 
 
-
-
-
 <div id='5.1.4.'><h4>5.1.4. Software Deployment Configuration</h4></div>
 
-#### Deployment Documentation
+Esta seccion describe la estrategia de despliegue del sistema, indicando las tecnologías, servicios de nube y entornos de hosting a utilizar para garantizar disponibilidad, escalabilidad y facilidad de mantenimiento.  
 
-Este documento describe la estrategia de despliegue del sistema, indicando las tecnologías, servicios de nube y entornos de hosting a utilizar para garantizar disponibilidad, escalabilidad y facilidad de mantenimiento.  
-
----
 
 #### Frontend (Vue.js)
 
@@ -3669,8 +3667,6 @@ Este documento describe la estrategia de despliegue del sistema, indicando las t
   - CI/CD integrado con GitHub.
   - Entorno optimizado para SPA (Single Page Applications).
   - Escalabilidad y CDN global.
-
----
 
 #### Backend (Java 17 - Spring Boot)
 
@@ -3692,8 +3688,6 @@ Este documento describe la estrategia de despliegue del sistema, indicando las t
   4. Se habilita escalado automático y logging desde Azure Portal.
   5. La API se expone mediante HTTPS con dominio personalizado (opcional).
 
----
-
 #### Base de Datos (MySQL)
 
 - **Motor:** MySQL 8.x  
@@ -3706,10 +3700,6 @@ Este documento describe la estrategia de despliegue del sistema, indicando las t
     - IP de desarrolladores autorizados
   - Habilitar TLS para conexiones seguras.
 
-- **Migraciones:**
-  - Se recomienda el uso de herramientas como **Flyway** o **Liquibase** para mantener control de versiones en el esquema de la base de datos.
-
----
 
 #### Landing Page
 
@@ -3724,19 +3714,15 @@ Este documento describe la estrategia de despliegue del sistema, indicando las t
   - Proporcionar una **página informativa** (landing) para usuarios finales.
   - Redirigir al frontend desplegado en Netlify.
 
----
 
 #### Resumen de Despliegues
 
 | Componente      | Tecnología     | Hosting / Servicio        | Características Clave |
 |-----------------|----------------|---------------------------|-----------------------|
-| Frontend        | Vue 3 + Vite   | Netlify                  | CI/CD, CDN, HTTPS     |
+| Frontend        | Vue 3 + Vite   | Vercel                  | CI/CD, CDN, HTTPS     |
 | Backend         | Java 17 + Spring Boot | Azure Web Services | Variables de entorno, escalado automático |
 | Base de Datos   | MySQL 8.x      | Azure Database for MySQL  | TLS, firewall, migraciones con Flyway/Liquibase |
 | Landing Page    | HTML + CSS + JS| GitHub Pages              | Hosting estático gratuito, dominio opcional |
-
----
-
 
 <div id='5.2.'><h3>5.2. Product Implementation & Deployment</h3></div>
 <div id='5.2.1.'><h4>5.2.1. Sprint Backlogs</h4></div>
@@ -3784,151 +3770,9 @@ Este documento describe la estrategia de despliegue del sistema, indicando las t
     </tr>
 </table>
 
-##### ASPECT LEADERS AND COLLABORATORS:
-
 ##### SPRINT BACKLOG:
 
-<table border="1" cellspacing="0" cellpadding="5">
-  <tr>
-    <th colspan="7">Sprint # | Sprint n</th>
-  </tr>
-  <tr>
-    <th colspan="2">User Story</th>
-    <th colspan="2">Work-Item / Task</th>
-    <th rowspan="2">Description</th>
-    <th rowspan="2">Estimation (Hours)</th>
-    <th rowspan="2">Assigned To</th>
-    <th rowspan="2">Status <br>(To-do / In-Process / To-Review / Done)</th>
-  </tr>
-  <tr>
-    <th>Id</th>
-    <th>Title</th>
-    <th>Id</th>
-    <th>Title</th>
-  </tr>
-  <tr>
-    <td>US25</td>
-    <td>Ver información principal en la página inicial</td>
-    <td>WT01</td>
-    <td>Ver información principal en la página inicial</td>
-    <td>Como visitante, quiero ver un mensaje claro sobre el propósito de OnControl en la página inicial, para entender de inmediato cómo me ayudará.</td>
-    <td>4h</td>
-    <td>Anthony Huapaya</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US26</td>
-    <td>Navegar entre secciones desde el menú superior</td>
-    <td>WT02</td>
-    <td>Navegar entre secciones desde el menú superior</td>
-    <td>Como visitante, quiero navegar a distintas secciones (Características, Beneficios, Problemática, Acerca de, Testimonios, Contacto), para acceder a la información de forma rápida.</td>
-    <td>4h</td>
-    <td>Elizabeth Huanaco</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US27</td>
-    <td>Descargar la aplicación</td>
-    <td>WT03</td>
-    <td>Descargar la aplicación</td>
-    <td>Como visitante, quiero tener la opción de descargar la aplicación, para comenzar a usar OnControl en mi dispositivo.</td>
-    <td>3h</td>
-    <td>William Gongora</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US28</td>
-    <td>Contactar con el equipo</td>
-    <td>WT04</td>
-    <td>Contactar con el equipo</td>
-    <td>Como visitante, quiero poder contactar al equipo de OnControl, para resolver dudas o recibir información personalizada.</td>
-    <td>4h</td>
-    <td>Jesus Uribe</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US29</td>
-    <td>Visualizar imagen representativa</td>
-    <td>WT05</td>
-    <td>Visualizar imagen representativa</td>
-    <td>Como visitante, quiero ver imágenes que representen el uso de OnControl en contexto médico, para entender mejor su propósito</td>
-    <td>4h</td>
-    <td>William Gongora</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US30</td>
-    <td>Conocer las características de OnControl</td>
-    <td>WT06</td>
-    <td>Conocer las características de OnControl</td>
-    <td>Como visitante, quiero ver las características principales de OnControl, para entender qué funcionalidades ofrece.</td>
-    <td>4h</td>
-    <td>Jesús Uribe</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US31</td>
-    <td>Ver los beneficios de usar OnControl</td>
-    <td>WT07</td>
-    <td>Ver los beneficios de usar OnControl</td>
-    <td>Como visitante, quiero ver los beneficios que OnControl ofrece a pacientes y médicos, para evaluar el valor que aporta</td>
-    <td>4h</td>
-    <td>Elizabeth Huanaco</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US32</td>
-    <td>Conocer la problemática que resuelve OnControl</td>
-    <td>WT08</td>
-    <td>Conocer la problemática que resuelve OnControl/td>
-    <td>Como visitante, quiero entender la problemática que aborda OnControl, para identificarme con las necesidades que soluciona.</td>
-    <td>4h</td>
-    <td>Anthony Huapaya</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US33</td>
-    <td>Conocer la sección "Acerca de"</td>
-    <td>WT09</td>
-    <td>Conocer la sección "Acerca de"</td>
-    <td>Como visitante, quiero leer quiénes son y cuál es la misión de OnControl, para confiar en la seriedad del producto.</td>
-    <td>4h</td>
-    <td>William Gongora</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US34</td>
-    <td>Leer testimonios de pacientes y médicos</td>
-    <td>WT10</td>
-    <td>Leer testimonios de pacientes y médicos</td>
-    <td>Como visitante, quiero ver testimonios de usuarios reales (pacientes/médicos), para validar la efectividad de OnControl.</td>
-    <td>4h</td>
-    <td>William Gongora</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US35</td>
-    <td>Acceder a la sección de contacto</td>
-    <td>WT11</td>
-    <td>Acceder a la sección de contacto</td>
-    <td>Como visitante, quiero ver la sección de contacto con formulario o información, para poder comunicarme con el equipo.</td>
-    <td>4h</td>
-    <td>Jesús Uribe</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US36</td>
-    <td>Navegar fácilmente por la landing page</td>
-    <td>WT12</td>
-    <td>Navegar fácilmente por la landing page</td>
-    <td>Como visitante, quiero que el menú superior esté siempre visible, para acceder a cualquier sección sin necesidad de hacer scroll manualmente.</td>
-    <td>4h</td>
-    <td>Elizabeth Huanaco</td>
-    <td>Done</td>
-  </tr>
-  
-
-</table>
+<table border="1" cellspacing="0" cellpadding="5"> <tr> <th colspan="8">Sprint 1 | Implementación Base del Producto</th> </tr> <tr> <th colspan="2">User Story</th> <th colspan="2">Work-Item / Task</th> <th rowspan="2">Description</th> <th rowspan="2">Estimation (Hours)</th> <th rowspan="2">Assigned To</th> <th rowspan="2">Status <br>(To-do / In-Process / To-Review / Done)</th> </tr> <tr> <th>Id</th> <th>Title</th> <th>Id</th> <th>Title</th> </tr> <!-- Landing Page Tasks --> <tr> <td>US25</td> <td>Ver información principal en la página inicial</td> <td>WT01</td> <td>Implementar hero section con value proposition</td> <td>Como visitante, quiero ver un mensaje claro sobre el propósito de OnControl en la página inicial, para entender de inmediato cómo me ayudará.</td> <td>4h</td> <td>Anthony Huapaya</td> <td>Done</td> </tr> <tr> <td>US26</td> <td>Navegar entre secciones desde el menú superior</td> <td>WT02</td> <td>Desarrollar navbar responsive con navegación suave</td> <td>Como visitante, quiero navegar a distintas secciones (Características, Beneficios, Problemática, Acerca de, Testimonios, Contacto), para acceder a la información de forma rápida.</td> <td>4h</td> <td>Elizabeth Huanaco</td> <td>Done</td> </tr> <tr> <td>US27</td> <td>Descargar la aplicación</td> <td>WT03</td> <td>Implementar sección de descargas con enlaces a stores</td> <td>Como visitante, quiero tener la opción de descargar la aplicación, para comenzar a usar OnControl en mi dispositivo.</td> <td>3h</td> <td>William Gongora</td> <td>Done</td> </tr> <tr> <td>US28</td> <td>Contactar con el equipo</td> <td>WT04</td> <td>Desarrollar formulario de contacto funcional</td> <td>Como visitante, quiero poder contactar al equipo de OnControl, para resolver dudas o recibir información personalizada.</td> <td>4h</td> <td>Jesus Uribe</td> <td>Done</td> </tr> <tr> <td>US29</td> <td>Visualizar imagen representativa</td> <td>WT05</td> <td>Integrar imágenes médicas contextuales</td> <td>Como visitante, quiero ver imágenes que representen el uso de OnControl en contexto médico, para entender mejor su propósito</td> <td>4h</td> <td>William Gongora</td> <td>Done</td> </tr> <tr> <td>US30</td> <td>Conocer las características de OnControl</td> <td>WT06</td> <td>Crear sección de características con iconos</td> <td>Como visitante, quiero ver las características principales de OnControl, para entender qué funcionalidades ofrece.</td> <td>4h</td> <td>Jesús Uribe</td> <td>Done</td> </tr> <tr> <td>US31</td> <td>Ver los beneficios de usar OnControl</td> <td>WT07</td> <td>Desarrollar sección de beneficios diferenciados</td> <td>Como visitante, quiero ver los beneficios que OnControl ofrece a pacientes y médicos, para evaluar el valor que aporta</td> <td>4h</td> <td>Elizabeth Huanaco</td> <td>Done</td> </tr> <tr> <td>US32</td> <td>Conocer la problemática que resuelve OnControl</td> <td>WT08</td> <td>Implementar sección problemática-solución</td> <td>Como visitante, quiero entender la problemática que aborda OnControl, para identificarme con las necesidades que soluciona.</td> <td>4h</td> <td>Anthony Huapaya</td> <td>Done</td> </tr> <tr> <td>US33</td> <td>Conocer la sección "Acerca de"</td> <td>WT09</td> <td>Crear about section con misión y equipo</td> <td>Como visitante, quiero leer quiénes son y cuál es la misión de OnControl, para confiar en la seriedad del producto.</td> <td>4h</td> <td>William Gongora</td> <td>Done</td> </tr> <tr> <td>US34</td> <td>Leer testimonios de pacientes y médicos</td> <td>WT10</td> <td>Implementar carousel de testimonios</td> <td>Como visitante, quiero ver testimonios de usuarios reales (pacientes/médicos), para validar la efectividad de OnControl.</td> <td>4h</td> <td>William Gongora</td> <td>Done</td> </tr> <tr> <td>US35</td> <td>Acceder a la sección de contacto</td> <td>WT11</td> <td>Desarrollar página de contacto completa</td> <td>Como visitante, quiero ver la sección de contacto con formulario o información, para poder comunicarme con el equipo.</td> <td>4h</td> <td>Jesús Uribe</td> <td>Done</td> </tr> <tr> <td>US36</td> <td>Navegar fácilmente por la landing page</td> <td>WT12</td> <td>Optimizar UX y navegación responsive</td> <td>Como visitante, quiero que el menú superior esté siempre visible, para acceder a cualquier sección sin necesidad de hacer scroll manualmente.</td> <td>4h</td> <td>Elizabeth Huanaco</td> <td>Done</td> </tr> <!-- Backend API Tasks --> <tr> <td>US01</td> <td>Gestión de autenticación</td> <td>WT13</td> <td>Implementar endpoints de login y registro</td> <td>Como usuario, quiero autenticarme de forma segura para acceder al sistema.</td> <td>8h</td> <td>Anthony Huapaya</td> <td>Done</td> </tr> <tr> <td>US02</td> <td>Gestión de pacientes</td> <td>WT14</td> <td>Desarrollar CRUD pacientes y dashboards</td> <td>Como médico, quiero gestionar la información de mis pacientes de forma centralizada.</td> <td>12h</td> <td>Jesus Uribe</td> <td>Done</td> </tr> <tr> <td>US03</td> <td>Gestión de tratamientos</td> <td>WT15</td> <td>Implementar módulo completo de tratamientos</td> <td>Como médico, quiero crear y seguir el progreso de tratamientos oncológicos.</td> <td>10h</td> <td>Elizabeth Huanaco</td> <td>Done</td> </tr> <tr> <td>US04</td> <td>Seguimiento de síntomas</td> <td>WT16</td> <td>Desarrollar sistema de reporte de síntomas</td> <td>Como paciente, quiero reportar mis síntomas para que mi médico los monitorice.</td> <td>6h</td> <td>William Gongora</td> <td>Done</td> </tr> <!-- Frontend Web Application Tasks --> <tr> <td>US15</td> <td>Interfaz de dashboard médico</td> <td>WT17</td> <td>Desarrollar componente principal de dashboard</td> <td>Como médico, quiero ver un resumen de mis pacientes y actividades.</td> <td>8h</td> <td>Anthony Huapaya</td> <td>Done</td> </tr> <tr> <td>US16</td> <td>Gestión de citas médicas</td> <td>WT18</td> <td>Implementar calendario y agenda</td> <td>Como médico, quiero gestionar mis citas de forma visual e intuitiva.</td> <td>10h</td> <td>Elizabeth Huanaco</td> <td>Done</td> </tr> <tr> <td>US17</td> <td>Vista de historial médico</td> <td>WT19</td> <td>Crear componente de historial paciente</td> <td>Como médico, quiero acceder al historial completo de un paciente.</td> <td>6h</td> <td>Jesus Uribe</td> <td>Done</td> </tr> <tr> <td>US18</td> <td>Panel de gestión de medicamentos</td> <td>WT20</td> <td>Desarrollar módulo de prescripciones</td> <td>Como médico, quiero prescribir y gestionar medicamentos.</td> <td>8h</td> <td>William Gongora</td> <td>Done</td> </tr></table>
 
 
 <div id='5.2.1.2.'><h4>5.2.1.2. Implemented Landing Page Evidence</h4></div>
