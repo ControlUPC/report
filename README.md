@@ -41,10 +41,28 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-----: | :---: | :---: | --------------------------- |
 |    TB1    |   19/09/2025   |   Jesús Uribe Quispe   | Adición del contenido de startup profile, needfinding, user stories, UX/UI Design & Software configuration development                        |
+|    TP    |   08/10/2025   |   Jesús Uribe Quispe   | Adición del Capítulo VI y VII, desarrollo de los servicios Web y aplicaciones web. Validación del producto mediante pruebas.                       |
 
 # Project Report Collaboration Insights
 
 URL del repositorio para el reporte del proyecto: [https://github.com/ControlUPC/report/](https://github.com/ControlUPC/report/)
+
+**TP**
+
+<div align="">
+  <img src="./img/insights_tb1.png" alt="insights">
+</div>
+
+
+Para el desarrollo del informe perteneciente a la entrega TP, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante | Tareas Asignadas |
+| ---------- | ---------------- |
+|Góngora Castillejos Williams | Desarrollo del capitulo VI |
+| Huapaya Cuevas Anthony       | Desarrollo del capítulo VII |
+|Huanaco Huayta Elizabeth | Desarrollo del capítulo VII |
+|Quiñones Quintaya, Johan | Desarrollo del capítulo VI |
+|Uribe Quispe Jesús | Desarrollo del capítulo VII |
 
 **TB1**
 
@@ -217,6 +235,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <strong>TP1:</strong> <p align="justify">En la práctica de DevOps, la responsabilidad ética y profesional se refleja en la implementación de procesos automatizados y seguros que garanticen la calidad del software y la protección de los datos sensibles. En el proyecto ControlUPC, esto implica mantener la integridad y confidencialidad de la información de los pacientes oncológicos, asegurando que cada despliegue sea confiable y cumpla con los estándares éticos de la ingeniería de software.</p><br>
       <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Durante el desarrollo del proyecto, asumí la responsabilidad ética y profesional al diseñar la arquitectura de software, elaborando el diagrama de contenedores, de componentes, de clases y el modelo de bases de datos, asegurándome de que cada decisión fuera clara, documentada y trazable para facilitar la comprensión del equipo y garantizar la mantenibilidad del sistema. </p><br>
+      <br>  <strong>TP:</strong> <p align="justify"> Reconozco mi responsabilidad ética y profesional en la ingeniería de software, especialmente tras haber trabajado en DevOps, documentar cómo se implementará la integración continua y diseñar la arquitectura de software. Me comprometo a asegurar que los procesos de integración continua sean robustos y transparentes, garantizando la calidad del software con pruebas automatizadas y despliegues confiables, todo mientras protejo la confidencialidad y seguridad de los datos involucrados. Además, al documentar la arquitectura y los flujos de trabajo, busco promover claridad y sostenibilidad en el proyecto, fomentando un entorno colaborativo y ético que apoye decisiones informadas y cumpla con estándares profesionales, siempre pensando en el beneficio de los usuarios y la comunidad técnica.</p><br>
       <strong>Gongora Castillejos, Williams</strong> <br>
       <strong>TB1:</strong> <p align="justify">Durante el desarrollo de los capítulos 1 y 2, reconocí mi responsabilidad ética y profesional al definir claramente el Startup Profile, la problemática real y los segmentos objetivo, asegurando que la solución responda a necesidades genuinas de médicos y pacientes. Asimismo, en el análisis competitivo, entrevistas y construcción de artefactos de Needfinding, apliqué buenas prácticas de ingeniería de software, priorizando la transparencia, la privacidad de los datos y la utilidad social de la aplicación, lo que refleja un compromiso ético con los usuarios y la sociedad. </p><br>
       <strong>Quiñones Tintaya, Johan Jorge</strong> <br>
@@ -225,6 +244,9 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td>
         <p> <strong>TB1:</strong>
         El desarrollo de interfaces y la construcción de la arquitectura del sistema permitieron reconocer la importancia de la responsabilidad ética y profesional en la ingeniería de software. Al priorizar la claridad, accesibilidad, usabilidad y estandarización en las decisiones de diseño y documentación, se consolidó el compromiso con la creación de soluciones confiables, adaptadas a las plataformas y sostenibles en el tiempo, siempre considerando el bienestar de pacientes y profesionales de la salud.
+        </p>
+           <p> <strong>TP</strong>
+        Como grupo, reconocemos nuestra responsabilidad ética y profesional en la ingeniería de software, reflejada en nuestro trabajo con DevOps, la documentación de integración continua y el diseño de la arquitectura de software. Nos hemos comprometido a garantizar procesos robustos y transparentes, protegiendo la confidencialidad de los datos y promoviendo un desarrollo sostenible que beneficie a la comunidad técnica, asegurando que nuestras decisiones estén alineadas con estándares éticos y profesionales.
         </p>
       </td>
     </tr>
@@ -239,6 +261,8 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <strong>TP1:</strong> <p align="justify">En el contexto de DevOps, emitir juicios informados implica evaluar cómo las decisiones técnicas influyen en los ámbitos global, económico y social. En el proyecto ControlUPC, la adopción de prácticas automatizadas de despliegue continuo contribuye a optimizar recursos tecnológicos y humanos, reduciendo costos operativos y mejorando la disponibilidad del sistema para doctores y pacientes oncológicos. Este enfoque no solo promueve la eficiencia económica y la sostenibilidad tecnológica, sino que también tiene un impacto social positivo al garantizar un acceso oportuno y confiable a información médica crítica, fortaleciendo así la calidad del servicio en el ámbito de la salud.</p><br>
       <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Al preparar la documentación de implementación del producto, emití juicios informados considerando el impacto que las soluciones de software podrían tener en el contexto global, económico, ambiental y social. Esto me llevó a priorizar decisiones que promuevan la eficiencia en el uso de recursos, la escalabilidad y la accesibilidad del sistema, contribuyendo a un producto sostenible y con potencial de adaptarse a diferentes escenarios. </p><br>
+      <strong>TP:</strong> <p align="justify">
+Como ingeniero de software, emito juicios informados considerando el impacto de mis soluciones en contextos globales, económicos, ambientales y sociales, especialmente tras mi experiencia en DevOps, documentación de integración continua y diseño de arquitectura de software. Evalúo cómo las implementaciones optimizadas y los despliegues continuos pueden reducir costos operativos y mejorar la eficiencia global, mientras me aseguro de minimizar el consumo energético y el impacto ambiental mediante prácticas sostenibles. Además, considero las implicaciones sociales, garantizando que las soluciones sean accesibles y beneficiosas para diversas culturas y comunidades, y analizo el contexto económico para asegurar que sean viables y equitativas, promoviendo un desarrollo responsable que equilibre innovación con bienestar colectivo.</p><br>
       <strong>Gongora Castillejos, Williams</strong> <br>
       <strong>TB1:</strong> <p align="justify">En los capítulos 1 y 2 emití juicios informados al analizar la problemática oncológica en el Perú, considerando el impacto social de facilitar la comunicación entre médicos y pacientes, el potencial económico de un modelo de negocio sostenible, y la escalabilidad global hacia otras especialidades médicas. Además, evalué la importancia de la seguridad y privacidad de datos como un factor crítico con repercusiones éticas y sociales en el uso responsable de la tecnología. </p><br>
       <strong>Quiñones Tintaya, Johan Jorge</strong> <br>
@@ -247,6 +271,9 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td>
         <p><strong>TB1:</strong>
         La reflexión sobre los impactos globales, sociales, económicos y ambientales del software permitió emitir juicios informados que guían el desarrollo hacia la sostenibilidad y la eficiencia. Al diseñar interfaces accesibles, optimizar recursos y contemplar la escalabilidad, se comprendió que las soluciones de ingeniería no se limitan a lo técnico, sino que influyen directamente en la vida de los usuarios y en el contexto donde son implementadas.
+        </p>
+         <p><strong>TP:</strong>
+          Como grupo, emitimos juicios informados considerando el impacto de nuestras soluciones en contextos globales, económicos, ambientales y sociales, evaluando cómo las optimizaciones en los despliegues reducen costos y mejoran la eficiencia a nivel mundial, mientras minimizamos el impacto ambiental con prácticas sostenibles. También hemos priorizado la accesibilidad y el bienestar social de diversas culturas, analizando la viabilidad económica para ofrecer soluciones equitativas, demostrando nuestro compromiso con un desarrollo responsable que equilibre innovación y beneficio colectivo a lo largo de este proyecto.
         </p>
       </td>
     </tr>
@@ -669,14 +696,6 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 |Time | 6:23 - 11:49 |
 |Analisis de Entrevista| Anthony, paciente oncológico diagnosticado con cáncer de colon de 24 años, comenta que está siguiendo un tratamiento oncológico en el Hospital Nacional Guillermo Almenara desde hace aproximadamente ocho meses, incluyendo quimioterapia y consultas con nutrición y psicología. Señala que principalmente utiliza su smartphone para gestionar recordatorios de medicación, citas y resultados de laboratorio, complementando con notas en papel y su laptop para organizar fechas importantes. Indica que las herramientas actuales, como agendas o aplicaciones básicas de recordatorios, no le permiten registrar síntomas ni efectos secundarios, lo que genera confusión y estrés, especialmente cuando olvida citas o cambios en el tratamiento. Además, menciona la dificultad encontrar un sistema centralizado que integre toda la información de su tratamiento. Este paciente considera que una aplicación práctica que centralice la gestión de citas, recordatorios, registro de síntomas y evolución supervisada por su médico le brindaría mayor organización, seguridad y tranquilidad.|
 
-|Entrevistado 3|Anthony Urbano|
-|-|-|
-|Edad|24|
-|Distrito|Ate|
-|Foto|<img src="img/Entrevista Anthony Urbano.png" alt="Entrevista a paciente Anthony Urbano" style="margin-bottom: 5px;" width="740">|
-|Link|--Colocar link--|
-|Time | --Colocar timing-- |
-|Analisis de Entrevista| Anthony, paciente oncológico diagnosticado con cáncer de colon de 24 años, comenta que está siguiendo un tratamiento oncológico en el Hospital Nacional Guillermo Almenara desde hace aproximadamente ocho meses, incluyendo quimioterapia y consultas con nutrición y psicología. Señala que principalmente utiliza su smartphone para gestionar recordatorios de medicación, citas y resultados de laboratorio, complementando con notas en papel y su laptop para organizar fechas importantes. Indica que las herramientas actuales, como agendas o aplicaciones básicas de recordatorios, no le permiten registrar síntomas ni efectos secundarios, lo que genera confusión y estrés, especialmente cuando olvida citas o cambios en el tratamiento. Además, menciona la dificultad encontrar un sistema centralizado que integre toda la información de su tratamiento. Este paciente considera que una aplicación práctica que centralice la gestión de citas, recordatorios, registro de síntomas y evolución supervisada por su médico le brindaría mayor organización, seguridad y tranquilidad.|
 
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
 
@@ -3262,26 +3281,65 @@ Este flujo está diseñado para el paciente. Desde el Dashboard Paciente, accede
 <div id='4.8.'><h3>4.8. Domain-Driven Software Architecture</h3></div>
 <div id='4.8.1.'><h4>4.8.1. Software Architecture Context Diagram</h4></div>
 
-El diagrama de contexto de OnControl define las fronteras del sistema ilustrando las interacciones entre los actores principales -el Doctor Oncólogo y el Paciente- y los sistemas externos con los que se integra, como "Recurrence" para el registro y login de terceros y "Phone service" para la gestión de contactos y llamadas, estableciendo claramente el ecosistema en el que opera la plataforma de gestión oncológica.
+El diagrama de contexto de OnControl define las fronteras del sistema ilustrando las interacciones entre los actores principales -el Doctor Oncólogo y el Paciente- y los sistemas externos con los que se integra.
 
 <div align="center">
-<img src="./img/soft_arq0.png">
+<img src="./img/structurizr-SystemContext (2).png">
 </div>
 
 <div id='4.8.2.'><h4>4.8.2. Software Architecture Container Diagrams</h4></div>
 
-El diagrama de contenedores de OnControl describe la estructura interna de la aplicación, detallando los principales componentes tecnológicos que la conforman: la Landing Page como punto de contacto inicial, la Aplicación Web y Móvil que constituye el núcleo de la experiencia de usuario, la API RESTful que centraliza la lógica de negocio y la Base de Datos para la persistencia de información, complementándose con sistemas externos como Google Login para la autenticación y Phone Service para la gestión de comunicaciones, todos interconectados para ofrecer una plataforma integral de gestión oncológica.
+El diagrama representa un sistema distribuido basado en contenedores, utilizando un enfoque de arquitectura monolítica pero con contextos separados en base a Domain Driven Design. Los contenedores están organizados en un sistema de control, y cada contenedor tiene responsabilidades específicas que interactúan entre sí y con una base de datos central. Las relaciones entre los contenedores se indican con flechas que muestran las operaciones de "lee/escribe" (lectura/escritura) y el uso de autenticación.
 
 <div align="center">
-<img src="./img/soft_arq.png">
+<img src="./img/structurizr-HealthcareSystemContainers (2).png">
 </div>
+
+**Aplicación Web:** Frontend del sistema que realiza consultas y usa autenticación, interactuando con "IAM BC" para consultas y autenticación.
+
+**IAM BC (Identity and Access Management):** Gestiona autenticación y control de acceso, recibiendo consultas de "Aplicación Web" y proporcionando autenticación a otros contenedores como "Storage BC" y "Profile BC".
+
+**Appointment BC:** Gestiona citas médicas, lee/escribe en la "Database" y usa autenticación de "IAM BC".
+Treatment BC: Gestiona tratamientos (incluyendo oncológicos), lee/escribe en la "Database" y usa autenticación de "IAM BC".
+
+**Storage BC:** Almacena documentos médicos, lee/escribe en la "Database" y usa autenticación de "IAM BC".
+Profile BC: Gestiona perfiles de usuario y preferencias médicas, lee/escribe en la "Database" y usa autenticación de "IAM BC".
+
+**Billing BC:** Gestiona facturación y pagos, lee/escribe en la "Database" y usa autenticación de "IAM BC".
+Google Authenticator: Proporciona autenticación adicional vía correos verificados, conectándose al sistema para verificar identidades.
+
+**Database:** Base de datos central con contexto delimitado, recibiendo operaciones de lectura/escritura de "Appointment BC", "Treatment BC", "Storage BC", "Profile BC" y "Billing BC".
 
 <div id='4.8.3.'><h4>4.8.3. Software Architecture Components Diagrams</h4></div>
 
-El diagrama de componentes de OnControl describe la arquitectura interna basada en microservicios que conforman el sistema de salud, donde cada servicio especializado -Treatment Service para planes terapéuticos, Medication Service para prescripciones, Appointment Service para gestión de citas, Journal Service para seguimiento emocional, Patient Service para historiales médicos, Doctor Service para información de especialistas y Profile Service para gestión de usuarios- opera de manera independiente pero coordinada, interactuando mediante APIs bien definidas y validaciones cruzadas para garantizar la integridad de los datos médicos y la consistencia del sistema integral de gestión oncológica
+Cada contexto está desarrollado en Java + Spring Boot bajo un enfoque de arquitectura en capas basada en los principios de Domain-Driven Design (DDD).
 
+Cada capa se especializa en una responsabilidad distinta, garantizando una alta cohesión interna y un bajo acoplamiento entre módulos.
+
+**Appointment Context**: 
 <div align="center">
-<img src="./img/struct-comp.png" alt="components">
+<img src="./img/structurizr-componentAppointment.png" alt="components">
+</div>
+
+**Billing Context**: 
+<div align="center">
+<img src="./img/structurizr-componentBilling.png" alt="components">
+</div>
+
+**Profile Context**: 
+<div align="center">
+<img src="./img/structurizr-componentProfile.png" alt="components">
+</div>
+
+
+**Storage Context**: 
+<div align="center">
+<img src="./img/structurizr-componentStorage.png" alt="components">
+</div>
+
+**Treatment Context**: 
+<div align="center">
+<img src="./img/structurizr-componentTreatment.png" alt="components">
 </div>
 
 <div id='4.9.'><h3>4.9. Software Object-Oriented Design</h3></div>
@@ -4608,7 +4666,48 @@ En esta sección se presentan las pruebas desarrolladas para verificar el correc
 
 <div id='7.1.1.'><h4>7.1.1. Tools and Practices</h4></div>
 
+Las herramientas y prácticas de integración continua permiten automatizar el flujo de construcción y validación del software.
+
+
+**Jenkins:** herramienta central en el ecosistema DevOps, utilizada para configurar pipelines de integración y automatizar tareas de compilación, prueba y despliegue.
+
+**Git/GitHub:** sistemas de control de versiones que facilitan la detección de cambios y la activación de pipelines.
+
+**Maven:** gestores de dependencias que automatizan la compilación y empaquetado del código.
+
+**JUnit y Mockito:** frameworks de pruebas que permiten validar automáticamente el correcto funcionamiento del backend.
+
+Las prácticas recomendadas incluyen:
+
+- Automatizar el proceso de construcción y pruebas después de cada commit.
+
+- Configurar validaciones automáticas en las ramas principales (por ejemplo, main o develop).
+
+- Mantener un entorno limpio y reproducible para evitar dependencias locales.
+
+En el caso del proyecto oncológico, Jenkins detecta cada cambio en el repositorio del backend, ejecuta una compilación con Maven, y lanza pruebas unitarias con JUnit, garantizando que el código se mantenga estable y listo para la siguiente etapa (CD).
+
 <div id='7.1.2.'><h4>7.1.2. Build & Test Suite Pipeline Components</h4></div>
+El pipeline de Integración Continua se compone de distintas etapas que automatizan la construcción y validación del software.
+Sus componentes principales son:
+
+**Source / Commit Stage:** Detecta nuevos cambios en el repositorio Git.
+
+**Build Stage:** Compila el código fuente y genera artefactos ejecutables mediante Maven o Gradle.
+
+**Test Stage:** Ejecuta pruebas unitarias y de integración automatizadas.
+
+**Report Stage:** Genera reportes de resultados y métricas de calidad del código.
+
+En nuestro contexto:
+
+- Cada commit en el repositorio del backend activa el pipeline en Jenkins.
+
+- Jenkins compila el proyecto con Maven, verificando dependencias y estructura.
+
+- Se ejecutan pruebas automatizadas con JUnit para validar cálculos clínicos, registros de pacientes y módulos de análisis experimental.
+
+- Si todas las pruebas pasan correctamente, el artefacto resultante se almacena para su uso en el pipeline de Continuous Delivery.
 
 <div id='7.2.'><h3>7.2. Continuous Delivery</h3></div>
 
