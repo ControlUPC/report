@@ -4126,6 +4126,59 @@ La aplicación móvil de OnControl, desarrollada con Flutter, implementa una exp
 
 El backend de OnControl, desarrollado con Spring Boot y desplegado en Render, implementa una API RESTful completa con 47 endpoints que soporta todos los módulos del sistema de gestión oncológica, incluyendo autenticación JWT segura, gestión de pacientes, tratamientos, citas médicas, medicamentos y reportes analíticos, demostrando una arquitectura escalable y robusta que garantiza la integridad de los datos médicos y el rendimiento del sistema.
 
+**OnControl Backend - SpringBoot:**
+
+* TreatmentController.java:
+
+Este controller gestiona las peticiones HTTP relacionadas con tratamientos médicos en la API. Permite crear, consultar, actualizar y cambiar el estado de tratamientos, así como registrar y listar sesiones asociadas a cada tratamiento. También ofrece endpoints para obtener estadísticas y próximas sesiones, tanto para doctores como para pacientes. 
+
+<img width="1120" height="860" alt="image" src="https://github.com/user-attachments/assets/5c4b058c-17b3-453f-b25d-81d48fc018dc" />
+
+* SymptomController.java:
+
+Este controller maneja las peticiones HTTP relacionadas con los síntomas de los pacientes. Permite que un paciente reporte un síntoma, consultar todos sus síntomas (con filtros de fecha), ver los síntomas recientes y obtener estadísticas sobre sus síntomas. 
+
+<img width="1123" height="871" alt="image" src="https://github.com/user-attachments/assets/27ec1c33-fefd-48dd-ad53-647971331960" />
+
+* PatientController.java:
+
+Este controller expone endpoints para obtener el dashboard y un resumen rápido del estado de un paciente. Permite consultar citas, síntomas recientes y estadísticas, devolviendo toda la información agregada en formato JSON. Maneja errores devolviendo mensajes claros si ocurre algún problema al recuperar los datos.
+
+<img width="1118" height="865" alt="image" src="https://github.com/user-attachments/assets/9c51769a-b2f6-4008-91eb-1c576af1f146" />
+
+* DoctorController.java:
+
+Este controller permite a los doctores gestionar a sus pacientes. Ofrece endpoints para crear pacientes, listar todos sus pacientes, consultar detalles de un paciente específico, ver los síntomas de un paciente y obtener un dashboard con el resumen de pacientes y citas. Todas las respuestas son en formato JSON y maneja errores devolviendo mensajes claros.
+
+<img width="1112" height="858" alt="image" src="https://github.com/user-attachments/assets/7d8337ae-59ce-43c8-8678-aaf3c9230cba" />
+
+* MedicalHistoryController.java:
+
+Este controller gestiona el historial médico de los pacientes. Permite agregar nuevas entradas al historial, consultar el historial completo, filtrar por tipo o rango de fechas, y manejar alergias (agregar, listar y eliminar).
+
+<img width="1113" height="849" alt="image" src="https://github.com/user-attachments/assets/d6bee524-683d-4d92-918b-36e1c3957bba" />
+
+* DashboardController.java:
+
+Este controller gestiona los dashboards centralizados de la aplicación, permitiendo obtener vistas generales y estadísticas tanto para organizaciones, doctores y pacientes. Ofrece endpoints para consultar dashboards completos y filtrados (por doctor o paciente), así como endpoints rápidos de estadísticas.
+
+<img width="1123" height="873" alt="image" src="https://github.com/user-attachments/assets/f5ac3e93-cad4-4f43-9766-594d8cb7a6e4" />
+
+* AppointmentController.java:
+
+Este controller gestiona las citas médicas entre doctores y pacientes. Permite crear nuevas citas, listar todas las citas de un doctor o paciente, consultar una cita específica por ID, actualizar el estado de una cita y agregar notas de seguimiento. 
+
+<img width="1118" height="862" alt="image" src="https://github.com/user-attachments/assets/d6e201b9-a463-4dca-80be-a634595c0718" />
+
+* ReportController.java:
+
+Este controller expone endpoints para obtener reportes y analíticas relacionados con los doctores. Permite consultar reportes generales, cantidad de pacientes por mes, distribución de tratamientos por tipo y citas por día de la semana.
+
+<img width="1112" height="881" alt="image" src="https://github.com/user-attachments/assets/256065d8-ecec-4a22-a954-5fb5f781756f" />
+
+
+**OnControl Backend API - Swagger:**
+
 <img width="921" height="857" alt="image" src="https://github.com/user-attachments/assets/cb2043a6-2816-4763-89bf-ac59e973485f" />
 
 <img width="926" height="688" alt="image" src="https://github.com/user-attachments/assets/f69e630b-af23-412d-af30-758c1608a140" />
