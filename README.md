@@ -1,4 +1,3 @@
-<div align="center">
 <h1 style="text-align: center;"> Informe del Trabajo Final </h1>
 <h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 
@@ -49,7 +48,7 @@ URL del repositorio para el reporte del proyecto: [https://github.com/ControlUPC
 
 **TB1**
 
-<div align="center">
+<div align="">
   <img src="./img/insights_tb1.png" alt="insights">
 </div>
 
@@ -75,6 +74,8 @@ Los integrantes son:
 - Huapaya Cuevas, Anthony Martin (AnthonyHuapaya)
 - Quiñones Quintaya, Johan Jorge (johaanq)
 - Uribe Quispe, Jesús Guillermo(JesusU27)
+
+# Contenido
 
 # Contenido
 
@@ -168,9 +169,28 @@ Los integrantes son:
    5.2.1.8. [Team Collaboration Insights.](#5.2.1.8.)<br>
    5.3. [Video About-the-Product.](#5.3.)<br>
 
-6. [Conclusiones](#6.)<br>
-7. [Bibliografía](#7.)<br>
-8. [Anexo](#8.)<br>
+6. [**Capítulo VI: Product Verification & Validation.**](#6.)<br>
+   6.1. [Testing Suites & Validation.](#6.1.)<br>
+   6.1.1. [Core Entities Unit Tests.](#6.1.1.)<br>
+   6.1.2. [Core Integration Tests.](#6.1.2.)<br>
+   6.1.3. [Core Behavior-Driven Development.](#6.1.3.)<br>
+   6.1.4. [Core System Tests.](#6.1.4.)<br>
+
+7. [**Capítulo VII: DevOps Practices.**](#7.)<br>
+   7.1. [Continuous Integration.](#7.1.)<br>
+   7.1.1. [Tools and Practices.](#7.1.1.)<br>
+   7.1.2. [Build & Test Suite Pipeline Components.](#7.1.2.)<br>
+   7.2. [Continuous Delivery.](#7.2.)<br>
+   7.2.1. [Tools and Practices.](#7.2.1.)<br>
+   7.2.2. [Stages Deployment Pipeline Components.](#7.2.2.)<br>
+   7.3. [Continuous Deployment.](#7.3.)<br>
+   7.3.1. [Tools and Practices.](#7.3.1.)<br>
+   7.3.2. [Production Deployment Pipeline Components.](#7.3.2.)<br>
+
+8. [Conclusiones](#8.)<br>
+9. [Bibliografía](#9.)<br>
+10. [Anexo](#10.)<br>
+
 
 # STUDENT OUTCOME
 
@@ -4188,7 +4208,41 @@ En este apartado se evidencia la colaboración y desarrollo conjunto de los comp
   <img src="./img/insights_tb1.png" alt="insights">
 </div>
 
-<div id='6.'><h2>6. Conclusiones</h2></div>
+
+<div id='6.'><h2>Capítulo VI: Product Verification & Validation</h2></div>
+
+<div id='6.1.'><h3>6.1. Testing Suites & Validation</h3></div>
+
+<div id='6.1.1.'><h4>6.1.1. Core Entities Unit Tests</h4></div>
+
+<div id='6.1.2.'><h4>6.1.2. Core Integration Tests</h4></div>
+
+<div id='6.1.3.'><h4>6.1.3. Core Behavior-Driven Development</h4></div>
+
+<div id='6.1.4.'><h4>6.1.4. Core System Tests</h4></div>
+
+<div id='7.'><h2>Capítulo VII: DevOps Practices</h2></div>
+
+<div id='7.1.'><h3>7.1. Continuous Integration</h3></div>
+
+<div id='7.1.1.'><h4>7.1.1. Tools and Practices</h4></div>
+
+<div id='7.1.2.'><h4>7.1.2. Build & Test Suite Pipeline Components</h4></div>
+
+<div id='7.2.'><h3>7.2. Continuous Delivery</h3></div>
+
+<div id='7.2.1.'><h4>7.2.1. Tools and Practices</h4></div>
+
+<div id='7.2.2.'><h4>7.2.2. Stages Deployment Pipeline Components</h4></div>
+
+<div id='7.3.'><h3>7.3. Continuous Deployment</h3></div>
+
+<div id='7.3.1.'><h4>7.3.1. Tools and Practices</h4></div>
+
+<div id='7.3.2.'><h4>7.3.2. Production Deployment Pipeline Components</h4></div>
+
+
+<div id='8.'><h2>8. Conclusiones</h2></div>
 
 El proyecto OnControl, dedicado a pacientes con cáncer, se plantea como una plataforma integral de salud digital que conecta a los usuarios con médicos especializados en oncología, nutrición, salud mental y otras áreas relacionadas. Su propuesta no se limita al agendamiento de citas, sino que integra también funcionalidades como recordatorios de medicación, gestión de tratamientos, espacios comunitarios de apoyo y herramientas de autocontrol. El modelo de negocio se basa en un marketplace de salud digital con un enfoque freemium, donde los pacientes pueden acceder gratuitamente a funciones básicas como registro, búsqueda de médicos, agendamiento de citas y participación en la comunidad, mientras que los servicios premium incluyen consultas especializadas por telemedicina, reportes avanzados y seguimiento personalizado. Para los médicos, la plataforma representa un canal de visibilidad, acceso a nuevos pacientes y gestión digital de historiales clínicos, generando valor tanto para el paciente como para el profesional de la salud y asegurando sostenibilidad en el tiempo.
 
@@ -4202,7 +4256,7 @@ Finalmente, las user stories levantadas reflejan un panorama completo de funcion
 
 En conclusión, OnControl no es únicamente una aplicación, sino un ecosistema digital de acompañamiento oncológico que combina un modelo de negocio sostenible, un diseño UI/UX centrado en la empatía, una arquitectura modular y escalable, un modelo de datos sólido y un backlog bien definido. La clave de su éxito será integrar tecnología, accesibilidad y sensibilidad humana para ofrecer a pacientes y médicos una plataforma confiable, segura y orientada a mejorar la calidad de vida y el seguimiento integral del tratamiento oncológico.
 
-<div id='7.'><h2>7. Bibliografía</h2></div>
+<div id='9.'><h2>9. Bibliografía</h2></div>
 
 - Congreso de la República del Perú. (2011, 3 de julio). Ley N.° 29733, Ley de Protección de Datos Personales. Diario Oficial El Peruano. https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/243470-29733
 <br>
@@ -4211,7 +4265,7 @@ En conclusión, OnControl no es únicamente una aplicación, sino un ecosistema 
 - Congreso de la República del Perú. (1997, 20 de julio). Ley N.° 26842, Ley General de Salud. Diario Oficial El Peruano. https://www.minsa.gob.pe/Recursos/OGTI/SINADEF/Ley-29733.pdf
 
 
-<div id='8.'><h2>8. Anexo</h2></div>
+<div id='10.'><h2>10. Anexo</h2></div>
 
 | Título del Video                  | Link de Video                                  |
 |-----------------------------------|-----------------------------------------------|
