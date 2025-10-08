@@ -213,6 +213,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reconocer mi responsabilidad ética y profesional en la ingeniería de software. Estas tareas me ayudaron a diseñar interfaces centradas en la experiencia del usuario, priorizando la claridad, la accesibilidad y la usabilidad. Asimismo, al trabajar en el prototipado para Android e iOS, comprendí la importancia de seguir estándares de calidad y adaptar la aplicación a cada plataforma. Todo este proceso reforzó mi compromiso con crear soluciones confiables y útiles, considerando siempre el impacto que tienen las decisiones de diseño en la vida de pacientes y doctores. <br><br>
       <strong>Huapaya Cuevas, Anthony Martin</strong> <br>
       <strong>TB1:</strong> <p align="justify">La elaboración de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reflexionar sobre mi responsabilidad ética y profesional en el ámbito de la ingeniería de software. Estas actividades fueron clave para diseñar interfaces centradas en la experiencia del usuario, donde se priorizó la claridad, la accesibilidad y la facilidad de uso. Además, al desarrollar prototipos tanto para Android como para iOS, comprendí la relevancia de cumplir con los estándares de calidad y de adaptar la aplicación a las particularidades de cada plataforma. En conjunto, este proceso fortaleció mi compromiso con la creación de soluciones confiables y efectivas, teniendo siempre en cuenta el impacto que las decisiones de diseño generan en la vida de pacientes y profesionales de la salud. </p><br>
+      <strong>TP1:</strong> <p align="justify">En la práctica de DevOps, la responsabilidad ética y profesional se refleja en la implementación de procesos automatizados y seguros que garanticen la calidad del software y la protección de los datos sensibles. En el proyecto ControlUPC, esto implica mantener la integridad y confidencialidad de la información de los pacientes oncológicos, asegurando que cada despliegue sea confiable y cumpla con los estándares éticos de la ingeniería de software.</p><br>
       <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Durante el desarrollo del proyecto, asumí la responsabilidad ética y profesional al diseñar la arquitectura de software, elaborando el diagrama de contenedores, de componentes, de clases y el modelo de bases de datos, asegurándome de que cada decisión fuera clara, documentada y trazable para facilitar la comprensión del equipo y garantizar la mantenibilidad del sistema. </p><br>
       <strong>Gongora Castillejos, Williams</strong> <br>
@@ -233,6 +234,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me ayudó a emitir juicios informados sobre el impacto de la aplicación. Al diseñar las vistas pensé en el efecto social, facilitando la comunicación y accesibilidad para pacientes y doctores. También en el aspecto económico, al optimizar la gestión de citas y tratamientos. Consideré el impacto global, al crear un diseño adaptable a diferentes plataformas. Estas tareas me permitieron entender que las decisiones de diseño tienen consecuencias más allá de lo técnico, influyendo directamente en la vida de los usuarios y en el contexto en el que se aplica la solución.</p><br><br>
       <strong>Huapaya Cuevas, Anthony Martin</strong> <br>
       <strong>TB1:</strong> <p align="justify">La creación de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reflexionar sobre el impacto que puede generar la aplicación. Durante el diseño de las vistas tuve en cuenta el efecto social, al fomentar una comunicación más fluida y accesible entre pacientes y doctores. También consideré la dimensión económica, al proponer una solución que optimiza la gestión de citas y tratamientos. Asimismo, valoré el alcance global al diseñar una interfaz adaptable a distintas plataformas. Este proceso me hizo comprender que las decisiones de diseño trascienden lo técnico, pues influyen directamente en la vida de los usuarios y en el entorno donde se implementa la solución. </p><br>
+      <strong>TP1:</strong> <p align="justify">En el contexto de DevOps, emitir juicios informados implica evaluar cómo las decisiones técnicas influyen en los ámbitos global, económico y social. En el proyecto ControlUPC, la adopción de prácticas automatizadas de despliegue continuo contribuye a optimizar recursos tecnológicos y humanos, reduciendo costos operativos y mejorando la disponibilidad del sistema para doctores y pacientes oncológicos. Este enfoque no solo promueve la eficiencia económica y la sostenibilidad tecnológica, sino que también tiene un impacto social positivo al garantizar un acceso oportuno y confiable a información médica crítica, fortaleciendo así la calidad del servicio en el ámbito de la salud.</p><br>
       <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Al preparar la documentación de implementación del producto, emití juicios informados considerando el impacto que las soluciones de software podrían tener en el contexto global, económico, ambiental y social. Esto me llevó a priorizar decisiones que promuevan la eficiencia en el uso de recursos, la escalabilidad y la accesibilidad del sistema, contribuyendo a un producto sostenible y con potencial de adaptarse a diferentes escenarios. </p><br>
       <strong>Gongora Castillejos, Williams</strong> <br>
@@ -4607,8 +4609,31 @@ En esta sección se presentan las pruebas desarrolladas para verificar el correc
 
 <div id='7.3.1.'><h4>7.3.1. Tools and Practices</h4></div>
 
+El Continuous Deployment es una práctica avanzada dentro del ciclo de vida del desarrollo de software que busca automatizar por completo el proceso de entrega hacia los entornos de producción, eliminando la necesidad de intervención manual. Su objetivo principal es mantener un flujo constante y seguro de integración de cambios, asegurando la entrega continua de valor al usuario final mediante versiones estables y verificadas del sistema.
+
+Desde una perspectiva teórica, esta práctica se fundamenta en los principios de integración continua, entrega continua y automatización de infraestructura, los cuales permiten reducir los riesgos asociados al despliegue, mejorar la trazabilidad de los cambios y aumentar la eficiencia operativa.
+
+En este contexto, herramientas como Jenkins cumplen un rol esencial al posibilitar la definición de pipelines de automatización, que especifican de manera estructurada las etapas del flujo de trabajo —incluyendo compilación, pruebas unitarias, pruebas de integración y despliegue— bajo un marco repetible y controlado.
+
+De esta manera, el Continuous Deployment no solo representa una mejora técnica en la gestión del software, sino también un modelo de madurez organizacional, al integrar calidad, seguridad y confiabilidad en cada iteración del proceso de desarrollo.
+
 <div id='7.3.2.'><h4>7.3.2. Production Deployment Pipeline Components</h4></div>
 
+El pipeline de despliegue a producción constituye el núcleo operativo del enfoque de Continuous Deployment, al permitir la automatización estructurada de todas las etapas necesarias para trasladar el software desde el entorno de desarrollo hasta el entorno de producción. Teóricamente, este pipeline se compone de una secuencia de fases interdependientes que garantizan la integridad, seguridad y confiabilidad del producto desplegado.
+
+Entre sus principales componentes se encuentran:
+
+- Source Stage (Control de versiones): donde se obtiene el código fuente desde un repositorio gestionado (por ejemplo, Git), asegurando trazabilidad y control de cambios.
+
+- Build Stage (Compilación): responsable de generar artefactos ejecutables a partir del código, verificando dependencias y asegurando la coherencia del entorno.
+
+- Test Stage (Pruebas automatizadas): etapa dedicada a la ejecución de pruebas unitarias, de integración y funcionales, con el fin de validar la estabilidad del software antes de su despliegue.
+
+- Staging Deployment: entorno intermedio que replica la configuración de producción, permitiendo realizar pruebas finales de validación y detección temprana de errores.
+
+- Production Deployment: fase final donde el software validado es desplegado de manera automatizada y controlada hacia el entorno de producción, aplicando estrategias como blue-green deployment o canary release para minimizar riesgos.
+
+Desde una perspectiva teórica, este conjunto de componentes permite establecer un flujo continuo de entrega de valor, alineado con los principios de automatización, trazabilidad y retroalimentación continua propios de la ingeniería DevOps.
 
 <div id='8.'><h2>8. Conclusiones</h2></div>
 
