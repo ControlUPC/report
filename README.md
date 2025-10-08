@@ -211,6 +211,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td>
       <strong>Huanaco Huayta, Elizabeth Lucero</strong> <br> 
       <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reconocer mi responsabilidad ética y profesional en la ingeniería de software. Estas tareas me ayudaron a diseñar interfaces centradas en la experiencia del usuario, priorizando la claridad, la accesibilidad y la usabilidad. Asimismo, al trabajar en el prototipado para Android e iOS, comprendí la importancia de seguir estándares de calidad y adaptar la aplicación a cada plataforma. Todo este proceso reforzó mi compromiso con crear soluciones confiables y útiles, considerando siempre el impacto que tienen las decisiones de diseño en la vida de pacientes y doctores. <br><br>
+      <strong>TP1:</strong> <p align="justify">La responsabilidad ética y profesional en ingeniería de software implica garantizar calidad, seguridad y confiabilidad, especialmente con datos sensibles.En el proyecto ControlUPC, mediante la investigación y análisis teórico de pipelines de Jenkins, gestión de dependencias con Maven y NPM, pruebas automatizadas y despliegue controlado, se identificaron buenas prácticas para proteger la información. Aunque aún no se implementaron, estas estrategias permitirían asegurar la integridad y confidencialidad de los datos de pacientes oncológicos. Este estudio refuerza la comprensión de los estándares éticos y la responsabilidad profesional en DevOps. <br><br>
       <strong>Huapaya Cuevas, Anthony Martin</strong> <br>
       <strong>TB1:</strong> <p align="justify">La elaboración de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reflexionar sobre mi responsabilidad ética y profesional en el ámbito de la ingeniería de software. Estas actividades fueron clave para diseñar interfaces centradas en la experiencia del usuario, donde se priorizó la claridad, la accesibilidad y la facilidad de uso. Además, al desarrollar prototipos tanto para Android como para iOS, comprendí la relevancia de cumplir con los estándares de calidad y de adaptar la aplicación a las particularidades de cada plataforma. En conjunto, este proceso fortaleció mi compromiso con la creación de soluciones confiables y efectivas, teniendo siempre en cuenta el impacto que las decisiones de diseño generan en la vida de pacientes y profesionales de la salud. </p><br>
       <strong>TP1:</strong> <p align="justify">En la práctica de DevOps, la responsabilidad ética y profesional se refleja en la implementación de procesos automatizados y seguros que garanticen la calidad del software y la protección de los datos sensibles. En el proyecto ControlUPC, esto implica mantener la integridad y confidencialidad de la información de los pacientes oncológicos, asegurando que cada despliegue sea confiable y cumpla con los estándares éticos de la ingeniería de software.</p><br>
@@ -232,6 +233,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td>
       <strong>Huanaco Huayta, Elizabeth Lucero</strong> <br> 
       <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me ayudó a emitir juicios informados sobre el impacto de la aplicación. Al diseñar las vistas pensé en el efecto social, facilitando la comunicación y accesibilidad para pacientes y doctores. También en el aspecto económico, al optimizar la gestión de citas y tratamientos. Consideré el impacto global, al crear un diseño adaptable a diferentes plataformas. Estas tareas me permitieron entender que las decisiones de diseño tienen consecuencias más allá de lo técnico, influyendo directamente en la vida de los usuarios y en el contexto en el que se aplica la solución.</p><br><br>
+      <strong>TP1:</strong> <p align="justify">En DevOps, emitir juicios informados implica analizar cómo las decisiones técnicas afectan los ámbitos global, económico, ambiental y social. En el proyecto ControlUPC, la investigación sobre prácticas de despliegue continuo automatizado permite identificar formas de optimizar recursos tecnológicos y humanos, reducir costos operativos y mejorar la disponibilidad del sistema para médicos y pacientes oncológicos. Este enfoque favorece la eficiencia económica y la sostenibilidad tecnológica, al tiempo que genera un impacto social positivo al garantizar un acceso confiable y oportuno a información médica crítica, contribuyendo a la calidad del servicio de salud.</p><br><br>
       <strong>Huapaya Cuevas, Anthony Martin</strong> <br>
       <strong>TB1:</strong> <p align="justify">La creación de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reflexionar sobre el impacto que puede generar la aplicación. Durante el diseño de las vistas tuve en cuenta el efecto social, al fomentar una comunicación más fluida y accesible entre pacientes y doctores. También consideré la dimensión económica, al proponer una solución que optimiza la gestión de citas y tratamientos. Asimismo, valoré el alcance global al diseñar una interfaz adaptable a distintas plataformas. Este proceso me hizo comprender que las decisiones de diseño trascienden lo técnico, pues influyen directamente en la vida de los usuarios y en el entorno donde se implementa la solución. </p><br>
       <strong>TP1:</strong> <p align="justify">En el contexto de DevOps, emitir juicios informados implica evaluar cómo las decisiones técnicas influyen en los ámbitos global, económico y social. En el proyecto ControlUPC, la adopción de prácticas automatizadas de despliegue continuo contribuye a optimizar recursos tecnológicos y humanos, reduciendo costos operativos y mejorando la disponibilidad del sistema para doctores y pacientes oncológicos. Este enfoque no solo promueve la eficiencia económica y la sostenibilidad tecnológica, sino que también tiene un impacto social positivo al garantizar un acceso oportuno y confiable a información médica crítica, fortaleciendo así la calidad del servicio en el ámbito de la salud.</p><br>
@@ -665,6 +667,15 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 |Foto|<img src="img/Entrevista Anthony Urbano.png" alt="Entrevista a paciente Anthony Urbano" style="margin-bottom: 5px;" width="740">|
 |Link|[Enlace de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EaLKPHgZ0b5PqTvfCB6MDkQB93evnDKGf300qhOaOZDn7A?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozODMsInRpbWVzdGFtcGVkTGlua1JlZmVycmVySW5mbyI6eyJzY2VuYXJpbyI6IkNoYXB0ZXJTaGFyZSIsImFkZGl0aW9uYWxJbmZvIjp7ImlzU2hhcmVkQ2hhcHRlckF1dG8iOmZhbHNlfX19LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZUNoYXB0ZXJMaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&e=UuWYs1)|
 |Time | 6:23 - 11:49 |
+|Analisis de Entrevista| Anthony, paciente oncológico diagnosticado con cáncer de colon de 24 años, comenta que está siguiendo un tratamiento oncológico en el Hospital Nacional Guillermo Almenara desde hace aproximadamente ocho meses, incluyendo quimioterapia y consultas con nutrición y psicología. Señala que principalmente utiliza su smartphone para gestionar recordatorios de medicación, citas y resultados de laboratorio, complementando con notas en papel y su laptop para organizar fechas importantes. Indica que las herramientas actuales, como agendas o aplicaciones básicas de recordatorios, no le permiten registrar síntomas ni efectos secundarios, lo que genera confusión y estrés, especialmente cuando olvida citas o cambios en el tratamiento. Además, menciona la dificultad encontrar un sistema centralizado que integre toda la información de su tratamiento. Este paciente considera que una aplicación práctica que centralice la gestión de citas, recordatorios, registro de síntomas y evolución supervisada por su médico le brindaría mayor organización, seguridad y tranquilidad.|
+
+|Entrevistado 3|Anthony Urbano|
+|-|-|
+|Edad|24|
+|Distrito|Ate|
+|Foto|<img src="img/Entrevista Anthony Urbano.png" alt="Entrevista a paciente Anthony Urbano" style="margin-bottom: 5px;" width="740">|
+|Link|--Colocar link--|
+|Time | --Colocar timing-- |
 |Analisis de Entrevista| Anthony, paciente oncológico diagnosticado con cáncer de colon de 24 años, comenta que está siguiendo un tratamiento oncológico en el Hospital Nacional Guillermo Almenara desde hace aproximadamente ocho meses, incluyendo quimioterapia y consultas con nutrición y psicología. Señala que principalmente utiliza su smartphone para gestionar recordatorios de medicación, citas y resultados de laboratorio, complementando con notas en papel y su laptop para organizar fechas importantes. Indica que las herramientas actuales, como agendas o aplicaciones básicas de recordatorios, no le permiten registrar síntomas ni efectos secundarios, lo que genera confusión y estrés, especialmente cuando olvida citas o cambios en el tratamiento. Además, menciona la dificultad encontrar un sistema centralizado que integre toda la información de su tratamiento. Este paciente considera que una aplicación práctica que centralice la gestión de citas, recordatorios, registro de síntomas y evolución supervisada por su médico le brindaría mayor organización, seguridad y tranquilidad.|
 
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
@@ -4603,7 +4614,51 @@ En esta sección se presentan las pruebas desarrolladas para verificar el correc
 
 <div id='7.2.1.'><h4>7.2.1. Tools and Practices</h4></div>
 
+El Continuous Delivery (CD) es una práctica del desarrollo de software que busca automatizar y agilizar el proceso de entrega de nuevas versiones de una aplicación, garantizando que cada cambio en el código pueda ser probado, validado y desplegado de manera confiable y repetible. El objetivo principal es reducir el tiempo entre la creación de una funcionalidad y su disponibilidad en producción, minimizando errores y mejorando la calidad del software.
+
+Entre las prácticas clave del Continuous Delivery se incluyen:
+
+- Integración continua (CI): cada cambio en el código se integra de manera inmediata al repositorio principal, ejecutando pruebas automáticas para detectar errores tempranamente.
+- Automatización de pruebas: se realizan pruebas unitarias, de integración y funcionales para asegurar que los cambios no rompan el sistema.
+- Despliegue automatizado: se automatiza la instalación, configuración y despliegue de la aplicación en distintos entornos (desarrollo, pruebas, producción).
+- Monitoreo y retroalimentación: se implementan herramientas que permiten medir el rendimiento, detectar fallos y retroalimentar al equipo de desarrollo para mejorar continuamente.
+
+Para implementar estas prácticas se utilizan herramientas como Jenkins, un servidor de automatización que permite crear pipelines de construcción y despliegue mediante código. Jenkins facilita la orquestación de tareas complejas, desde la compilación del código hasta la ejecución de pruebas y el despliegue en entornos específicos.
+
+En el contexto de nuestra aplicación oncológica para este curso, la adopción de Continuous Delivery es especialmente importante por la sensibilidad y criticidad de los datos clínicos y experimentales. El pipeline de Jenkins se configura para manejar específicamente el backend desarrollado en Spring Boot, incorporando etapas como:
+
+- Construcción y compilación del backend: mediante Maven, asegurando que todas las dependencias estén actualizadas y el código listo para pruebas.
+- Ejecución de pruebas automatizadas: pruebas unitarias e integrales que validan que los cálculos, registros de experimentos y gestión de datos clínicos sean correctos.
+- Despliegue controlado a entornos de prueba: el equipo puede probar nuevas funcionalidades sin afectar la base de datos de producción.
+- Despliegue en producción seguro: una vez validadas las funciones, la aplicación se despliega para que los investigadores y médicos puedan registrar y consultar datos de manera confiable.
+
+
 <div id='7.2.2.'><h4>7.2.2. Stages Deployment Pipeline Components</h4></div>
+
+Un pipeline de despliegue organiza el flujo del código desde que se realiza un cambio hasta que se publica en producción, asegurando que cada actualización sea probada, validada y segura.
+
+Etapas principales de un pipeline
+- Source / Commit Stage: Detecta cambios en el repositorio y activa el pipeline automáticamente.
+- Build Stage: Compila el código y genera artefactos listos para despliegue usando herramientas como Maven, Gradle o NPM.
+- Test Stage: Ejecuta pruebas automatizadas (unitarias e integrales) para asegurar que el sistema funcione correctamente.
+- Deployment Stage: Despliega la aplicación en entornos de prueba y producción de manera controlada.
+- Monitoring Stage: Supervisa la aplicación en producción para detectar errores y medir desempeño.
+
+Componentes comunes
+- Jenkins: Orquesta el pipeline y permite definirlo como código.
+- Gestores de dependencias: Maven, Gradle o NPM para construir artefactos.
+- Control de versiones: Git u otro sistema para detectar cambios.
+- Entornos de prueba y producción: Servidores o contenedores donde se despliega la aplicación.
+- Monitoreo y logs: Permiten retroalimentación y ajuste continuo.
+
+En nuestra aplicación oncológica para este curso, el pipeline de Jenkins se adapta así:
+- Commit Stage: Cada cambio en el backend Spring Boot dispara el pipeline.
+- Build Stage: Maven compila el backend y genera artefactos listos para pruebas.
+- Test Stage: Se ejecutan pruebas para validar cálculos clínicos y registros experimentales.
+- Deployment Stage: La aplicación se despliega primero en un entorno de pruebas y luego en producción.
+- Monitoring Stage: Se revisan logs y métricas para garantizar la integridad de los datos clínicos.
+
+Este flujo asegura que cada actualización sea reproducible, confiable y segura, protegiendo la información sensible de pacientes y experimentos.
 
 <div id='7.3.'><h3>7.3. Continuous Deployment</h3></div>
 
