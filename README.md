@@ -41,10 +41,28 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-----: | :---: | :---: | --------------------------- |
 |    TB1    |   19/09/2025   |   Jesús Uribe Quispe   | Adición del contenido de startup profile, needfinding, user stories, UX/UI Design & Software configuration development                        |
+|    TP    |   08/10/2025   |   Jesús Uribe Quispe   | Adición del Capítulo VI y VII, desarrollo de los servicios Web y aplicaciones web. Validación del producto mediante pruebas.                       |
 
 # Project Report Collaboration Insights
 
 URL del repositorio para el reporte del proyecto: [https://github.com/ControlUPC/report/](https://github.com/ControlUPC/report/)
+
+**TP**
+
+<div align="">
+  <img src="./img/insights_tb1.png" alt="insights">
+</div>
+
+
+Para el desarrollo del informe perteneciente a la entrega TP, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante | Tareas Asignadas |
+| ---------- | ---------------- |
+|Góngora Castillejos Williams | Desarrollo del capitulo VI |
+| Huapaya Cuevas Anthony       | Desarrollo del capítulo VII |
+|Huanaco Huayta Elizabeth | Desarrollo del capítulo VII |
+|Quiñones Quintaya, Johan | Desarrollo del capítulo VI |
+|Uribe Quispe Jesús | Desarrollo del capítulo VII |
 
 **TB1**
 
@@ -211,19 +229,26 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td>
       <strong>Huanaco Huayta, Elizabeth Lucero</strong> <br> 
       <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reconocer mi responsabilidad ética y profesional en la ingeniería de software. Estas tareas me ayudaron a diseñar interfaces centradas en la experiencia del usuario, priorizando la claridad, la accesibilidad y la usabilidad. Asimismo, al trabajar en el prototipado para Android e iOS, comprendí la importancia de seguir estándares de calidad y adaptar la aplicación a cada plataforma. Todo este proceso reforzó mi compromiso con crear soluciones confiables y útiles, considerando siempre el impacto que tienen las decisiones de diseño en la vida de pacientes y doctores. <br><br>
+      <strong>TP1:</strong> <p align="justify">La responsabilidad ética y profesional en ingeniería de software implica garantizar calidad, seguridad y confiabilidad, especialmente con datos sensibles.En el proyecto ControlUPC, mediante la investigación y análisis teórico de pipelines de Jenkins, gestión de dependencias con Maven y NPM, pruebas automatizadas y despliegue controlado, se identificaron buenas prácticas para proteger la información. Aunque aún no se implementaron, estas estrategias permitirían asegurar la integridad y confidencialidad de los datos de pacientes oncológicos. Este estudio refuerza la comprensión de los estándares éticos y la responsabilidad profesional en DevOps. <br><br>
       <strong>Huapaya Cuevas, Anthony Martin</strong> <br>
       <strong>TB1:</strong> <p align="justify">La elaboración de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reflexionar sobre mi responsabilidad ética y profesional en el ámbito de la ingeniería de software. Estas actividades fueron clave para diseñar interfaces centradas en la experiencia del usuario, donde se priorizó la claridad, la accesibilidad y la facilidad de uso. Además, al desarrollar prototipos tanto para Android como para iOS, comprendí la relevancia de cumplir con los estándares de calidad y de adaptar la aplicación a las particularidades de cada plataforma. En conjunto, este proceso fortaleció mi compromiso con la creación de soluciones confiables y efectivas, teniendo siempre en cuenta el impacto que las decisiones de diseño generan en la vida de pacientes y profesionales de la salud. </p><br>
       <strong>TP1:</strong> <p align="justify">En la práctica de DevOps, la responsabilidad ética y profesional se refleja en la implementación de procesos automatizados y seguros que garanticen la calidad del software y la protección de los datos sensibles. En el proyecto ControlUPC, esto implica mantener la integridad y confidencialidad de la información de los pacientes oncológicos, asegurando que cada despliegue sea confiable y cumpla con los estándares éticos de la ingeniería de software.</p><br>
       <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Durante el desarrollo del proyecto, asumí la responsabilidad ética y profesional al diseñar la arquitectura de software, elaborando el diagrama de contenedores, de componentes, de clases y el modelo de bases de datos, asegurándome de que cada decisión fuera clara, documentada y trazable para facilitar la comprensión del equipo y garantizar la mantenibilidad del sistema. </p><br>
+      <br>  <strong>TP:</strong> <p align="justify"> Reconozco mi responsabilidad ética y profesional en la ingeniería de software, especialmente tras haber trabajado en DevOps, documentar cómo se implementará la integración continua y diseñar la arquitectura de software. Me comprometo a asegurar que los procesos de integración continua sean robustos y transparentes, garantizando la calidad del software con pruebas automatizadas y despliegues confiables, todo mientras protejo la confidencialidad y seguridad de los datos involucrados. Además, al documentar la arquitectura y los flujos de trabajo, busco promover claridad y sostenibilidad en el proyecto, fomentando un entorno colaborativo y ético que apoye decisiones informadas y cumpla con estándares profesionales, siempre pensando en el beneficio de los usuarios y la comunidad técnica.</p><br>
       <strong>Gongora Castillejos, Williams</strong> <br>
       <strong>TB1:</strong> <p align="justify">Durante el desarrollo de los capítulos 1 y 2, reconocí mi responsabilidad ética y profesional al definir claramente el Startup Profile, la problemática real y los segmentos objetivo, asegurando que la solución responda a necesidades genuinas de médicos y pacientes. Asimismo, en el análisis competitivo, entrevistas y construcción de artefactos de Needfinding, apliqué buenas prácticas de ingeniería de software, priorizando la transparencia, la privacidad de los datos y la utilidad social de la aplicación, lo que refleja un compromiso ético con los usuarios y la sociedad. </p><br>
+      <strong>TP:</strong> <p align="justify">En el desarrollo de OnControl, demostré responsabilidad ética mediante pruebas unitarias rigurosas que garantizan la precisión de datos médicos sensibles. Implementé una arquitectura backend segura que protege la información de pacientes oncológicos. Documenté exhaustivamente cada componente para asegurar transparencia y mantenibilidad. </p><br>
       <strong>Quiñones Tintaya, Johan Jorge</strong> <br>
       <strong>TB1:</strong> <p align="justify"> En el desarrollo de los Wireframes, Wireflows, Mock-ups y User Flows de OnControl, reconocí la importancia de la responsabilidad ética y profesional en el diseño de soluciones dirigidas al sector salud. Durante este proceso, tomé decisiones orientadas a garantizar la seguridad de la información médica, la usabilidad para médicos y pacientes y la precisión en la representación de datos sensibles como historiales clínicos, tratamientos y síntomas. Este trabajo reflejó mi compromiso de que las interfaces no solo sean funcionales, sino que también respeten principios de confidencialidad, accesibilidad y confiabilidad, aspectos éticos esenciales en la ingeniería de software aplicada a contextos médicos. </p><br>
+      <strong>TP:</strong> <p align="justify">Demostré responsabilidad ética desarrollando una API RESTful segura con Spring Boot que protege datos médicos sensibles mediante autenticación JWT. Implementé validaciones exhaustivas en los endpoints para garantizar la integridad de la información clínica de pacientes oncológicos. La integración frontend-backend que realicé priorizó la privacidad y confiabilidad del sistema en todo momento. Documenté los 47 endpoints asegurando transparencia y mantenibilidad del código.</p><br>
       </td>
       <td>
         <p> <strong>TB1:</strong>
         El desarrollo de interfaces y la construcción de la arquitectura del sistema permitieron reconocer la importancia de la responsabilidad ética y profesional en la ingeniería de software. Al priorizar la claridad, accesibilidad, usabilidad y estandarización en las decisiones de diseño y documentación, se consolidó el compromiso con la creación de soluciones confiables, adaptadas a las plataformas y sostenibles en el tiempo, siempre considerando el bienestar de pacientes y profesionales de la salud.
+        </p>
+           <p> <strong>TP</strong>
+        Como grupo, reconocemos nuestra responsabilidad ética y profesional en la ingeniería de software, reflejada en nuestro trabajo con DevOps, la documentación de integración continua y el diseño de la arquitectura de software. Nos hemos comprometido a garantizar procesos robustos y transparentes, protegiendo la confidencialidad de los datos y promoviendo un desarrollo sostenible que beneficie a la comunidad técnica, asegurando que nuestras decisiones estén alineadas con estándares éticos y profesionales.
         </p>
       </td>
     </tr>
@@ -232,19 +257,28 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td>
       <strong>Huanaco Huayta, Elizabeth Lucero</strong> <br> 
       <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me ayudó a emitir juicios informados sobre el impacto de la aplicación. Al diseñar las vistas pensé en el efecto social, facilitando la comunicación y accesibilidad para pacientes y doctores. También en el aspecto económico, al optimizar la gestión de citas y tratamientos. Consideré el impacto global, al crear un diseño adaptable a diferentes plataformas. Estas tareas me permitieron entender que las decisiones de diseño tienen consecuencias más allá de lo técnico, influyendo directamente en la vida de los usuarios y en el contexto en el que se aplica la solución.</p><br><br>
+      <strong>TP1:</strong> <p align="justify">En DevOps, emitir juicios informados implica analizar cómo las decisiones técnicas afectan los ámbitos global, económico, ambiental y social. En el proyecto ControlUPC, la investigación sobre prácticas de despliegue continuo automatizado permite identificar formas de optimizar recursos tecnológicos y humanos, reducir costos operativos y mejorar la disponibilidad del sistema para médicos y pacientes oncológicos. Este enfoque favorece la eficiencia económica y la sostenibilidad tecnológica, al tiempo que genera un impacto social positivo al garantizar un acceso confiable y oportuno a información médica crítica, contribuyendo a la calidad del servicio de salud.</p><br><br>
       <strong>Huapaya Cuevas, Anthony Martin</strong> <br>
       <strong>TB1:</strong> <p align="justify">La creación de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reflexionar sobre el impacto que puede generar la aplicación. Durante el diseño de las vistas tuve en cuenta el efecto social, al fomentar una comunicación más fluida y accesible entre pacientes y doctores. También consideré la dimensión económica, al proponer una solución que optimiza la gestión de citas y tratamientos. Asimismo, valoré el alcance global al diseñar una interfaz adaptable a distintas plataformas. Este proceso me hizo comprender que las decisiones de diseño trascienden lo técnico, pues influyen directamente en la vida de los usuarios y en el entorno donde se implementa la solución. </p><br>
       <strong>TP1:</strong> <p align="justify">En el contexto de DevOps, emitir juicios informados implica evaluar cómo las decisiones técnicas influyen en los ámbitos global, económico y social. En el proyecto ControlUPC, la adopción de prácticas automatizadas de despliegue continuo contribuye a optimizar recursos tecnológicos y humanos, reduciendo costos operativos y mejorando la disponibilidad del sistema para doctores y pacientes oncológicos. Este enfoque no solo promueve la eficiencia económica y la sostenibilidad tecnológica, sino que también tiene un impacto social positivo al garantizar un acceso oportuno y confiable a información médica crítica, fortaleciendo así la calidad del servicio en el ámbito de la salud.</p><br>
       <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Al preparar la documentación de implementación del producto, emití juicios informados considerando el impacto que las soluciones de software podrían tener en el contexto global, económico, ambiental y social. Esto me llevó a priorizar decisiones que promuevan la eficiencia en el uso de recursos, la escalabilidad y la accesibilidad del sistema, contribuyendo a un producto sostenible y con potencial de adaptarse a diferentes escenarios. </p><br>
+      <strong>TP:</strong> <p align="justify">
+Como ingeniero de software, emito juicios informados considerando el impacto de mis soluciones en contextos globales, económicos, ambientales y sociales, especialmente tras mi experiencia en DevOps, documentación de integración continua y diseño de arquitectura de software. Evalúo cómo las implementaciones optimizadas y los despliegues continuos pueden reducir costos operativos y mejorar la eficiencia global, mientras me aseguro de minimizar el consumo energético y el impacto ambiental mediante prácticas sostenibles. Además, considero las implicaciones sociales, garantizando que las soluciones sean accesibles y beneficiosas para diversas culturas y comunidades, y analizo el contexto económico para asegurar que sean viables y equitativas, promoviendo un desarrollo responsable que equilibre innovación con bienestar colectivo.</p><br>
       <strong>Gongora Castillejos, Williams</strong> <br>
       <strong>TB1:</strong> <p align="justify">En los capítulos 1 y 2 emití juicios informados al analizar la problemática oncológica en el Perú, considerando el impacto social de facilitar la comunicación entre médicos y pacientes, el potencial económico de un modelo de negocio sostenible, y la escalabilidad global hacia otras especialidades médicas. Además, evalué la importancia de la seguridad y privacidad de datos como un factor crítico con repercusiones éticas y sociales en el uso responsable de la tecnología. </p><br>
       <strong>Quiñones Tintaya, Johan Jorge</strong> <br>
+      <strong>TP:</strong> <p align="justify">En el desarrollo de OnControl, emití juicios informados que priorizaron el impacto social al abordar problemáticas críticas del sistema oncológico peruano. Consideré el contexto económico local al diseñar un modelo freemium accesible que no excluye a pacientes de escasos recursos. Evalué el alcance global mediante una arquitectura escalable que puede adaptarse a otros sistemas de salud. Implementé soluciones técnicas que optimizan recursos ambientales mediante procesos digitalizados, reduciendo el uso de papel en historiales médicos.</p><br>
+      <strong>Quiñones Tintaya, Johan Jorge</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Al diseñar y documentar las interfaces de OnControl (wireframes, wireflows, mock-ups y user flows), emití juicios informados sobre cómo estas soluciones pueden impactar global y socialmente. Reconocí que una plataforma enfocada en oncología contribuye a mejorar el acceso a la salud digital, optimiza la gestión médica y reduce costos administrativos, lo cual tiene un impacto económico positivo en instituciones de salud. Asimismo, consideré que el diseño debía ser escalable y adaptable a distintos entornos, lo que abre la posibilidad de replicarse en contextos globales con similares necesidades. Además, busqué minimizar el uso excesivo de recursos físicos al digitalizar procesos antes manejados en papel, aportando indirectamente a un impacto ambiental positivo. </p><br>
+        <strong>TP:</strong> <p align="justify">Al desarrollar OnControl, emití juicios informados considerando su impacto multidimensional. Socialmente, la plataforma mejora la accesibilidad a servicios oncológicos en Perú, reduciendo barreras geográficas mediante telemedicina. Económicamente, optimiza recursos del sistema de salud y reduce costos de desplazamiento para pacientes. Ambientalmente, minimiza la huella de carbono al disminuir traslados innecesarios. Globalmente, establece un precedente para soluciones digitales escalables en países en desarrollo.</p><br>
       </td>
       <td>
         <p><strong>TB1:</strong>
         La reflexión sobre los impactos globales, sociales, económicos y ambientales del software permitió emitir juicios informados que guían el desarrollo hacia la sostenibilidad y la eficiencia. Al diseñar interfaces accesibles, optimizar recursos y contemplar la escalabilidad, se comprendió que las soluciones de ingeniería no se limitan a lo técnico, sino que influyen directamente en la vida de los usuarios y en el contexto donde son implementadas.
+        </p>
+         <p><strong>TP:</strong>
+          Como grupo, emitimos juicios informados considerando el impacto de nuestras soluciones en contextos globales, económicos, ambientales y sociales, evaluando cómo las optimizaciones en los despliegues reducen costos y mejoran la eficiencia a nivel mundial, mientras minimizamos el impacto ambiental con prácticas sostenibles. También hemos priorizado la accesibilidad y el bienestar social de diversas culturas, analizando la viabilidad económica para ofrecer soluciones equitativas, demostrando nuestro compromiso con un desarrollo responsable que equilibre innovación y beneficio colectivo a lo largo de este proyecto.
         </p>
       </td>
     </tr>
@@ -666,6 +700,7 @@ Estas preguntas buscan conocer el perfil y la relación de los entrevistados con
 |Link|[Enlace de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EaLKPHgZ0b5PqTvfCB6MDkQB93evnDKGf300qhOaOZDn7A?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozODMsInRpbWVzdGFtcGVkTGlua1JlZmVycmVySW5mbyI6eyJzY2VuYXJpbyI6IkNoYXB0ZXJTaGFyZSIsImFkZGl0aW9uYWxJbmZvIjp7ImlzU2hhcmVkQ2hhcHRlckF1dG8iOmZhbHNlfX19LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZUNoYXB0ZXJMaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&e=UuWYs1)|
 |Time | 6:23 - 11:49 |
 |Analisis de Entrevista| Anthony, paciente oncológico diagnosticado con cáncer de colon de 24 años, comenta que está siguiendo un tratamiento oncológico en el Hospital Nacional Guillermo Almenara desde hace aproximadamente ocho meses, incluyendo quimioterapia y consultas con nutrición y psicología. Señala que principalmente utiliza su smartphone para gestionar recordatorios de medicación, citas y resultados de laboratorio, complementando con notas en papel y su laptop para organizar fechas importantes. Indica que las herramientas actuales, como agendas o aplicaciones básicas de recordatorios, no le permiten registrar síntomas ni efectos secundarios, lo que genera confusión y estrés, especialmente cuando olvida citas o cambios en el tratamiento. Además, menciona la dificultad encontrar un sistema centralizado que integre toda la información de su tratamiento. Este paciente considera que una aplicación práctica que centralice la gestión de citas, recordatorios, registro de síntomas y evolución supervisada por su médico le brindaría mayor organización, seguridad y tranquilidad.|
+
 
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
 
@@ -3251,26 +3286,65 @@ Este flujo está diseñado para el paciente. Desde el Dashboard Paciente, accede
 <div id='4.8.'><h3>4.8. Domain-Driven Software Architecture</h3></div>
 <div id='4.8.1.'><h4>4.8.1. Software Architecture Context Diagram</h4></div>
 
-El diagrama de contexto de OnControl define las fronteras del sistema ilustrando las interacciones entre los actores principales -el Doctor Oncólogo y el Paciente- y los sistemas externos con los que se integra, como "Recurrence" para el registro y login de terceros y "Phone service" para la gestión de contactos y llamadas, estableciendo claramente el ecosistema en el que opera la plataforma de gestión oncológica.
+El diagrama de contexto de OnControl define las fronteras del sistema ilustrando las interacciones entre los actores principales -el Doctor Oncólogo y el Paciente- y los sistemas externos con los que se integra.
 
 <div align="center">
-<img src="./img/soft_arq0.png">
+<img src="./img/structurizr-SystemContext (2).png">
 </div>
 
 <div id='4.8.2.'><h4>4.8.2. Software Architecture Container Diagrams</h4></div>
 
-El diagrama de contenedores de OnControl describe la estructura interna de la aplicación, detallando los principales componentes tecnológicos que la conforman: la Landing Page como punto de contacto inicial, la Aplicación Web y Móvil que constituye el núcleo de la experiencia de usuario, la API RESTful que centraliza la lógica de negocio y la Base de Datos para la persistencia de información, complementándose con sistemas externos como Google Login para la autenticación y Phone Service para la gestión de comunicaciones, todos interconectados para ofrecer una plataforma integral de gestión oncológica.
+El diagrama representa un sistema distribuido basado en contenedores, utilizando un enfoque de arquitectura monolítica pero con contextos separados en base a Domain Driven Design. Los contenedores están organizados en un sistema de control, y cada contenedor tiene responsabilidades específicas que interactúan entre sí y con una base de datos central. Las relaciones entre los contenedores se indican con flechas que muestran las operaciones de "lee/escribe" (lectura/escritura) y el uso de autenticación.
 
 <div align="center">
-<img src="./img/soft_arq.png">
+<img src="./img/structurizr-HealthcareSystemContainers (2).png">
 </div>
+
+**Aplicación Web:** Frontend del sistema que realiza consultas y usa autenticación, interactuando con "IAM BC" para consultas y autenticación.
+
+**IAM BC (Identity and Access Management):** Gestiona autenticación y control de acceso, recibiendo consultas de "Aplicación Web" y proporcionando autenticación a otros contenedores como "Storage BC" y "Profile BC".
+
+**Appointment BC:** Gestiona citas médicas, lee/escribe en la "Database" y usa autenticación de "IAM BC".
+Treatment BC: Gestiona tratamientos (incluyendo oncológicos), lee/escribe en la "Database" y usa autenticación de "IAM BC".
+
+**Storage BC:** Almacena documentos médicos, lee/escribe en la "Database" y usa autenticación de "IAM BC".
+Profile BC: Gestiona perfiles de usuario y preferencias médicas, lee/escribe en la "Database" y usa autenticación de "IAM BC".
+
+**Billing BC:** Gestiona facturación y pagos, lee/escribe en la "Database" y usa autenticación de "IAM BC".
+Google Authenticator: Proporciona autenticación adicional vía correos verificados, conectándose al sistema para verificar identidades.
+
+**Database:** Base de datos central con contexto delimitado, recibiendo operaciones de lectura/escritura de "Appointment BC", "Treatment BC", "Storage BC", "Profile BC" y "Billing BC".
 
 <div id='4.8.3.'><h4>4.8.3. Software Architecture Components Diagrams</h4></div>
 
-El diagrama de componentes de OnControl describe la arquitectura interna basada en microservicios que conforman el sistema de salud, donde cada servicio especializado -Treatment Service para planes terapéuticos, Medication Service para prescripciones, Appointment Service para gestión de citas, Journal Service para seguimiento emocional, Patient Service para historiales médicos, Doctor Service para información de especialistas y Profile Service para gestión de usuarios- opera de manera independiente pero coordinada, interactuando mediante APIs bien definidas y validaciones cruzadas para garantizar la integridad de los datos médicos y la consistencia del sistema integral de gestión oncológica
+Cada contexto está desarrollado en Java + Spring Boot bajo un enfoque de arquitectura en capas basada en los principios de Domain-Driven Design (DDD).
 
+Cada capa se especializa en una responsabilidad distinta, garantizando una alta cohesión interna y un bajo acoplamiento entre módulos.
+
+**Appointment Context**: 
 <div align="center">
-<img src="./img/struct-comp.png" alt="components">
+<img src="./img/structurizr-componentAppointment.png" alt="components">
+</div>
+
+**Billing Context**: 
+<div align="center">
+<img src="./img/structurizr-componentBilling.png" alt="components">
+</div>
+
+**Profile Context**: 
+<div align="center">
+<img src="./img/structurizr-componentProfile.png" alt="components">
+</div>
+
+
+**Storage Context**: 
+<div align="center">
+<img src="./img/structurizr-componentStorage.png" alt="components">
+</div>
+
+**Treatment Context**: 
+<div align="center">
+<img src="./img/structurizr-componentTreatment.png" alt="components">
 </div>
 
 <div id='4.9.'><h3>4.9. Software Object-Oriented Design</h3></div>
@@ -4500,8 +4574,119 @@ void testDefaultValues() {
 
 <div id='6.1.2.'><h4>6.1.2. Core Integration Tests</h4></div>
 
+1. **testCreateAppointment_Success**(AppointmentIntegrationTest)
+La prueba testCreateAppointment_Success valida el correcto funcionamiento del proceso de creación de citas médicas en el sistema. Mediante el uso de MockMvc, se simula una solicitud HTTP POST al endpoint correspondiente, verificando que la respuesta sea exitosa con el estado 201 (Created) y que los datos devueltos coincidan con los valores enviados. Esta prueba garantiza que el sistema registre adecuadamente las citas, manteniendo la coherencia y confiabilidad en la gestión de la información médica.
 
+```java
+@Test
+    @DisplayName("Debe crear una cita exitosamente")
+    void testCreateAppointment_Success() throws Exception {
+        // Preparar datos
+        CreateAppointmentRequest request = CreateAppointmentRequest.builder()
+                .appointmentDate(LocalDateTime.now().plusDays(7))
+                .durationMinutes(30)
+                .type(AppointmentType.PRIMERA_CONSULTA)
+                .location("Consultorio 101")
+                .notes("Primera consulta de control")
+                .preparationInstructions("Traer exámenes previos")
+                .sendReminder(true)
+                .build();
 
+        // Ejecutar y verificar
+        mockMvc.perform(post("/api/appointments/doctor/{doctorId}/patient/{patientId}",
+                        doctorProfile.getId(), patientProfile.getId())
+                        .with(user(doctorProfile))
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request)))
+                .andDo(print())
+                .andExpect(status().isCreated())
+                .andExpect(jsonPath("$.message").value("Appointment created successfully"))
+                .andExpect(jsonPath("$.appointment.id").exists())
+                .andExpect(jsonPath("$.appointment.type").value("PRIMERA_CONSULTA"))
+                .andExpect(jsonPath("$.appointment.status").value("SCHEDULED"))
+                .andExpect(jsonPath("$.appointment.location").value("Consultorio 101"))
+                .andExpect(jsonPath("$.appointment.durationMinutes").value(30));
+    }
+
+```
+
+<img width="605" height="521" alt="image" src="img/integration-test-1.png" />
+
+2. **testGetDoctorAppointments_Success**(AppointmentIntegrationTest)
+La prueba testGetDoctorAppointments_Success evalúa la capacidad del sistema para recuperar correctamente todas las citas asociadas a un médico específico. Utilizando MockMvc, se simula una solicitud HTTP GET al endpoint correspondiente y se verifica que la respuesta tenga el estado 200 (OK). Asimismo, se comprueba que el resultado contenga un arreglo con el número esperado de citas registradas, asegurando la correcta funcionalidad del módulo de consulta de citas médicas.
+
+```java
+@Test
+    @DisplayName("Debe obtener todas las citas de un doctor")
+    void testGetDoctorAppointments_Success() throws Exception {
+        // Crear citas de prueba
+        createTestAppointment(LocalDateTime.now().plusDays(1), AppointmentType.PRIMERA_CONSULTA);
+        createTestAppointment(LocalDateTime.now().plusDays(2), AppointmentType.CONSULTA_SEGUIMIENTO);
+
+        // Ejecutar y verificar
+        mockMvc.perform(get("/api/appointments/doctor/{doctorId}", doctorProfile.getId())
+                        .with(user(doctorProfile)))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.appointments").isArray())
+                .andExpect(jsonPath("$.appointments", hasSize(2)))
+                .andExpect(jsonPath("$.count").value(2));
+    }
+
+```
+<img width="605" height="521" alt="image" src="img/integration-test-2.png" />
+
+3. **testGetPatientAppointments_Success**(AppointmentIntegrationTest)
+La prueba testGetPatientAppointments_Success verifica que el sistema pueda obtener correctamente todas las citas registradas para un paciente determinado. A través de MockMvc, se simula una solicitud HTTP GET al endpoint correspondiente, comprobando que la respuesta tenga el estado 200 (OK) y que contenga un arreglo con el número esperado de citas. Esta prueba garantiza la correcta recuperación y visualización de la información médica asociada a cada paciente dentro del sistema.
+
+```java
+@Test
+    @DisplayName("Debe obtener todas las citas de un paciente")
+    void testGetPatientAppointments_Success() throws Exception {
+        // Crear citas de prueba
+        createTestAppointment(LocalDateTime.now().plusDays(1), AppointmentType.PRIMERA_CONSULTA);
+        createTestAppointment(LocalDateTime.now().plusDays(3), AppointmentType.REVISION_TRATAMIENTO);
+
+        // Ejecutar y verificar
+        mockMvc.perform(get("/api/appointments/patient/{patientId}", patientProfile.getId())
+                        .with(user(patientProfile)))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.appointments").isArray())
+                .andExpect(jsonPath("$.appointments", hasSize(2)))
+                .andExpect(jsonPath("$.count").value(2));
+    }
+
+```
+
+<img width="605" height="521" alt="image" src="img/integration-test-3.png" />
+
+4. **testGetAppointmentById_Success**(AppointmentIntegrationTest)
+La prueba testGetAppointmentById_Success comprueba que el sistema pueda recuperar correctamente una cita específica utilizando su identificador único. Mediante MockMvc, se simula una solicitud HTTP GET al endpoint correspondiente y se valida que la respuesta tenga el estado 200 (OK). Además, se verifica que los datos devueltos, como el ID, el tipo y el estado de la cita,  coincidan con los valores esperados, garantizando la fiabilidad del proceso de consulta individual de citas médicas.
+
+```java
+@Test
+    @DisplayName("Debe obtener una cita por su ID")
+    void testGetAppointmentById_Success() throws Exception {
+        // Crear cita de prueba
+        Long appointmentId = createTestAppointment(
+                LocalDateTime.now().plusDays(5), 
+                AppointmentType.CONSULTA_SEGUIMIENTO
+        );
+
+        // Ejecutar y verificar
+        mockMvc.perform(get("/api/appointments/{id}", appointmentId)
+                        .with(user(doctorProfile)))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id").value(appointmentId))
+                .andExpect(jsonPath("$.type").value("CONSULTA_SEGUIMIENTO"))
+                .andExpect(jsonPath("$.status").value("SCHEDULED"));
+    }
+
+```
+
+<img width="605" height="521" alt="image" src="img/integration-test-4.png" />
 
 <div id='6.1.3.'><h4>6.1.3. Core Behavior-Driven Development</h4></div>
 
@@ -4589,6 +4774,24 @@ En esta sección se presentan las pruebas desarrolladas para verificar el correc
 
 <img width="638" height="456" alt="image" src="https://github.com/user-attachments/assets/6a5192e8-5613-4e02-86d8-d1b72f5c3793" />
 
+<br><br><br>
+
+* **Pruebas de integración:**
+
+<img width="605" height="521" alt="image" src="img/integration-test-1.png" />
+
+<br><br><br>
+
+<img width="605" height="521" alt="image" src="img/integration-test-2.png" />
+
+<br><br><br>
+
+<img width="605" height="521" alt="image" src="img/integration-test-3.png" />
+
+<br><br><br>
+
+<img width="605" height="521" alt="image" src="img/integration-test-4.png" />
+
 <br><br>
 
 <div id='7.'><h2>Capítulo VII: DevOps Practices</h2></div>
@@ -4597,13 +4800,98 @@ En esta sección se presentan las pruebas desarrolladas para verificar el correc
 
 <div id='7.1.1.'><h4>7.1.1. Tools and Practices</h4></div>
 
+Las herramientas y prácticas de integración continua permiten automatizar el flujo de construcción y validación del software.
+
+
+**Jenkins:** herramienta central en el ecosistema DevOps, utilizada para configurar pipelines de integración y automatizar tareas de compilación, prueba y despliegue.
+
+**Git/GitHub:** sistemas de control de versiones que facilitan la detección de cambios y la activación de pipelines.
+
+**Maven:** gestores de dependencias que automatizan la compilación y empaquetado del código.
+
+**JUnit y Mockito:** frameworks de pruebas que permiten validar automáticamente el correcto funcionamiento del backend.
+
+Las prácticas recomendadas incluyen:
+
+- Automatizar el proceso de construcción y pruebas después de cada commit.
+
+- Configurar validaciones automáticas en las ramas principales (por ejemplo, main o develop).
+
+- Mantener un entorno limpio y reproducible para evitar dependencias locales.
+
+En el caso del proyecto oncológico, Jenkins detecta cada cambio en el repositorio del backend, ejecuta una compilación con Maven, y lanza pruebas unitarias con JUnit, garantizando que el código se mantenga estable y listo para la siguiente etapa (CD).
+
 <div id='7.1.2.'><h4>7.1.2. Build & Test Suite Pipeline Components</h4></div>
+El pipeline de Integración Continua se compone de distintas etapas que automatizan la construcción y validación del software.
+Sus componentes principales son:
+
+**Source / Commit Stage:** Detecta nuevos cambios en el repositorio Git.
+
+**Build Stage:** Compila el código fuente y genera artefactos ejecutables mediante Maven o Gradle.
+
+**Test Stage:** Ejecuta pruebas unitarias y de integración automatizadas.
+
+**Report Stage:** Genera reportes de resultados y métricas de calidad del código.
+
+En nuestro contexto:
+
+- Cada commit en el repositorio del backend activa el pipeline en Jenkins.
+
+- Jenkins compila el proyecto con Maven, verificando dependencias y estructura.
+
+- Se ejecutan pruebas automatizadas con JUnit para validar cálculos clínicos, registros de pacientes y módulos de análisis experimental.
+
+- Si todas las pruebas pasan correctamente, el artefacto resultante se almacena para su uso en el pipeline de Continuous Delivery.
 
 <div id='7.2.'><h3>7.2. Continuous Delivery</h3></div>
 
 <div id='7.2.1.'><h4>7.2.1. Tools and Practices</h4></div>
 
+El Continuous Delivery (CD) es una práctica del desarrollo de software que busca automatizar y agilizar el proceso de entrega de nuevas versiones de una aplicación, garantizando que cada cambio en el código pueda ser probado, validado y desplegado de manera confiable y repetible. El objetivo principal es reducir el tiempo entre la creación de una funcionalidad y su disponibilidad en producción, minimizando errores y mejorando la calidad del software.
+
+Entre las prácticas clave del Continuous Delivery se incluyen:
+
+- Integración continua (CI): cada cambio en el código se integra de manera inmediata al repositorio principal, ejecutando pruebas automáticas para detectar errores tempranamente.
+- Automatización de pruebas: se realizan pruebas unitarias, de integración y funcionales para asegurar que los cambios no rompan el sistema.
+- Despliegue automatizado: se automatiza la instalación, configuración y despliegue de la aplicación en distintos entornos (desarrollo, pruebas, producción).
+- Monitoreo y retroalimentación: se implementan herramientas que permiten medir el rendimiento, detectar fallos y retroalimentar al equipo de desarrollo para mejorar continuamente.
+
+Para implementar estas prácticas se utilizan herramientas como Jenkins, un servidor de automatización que permite crear pipelines de construcción y despliegue mediante código. Jenkins facilita la orquestación de tareas complejas, desde la compilación del código hasta la ejecución de pruebas y el despliegue en entornos específicos.
+
+En el contexto de nuestra aplicación oncológica para este curso, la adopción de Continuous Delivery es especialmente importante por la sensibilidad y criticidad de los datos clínicos y experimentales. El pipeline de Jenkins se configura para manejar específicamente el backend desarrollado en Spring Boot, incorporando etapas como:
+
+- Construcción y compilación del backend: mediante Maven, asegurando que todas las dependencias estén actualizadas y el código listo para pruebas.
+- Ejecución de pruebas automatizadas: pruebas unitarias e integrales que validan que los cálculos, registros de experimentos y gestión de datos clínicos sean correctos.
+- Despliegue controlado a entornos de prueba: el equipo puede probar nuevas funcionalidades sin afectar la base de datos de producción.
+- Despliegue en producción seguro: una vez validadas las funciones, la aplicación se despliega para que los investigadores y médicos puedan registrar y consultar datos de manera confiable.
+
+
 <div id='7.2.2.'><h4>7.2.2. Stages Deployment Pipeline Components</h4></div>
+
+Un pipeline de despliegue organiza el flujo del código desde que se realiza un cambio hasta que se publica en producción, asegurando que cada actualización sea probada, validada y segura.
+
+Etapas principales de un pipeline
+- Source / Commit Stage: Detecta cambios en el repositorio y activa el pipeline automáticamente.
+- Build Stage: Compila el código y genera artefactos listos para despliegue usando herramientas como Maven, Gradle o NPM.
+- Test Stage: Ejecuta pruebas automatizadas (unitarias e integrales) para asegurar que el sistema funcione correctamente.
+- Deployment Stage: Despliega la aplicación en entornos de prueba y producción de manera controlada.
+- Monitoring Stage: Supervisa la aplicación en producción para detectar errores y medir desempeño.
+
+Componentes comunes
+- Jenkins: Orquesta el pipeline y permite definirlo como código.
+- Gestores de dependencias: Maven, Gradle o NPM para construir artefactos.
+- Control de versiones: Git u otro sistema para detectar cambios.
+- Entornos de prueba y producción: Servidores o contenedores donde se despliega la aplicación.
+- Monitoreo y logs: Permiten retroalimentación y ajuste continuo.
+
+En nuestra aplicación oncológica para este curso, el pipeline de Jenkins se adapta así:
+- Commit Stage: Cada cambio en el backend Spring Boot dispara el pipeline.
+- Build Stage: Maven compila el backend y genera artefactos listos para pruebas.
+- Test Stage: Se ejecutan pruebas para validar cálculos clínicos y registros experimentales.
+- Deployment Stage: La aplicación se despliega primero en un entorno de pruebas y luego en producción.
+- Monitoring Stage: Se revisan logs y métricas para garantizar la integridad de los datos clínicos.
+
+Este flujo asegura que cada actualización sea reproducible, confiable y segura, protegiendo la información sensible de pacientes y experimentos.
 
 <div id='7.3.'><h3>7.3. Continuous Deployment</h3></div>
 
