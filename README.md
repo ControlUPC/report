@@ -4574,8 +4574,119 @@ void testDefaultValues() {
 
 <div id='6.1.2.'><h4>6.1.2. Core Integration Tests</h4></div>
 
+1. **testCreateAppointment_Success**(AppointmentIntegrationTest)
+La prueba testCreateAppointment_Success valida el correcto funcionamiento del proceso de creación de citas médicas en el sistema. Mediante el uso de MockMvc, se simula una solicitud HTTP POST al endpoint correspondiente, verificando que la respuesta sea exitosa con el estado 201 (Created) y que los datos devueltos coincidan con los valores enviados. Esta prueba garantiza que el sistema registre adecuadamente las citas, manteniendo la coherencia y confiabilidad en la gestión de la información médica.
 
+```java
+@Test
+    @DisplayName("Debe crear una cita exitosamente")
+    void testCreateAppointment_Success() throws Exception {
+        // Preparar datos
+        CreateAppointmentRequest request = CreateAppointmentRequest.builder()
+                .appointmentDate(LocalDateTime.now().plusDays(7))
+                .durationMinutes(30)
+                .type(AppointmentType.PRIMERA_CONSULTA)
+                .location("Consultorio 101")
+                .notes("Primera consulta de control")
+                .preparationInstructions("Traer exámenes previos")
+                .sendReminder(true)
+                .build();
 
+        // Ejecutar y verificar
+        mockMvc.perform(post("/api/appointments/doctor/{doctorId}/patient/{patientId}",
+                        doctorProfile.getId(), patientProfile.getId())
+                        .with(user(doctorProfile))
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request)))
+                .andDo(print())
+                .andExpect(status().isCreated())
+                .andExpect(jsonPath("$.message").value("Appointment created successfully"))
+                .andExpect(jsonPath("$.appointment.id").exists())
+                .andExpect(jsonPath("$.appointment.type").value("PRIMERA_CONSULTA"))
+                .andExpect(jsonPath("$.appointment.status").value("SCHEDULED"))
+                .andExpect(jsonPath("$.appointment.location").value("Consultorio 101"))
+                .andExpect(jsonPath("$.appointment.durationMinutes").value(30));
+    }
+
+```
+
+<img width="605" height="521" alt="image" src="img/integration-test-1.png" />
+
+2. **testGetDoctorAppointments_Success**(AppointmentIntegrationTest)
+La prueba testGetDoctorAppointments_Success evalúa la capacidad del sistema para recuperar correctamente todas las citas asociadas a un médico específico. Utilizando MockMvc, se simula una solicitud HTTP GET al endpoint correspondiente y se verifica que la respuesta tenga el estado 200 (OK). Asimismo, se comprueba que el resultado contenga un arreglo con el número esperado de citas registradas, asegurando la correcta funcionalidad del módulo de consulta de citas médicas.
+
+```java
+@Test
+    @DisplayName("Debe obtener todas las citas de un doctor")
+    void testGetDoctorAppointments_Success() throws Exception {
+        // Crear citas de prueba
+        createTestAppointment(LocalDateTime.now().plusDays(1), AppointmentType.PRIMERA_CONSULTA);
+        createTestAppointment(LocalDateTime.now().plusDays(2), AppointmentType.CONSULTA_SEGUIMIENTO);
+
+        // Ejecutar y verificar
+        mockMvc.perform(get("/api/appointments/doctor/{doctorId}", doctorProfile.getId())
+                        .with(user(doctorProfile)))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.appointments").isArray())
+                .andExpect(jsonPath("$.appointments", hasSize(2)))
+                .andExpect(jsonPath("$.count").value(2));
+    }
+
+```
+<img width="605" height="521" alt="image" src="img/integration-test-2.png" />
+
+3. **testGetPatientAppointments_Success**(AppointmentIntegrationTest)
+La prueba testGetPatientAppointments_Success verifica que el sistema pueda obtener correctamente todas las citas registradas para un paciente determinado. A través de MockMvc, se simula una solicitud HTTP GET al endpoint correspondiente, comprobando que la respuesta tenga el estado 200 (OK) y que contenga un arreglo con el número esperado de citas. Esta prueba garantiza la correcta recuperación y visualización de la información médica asociada a cada paciente dentro del sistema.
+
+```java
+@Test
+    @DisplayName("Debe obtener todas las citas de un paciente")
+    void testGetPatientAppointments_Success() throws Exception {
+        // Crear citas de prueba
+        createTestAppointment(LocalDateTime.now().plusDays(1), AppointmentType.PRIMERA_CONSULTA);
+        createTestAppointment(LocalDateTime.now().plusDays(3), AppointmentType.REVISION_TRATAMIENTO);
+
+        // Ejecutar y verificar
+        mockMvc.perform(get("/api/appointments/patient/{patientId}", patientProfile.getId())
+                        .with(user(patientProfile)))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.appointments").isArray())
+                .andExpect(jsonPath("$.appointments", hasSize(2)))
+                .andExpect(jsonPath("$.count").value(2));
+    }
+
+```
+
+<img width="605" height="521" alt="image" src="img/integration-test-3.png" />
+
+4. **testGetAppointmentById_Success**(AppointmentIntegrationTest)
+La prueba testGetAppointmentById_Success comprueba que el sistema pueda recuperar correctamente una cita específica utilizando su identificador único. Mediante MockMvc, se simula una solicitud HTTP GET al endpoint correspondiente y se valida que la respuesta tenga el estado 200 (OK). Además, se verifica que los datos devueltos, como el ID, el tipo y el estado de la cita,  coincidan con los valores esperados, garantizando la fiabilidad del proceso de consulta individual de citas médicas.
+
+```java
+@Test
+    @DisplayName("Debe obtener una cita por su ID")
+    void testGetAppointmentById_Success() throws Exception {
+        // Crear cita de prueba
+        Long appointmentId = createTestAppointment(
+                LocalDateTime.now().plusDays(5), 
+                AppointmentType.CONSULTA_SEGUIMIENTO
+        );
+
+        // Ejecutar y verificar
+        mockMvc.perform(get("/api/appointments/{id}", appointmentId)
+                        .with(user(doctorProfile)))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id").value(appointmentId))
+                .andExpect(jsonPath("$.type").value("CONSULTA_SEGUIMIENTO"))
+                .andExpect(jsonPath("$.status").value("SCHEDULED"));
+    }
+
+```
+
+<img width="605" height="521" alt="image" src="img/integration-test-4.png" />
 
 <div id='6.1.3.'><h4>6.1.3. Core Behavior-Driven Development</h4></div>
 
@@ -4662,6 +4773,24 @@ En esta sección se presentan las pruebas desarrolladas para verificar el correc
 <br><br><br>
 
 <img width="638" height="456" alt="image" src="https://github.com/user-attachments/assets/6a5192e8-5613-4e02-86d8-d1b72f5c3793" />
+
+<br><br><br>
+
+* **Pruebas de integración:**
+
+<img width="605" height="521" alt="image" src="img/integration-test-1.png" />
+
+<br><br><br>
+
+<img width="605" height="521" alt="image" src="img/integration-test-2.png" />
+
+<br><br><br>
+
+<img width="605" height="521" alt="image" src="img/integration-test-3.png" />
+
+<br><br><br>
+
+<img width="605" height="521" alt="image" src="img/integration-test-4.png" />
 
 <br><br>
 
