@@ -4574,7 +4574,7 @@ void testDefaultValues() {
 
 <div id='6.1.2.'><h4>6.1.2. Core Integration Tests</h4></div>
 
-1. **testCreateAppointment_Success**(AppointmentIntegrationTest)
+1. **testCreateAppointment_Success**(AppointmentIntegrationTest) <br>
 La prueba testCreateAppointment_Success valida el correcto funcionamiento del proceso de creación de citas médicas en el sistema. Mediante el uso de MockMvc, se simula una solicitud HTTP POST al endpoint correspondiente, verificando que la respuesta sea exitosa con el estado 201 (Created) y que los datos devueltos coincidan con los valores enviados. Esta prueba garantiza que el sistema registre adecuadamente las citas, manteniendo la coherencia y confiabilidad en la gestión de la información médica.
 
 ```java
@@ -4612,7 +4612,7 @@ La prueba testCreateAppointment_Success valida el correcto funcionamiento del pr
 
 <img width="605" height="521" alt="image" src="img/integration-test-1.png" />
 
-2. **testGetDoctorAppointments_Success**(AppointmentIntegrationTest)
+2. **testGetDoctorAppointments_Success**(AppointmentIntegrationTest) <br>
 La prueba testGetDoctorAppointments_Success evalúa la capacidad del sistema para recuperar correctamente todas las citas asociadas a un médico específico. Utilizando MockMvc, se simula una solicitud HTTP GET al endpoint correspondiente y se verifica que la respuesta tenga el estado 200 (OK). Asimismo, se comprueba que el resultado contenga un arreglo con el número esperado de citas registradas, asegurando la correcta funcionalidad del módulo de consulta de citas médicas.
 
 ```java
@@ -4636,7 +4636,7 @@ La prueba testGetDoctorAppointments_Success evalúa la capacidad del sistema par
 ```
 <img width="605" height="521" alt="image" src="img/integration-test-2.png" />
 
-3. **testGetPatientAppointments_Success**(AppointmentIntegrationTest)
+3. **testGetPatientAppointments_Success**(AppointmentIntegrationTest) <br>
 La prueba testGetPatientAppointments_Success verifica que el sistema pueda obtener correctamente todas las citas registradas para un paciente determinado. A través de MockMvc, se simula una solicitud HTTP GET al endpoint correspondiente, comprobando que la respuesta tenga el estado 200 (OK) y que contenga un arreglo con el número esperado de citas. Esta prueba garantiza la correcta recuperación y visualización de la información médica asociada a cada paciente dentro del sistema.
 
 ```java
@@ -4661,7 +4661,7 @@ La prueba testGetPatientAppointments_Success verifica que el sistema pueda obten
 
 <img width="605" height="521" alt="image" src="img/integration-test-3.png" />
 
-4. **testGetAppointmentById_Success**(AppointmentIntegrationTest)
+4. **testGetAppointmentById_Success**(AppointmentIntegrationTest) <br>
 La prueba testGetAppointmentById_Success comprueba que el sistema pueda recuperar correctamente una cita específica utilizando su identificador único. Mediante MockMvc, se simula una solicitud HTTP GET al endpoint correspondiente y se valida que la respuesta tenga el estado 200 (OK). Además, se verifica que los datos devueltos, como el ID, el tipo y el estado de la cita,  coincidan con los valores esperados, garantizando la fiabilidad del proceso de consulta individual de citas médicas.
 
 ```java
@@ -4687,6 +4687,143 @@ La prueba testGetAppointmentById_Success comprueba que el sistema pueda recupera
 ```
 
 <img width="605" height="521" alt="image" src="img/integration-test-4.png" />
+
+5. **testUpdateAppointmentStatus_Success**(AppointmentIntegrationTest) <br>
+La prueba testUpdateAppointmentStatus_Success comprueba que el sistema pueda actualizar correctamente el estado de una cita médica existente. Para ello, se crea una cita de prueba con una fecha futura y se ejecuta una solicitud HTTP PATCH al endpoint correspondiente, autenticando la acción con un perfil de doctor. Finalmente, se valida que la respuesta tenga el estado 200 (OK), contenga un mensaje de confirmación y refleje el nuevo estado CONFIRMED, garantizando el correcto funcionamiento del proceso de actualización de citas.
+
+```java
+@Test
+    @DisplayName("Debe actualizar el estado de una cita")
+    void testUpdateAppointmentStatus_Success() throws Exception {
+        // Crear cita de prueba
+        Long appointmentId = createTestAppointment(
+                LocalDateTime.now().plusDays(1), 
+                AppointmentType.PRIMERA_CONSULTA
+        );
+
+        // Ejecutar y verificar
+        mockMvc.perform(patch("/api/appointments/{id}/status", appointmentId)
+                        .with(user(doctorProfile))
+                        .param("status", AppointmentStatus.CONFIRMED.name()))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.message").value("Appointment status updated successfully"))
+                .andExpect(jsonPath("$.appointment.id").value(appointmentId))
+                .andExpect(jsonPath("$.appointment.status").value("CONFIRMED"));
+    }
+```
+
+<img width="605" height="521" alt="image" src="img/test_integration_5.jpg" />
+
+6. **testCancelAppointment_WithReason**(AppointmentIntegrationTest) <br>
+La prueba testCancelAppointment_WithReason comprueba que el sistema permita cancelar correctamente una cita médica registrando una razón específica. Para ello, se crea una cita de prueba con una fecha futura y se ejecuta una solicitud HTTP PATCH al endpoint correspondiente, autenticando la acción con un perfil de doctor y enviando el nuevo estado CANCELLED junto con el motivo de cancelación. Finalmente, se valida que la respuesta tenga el estado 200 (OK), un mensaje de confirmación y el estado actualizado, asegurando el correcto funcionamiento del proceso de cancelación de citas.
+
+```java
+@Test
+    @DisplayName("Debe cancelar una cita con razón")
+    void testCancelAppointment_WithReason() throws Exception {
+        // Crear cita de prueba
+        Long appointmentId = createTestAppointment(
+                LocalDateTime.now().plusDays(2), 
+                AppointmentType.PRIMERA_CONSULTA
+        );
+
+        // Ejecutar y verificar
+        mockMvc.perform(patch("/api/appointments/{id}/status", appointmentId)
+                        .with(user(doctorProfile))
+                        .param("status", AppointmentStatus.CANCELLED.name())
+                        .param("reason", "El paciente solicitó reprogramar"))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.message").value("Appointment status updated successfully"))
+                .andExpect(jsonPath("$.appointment.status").value("CANCELLED"));
+    }
+```
+
+<img width="605" height="521" alt="image" src="img/test_integration_6.jpg" />
+
+7. **testAddFollowUpNotes_Success**(AppointmentIntegrationTest) <br>
+La prueba testAddFollowUpNotes_Success comprueba que el sistema permita agregar correctamente notas de seguimiento a una cita previamente completada. Para ello, se crea una cita de prueba con fecha pasada, se actualiza su estado a COMPLETED y posteriormente se envía una solicitud HTTP PATCH al endpoint correspondiente con las notas de seguimiento en formato JSON. Finalmente, se valida que la respuesta tenga el estado 200 (OK), incluya un mensaje de confirmación y los datos de la cita actualizada, garantizando el correcto registro del seguimiento médico.
+
+```java
+@Test
+    @DisplayName("Debe agregar notas de seguimiento a una cita completada")
+    void testAddFollowUpNotes_Success() throws Exception {
+        // Crear y completar cita de prueba
+        Long appointmentId = createTestAppointment(
+                LocalDateTime.now().minusDays(1), 
+                AppointmentType.PRIMERA_CONSULTA
+        );
+
+        // Completar la cita primero
+        mockMvc.perform(patch("/api/appointments/{id}/status", appointmentId)
+                        .with(user(doctorProfile))
+                        .param("status", AppointmentStatus.COMPLETED.name()))
+                .andExpect(status().isOk());
+
+        // Agregar notas de seguimiento
+        String notesJson = objectMapper.writeValueAsString(
+                java.util.Map.of("notes", "El paciente presenta mejoría significativa")
+        );
+
+        mockMvc.perform(patch("/api/appointments/{id}/follow-up", appointmentId)
+                        .with(user(doctorProfile))
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(notesJson))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.message").value("Follow-up notes added successfully"))
+                .andExpect(jsonPath("$.appointment.id").value(appointmentId));
+    }
+```
+
+<img width="605" height="521" alt="image" src="img/test_integration_7.jpg" />
+
+8. **testCreateAppointment_MissingDate**(AppointmentIntegrationTest) <br>
+La prueba testCreateAppointment_MissingDate comprueba que el sistema valide correctamente los datos obligatorios al intentar crear una cita médica sin especificar una fecha. Para ello, se construye una solicitud con información incompleta y se envía mediante una petición HTTP POST al endpoint correspondiente. Finalmente, se verifica que la respuesta tenga el estado 400 (Bad Request), asegurando que el sistema rechace apropiadamente solicitudes con datos inválidos.
+
+```java
+@Test
+    @DisplayName("Debe fallar al crear una cita sin fecha")
+    void testCreateAppointment_MissingDate() throws Exception {
+        // Preparar datos inválidos (sin fecha)
+        CreateAppointmentRequest request = CreateAppointmentRequest.builder()
+                .durationMinutes(30)
+                .type(AppointmentType.PRIMERA_CONSULTA)
+                .location("Consultorio 101")
+                .build();
+
+        // Ejecutar y verificar que falla la validación
+        mockMvc.perform(post("/api/appointments/doctor/{doctorId}/patient/{patientId}",
+                        doctorProfile.getId(), patientProfile.getId())
+                        .with(user(doctorProfile))
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request)))
+                .andDo(print())
+                .andExpect(status().isBadRequest());
+    }
+```
+
+<img width="605" height="521" alt="image" src="img/test_integration_8.jpg" />
+
+9. **testGetAppointmentById_NotFound**(AppointmentIntegrationTest) <br>
+La prueba testGetAppointmentById_NotFound comprueba que el sistema maneje correctamente la búsqueda de una cita médica utilizando un identificador inexistente. Para ello, se realiza una solicitud HTTP GET al endpoint correspondiente con un ID no registrado en la base de datos. Finalmente, se valida que la respuesta tenga el estado 404 (Not Found) y contenga un mensaje descriptivo, garantizando el adecuado manejo de errores en consultas de citas inexistentes.
+
+```java
+@Test
+    @DisplayName("Debe fallar al obtener una cita con ID inexistente")
+    void testGetAppointmentById_NotFound() throws Exception {
+        Long nonExistentId = 99999L;
+
+        mockMvc.perform(get("/api/appointments/{id}", nonExistentId)
+                        .with(user(doctorProfile)))
+                .andDo(print())
+                .andExpect(status().isNotFound())
+                .andExpect(jsonPath("$.message").exists());
+    }
+```
+
+<img width="605" height="521" alt="image" src="img/test_integration_9.jpg" />
 
 <div id='6.1.3.'><h4>6.1.3. Core Behavior-Driven Development</h4></div>
 
@@ -4778,21 +4915,41 @@ En esta sección se presentan las pruebas desarrolladas para verificar el correc
 
 * **Pruebas de integración:**
 
-<img width="605" height="521" alt="image" src="img/integration-test-1.png" />
+<img width="700" height="521" alt="image" src="img/integration-test-1.png" />
 
 <br><br><br>
 
-<img width="605" height="521" alt="image" src="img/integration-test-2.png" />
+<img width="700" height="521" alt="image" src="img/integration-test-2.png" />
 
 <br><br><br>
 
-<img width="605" height="521" alt="image" src="img/integration-test-3.png" />
+<img width="700" height="521" alt="image" src="img/integration-test-3.png" />
 
 <br><br><br>
 
-<img width="605" height="521" alt="image" src="img/integration-test-4.png" />
+<img width="700" height="521" alt="image" src="img/integration-test-4.png" />
 
-<br><br>
+<br><br><br>
+
+<img width="700" height="521" alt="image" src="img/test_integration_5.jpg" />
+
+<br><br><br>
+
+<img width="700" height="521" alt="image" src="img/test_integration_6.jpg" />
+
+<br><br><br>
+
+<img width="700" height="521" alt="image" src="img/test_integration_7.jpg" />
+
+<br><br><br>
+
+<img width="700" height="521" alt="image" src="img/test_integration_8.jpg" />
+
+<br><br><br>
+
+<img width="700" height="521" alt="image" src="img/test_integration_9.jpg" />
+
+<br><br><br>
 
 <div id='7.'><h2>Capítulo VII: DevOps Practices</h2></div>
 
