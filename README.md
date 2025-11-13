@@ -100,7 +100,7 @@ Los integrantes son:
 1. [**Capítulo I: Introducción.**](#1.) <br>
    1.1. [Startup Profile.](#1.1.) <br>
    1.1.1. [Descripción del startup.](#1.1.1.)<br>
-   1.1.2.[Perfiles de los integrantes del equipo.](#1.1.2.)<br>
+   1.1.2. [Perfiles de los integrantes del equipo.](#1.1.2.)<br>
    1.2. [Solution Profile.](#1.2.)<br>
    1.2.1. [Antecedentes y Problemática.](#1.2.1.)<br>
    1.2.2. [Lean UX Process.](#1.2.2.)<br>
@@ -109,6 +109,7 @@ Los integrantes son:
    1.2.2.3 [Lean UX Hypothesis Statements.](#1.2.2.3.)<br>
    1.2.2.4 [Lean UX Canvas.](#1.2.2.4.)<br>
    1.3. [Segmentos objetivo.](#1.3.)<br>
+
 2. [**Capítulo II: Requirements Elicitation & Analysis.**](#2.)<br>
    2.1. [Competidores.](#2.1.)<br>
    2.1.1. [Análisis competitivo.](#2.1.1.)<br>
@@ -123,7 +124,8 @@ Los integrantes son:
    2.3.3. [User Journey Mapping.](#2.3.3.)<br>
    2.3.4. [Empathy Mapping.](#2.3.4.)<br>
    2.3.5. [As-is Scenario Mapping.](#2.3.5.)<br>
-   2.4. [Ubiquitous Language](#2.4.)<br>
+   2.4. [Ubiquitous Language.](#2.4.)<br>
+
 3. [**Capítulo III: Requirements Specification.**](#3.)<br>
    3.1. [To-Be Scenario Mapping.](#3.1.)<br>
    3.2. [User Stories.](#3.2.)<br>
@@ -180,7 +182,7 @@ Los integrantes son:
    5.2.1.1. [Sprint Backlogs.](#5.2.1.1)<br>
    5.2.1.2. [Implemented Landing Page Evidence.](#5.2.1.2.)<br>
    5.2.1.3. [Implemented Frontend-Web Application Evidence.](#5.2.1.3.)<br>
-   5.2.1.4. [Acuerdo de Servicio - SaaS](#5.2.1.4.)<br>
+   5.2.1.4. [Acuerdo de Servicio - SaaS.](#5.2.1.4.)<br>
    5.2.1.5. [Implemented Native-Mobile Application Evidence.](#5.2.1.5.)<br>
    5.2.1.6. [Implemented RESTful API and/or Serverless Backend Evidence.](#5.2.1.6.)<br>
    5.2.1.7 [RESTful API documentation.](#5.2.1.7.)<br>
@@ -193,6 +195,25 @@ Los integrantes son:
    6.1.2. [Core Integration Tests.](#6.1.2.)<br>
    6.1.3. [Core Behavior-Driven Development.](#6.1.3.)<br>
    6.1.4. [Core System Tests.](#6.1.4.)<br>
+   6.2. [Static Testing & Verification.](#6.2.)<br>
+   6.2.1. [Static Code Analysis.](#6.2.1.)<br>
+   6.2.1.1. [Coding Standards & Conventions.](#6.2.1.1.)<br>
+   6.2.1.2. [Code Quality & Security.](#6.2.1.2.)<br>
+   6.2.2. [Reviews.](#6.2.2.)<br>
+   6.3. [Validation Interviews.](#6.3.)<br>
+   6.3.1. [Diseño de Entrevistas.](#6.3.1.)<br>
+   6.3.2. [Registro de Entrevistas.](#6.3.2.)<br>
+   6.3.3. [Evaluaciones según heurísticas.](#6.3.3.)<br>
+   6.4. [Auditoría de Experiencias de Usuario.](#6.4.)<br>
+   6.4.1. [Auditoría realizada.](#6.4.1.)<br>
+   6.4.1.1. [Información del grupo auditado.](#6.4.1.1.)<br>
+   6.4.1.2. [Cronograma de auditoría realizada.](#6.4.1.2.)<br>
+   6.4.1.3. [Contenido de auditoría realizada.](#6.4.1.3.)<br>
+   6.4.2. [Auditoría recibida.](#6.4.2.)<br>
+   6.4.2.1. [Información del grupo auditor.](#6.4.2.1.)<br>
+   6.4.2.2. [Cronograma de auditoría recibida.](#6.4.2.2.)<br>
+   6.4.2.3. [Contenido de auditoría recibida.](#6.4.2.3.)<br>
+   6.4.2.4. [Resumen de modificaciones para subsanar hallazgos.](#6.4.2.4.)<br>
 
 7. [**Capítulo VII: DevOps Practices.**](#7.)<br>
    7.1. [Continuous Integration.](#7.1.)<br>
@@ -204,10 +225,36 @@ Los integrantes son:
    7.3. [Continuous Deployment.](#7.3.)<br>
    7.3.1. [Tools and Practices.](#7.3.1.)<br>
    7.3.2. [Production Deployment Pipeline Components.](#7.3.2.)<br>
+   7.4. [Continuous Monitoring.](#7.4.)<br>
+   7.4.1. [Tools and Practices.](#7.4.1.)<br>
+   7.4.2. [Monitoring Pipeline Components.](#7.4.2.)<br>
+   7.4.3. [Alerting Pipeline Components.](#7.4.3.)<br>
+   7.4.4. [Notification Pipeline Components.](#7.4.4.)<br>
 
-8. [Conclusiones](#8.)<br>
-9. [Bibliografía](#9.)<br>
-10. [Anexo](#10.)<br>
+8. [**Capítulo VIII: Experiment-Driven Development.**](#8.)<br>
+   8.1. [Experiment Planning.](#8.1.)<br>
+   8.1.1. [As-Is Summary.](#8.1.1.)<br>
+   8.1.2. [Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.](#8.1.2.)<br>
+   8.1.3. [Experiment-Ready Questions.](#8.1.3.)<br>
+   8.1.4. [Question Backlog.](#8.1.4.)<br>
+   8.1.5. [Experiment Cards.](#8.1.5.)<br>
+   8.2. [Experiment Design.](#8.2.)<br>
+   8.2.1. [Hypotheses.](#8.2.1.)<br>
+   8.2.2. [Domain Business Metrics.](#8.2.2.)<br>
+   8.2.3. [Measures.](#8.2.3.)<br>
+   8.2.4. [Conditions.](#8.2.4.)<br>
+   8.2.5. [Scale Calculations and Decisions.](#8.2.5.)<br>
+   8.2.6. [Methods Selection.](#8.2.6.)<br>
+   8.2.7. [Data Analytics: Goals, KPIs and Metrics Selection.](#8.2.7.)<br>
+   8.2.8. [Web and Mobile Tracking Plan.](#8.2.8.)<br>
+   8.3. [Experimentation.](#8.3.)<br>
+   8.3.1. [To-Be User Stories.](#8.3.1.)<br>
+   8.3.2. [To-Be Product Backlog.](#8.3.2.)<br>
+
+9. [Conclusiones.](#9.)<br>
+10. [Bibliografía.](#10.)<br>
+11. [Anexo.](#11.)<br>
+
 
 
 # STUDENT OUTCOME
@@ -4951,6 +4998,31 @@ En esta sección se presentan las pruebas desarrolladas para verificar el correc
 
 <br><br><br>
 
+<div id='6.2.'><h3>6.2. Static Testing & Verification</h3></div>
+
+<div id='6.2.1.'><h4>6.2.1. Static Code Analysis</h4></div>
+<div id='6.2.1.1.'><h5>6.2.1.1. Coding Standard & Code Conventions</h5></div>
+<div id='6.2.1.2.'><h5>6.2.1.2. Code Quality & Code Security</h5></div>
+
+<div id='6.2.2.'><h4>6.2.2. Reviews</h4></div>
+
+<div id='6.3.'><h3>6.3. Validation Interviews</h3></div>
+<div id='6.3.1.'><h4>6.3.1. Diseño de Entrevistas</h4></div>
+<div id='6.3.2.'><h4>6.3.2. Registro de Entrevistas</h4></div>
+<div id='6.3.3.'><h4>6.3.3. Evaluaciones Según Heurísticas</h4></div>
+
+<div id='6.4.'><h3>6.4. Auditoría de Experiencias de Usuario</h3></div>
+<div id='6.4.1.'><h4>6.4.1. Auditoría Realizada</h4></div>
+<div id='6.4.1.1.'><h5>6.4.1.1. Información del Grupo Auditado</h5></div>
+<div id='6.4.1.2.'><h5>6.4.1.2. Cronograma de Auditoría Realizada</h5></div>
+<div id='6.4.1.3.'><h5>6.4.1.3. Contenido de Auditoría Realizada</h5></div>
+<div id='6.4.2.'><h4>6.4.2. Auditoría Recibida</h4></div>
+<div id='6.4.2.1.'><h5>6.4.2.1. Información del Grupo Auditor</h5></div>
+<div id='6.4.2.2.'><h5>6.4.2.2. Cronograma de Auditoría Recibida</h5></div>
+<div id='6.4.2.3.'><h5>6.4.2.3. Contenido de Auditoría Recibida</h5></div>
+<div id='6.4.2.4.'><h5>6.4.2.4. Resumen de Modificaciones para Subsanar Hallazgos</h5></div>
+
+
 <div id='7.'><h2>Capítulo VII: DevOps Practices</h2></div>
 
 <div id='7.1.'><h3>7.1. Continuous Integration</h3></div>
@@ -5080,7 +5152,37 @@ Entre sus principales componentes se encuentran:
 
 Desde una perspectiva teórica, este conjunto de componentes permite establecer un flujo continuo de entrega de valor, alineado con los principios de automatización, trazabilidad y retroalimentación continua propios de la ingeniería DevOps.
 
-<div id='8.'><h2>8. Conclusiones</h2></div>
+
+<div id='7.4.'><h3>7.4. Continuous Monitoring</h3></div>
+<div id='7.4.1.'><h4>7.4.1. Tools and Practices</h4></div>
+<div id='7.4.2.'><h4>7.4.2. Monitoring Pipeline Components</h4></div>
+<div id='7.4.3.'><h4>7.4.3. Alerting Pipeline Components</h4></div>
+<div id='7.4.4.'><h4>7.4.4. Notification Pipeline Components</h4></div>
+
+<div id='8.1.'><h3>8.1. Experiment Planning</h3></div>
+<div id='8.1.1.'><h4>8.1.1. As-Is Summary</h4></div>
+<div id='8.1.2.'><h4>8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims</h4></div>
+<div id='8.1.3.'><h4>8.1.3. Experiment-Ready Questions</h4></div>
+<div id='8.1.4.'><h4>8.1.4. Question Backlog</h4></div>
+<div id='8.1.5.'><h4>8.1.5. Experiment Cards</h4></div>
+
+<div id='8.2.'><h3>8.2. Experiment Design</h3></div>
+<div id='8.2.1.'><h4>8.2.1. Hypotheses</h4></div>
+<div id='8.2.2.'><h4>8.2.2. Domain Business Metrics</h4></div>
+<div id='8.2.3.'><h4>8.2.3. Measures</h4></div>
+<div id='8.2.4.'><h4>8.2.4. Conditions</h4></div>
+<div id='8.2.5.'><h4>8.2.5. Scale Calculations and Decisions</h4></div>
+<div id='8.2.6.'><h4>8.2.6. Methods Selection</h4></div>
+<div id='8.2.7.'><h4>8.2.7. Data Analytics: Goals, KPIs and Metrics Selection</h4></div>
+<div id='8.2.8.'><h4>8.2.8. Web and Mobile Tracking Plan</h4></div>
+
+<div id='8.3.'><h3>8.3. Experimentation</h3></div>
+<div id='8.3.1.'><h4>8.3.1. To-Be User Stories</h4></div>
+<div id='8.3.2.'><h4>8.3.2. To-Be Product Backlog</h4></div>
+
+
+
+<div id='9.'><h2>9. Conclusiones</h2></div>
 
 1. **Plataforma Integral de Salud Digital**: OnControl se consolida como un ecosistema digital especializado en oncología que trasciende la simple gestión de citas médicas, integrando funcionalidades completas de seguimiento de tratamientos, recordatorios de medicación, comunidades de apoyo y herramientas de autocontrol para pacientes, estableciendo un nuevo estándar en el acompañamiento oncológico digital.
 
@@ -5092,7 +5194,7 @@ Desde una perspectiva teórica, este conjunto de componentes permite establecer 
 
 5. **Metodología de Desarrollo Efectiva**: La implementación mediante Scrum permitió entregas incrementales y validadas, con una distribución estratégica de roles que optimizó la productividad del equipo y aseguró la integración coherente entre el frontend web, backend API y landing page, demostrando la efectividad del trabajo colaborativo en el desarrollo de soluciones de salud digital.
 
-<div id='9.'><h2>9. Bibliografía</h2></div>
+<div id='10.'><h2>10. Bibliografía</h2></div>
 
 - Congreso de la República del Perú. (2011, 3 de julio). Ley N.° 29733, Ley de Protección de Datos Personales. Diario Oficial El Peruano. https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/243470-29733
 
@@ -5101,7 +5203,7 @@ Desde una perspectiva teórica, este conjunto de componentes permite establecer 
 - Congreso de la República del Perú. (1997, 20 de julio). Ley N.° 26842, Ley General de Salud. Diario Oficial El Peruano. https://www.minsa.gob.pe/Recursos/OGTI/SINADEF/Ley-29733.pdf
 
 
-<div id='10.'><h2>10. Anexo</h2></div>
+<div id='11.'><h2>11. Anexo</h2></div>
 
 | Título del Video                  | Link de Video                                  |
 |-----------------------------------|-----------------------------------------------|
