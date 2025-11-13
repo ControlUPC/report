@@ -286,6 +286,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <strong>Gongora Castillejos, Williams</strong> <br>
       <strong>TB1:</strong> <p align="justify">Durante el desarrollo de los capítulos 1 y 2, reconocí mi responsabilidad ética y profesional al definir claramente el Startup Profile, la problemática real y los segmentos objetivo, asegurando que la solución responda a necesidades genuinas de médicos y pacientes. Asimismo, en el análisis competitivo, entrevistas y construcción de artefactos de Needfinding, apliqué buenas prácticas de ingeniería de software, priorizando la transparencia, la privacidad de los datos y la utilidad social de la aplicación, lo que refleja un compromiso ético con los usuarios y la sociedad. </p><br>
       <strong>TP:</strong> <p align="justify">En el desarrollo de OnControl, demostré responsabilidad ética mediante pruebas unitarias rigurosas que garantizan la precisión de datos médicos sensibles. Implementé una arquitectura backend segura que protege la información de pacientes oncológicos. Documenté exhaustivamente cada componente para asegurar transparencia y mantenibilidad. </p><br>
+        <strong>TB2:</strong> <p align="justify"> Como estudiante, respete los principios de integridad, privacidad y confiabilidad en el manejo de datos médicos. Consideré el impacto social y ético del software en un contexto de salud sensible, priorizando la seguridad del paciente, la transparencia en la gestión de información y la construcción de soluciones tecnológicas que contribuyan positivamente al bienestar social.</p><br>
       <strong>Quiñones Tintaya, Johan Jorge</strong> <br>
       <strong>TB1:</strong> <p align="justify"> En el desarrollo de los Wireframes, Wireflows, Mock-ups y User Flows de OnControl, reconocí la importancia de la responsabilidad ética y profesional en el diseño de soluciones dirigidas al sector salud. Durante este proceso, tomé decisiones orientadas a garantizar la seguridad de la información médica, la usabilidad para médicos y pacientes y la precisión en la representación de datos sensibles como historiales clínicos, tratamientos y síntomas. Este trabajo reflejó mi compromiso de que las interfaces no solo sean funcionales, sino que también respeten principios de confidencialidad, accesibilidad y confiabilidad, aspectos éticos esenciales en la ingeniería de software aplicada a contextos médicos. </p><br>
       <strong>TP:</strong> <p align="justify">Demostré responsabilidad ética desarrollando una API RESTful segura con Spring Boot que protege datos médicos sensibles mediante autenticación JWT. Implementé validaciones exhaustivas en los endpoints para garantizar la integridad de la información clínica de pacientes oncológicos. La integración frontend-backend que realicé priorizó la privacidad y confiabilidad del sistema en todo momento. Documenté los 47 endpoints asegurando transparencia y mantenibilidad del código.</p><br>
@@ -314,8 +315,8 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 Como ingeniero de software, emito juicios informados considerando el impacto de mis soluciones en contextos globales, económicos, ambientales y sociales, especialmente tras mi experiencia en DevOps, documentación de integración continua y diseño de arquitectura de software. Evalúo cómo las implementaciones optimizadas y los despliegues continuos pueden reducir costos operativos y mejorar la eficiencia global, mientras me aseguro de minimizar el consumo energético y el impacto ambiental mediante prácticas sostenibles. Además, considero las implicaciones sociales, garantizando que las soluciones sean accesibles y beneficiosas para diversas culturas y comunidades, y analizo el contexto económico para asegurar que sean viables y equitativas, promoviendo un desarrollo responsable que equilibre innovación con bienestar colectivo.</p><br>
       <strong>Gongora Castillejos, Williams</strong> <br>
       <strong>TB1:</strong> <p align="justify">En los capítulos 1 y 2 emití juicios informados al analizar la problemática oncológica en el Perú, considerando el impacto social de facilitar la comunicación entre médicos y pacientes, el potencial económico de un modelo de negocio sostenible, y la escalabilidad global hacia otras especialidades médicas. Además, evalué la importancia de la seguridad y privacidad de datos como un factor crítico con repercusiones éticas y sociales en el uso responsable de la tecnología. </p><br>
-      <strong>Quiñones Tintaya, Johan Jorge</strong> <br>
       <strong>TP:</strong> <p align="justify">En el desarrollo de OnControl, emití juicios informados que priorizaron el impacto social al abordar problemáticas críticas del sistema oncológico peruano. Consideré el contexto económico local al diseñar un modelo freemium accesible que no excluye a pacientes de escasos recursos. Evalué el alcance global mediante una arquitectura escalable que puede adaptarse a otros sistemas de salud. Implementé soluciones técnicas que optimizan recursos ambientales mediante procesos digitalizados, reduciendo el uso de papel en historiales médicos.</p><br>
+      <strong>TB2:</strong> <p align="justify">Durante el desarrollo de las secciones 8.2.4 a 8.3.2 del proyecto OnControl, emití juicios informados evaluando el impacto de las soluciones propuestas en contextos globales, económicos y sociales. Analicé cómo la adopción de una plataforma web accesible y segura puede mejorar la eficiencia médica y reducir costos operativos, contribuyendo a una atención más equitativa. </p><br>
       <strong>Quiñones Tintaya, Johan Jorge</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Al diseñar y documentar las interfaces de OnControl (wireframes, wireflows, mock-ups y user flows), emití juicios informados sobre cómo estas soluciones pueden impactar global y socialmente. Reconocí que una plataforma enfocada en oncología contribuye a mejorar el acceso a la salud digital, optimiza la gestión médica y reduce costos administrativos, lo cual tiene un impacto económico positivo en instituciones de salud. Asimismo, consideré que el diseño debía ser escalable y adaptable a distintos entornos, lo que abre la posibilidad de replicarse en contextos globales con similares necesidades. Además, busqué minimizar el uso excesivo de recursos físicos al digitalizar procesos antes manejados en papel, aportando indirectamente a un impacto ambiental positivo. </p><br>
         <strong>TP:</strong> <p align="justify">Al desarrollar OnControl, emití juicios informados considerando su impacto multidimensional. Socialmente, la plataforma mejora la accesibilidad a servicios oncológicos en Perú, reduciendo barreras geográficas mediante telemedicina. Económicamente, optimiza recursos del sistema de salud y reduce costos de desplazamiento para pacientes. Ambientalmente, minimiza la huella de carbono al disminuir traslados innecesarios. Globalmente, establece un precedente para soluciones digitales escalables en países en desarrollo.</p><br>
@@ -5170,16 +5171,160 @@ Desde una perspectiva teórica, este conjunto de componentes permite establecer 
 <div id='8.2.1.'><h4>8.2.1. Hypotheses</h4></div>
 <div id='8.2.2.'><h4>8.2.2. Domain Business Metrics</h4></div>
 <div id='8.2.3.'><h4>8.2.3. Measures</h4></div>
+
 <div id='8.2.4.'><h4>8.2.4. Conditions</h4></div>
+
+Las métricas y experimentos de la plataforma OnControl se evaluarán bajo las siguientes condiciones y limitaciones contextuales:
+
+* **Dependencia Tecnológica:** La precisión de los datos vitales está sujeta a la correcta calibración de los sensores IoT (pulsioxímetro, monitor cardíaco, termómetro) y a la conectividad estable (Bluetooth/Wi-Fi) del dispositivo móvil del paciente.
+
+* **Contexto del Paciente:** Se debe considerar la variabilidad en la alfabetización digital y el estado físico/emocional de los pacientes oncológicos. Estos factores pueden influir directamente en la consistencia y adherencia al uso de la aplicación móvil.
+
+* **Contexto Clínico:** La adopción de la plataforma web por parte del personal médico está condicionada por su alta carga laboral. OnControl es una herramienta de optimización y seguimiento, no un sistema de atención de emergencias.
+
+* **Hipótesis Operativas:** Todos los experimentos se fundamentan en las hipótesis Lean UX (Sección 1.2.2.3), que asumen que el monitoreo constante y la centralización de datos (citas, signos vitales) aportan valor tangible tanto al paciente como al médico.
+
+* **Supuestos de Adherencia:** Se asume que los pacientes utilizarán los sensores siguiendo las indicaciones para garantizar la integridad de los datos, y que el personal médico revisará las alertas generadas de forma oportuna.
+
 <div id='8.2.5.'><h4>8.2.5. Scale Calculations and Decisions</h4></div>
+
+Para asegurar la validez estadística de los experimentos en OnControl, todas las pruebas de hipótesis (A/B testing) se regirán por los siguientes parámetros estándar de la industria:
+
+* **Nivel de Significancia ($\alpha$):** Se establece en **5% (0.05)**. Esto limita al 5% la probabilidad de cometer un error de Tipo I (un falso positivo), asegurando que los cambios implementados tengan una base estadística sólida.
+* **Potencia Estadística ($1-\beta$):** El objetivo de potencia se fija en un mínimo de **80%**. Esto garantiza que tengamos la capacidad suficiente para detectar correctamente un efecto real si este existe, minimizando los errores de Tipo II (falsos negativos).
+* **Efecto Mínimo Detectable (MDE):** Se definirá de forma específica para cada experimento (p. ej., un aumento del 10% en la adherencia al tratamiento). Este valor representa la magnitud de cambio mínima que consideraremos relevante para el negocio y la atención al paciente.
+
+Las decisiones de implementación se basarán en los resultados de estas pruebas aplicadas a las métricas clave del proyecto:
+
+1.  **Índice de Adherencia al Tratamiento (IAT):**
+    * **Cálculo:**
+        $$\text{IAT} = \frac{\text{Registros completados (medicamentos, síntomas)}}{\text{Registros programados}} \times 100$$
+    * **Decisión:** Un MDE positivo y estadísticamente significativo (ej. +10%) en este índice validará las hipótesis sobre la efectividad de los recordatorios y la facilidad de uso de la app móvil.
+
+2.  **Tasa de Sincronización de Sensores (TSS):**
+    * **Cálculo:**
+        $$\text{TSS} = \frac{\text{Pacientes que sincronizan datos vitales} \ge 3 \text{ veces/semana}}{\text{Total de pacientes activos con IoT}} \times 100$$
+    * **Decisión:** Alcanzar la meta definida (ej. 65% de usuarios) confirmará la hipótesis de que los pacientes perciben valor y seguridad en el monitoreo constante.
+
+3.  **Tasa de Retención de Pacientes (TRP):**
+    * **Cálculo:**
+        $$\text{TRP} = \frac{\text{Usuarios activos al final del período}}{\text{Usuarios activos al inicio del período}} \times 100$$
+    * **Decisión:** Una alta retención validará la utilidad a largo plazo de la plataforma como herramienta de acompañamiento durante el tratamiento.
+
+4.  **Tasa de Interacción Médica (TIM):**
+    * **Cálculo:**
+        $$\text{TIM} = \frac{\text{Médicos que consultan historial o datos vitales} > 1 \text{ vez/semana/paciente}}{\text{Total de médicos activos}} \times 100$$
+    * **Decisión:** Validará la hipótesis de que la plataforma centralizada reduce la fricción y optimiza la organización del médico.
+
 <div id='8.2.6.'><h4>8.2.6. Methods Selection</h4></div>
+
+Los métodos seleccionados para el proyecto OnControl responden a la necesidad de validar un producto tecnológico en el dominio sensible de la salud, combinando agilidad, rigor técnico y un profundo entendimiento del usuario. Los métodos principales son:
+
+* **Lean UX:** Se adopta este enfoque por su naturaleza iterativa y centrada en el usuario. Es crucial para validar hipótesis de valor de forma ágil (p. ej., "el monitoreo IoT reduce la ansiedad"), optimizando el desarrollo mediante la retroalimentación directa de médicos y pacientes.
+* **Entrevistas Cualitativas:** Aplicadas en fases de *Needfinding* y Validación, son esenciales para obtener *insights* de los segmentos objetivo: pacientes oncológicos y médicos. Dada la sensibilidad del dominio, este método permite capturar sus necesidades y motivaciones específicas, garantizando la relevancia funcional de la herramienta.
+* **Pruebas de Software:** Se aplica un conjunto riguroso de pruebas unitarias, de integración y BDD (Behavior-Driven Development) para garantizar la fiabilidad técnica. Dado que OnControl maneja datos críticos como historiales clínicos y signos vitales, este plan de pruebas, detallado en el Capítulo VI, es fundamental para asegurar la integridad y estabilidad del sistema.
+* **Análisis Competitivo:** Necesario para posicionar a OnControl en el creciente mercado *health-tech*. Este análisis, detallado en la Sección 2.1, permite identificar propuestas de valor únicas, como la integración de sensores IoT, y diferenciar la solución de aplicaciones genéricas de salud.
+* **Modelo de Negocio (Freemium/SaaS):** Se selecciona un enfoque de mercado Freemium/SaaS para equilibrar la sostenibilidad financiera con la responsabilidad social. Este modelo permite ofrecer la herramienta de apoyo esencial de forma accesible a los pacientes, reservando funcionalidades avanzadas, como analítica de datos o gestión de múltiples pacientes, para médicos e instituciones.
+
 <div id='8.2.7.'><h4>8.2.7. Data Analytics: Goals, KPIs and Metrics Selection</h4></div>
+
+El plan de analítica de datos se enfoca en medir la adopción de la plataforma web por parte de los dos segmentos de usuario (Pacientes y Médicos). Su objetivo es validar la hipótesis central del proyecto: que la gestión centralizada y el monitoreo IoT mejoran la adherencia al tratamiento y la eficiencia de la gestión clínica.
+
+A continuación, se definen los objetivos, KPIs y métricas seleccionadas para cada segmento dentro de la plataforma web:
+
+**Objetivo 1: Medir la Adopción y Adherencia del Paciente (Experiencia Web del Paciente)**
+
+| KPI (Key Performance Indicator) | Métricas Seleccionadas |
+| :--- | :--- |
+| **Tasa de Adopción de Funcionalidad** | % de usuarios que completan el *onboarding*.<br>% de usuarios activos que registran al menos un síntoma o medicamento (semanal). |
+| **Tasa de Sincronización IoT** | Frecuencia de sincronización de signos vitales (Promedio de sesiones/semana/paciente).<br>% de pacientes activos que sincronizan datos IoT exitosamente. |
+| **Retención de Pacientes** | Tasa de Retención (Día 1, Semana 1, Mes 1).<br>DAU/MAU (Usuarios Activos Diarios/Mensuales). |
+
+**Objetivo 2: Medir la Eficiencia y Utilidad Médica (Experiencia Web del Médico)**
+
+| KPI (Key Performance Indicator) | Métricas Seleccionadas |
+| :--- | :--- |
+| **Adopción de Plataforma (Médicos)** | Tasa de Retención de Médicos (DAU/MAU).<br>Tasa de creación de nuevos pacientes/tratamientos por médico. |
+| **Eficiencia de Gestión** | Tiempo promedio (en minutos) desde el login hasta la revisión del historial de un paciente.<br>Tasa de uso del dashboard de signos vitales (Vistas/Sesión). |
+| **Tasa de Respuesta a Alertas (IoT)** | Tiempo promedio (en horas) desde la generación de una alerta de signos vitales (ej. baja oximetría) hasta la revisión de la alerta por parte del médico. |
+
 <div id='8.2.8.'><h4>8.2.8. Web and Mobile Tracking Plan</h4></div>
 
+Para recolectar los datos necesarios para los KPIs definidos en la sección 8.2.7, se implementará un plan de seguimiento de eventos unificado para la plataforma web OnControl. La herramienta principal para el seguimiento de *ambos* segmentos (Pacientes y Médicos) será **Google Analytics (GA4)**, complementada con **Vercel Analytics** para métricas de rendimiento y disponibilidad.
+
+El plan se centra en rastrear interacciones clave que validan la adopción, adherencia y eficiencia de ambas experiencias de usuario dentro de la misma aplicación.
+
+**1. Eventos de Seguimiento (Experiencia Web del Paciente)**
+
+Se rastrearán los siguientes eventos para medir la adopción y adherencia del paciente:
+
+* **Autenticación y Adopción:**
+    * `signup_complete_patient`: Se dispara cuando un paciente completa exitosamente el registro.
+    * `login_success_patient`: Se dispara en cada inicio de sesión exitoso del paciente.
+    * `onboarding_complete_patient`: Se dispara cuando el paciente finaliza el tutorial inicial.
+* **Adherencia al Tratamiento (Eventos Core):**
+    * `medication_log_success`: Se dispara cada vez que el paciente marca una dosis de medicamento como tomada.
+    * `symptom_report_success`: Se dispara al registrar exitosamente un síntoma.
+* **Sincronización IoT:**
+    * `iot_sync_start_web`: Se dispara al iniciar el proceso de sincronización de signos vitales desde el navegador.
+    * `iot_sync_success_web`: Se dispara al recibir datos válidos de un sensor. Incluirá parámetros:
+        * `sensor_type`: (ej. 'oximeter', 'thermometer', 'heart_rate')
+    * `iot_sync_fail_web`: Se dispara si la conexión (ej. Web Bluetooth API) o la lectura del sensor falla.
+
+**2. Eventos de Seguimiento (Experiencia Web del Médico)**
+
+Se rastrearán los siguientes eventos para medir la eficiencia y utilidad de la plataforma para el personal médico:
+
+* **Autenticación y Retención:**
+    * `signup_complete_doctor`: Se dispara al completar el registro del médico.
+    * `login_success_doctor`: Se dispara en cada inicio de sesión web del médico.
+* **Eficiencia y Gestión Clínica (Eventos Core):**
+    * `patient_dashboard_view`: Se dispara cada vez que un médico accede al perfil detallado de un paciente.
+    * `iot_data_view`: Se dispara cuando el médico consulta el dashboard de signos vitales de un paciente.
+    * `medical_history_view`: Se dispara al consultar el historial clínico.
+* **Respuesta a Alertas:**
+    * `alert_viewed`: Se dispara cuando un médico abre una alerta generada por el sistema (ej. oximetría baja). Se registrará el tiempo transcurrido desde la generación de la alerta.
+    * `alert_resolved`: Se dispara cuando el médico marca la alerta como gestionada.
+
+**Propiedades de Usuario y Evento**
+
+Todos los eventos clave incluirán propiedades estándar como `timestamp`, `user_id` (anonimizado), `session_id` y, fundamentalmente, la propiedad de usuario `user_role` ('paciente' o 'medico') para permitir la segmentación y análisis detallado del comportamiento de cada segmento.
+
 <div id='8.3.'><h3>8.3. Experimentation</h3></div>
+
+Esta sección describe la fase de implementación del ciclo Experiment-Driven Development. Basado en las hipótesis (8.2.1) y el plan de analítica (8.2.7) definidos, se desarrolla el software To-Be necesario para ejecutar los experimentos. Este proceso implica la definición de nuevas historias de usuario (8.3.1) y sprint backlogs (8.3.3.1), los cuales son implementados y desplegados usando el pipeline de CI/CD (Capítulo VII) para comenzar la recolección de datos y proceder a la validación de las hipótesis.
+
 <div id='8.3.1.'><h4>8.3.1. To-Be User Stories</h4></div>
+
+Las siguientes **User Stories** describen la versión futura esperada de la plataforma **OnControl**, considerando los aprendizajes obtenidos durante el ciclo de validación y las hipótesis confirmadas sobre adherencia, eficiencia médica y experiencia de usuario.
+
+| ID | User Story | Criterios de Aceptación |
+|----|-------------|--------------------------|
+| **US-01** | Como **paciente oncológico**, quiero **registrar mis signos vitales y síntomas diarios desde la plataforma web**, para que mi médico pueda hacer un seguimiento más preciso de mi estado. | El sistema permite ingresar y guardar datos manualmente o mediante integración IoT; los datos se reflejan en el panel médico. |
+| **US-02** | Como **médico oncólogo**, quiero **visualizar los signos vitales y la evolución del paciente en un dashboard interactivo**, para detectar tendencias y posibles alertas tempranas. | El dashboard muestra métricas actualizadas, gráficos dinámicos y alertas automáticas por fuera de rango. |
+| **US-03** | Como **paciente**, quiero **recibir notificaciones automáticas** cuando se acerque una cita o deba actualizar mis registros de salud, para mantener una rutina de seguimiento constante. | Las notificaciones se generan automáticamente y se muestran en la interfaz o por correo. |
+| **US-04** | Como **médico**, quiero **registrar, actualizar y consultar la historia clínica completa de mis pacientes**, para mantener la información médica organizada en un solo lugar. | El sistema permite CRUD (crear, leer, actualizar, eliminar) de historiales clínicos asociados a cada paciente. |
+| **US-05** | Como **paciente**, quiero **consultar mi historial de citas y observaciones médicas**, para mantenerme informado sobre mi tratamiento. | Los pacientes pueden acceder a un historial estructurado con fechas, resultados y observaciones del médico. |
+| **US-06** | Como **médico**, quiero **recibir alertas automáticas cuando un paciente presente valores críticos en sus signos vitales**, para intervenir a tiempo. | Se envían alertas visuales o por correo en tiempo real al detectar anomalías. |
+| **US-07** | Como **administrador del sistema**, quiero **gestionar cuentas, roles y permisos de acceso**, para garantizar la seguridad y privacidad de la información médica. | El sistema cuenta con autenticación por roles (médico, paciente, admin) y control de acceso granular. |
+| **US-08** | Como **usuario**, quiero **navegar por una interfaz web clara y accesible**, para utilizar la aplicación sin dificultad, incluso con conocimientos tecnológicos limitados. | Se aplican buenas prácticas UX/UI y cumplimiento de estándares de accesibilidad (WCAG). |
+
 <div id='8.3.2.'><h4>8.3.2. To-Be Product Backlog</h4></div>
 
+El siguiente Product Backlog presenta las funcionalidades priorizadas de la versión futura de **OnControl**, estructuradas según las **User Stories To-Be**. Cada ítem considera el valor para el usuario, la complejidad técnica y el impacto en la validación de hipótesis UX.
+
+| ID | User Story Asociada | Epic / Categoría | Descripción Técnica | Prioridad | Estimación (Story Points) |
+|----|----------------------|------------------|---------------------|------------|----------------------------|
+| PB-01 | US-01 | Monitoreo de Pacientes | Implementación del módulo de registro de signos vitales con soporte manual y conexión a dispositivos IoT. | Alta | 8 |
+| PB-02 | US-02 | Dashboard Médico | Creación de dashboard interactivo con gráficos dinámicos, alertas y filtros personalizados. | Alta | 13 |
+| PB-03 | US-03 | Recordatorios y Notificaciones | Sistema automático de notificaciones internas y por correo para citas y registros pendientes. | Media | 5 |
+| PB-04 | US-04 | Gestión de Historias Clínicas | CRUD completo para historiales médicos con búsqueda, edición y almacenamiento seguro. | Alta | 8 |
+| PB-05 | US-05 | Historial del Paciente | Vista del historial médico para pacientes, incluyendo observaciones, citas y resultados. | Media | 5 |
+| PB-06 | US-06 | Alertas Médicas Críticas | Motor de alertas en tiempo real basado en umbrales definidos por el médico. | Alta | 8 |
+| PB-07 | US-07 | Administración y Seguridad | Módulo de gestión de usuarios, roles y permisos con autenticación por rol. | Alta | 8 |
+| PB-08 | US-08 | UX/UI y Accesibilidad | Optimización de la interfaz web, diseño responsivo y cumplimiento de estándares WCAG. | Media | 3 |
+| PB-09 | US-02, US-06 | Integración de Datos | Implementación de endpoints para intercambio de información entre módulos médico y paciente. | Media | 5 |
+| PB-10 | US-01–US-08 | Testing y Validación UX | Pruebas de usabilidad, A/B testing y análisis de satisfacción del usuario. | Media | 5 |
 
 
 <div id='9.'><h2>9. Conclusiones</h2></div>
