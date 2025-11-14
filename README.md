@@ -5018,13 +5018,164 @@ En esta sección se presentan las pruebas desarrolladas para verificar el correc
 <div id='6.4.'><h3>6.4. Auditoría de Experiencias de Usuario</h3></div>
 <div id='6.4.1.'><h4>6.4.1. Auditoría Realizada</h4></div>
 <div id='6.4.1.1.'><h5>6.4.1.1. Información del Grupo Auditado</h5></div>
+
+- Nombre del grupo auditado: OncoTech
+- Especialización: Especialistas en diseño de interfaces (UI), accesibilidad web y evaluación de experiencias inclusivas.
+- Fecha de auditoría: 10/11/2025 - 12/11/2025
+
+| Nombres y Apellidos                 | Código de alumno |
+|------------------------------------|------------------|
+| Elizabeth Lucero Huanaco Huayta    | U20211G522       |
+| Anthony Martin Huapaya Cuevas      | U202220235       |
+| Williams Góngora Castillejos       | U20221C186       |
+| Johan Jorge Quiñones Quintaya      | U202218183       |
+| Jesús Guillermo Uribe Quispe       | U202221876       |
+
 <div id='6.4.1.2.'><h5>6.4.1.2. Cronograma de Auditoría Realizada</h5></div>
+
+| Fecha        | Actividad                        | Responsable        |
+|--------------|----------------------------------|--------------------|
+| 10/11/2025   | Solicitud de información         | Elizabeth Huanaco  |
+| 10/11/2025   | Recepción de información         | Elizabeth Huanaco  |
+| 11/11/2025   | Lectura de la información        | Anthony Huapaya    |
+| 11/11/2025   | Actividad de auditoría           | Anthony Huapaya    |
+| 12/11/2025   | Ejecución de auditoría           | Williams Góngora   |
+| 12/11/2025   | Elaboración del informe          | Johan Quiñones     |
+| 12/11/2025   | Envío del informe de auditoría   | Jesús Uribe        |
+
 <div id='6.4.1.3.'><h5>6.4.1.3. Contenido de Auditoría Realizada</h5></div>
+
+Como resultado de la auditoría de usabilidad, se identificaron diversos problemas en la interacción del usuario con el sistema. Para cada uno de ellos se determinó su nivel de severidad y se registró la heurística o principio de diseño infringido.
+
+| # | Problema                                                                                                                                                                             | Escala de severidad | Heurística o principio violado            |
+|---|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|-------------------------------------------|
+| 1 | Accesos rápidos a secciones que ya están disponibles en la barra lateral de navegación. Además, el dashboard está visualmente un poco saturado                                      | 0                    | Diseño estético y minimalista             |
+| 2 | Los botones importantes no destacan en el dashboard y el usuario podría no reconocer de inmediato qué acciones son clave, además de tener tiempos de carga muy largos               | 3                    | Visibilidad del estado del sistema        |
+| 3 | El usuario no identifica de inmediato los atajos o íconos, lo que le obliga a recordar su ubicación o función. Esto genera esfuerzo cognitivo innecesario. Algunos íconos deben cambiar | 2                    | Reconocimiento en lugar de recuerdo       |
+| 4 | El flujo de la aplicación puede ser muy largo y tedioso para realizar un proceso, generando desorientación. El usuario solicita funciones adicionales (búsqueda por DNI, reportes, etc.) | 3                    | Eficiencia y flexibilidad de uso          |
+| 5 | Algunos enlaces u opciones no están disponibles, impidiendo acceder libremente a ciertas funciones esperadas o propuestas, rompiendo procesos diseñados                              | 4                    | Control y libertad del usuario             |
+
+La auditoría de usabilidad permitió identificar de manera precisa los principales problemas que afectan la experiencia del usuario dentro del sistema. Al evaluar cada hallazgo según su severidad y la heurística violada, fue posible establecer prioridades claras de intervención. Este proceso no solo reveló áreas críticas que requerían rediseño, sino que también aportó información valiosa para orientar mejoras futuras. En conjunto, los resultados obtenidos refuerzan la importancia de aplicar principios de usabilidad desde etapas tempranas del desarrollo y de mantener procesos de evaluación continua para garantizar una interacción más intuitiva, eficiente y satisfactoria para los usuarios.
+
 <div id='6.4.2.'><h4>6.4.2. Auditoría Recibida</h4></div>
 <div id='6.4.2.1.'><h5>6.4.2.1. Información del Grupo Auditor</h5></div>
+
+- Nombre del grupo responsable de realizar la auditoría: Bug Slayers
+- Especialización: Especialistas en diseño de interfaces (UI), accesibilidad web y evaluación de experiencias inclusivas.
+- Fecha de auditoría: 12/11/2025 - 14/11/2025
+
+| Nombres y Apellidos                 | Código de alumno |
+|------------------------------------|------------------|
+| Jhosepmyr Orlando Gutierrez Soto   | U202317638       |
+| Salim Ignacio Ramirez Mestanza     | U20201E843       |
+| Paul Fernando Sulca Gonzales       | U20221C486       |
+| Elmer Augusto Riva Rodriguez       | U202220829       |
+| Eric Ernesto Hernandez Tuiro       | U20221C857       |
+
 <div id='6.4.2.2.'><h5>6.4.2.2. Cronograma de Auditoría Recibida</h5></div>
+
+| Fecha        | Actividad                      | Responsable          |
+|--------------|--------------------------------|-----------------------|
+| 12/11/2025   | Solicitud de información       | Jhosepmyr Gutierrez  |
+| 12/11/2025   | Recepción de información       | Jhosepmyr Gutierrez  |
+| 13/11/2025   | Lectura de la información      | Salim Ramirez        |
+| 13/11/2025   | Actividad de auditoría         | Salim Ramirez        |
+| 13/11/2025   | Ejecución de auditoría         | Paul Sulca           |
+| 14/11/2025   | Elaboración del informe        | Elmer Riva           |
+| 14/11/2025   | Envío del informe de auditoría | Eric Hernandez       |
+
 <div id='6.4.2.3.'><h5>6.4.2.3. Contenido de Auditoría Recibida</h5></div>
+
+| # | Problema                                                                                                         | Escala de severidad | Heurística o principio violado         |
+|---|------------------------------------------------------------------------------------------------------------------|----------------------|-----------------------------------------|
+| 1 | Tiempo de carga excesivo en el Dashboard de Organización                                                         | 3                    | Eficiencia y uso flexible               |
+| 2 | Botones “Generar Reporte” y “Exportar PDF” no ejecutan ninguna acción real                                       | 4                    | Visibilidad del estado del sistema      |
+| 3 | Formulario de agregar doctor excesivamente largo                                                                 | 2                    | Minimalismo y estilo                    |
+| 4 | El menú de abrir el perfil tiene mucha transparencia, se pierde legibilidad con el fondo                         | 2                    | Visibilidad del estado del sistema      |
+| 5 | No se distinguen bien los checkbox de Posibles Causas/Desencadenantes y Acciones de Manejo al reportar un síntoma | 2                    | Visibilidad del estado del sistema      |
+
+**Detalles de los problemas**
+
+**Problema #1: Tiempo de carga excesivo en el Dashboard de Organización**
+Severidad: 3
+Heurística violada: Eficiencia y uso flexible
+Problema:
+En el Dashboard de Organización sí se muestra un indicador de carga, pero los datos de doctores, pacientes y citas tardan aproximadamente 4–5 segundos en aparecer.
+Aunque el loader informa que “algo está pasando”, el tiempo de espera es lo suficientemente largo como para generar sensación de lentitud y afectar la percepción de rendimiento del sistema. 
+<br>
+<img width="700" height="521" alt="image" src="img/problema1.png" /> <br>
+
+Recomendaciones:
+- Optimizar las consultas o la cantidad de datos que se traen en la primera carga.
+- Si no es posible reducir el tiempo, mejorar el feedback:
+  - Animaciones suaves para que el usuario sienta progreso.
+  - Mensaje: *"Cargando datos de tu organización, esto puede tomar unos segundos..."*
+
+
+**Problema #2: Botones “Generar Reporte” y “Exportar PDF” no funcionan**
+Severidad: 4
+Heurística violada: Prevención de errores y visibilidad del estado del sistema
+Problema:
+En la vista de Analíticas, los botones “Generar Reporte” y “Exportar PDF” presentan un comportamiento incorrecto. Los botones son clickeables, pero no producen ninguna acción observable para el usuario. No se genera el archivo esperado, no descarga, no muestra vista previa ni iniciar ningún flujo de generación.
+Además, el sistema no provee ninguna señal de que la acción está procesándose, ni tampoco muestra mensajes de error si el backend falla.
+Esto genera un estado de incertidumbre en el usuario, ya que no queda claro si el sistema está trabajando o hubo un error.  
+<br>
+<img width="700" height="200" alt="image" src="img/problema2.png" /> <br>
+
+Recomendaciones:
+- Proveer feedback inmediato al usuario:
+  - Cambiar el estado del botón a **"Generando reporte…"**
+  - Mostrar un loader dentro del botón
+  - Deshabilitar interacción mientras procesa
+- Validar y manejar errores del backend
+
+**Problema #3: Formulario de agregar paciente demasiado largo**
+Severidad: 2
+Heurística violada: Diseño estético y minimalista
+Problema:
+El formulario para registrar un paciente es excesivamente largo y requiere un scroll considerable para completarlo. Aunque la cantidad de información solicitada es necesaria en un contexto médico. Esto puede generar fatiga, errores de llenado y abandono parcial del proceso, especialmente en contextos donde el personal clínico trabaja con presión de tiempo.
+Además, algunas secciones tienen elementos expandibles (+ alergias, medicamentos), lo que hace que el formulario se vuelva aún más largo e impredecible en cuando a tamaño.
+<br>
+<img width="300" height="800" alt="image" src="img/problema3.png" /> <br>
+
+Recomendaciones:
+- No hay indicación de progreso.
+- Todo está expuesto simultáneamente.
+- Hay secciones que podrían mostrarse bajo demanda.
+- Implementar un formulario multipaso (wizard).
+
+**Problema #4: El menú de abrir el perfil tiene mucha transparencia, se pierde legibilidad con el fondo**
+Severidad: 2
+Heurística violada: Visibilidad del estado del sistema
+Problema:
+El elemento del recuadro del perfil del usuario tiene un fondo transparente, lo que dificulta la legibilidad si hay texto por detrás.
+<br>
+<img width="700" height="400" alt="image" src="img/problema4.png" /> <br>
+
+Recomendaciones:
+- Ajustar los estilos para tener un color de fondo sólido y evitar la baja legibilidad.
+
+**Problema #5: No se distingue bien los checkbox de las Posibles Causas o Desencadenantes y Acciones de Manejo al reportar un síntoma**
+Severidad: 2
+Heurística violada: Visibilidad del estado del sistema
+Problema:
+En la página de pacientes, en la pantalla de Reportar Síntoma, la card de información adicional tiene una lista de Posibles Causas o Desencadenantes y Acciones de Manejo con elementos con checkbox que no se distingue bien sobre el fondo que se usa, resultando difícil para el usuario saber que es una lista seleccionable.
+<br>
+<img width="500" height="400" alt="image" src="img/problema5.png" /> <br>
+
+Recomendaciones:
+- Cambiar el color de borde de los checkbox para que se diferencien mejor del fondo gris.
+
 <div id='6.4.2.4.'><h5>6.4.2.4. Resumen de Modificaciones para Subsanar Hallazgos</h5></div>
+
+| # | Problema                                                                                                         | Subsanación                                                                                                                                |
+|---|------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| 1 | Tiempo de carga excesivo en el Dashboard de Organización                                                         | Optimizar consultas y reducir la carga inicial de datos para disminuir el tiempo de espera en el dashboard.                               |
+| 2 | Botones “Generar Reporte” y “Exportar PDF” no ejecutan ninguna acción real                                       | Deshabilitar temporalmente los botones y ocultar la funcionalidad hasta implementar correctamente la generación de reportes y PDF.        |
+| 3 | Formulario de agregar doctor excesivamente largo                                                                 | Implementar un formulario multipaso y mostrar secciones bajo demanda para reducir la longitud y mejorar la usabilidad.                   |
+| 4 | El menú de abrir el perfil tiene mucha transparencia, se pierde legibilidad con el fondo                         | Ajustar el fondo del menú del perfil a un color sólido u opaco para garantizar una correcta legibilidad del contenido.                    |
+| 5 | No se distinguen bien los checkbox al reportar un síntoma                                                        | Ajustar el estilo de los checkbox para aumentar el contraste y asegurar que los elementos seleccionables sean claramente identificables. |
+
 
 
 <div id='7.'><h2>Capítulo VII: DevOps Practices</h2></div>
