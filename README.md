@@ -5054,6 +5054,38 @@ Las prácticas recomendadas incluyen:
 
 En el caso del proyecto oncológico, Jenkins detecta cada cambio en el repositorio del backend, ejecuta una compilación con Maven, y lanza pruebas unitarias con JUnit, garantizando que el código se mantenga estable y listo para la siguiente etapa (CD).
 
+<br>
+
+**Capturas de la ejecución del proyecto en Jenkins:**
+
+A continuación se presentan capturas de pantalla que documentan la configuración y ejecución del pipeline de CI en Jenkins para el proyecto OnControl.
+
+<br>
+
+<img width="800" alt="Jenkins Pipeline Dashboard" src="img/jenkins/jenkins_pipeline_dashboard.png" />
+
+<br><br>
+
+*Figura: Dashboard de Jenkins mostrando el estado de los pipelines configurados para el proyecto OnControl.*
+
+<br><br>
+
+<img width="800" alt="Jenkins Build Execution" src="img/jenkins/jenkins_build_execution.png" />
+
+<br><br>
+
+*Figura: Ejecución del pipeline de build en Jenkins para el backend OnControl, mostrando las etapas de compilación con Maven.*
+
+<br><br>
+
+<img width="800" alt="Jenkins Test Results" src="img/jenkins/jenkins_test_results.png" />
+
+<br><br>
+
+*Figura: Resultados de las pruebas automatizadas ejecutadas en Jenkins, incluyendo pruebas unitarias con JUnit.*
+
+<br><br>
+
 <div id='7.1.2.'><h4>7.1.2. Build & Test Suite Pipeline Components</h4></div>
 El pipeline de Integración Continua se compone de distintas etapas que automatizan la construcción y validación del software.
 Sus componentes principales son:
@@ -5075,6 +5107,22 @@ En nuestro contexto:
 - Se ejecutan pruebas automatizadas con JUnit para validar cálculos clínicos, registros de pacientes y módulos de análisis experimental.
 
 - Si todas las pruebas pasan correctamente, el artefacto resultante se almacena para su uso en el pipeline de Continuous Delivery.
+
+<br><br>
+
+**Detalle del pipeline de CI en Jenkins:**
+
+A continuación se muestra una captura detallada del pipeline configurado en Jenkins, mostrando cada etapa del proceso de Build & Test Suite.
+
+<br>
+
+<img width="800" alt="Jenkins Pipeline Stages" src="img/jenkins/jenkins_pipeline_stages.png" />
+
+<br><br>
+
+*Figura: Vista detallada de las etapas del pipeline de CI en Jenkins, incluyendo Source/Commit Stage, Build Stage, Test Stage y Report Stage.*
+
+<br><br>
 
 <div id='7.2.'><h3>7.2. Continuous Delivery</h3></div>
 
@@ -5158,10 +5206,276 @@ Desde una perspectiva teórica, este conjunto de componentes permite establecer 
 
 
 <div id='7.4.'><h3>7.4. Continuous Monitoring</h3></div>
+
 <div id='7.4.1.'><h4>7.4.1. Tools and Practices</h4></div>
+
+El Continuous Monitoring es una práctica esencial en DevOps que permite supervisar continuamente el estado, rendimiento y salud de las aplicaciones en producción, proporcionando visibilidad en tiempo real sobre el comportamiento del sistema y facilitando la detección temprana de problemas.
+
+Las herramientas de monitoreo permiten recopilar, analizar y visualizar métricas críticas del sistema, incluyendo el uso de recursos (CPU, memoria, disco), tiempos de respuesta, tasas de error, disponibilidad del servicio y rendimiento de la base de datos.
+
+**Herramientas principales utilizadas:**
+
+**Spring Boot Actuator:** proporciona endpoints de monitoreo y gestión para aplicaciones Spring Boot, permitiendo exponer métricas de salud, información del sistema y métricas personalizadas mediante endpoints HTTP. Esta herramienta se integra nativamente con el backend desarrollado en Spring Boot, facilitando la recopilación de métricas internas de la aplicación.
+
+**Prometheus:** sistema de monitoreo y alerta de código abierto diseñado para recopilar y almacenar métricas como series temporales. Prometheus permite realizar consultas sobre las métricas recopiladas y establecer alertas basadas en condiciones específicas, siendo especialmente útil para monitorear aplicaciones distribuidas y contenedorizadas.
+
+**Grafana:** plataforma de visualización y análisis de datos que permite crear dashboards interactivos para visualizar las métricas recopiladas por Prometheus. Grafana facilita la creación de gráficos, tablas y alertas visuales que ayudan al equipo a comprender rápidamente el estado del sistema.
+
+**Jenkins:** además de su función en CI/CD, Jenkins puede configurarse para monitorear el estado de los pipelines y enviar notificaciones sobre fallos o problemas en el proceso de construcción y despliegue.
+
+**Logging (Spring Boot Logging):** el sistema de logging integrado en Spring Boot permite registrar eventos, errores y actividades del sistema, proporcionando trazabilidad y facilitando la depuración de problemas en producción.
+
+**Prácticas recomendadas:**
+
+- **Monitoreo proactivo:** configurar alertas antes de que ocurran problemas críticos, estableciendo umbrales apropiados basados en el comportamiento histórico del sistema.
+
+- **Métricas de negocio:** además de métricas técnicas, monitorear métricas de negocio relevantes para la aplicación médica, como el número de citas procesadas, tiempo promedio de respuesta en consultas, y disponibilidad de funcionalidades críticas.
+
+- **Health checks regulares:** implementar endpoints de salud que verifiquen el estado de los componentes críticos del sistema, incluyendo la conectividad con la base de datos y la disponibilidad de servicios externos.
+
+- **Centralización de logs:** consolidar logs de todas las partes del sistema en un repositorio centralizado para facilitar el análisis y la correlación de eventos.
+
+- **Retención de datos:** definir políticas de retención para métricas y logs, balanceando la necesidad histórica de análisis con el costo de almacenamiento.
+
+En el contexto de la aplicación oncológica OnControl, el monitoreo continuo es crítico debido a la naturaleza sensible de los datos médicos y la necesidad de garantizar disponibilidad para médicos y pacientes. El monitoreo permite detectar problemas de rendimiento que podrían afectar la experiencia del usuario durante la gestión de citas o el acceso a historiales médicos, así como identificar problemas de seguridad que podrían comprometer la confidencialidad de la información del paciente.
+
 <div id='7.4.2.'><h4>7.4.2. Monitoring Pipeline Components</h4></div>
+
+El pipeline de monitoreo continuo está compuesto por diferentes componentes que trabajan en conjunto para recopilar, procesar, almacenar y visualizar métricas del sistema. Estos componentes forman un ciclo de retroalimentación que permite mantener visibilidad constante sobre el estado de la aplicación.
+
+**Componentes principales del pipeline de monitoreo:**
+
+**1. Collection Stage (Etapa de Recopilación):**
+Esta etapa es responsable de recopilar métricas y datos de diferentes fuentes del sistema. Los componentes principales incluyen:
+
+- **Spring Boot Actuator Endpoints:** expone endpoints como `/actuator/health`, `/actuator/metrics`, y `/actuator/info` que proporcionan información sobre el estado de la aplicación, métricas de rendimiento y detalles del sistema.
+
+- **Prometheus Metrics Exporter:** recopila métricas del backend Spring Boot mediante el formato de métricas de Prometheus, incluyendo métricas personalizadas relacionadas con operaciones críticas del negocio, como número de citas creadas, tiempo de respuesta de consultas médicas, y tasas de éxito de autenticación.
+
+- **Application Logs:** el sistema de logging integrado captura eventos significativos, errores y transacciones importantes, proporcionando contexto adicional sobre el comportamiento del sistema.
+
+**2. Storage Stage (Etapa de Almacenamiento):**
+Una vez recopiladas, las métricas necesitan ser almacenadas de manera eficiente para permitir consultas históricas y análisis de tendencias.
+
+- **Prometheus Time-Series Database:** almacena las métricas como series temporales, permitiendo consultas eficientes sobre datos históricos y actuales. Prometheus mantiene los datos en memoria y en disco, optimizado para consultas de rangos de tiempo.
+
+- **Log Aggregation System:** los logs pueden ser almacenados en sistemas como Elasticsearch o almacenamiento centralizado para búsquedas y análisis posteriores.
+
+**3. Processing Stage (Etapa de Procesamiento):**
+Esta etapa procesa y transforma los datos recopilados para su visualización y análisis.
+
+- **Prometheus Query Engine:** permite realizar consultas sobre las métricas almacenadas usando PromQL (Prometheus Query Language), facilitando cálculos, agregaciones y transformaciones de datos.
+
+- **Alert Rule Evaluation:** evalúa las reglas de alerta definidas para detectar condiciones anómalas o problemáticas en el sistema.
+
+**4. Visualization Stage (Etapa de Visualización):**
+La visualización es crucial para que el equipo pueda comprender rápidamente el estado del sistema.
+
+- **Grafana Dashboards:** proporciona interfaces visuales interactivas que muestran gráficos, tablas y métricas clave. Los dashboards pueden incluir:
+  - Métricas de rendimiento de la aplicación (tiempo de respuesta, throughput)
+  - Uso de recursos del servidor (CPU, memoria, disco)
+  - Métricas de base de datos (conexiones activas, consultas lentas)
+  - Métricas de negocio específicas de OnControl (citas por día, usuarios activos, tasa de éxito de operaciones)
+
+**5. Integration Stage (Etapa de Integración):**
+Esta etapa integra el monitoreo con otros sistemas y procesos.
+
+- **Jenkins Integration:** Jenkins puede consultar métricas y estados de salud para tomar decisiones automáticas en los pipelines de despliegue, como pausar un despliegue si detecta problemas en el entorno de destino.
+
+- **API Integration:** las métricas pueden ser accesibles mediante APIs para integración con otros sistemas de gestión o herramientas de análisis.
+
+En el contexto específico de OnControl, el pipeline de monitoreo está configurado para:
+
+- Monitorear el rendimiento de endpoints críticos como la gestión de citas médicas, autenticación de usuarios y acceso a historiales clínicos.
+
+- Supervisar la salud de la base de datos MySQL, incluyendo tiempos de respuesta de consultas y uso de conexiones.
+
+- Rastrear métricas de seguridad, como intentos de autenticación fallidos o accesos no autorizados, críticas para proteger información médica sensible.
+
+- Monitorear la disponibilidad general del servicio para garantizar que médicos y pacientes puedan acceder al sistema cuando lo necesiten.
+
+Este flujo de monitoreo continuo permite al equipo detectar problemas antes de que afecten a los usuarios finales, realizar análisis de rendimiento para optimizaciones futuras y mantener la confiabilidad del sistema médico.
+
 <div id='7.4.3.'><h4>7.4.3. Alerting Pipeline Components</h4></div>
+
+El sistema de alertas es un componente crítico del monitoreo continuo, diseñado para notificar proactivamente al equipo cuando se detectan condiciones anómalas o problemáticas en el sistema. Las alertas permiten una respuesta rápida a incidentes, minimizando el tiempo de inactividad y el impacto en los usuarios.
+
+**Componentes del pipeline de alertas:**
+
+**1. Alert Rule Definition (Definición de Reglas de Alerta):**
+Las reglas de alerta especifican las condiciones que deben activar una notificación. Estas reglas se definen típicamente usando PromQL y pueden incluir múltiples condiciones y umbrales.
+
+**Prometheus Alert Rules:** se configuran reglas que evalúan métricas contra umbrales predefinidos. Ejemplos de reglas relevantes para OnControl incluyen:
+
+- **Alerta de alta latencia:** cuando el tiempo de respuesta de endpoints críticos supera un umbral (por ejemplo, > 2 segundos para más del 5% de las solicitudes).
+
+- **Alerta de errores elevados:** cuando la tasa de errores HTTP (códigos 5xx) supera un porcentaje determinado durante un período de tiempo.
+
+- **Alerta de disponibilidad:** cuando el endpoint de health check reporta un estado "DOWN" o "UNHEALTHY".
+
+- **Alerta de recursos:** cuando el uso de CPU o memoria supera umbrales críticos que podrían afectar el rendimiento.
+
+- **Alerta de base de datos:** cuando el número de conexiones activas se acerca al límite o cuando las consultas tardan más tiempo del esperado.
+
+- **Alerta de seguridad:** cuando se detectan múltiples intentos de autenticación fallidos en un corto período, potencial indicador de actividad maliciosa.
+
+**2. Alert Evaluation (Evaluación de Alertas):**
+Este componente evalúa continuamente las métricas contra las reglas definidas para determinar si se debe activar una alerta.
+
+**Prometheus Alertmanager:** gestiona las alertas generadas por Prometheus. El Alertmanager:
+
+- Recibe alertas desde Prometheus cuando se cumplen las condiciones de las reglas.
+
+- Agrupa alertas relacionadas para evitar notificaciones duplicadas o excesivas (deduplicación).
+
+- Enruta alertas a diferentes canales de notificación basándose en la severidad y el tipo de alerta.
+
+- Implementa lógica de silenciamiento para suprimir alertas durante mantenimientos planificados o cuando ya se está atendiendo un incidente.
+
+- Aplica políticas de escalamiento, enviando alertas a diferentes destinatarios según la criticidad y el tiempo transcurrido sin resolución.
+
+**3. Alert Routing (Enrutamiento de Alertas):**
+El enrutamiento determina a quién y cómo se deben enviar las alertas según su severidad y contexto.
+
+**Routing Configuration:** se configura el Alertmanager para enrutar alertas según:
+- **Severidad:** alertas críticas van a todo el equipo, alertas de advertencia pueden ir solo a desarrolladores on-call.
+- **Tipo de problema:** alertas de base de datos van a DBA, alertas de seguridad van a equipo de seguridad.
+- **Horario:** durante horas laborales, alertas van a Slack o correo; fuera de horario, van a sistemas de paginación.
+
+**4. Alert Channels (Canales de Alerta):**
+Los canales definen los mecanismos específicos para entregar las notificaciones.
+
+**Email Notifications:** Alertmanager puede configurarse para enviar correos electrónicos cuando se activan alertas críticas, incluyendo detalles como la métrica afectada, el valor actual y el umbral que se ha superado.
+
+**Slack Integration:** se puede integrar Alertmanager con Slack para enviar notificaciones en tiempo real a canales específicos del equipo, permitiendo discusión colaborativa sobre incidentes.
+
+**Webhook Notifications:** Alertmanager puede enviar alertas mediante webhooks a sistemas externos, permitiendo integración con herramientas de gestión de incidentes como PagerDuty, Opsgenie o sistemas personalizados.
+
+**SMS/Pager Integration:** para alertas críticas que requieren atención inmediata fuera de horario, se pueden integrar servicios de SMS o sistemas de paginación.
+
+En el contexto específico de OnControl, el sistema de alertas está configurado para:
+
+- Priorizar alertas relacionadas con la disponibilidad del servicio y el rendimiento de funcionalidades críticas para médicos y pacientes.
+
+- Detectar problemas de seguridad que puedan comprometer la confidencialidad de datos médicos, activando alertas inmediatas al equipo de seguridad.
+
+- Monitorear la salud de la base de datos, ya que cualquier problema con el almacenamiento de datos médicos es crítico y requiere respuesta inmediata.
+
+- Alertar sobre degradación de rendimiento que pueda afectar la experiencia del usuario durante operaciones sensibles como la creación de citas o acceso a historiales médicos.
+
+El sistema de alertas permite al equipo responder rápidamente a incidentes, minimizando el impacto en la operación del sistema médico y garantizando la confiabilidad del servicio para usuarios finales.
+
 <div id='7.4.4.'><h4>7.4.4. Notification Pipeline Components</h4></div>
+
+El pipeline de notificaciones es responsable de entregar información sobre el estado del sistema, cambios y eventos importantes a las partes interesadas relevantes. A diferencia de las alertas, que se activan por condiciones problemáticas, las notificaciones proporcionan visibilidad general sobre el estado del sistema y eventos rutinarios.
+
+**Componentes del pipeline de notificaciones:**
+
+**1. Notification Sources (Fuentes de Notificación):**
+Las notificaciones pueden originarse desde múltiples fuentes dentro del sistema DevOps.
+
+**Jenkins Pipeline Notifications:** Jenkins puede configurarse para enviar notificaciones sobre el estado de los pipelines de CI/CD:
+- Notificaciones de inicio y finalización de builds.
+- Notificaciones de éxito o fallo en compilación, pruebas o despliegue.
+- Notificaciones de despliegues exitosos a producción.
+- Resúmenes periódicos del estado de los pipelines.
+
+**Prometheus/Alertmanager Notifications:** además de alertas críticas, pueden configurarse notificaciones informativas sobre:
+- Cambios en métricas importantes aunque no críticas.
+- Resúmenes diarios o semanales de métricas y estado del sistema.
+- Confirmación de que el sistema está funcionando normalmente (heartbeat notifications).
+
+**Application Event Notifications:** la aplicación misma puede generar notificaciones sobre eventos importantes:
+- Cambios en la configuración del sistema.
+- Actualizaciones de dependencias o versiones desplegadas.
+- Eventos de negocio significativos (por ejemplo, número de citas procesadas alcanzando hitos).
+
+**2. Notification Aggregation (Agregación de Notificaciones):**
+Para evitar la sobrecarga de información, las notificaciones pueden agregarse y consolidarse antes de ser enviadas.
+
+**Batching:** múltiples notificaciones relacionadas pueden agruparse en un solo mensaje. Por ejemplo, todos los builds completados en una hora pueden resumirse en una notificación diaria.
+
+**Deduplication:** se eliminan notificaciones duplicadas o muy similares para evitar spam.
+
+**Priorization:** las notificaciones se priorizan según su importancia, enviando notificaciones críticas inmediatamente y agrupando notificaciones de menor prioridad.
+
+**3. Notification Channels (Canales de Notificación):**
+Los canales definen los medios específicos utilizados para entregar notificaciones a diferentes audiencias.
+
+**Email Notifications:**
+- Resúmenes diarios o semanales del estado del sistema.
+- Reportes de despliegues exitosos.
+- Notificaciones sobre actualizaciones de versión.
+- Invitaciones a revisiones de código o reuniones de retrospectiva.
+
+**Slack/Discord Integration:**
+- Notificaciones en tiempo real sobre eventos del pipeline.
+- Actualizaciones sobre el estado de builds y despliegues.
+- Notificaciones de éxito de despliegues a diferentes entornos.
+- Integración con bots que proporcionan información del sistema bajo demanda.
+
+**Dashboard Notifications:**
+- Visualización en tiempo real en dashboards de Grafana.
+- Indicadores visuales de estado en interfaces web del equipo.
+- Widgets en páginas de inicio que muestran métricas clave.
+
+**API Webhooks:**
+- Notificaciones a sistemas externos mediante webhooks.
+- Integración con herramientas de gestión de proyectos como Jira o Trello.
+- Integración con sistemas de documentación para actualización automática.
+
+**4. Notification Routing Logic (Lógica de Enrutamiento):**
+El sistema determina quién debe recibir cada notificación basándose en el contexto y tipo de evento.
+
+**Role-Based Routing:**
+- Notificaciones técnicas (builds, despliegues) van al equipo de desarrollo.
+- Notificaciones de métricas de negocio van a stakeholders y gerencia.
+- Notificaciones de seguridad van al equipo de seguridad.
+
+**Context-Aware Routing:**
+- Notificaciones sobre cambios en módulos específicos van a los desarrolladores responsables de esos módulos.
+- Notificaciones sobre el backend van al equipo backend, notificaciones sobre frontend van al equipo frontend.
+
+**5. Notification Templates (Plantillas de Notificación):**
+Las plantillas aseguran que las notificaciones sean claras, consistentes y contengan la información necesaria.
+
+**Email Templates:** plantillas formateadas que incluyen:
+- Título descriptivo del evento o estado.
+- Detalles técnicos relevantes (número de build, commit hash, versión desplegada).
+- Enlaces a dashboards, logs o recursos relacionados.
+- Información contextual sobre qué significa la notificación.
+
+**Slack Message Templates:** mensajes formateados con:
+- Código de color según el tipo de notificación (éxito, advertencia, error).
+- Emojis para identificación visual rápida.
+- Enlaces a recursos relevantes.
+- Botones de acción cuando es apropiado.
+
+**6. Notification Preferences (Preferencias de Notificación):**
+Los usuarios pueden configurar sus preferencias para recibir notificaciones según sus necesidades.
+
+**Subscription Management:** usuarios pueden suscribirse o darse de baja de diferentes tipos de notificaciones:
+- Notificaciones críticas (siempre activas).
+- Notificaciones diarias/semanales (resúmenes).
+- Notificaciones de eventos específicos (solo despliegues a producción).
+
+**Channel Preferences:** usuarios pueden elegir sus canales preferidos (email, Slack, SMS) para diferentes tipos de notificaciones.
+
+**Quiet Hours:** configuración de horas durante las cuales solo se envían notificaciones críticas.
+
+En el contexto específico de OnControl, el pipeline de notificaciones está configurado para:
+
+- Notificar al equipo de desarrollo sobre despliegues exitosos del backend Spring Boot a diferentes entornos, incluyendo detalles de la versión desplegada y cambios incluidos.
+
+- Proporcionar resúmenes periódicos sobre métricas de uso del sistema, como número de citas gestionadas, usuarios activos, y rendimiento general de la aplicación.
+
+- Enviar notificaciones sobre actualizaciones de dependencias o parches de seguridad aplicados al sistema.
+
+- Notificar a stakeholders sobre hitos importantes del proyecto o cambios significativos en funcionalidades que afectan a usuarios finales.
+
+- Proporcionar confirmaciones de que el sistema está funcionando correctamente mediante notificaciones de heartbeat, ayudando a generar confianza en la estabilidad del sistema.
+
+El pipeline de notificaciones complementa el sistema de alertas al proporcionar visibilidad general y mantener informado al equipo sobre el estado y eventos del sistema, facilitando la comunicación y el conocimiento compartido dentro del equipo de desarrollo y operaciones.
 
 <div id='8.1.'><h3>8.1. Experiment Planning</h3></div>
 <div id='8.1.1.'><h4>8.1.1. As-Is Summary</h4></div>
