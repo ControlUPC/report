@@ -277,9 +277,11 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <strong>Huanaco Huayta, Elizabeth Lucero</strong> <br> 
       <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reconocer mi responsabilidad ética y profesional en la ingeniería de software. Estas tareas me ayudaron a diseñar interfaces centradas en la experiencia del usuario, priorizando la claridad, la accesibilidad y la usabilidad. Asimismo, al trabajar en el prototipado para Android e iOS, comprendí la importancia de seguir estándares de calidad y adaptar la aplicación a cada plataforma. Todo este proceso reforzó mi compromiso con crear soluciones confiables y útiles, considerando siempre el impacto que tienen las decisiones de diseño en la vida de pacientes y doctores. <br><br>
       <strong>TP1:</strong> <p align="justify">La responsabilidad ética y profesional en ingeniería de software implica garantizar calidad, seguridad y confiabilidad, especialmente con datos sensibles.En el proyecto ControlUPC, mediante la investigación y análisis teórico de pipelines de Jenkins, gestión de dependencias con Maven y NPM, pruebas automatizadas y despliegue controlado, se identificaron buenas prácticas para proteger la información. Aunque aún no se implementaron, estas estrategias permitirían asegurar la integridad y confidencialidad de los datos de pacientes oncológicos. Este estudio refuerza la comprensión de los estándares éticos y la responsabilidad profesional en DevOps. <br><br>
+      <strong>TB2:</strong> <p align="justify">El desarrollo de las actividades de análisis estático, verificación de estándares de código, evaluación de calidad y seguridad mediante herramientas como Jenkins, así como la realización de entrevistas, auditorías y revisiones heurísticas, me permitió reconocer de manera directa la responsabilidad ética y profesional que implica trabajar en ingeniería de software. Estas tareas me llevaron a identificar y corregir posibles errores, riesgos y deficiencias que podrían afectar la seguridad, la experiencia del usuario o la confiabilidad del sistema, reforzando la importancia de actuar con rigor, transparencia y compromiso. Además, el proceso de documentar hallazgos, revisar el trabajo de otros grupos y proponer acciones de mejora me permitió comprender que las decisiones técnicas deben priorizar el bienestar del usuario, la integridad del producto y el cumplimiento de buenas prácticas, reafirmando así mi rol como profesional responsable dentro del ciclo de desarrollo. <br><br>
       <strong>Huapaya Cuevas, Anthony Martin</strong> <br>
       <strong>TB1:</strong> <p align="justify">La elaboración de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reflexionar sobre mi responsabilidad ética y profesional en el ámbito de la ingeniería de software. Estas actividades fueron clave para diseñar interfaces centradas en la experiencia del usuario, donde se priorizó la claridad, la accesibilidad y la facilidad de uso. Además, al desarrollar prototipos tanto para Android como para iOS, comprendí la relevancia de cumplir con los estándares de calidad y de adaptar la aplicación a las particularidades de cada plataforma. En conjunto, este proceso fortaleció mi compromiso con la creación de soluciones confiables y efectivas, teniendo siempre en cuenta el impacto que las decisiones de diseño generan en la vida de pacientes y profesionales de la salud. </p><br>
       <strong>TP1:</strong> <p align="justify">En la práctica de DevOps, la responsabilidad ética y profesional se refleja en la implementación de procesos automatizados y seguros que garanticen la calidad del software y la protección de los datos sensibles. En el proyecto ControlUPC, esto implica mantener la integridad y confidencialidad de la información de los pacientes oncológicos, asegurando que cada despliegue sea confiable y cumpla con los estándares éticos de la ingeniería de software.</p><br>
+      <strong>TP1:</strong> <p align="justify">El desarrollo de actividades como el análisis estático, la verificación de estándares de código, la evaluación de calidad y seguridad con herramientas como Jenkins, junto con entrevistas, auditorías y revisiones heurísticas, me permitió comprender de manera directa la responsabilidad ética y profesional inherente a la ingeniería de software. Estas tareas me ayudaron a detectar y corregir errores, riesgos y deficiencias que podrían comprometer la seguridad, la experiencia del usuario o la confiabilidad del sistema, reforzando la necesidad de trabajar con rigor, transparencia y compromiso. Asimismo, documentar los hallazgos, revisar el trabajo de otros equipos y proponer mejoras me hizo ver que las decisiones técnicas deben priorizar el bienestar del usuario, la integridad del producto y el cumplimiento de buenas prácticas, reafirmando mi papel como profesional responsable en el ciclo de desarrollo.</p><br>
       <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Durante el desarrollo del proyecto, asumí la responsabilidad ética y profesional al diseñar la arquitectura de software, elaborando el diagrama de contenedores, de componentes, de clases y el modelo de bases de datos, asegurándome de que cada decisión fuera clara, documentada y trazable para facilitar la comprensión del equipo y garantizar la mantenibilidad del sistema. </p><br>
       <br>  <strong>TP:</strong> <p align="justify"> Reconozco mi responsabilidad ética y profesional en la ingeniería de software, especialmente tras haber trabajado en DevOps, documentar cómo se implementará la integración continua y diseñar la arquitectura de software. Me comprometo a asegurar que los procesos de integración continua sean robustos y transparentes, garantizando la calidad del software con pruebas automatizadas y despliegues confiables, todo mientras protejo la confidencialidad y seguridad de los datos involucrados. Además, al documentar la arquitectura y los flujos de trabajo, busco promover claridad y sostenibilidad en el proyecto, fomentando un entorno colaborativo y ético que apoye decisiones informadas y cumpla con estándares profesionales, siempre pensando en el beneficio de los usuarios y la comunidad técnica.</p><br> <strong>TB2: </strong> <p align="justify">
@@ -307,9 +309,11 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <strong>Huanaco Huayta, Elizabeth Lucero</strong> <br> 
       <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me ayudó a emitir juicios informados sobre el impacto de la aplicación. Al diseñar las vistas pensé en el efecto social, facilitando la comunicación y accesibilidad para pacientes y doctores. También en el aspecto económico, al optimizar la gestión de citas y tratamientos. Consideré el impacto global, al crear un diseño adaptable a diferentes plataformas. Estas tareas me permitieron entender que las decisiones de diseño tienen consecuencias más allá de lo técnico, influyendo directamente en la vida de los usuarios y en el contexto en el que se aplica la solución.</p><br><br>
       <strong>TP1:</strong> <p align="justify">En DevOps, emitir juicios informados implica analizar cómo las decisiones técnicas afectan los ámbitos global, económico, ambiental y social. En el proyecto ControlUPC, la investigación sobre prácticas de despliegue continuo automatizado permite identificar formas de optimizar recursos tecnológicos y humanos, reducir costos operativos y mejorar la disponibilidad del sistema para médicos y pacientes oncológicos. Este enfoque favorece la eficiencia económica y la sostenibilidad tecnológica, al tiempo que genera un impacto social positivo al garantizar un acceso confiable y oportuno a información médica crítica, contribuyendo a la calidad del servicio de salud.</p><br><br>
+      <strong>TP1:</strong> <p align="justify">Las actividades de análisis de código, validación con usuarios y auditorías heurísticas me permitieron emitir juicios informados sobre el impacto que las soluciones de software pueden generar en contextos globales, económicos y sociales. Al evaluar problemas como tiempos de carga, usabilidad, seguridad y accesibilidad, comprendí que decisiones técnicas inadecuadas pueden afectar costos, eficiencia y la experiencia del usuario. Asimismo, proponer mejoras basadas en evidencia reforzó mi capacidad para considerar cómo cada ajuste contribuye a un sistema más sostenible, confiable y beneficioso para quienes dependen de él.</p><br><br>
       <strong>Huapaya Cuevas, Anthony Martin</strong> <br>
       <strong>TB1:</strong> <p align="justify">La creación de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reflexionar sobre el impacto que puede generar la aplicación. Durante el diseño de las vistas tuve en cuenta el efecto social, al fomentar una comunicación más fluida y accesible entre pacientes y doctores. También consideré la dimensión económica, al proponer una solución que optimiza la gestión de citas y tratamientos. Asimismo, valoré el alcance global al diseñar una interfaz adaptable a distintas plataformas. Este proceso me hizo comprender que las decisiones de diseño trascienden lo técnico, pues influyen directamente en la vida de los usuarios y en el entorno donde se implementa la solución. </p><br>
       <strong>TP1:</strong> <p align="justify">En el contexto de DevOps, emitir juicios informados implica evaluar cómo las decisiones técnicas influyen en los ámbitos global, económico y social. En el proyecto ControlUPC, la adopción de prácticas automatizadas de despliegue continuo contribuye a optimizar recursos tecnológicos y humanos, reduciendo costos operativos y mejorando la disponibilidad del sistema para doctores y pacientes oncológicos. Este enfoque no solo promueve la eficiencia económica y la sostenibilidad tecnológica, sino que también tiene un impacto social positivo al garantizar un acceso oportuno y confiable a información médica crítica, fortaleciendo así la calidad del servicio en el ámbito de la salud.</p><br>
+      <strong>TP1:</strong> <p align="justify">Las actividades de análisis de código, la validación con usuarios y las auditorías heurísticas me permitieron desarrollar criterios fundamentados sobre el impacto que las soluciones de software pueden tener en ámbitos globales, económicos y sociales. Al examinar aspectos como los tiempos de carga, la usabilidad, la seguridad y la accesibilidad, entendí que decisiones técnicas inapropiadas pueden influir negativamente en los costos, la eficiencia y la experiencia del usuario. Del mismo modo, sugerir mejoras basadas en evidencia fortaleció mi capacidad para evaluar cómo cada ajuste contribuye a un sistema más sostenible, confiable y beneficioso para quienes dependen de él.</p><br>
       <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Al preparar la documentación de implementación del producto, emití juicios informados considerando el impacto que las soluciones de software podrían tener en el contexto global, económico, ambiental y social. Esto me llevó a priorizar decisiones que promuevan la eficiencia en el uso de recursos, la escalabilidad y la accesibilidad del sistema, contribuyendo a un producto sostenible y con potencial de adaptarse a diferentes escenarios. </p><br>
       <strong>TP:</strong> <p align="justify">
@@ -5006,14 +5010,199 @@ En esta sección se presentan las pruebas desarrolladas para verificar el correc
 
 <div id='6.2.1.'><h4>6.2.1. Static Code Analysis</h4></div>
 <div id='6.2.1.1.'><h5>6.2.1.1. Coding Standard & Code Conventions</h5></div>
+
+Durante el desarrollo de la aplicación, se definieron y adoptaron estándares de codificación adaptados a cada una de las tecnologías empleadas. En el caso del frontend web desarrollado con Next.js, se siguieron las convenciones ampliamente aceptadas en la comunidad de JavaScript. 
+
+En cuanto al backend implementado con Spring Boot, se aplicaron buenas prácticas de programación en Java, priorizando el uso apropiado de estructuras de control, una adecuada modularización y comentarios explicativos cuando fueron requeridos. Estas convenciones facilitaron la coherencia en el código entre los distintos miembros del equipo, optimizando tanto el proceso de revisión como el mantenimiento de la solución.<br>
+
+**Convenciones del proyecto**
+
+Nombres de proyectos y clases
+- Se utilizan nombres cortos para mantener la claridad y simplicidad.
+- Los proyectos se nombran en mayúsculas.
+- Se aplica el formato CamelCase para los nombres de proyectos y clases.
+- En el backend, las tablas se nombran siguiendo el formato snake_case.
+<br>
+
+Identación y espaciado
+- Se emplea tabulación para estructurar el código y mejorar su legibilidad.
+<br>
+
+Comentarios
+- Se utiliza JavaDoc para documentar las diferentes partes del código, con el propósito de mantener claras las responsabilidades y funcionalidades del backend.
+<br>
+
+Organización de archivos
+- Backend: se organiza en carpetas por bounded context, siguiendo los principios de Domain-Driven Design (DDD).
+- Frontend: se estructura de forma análoga al backend, dividiendo el código por bounded context y, dentro de estos, por funcionalidad, también conforme a DDD.
+<br>
+
 <div id='6.2.1.2.'><h5>6.2.1.2. Code Quality & Code Security</h5></div>
+
+Durante el desarrollo se identificaron y abordaron diversas vulnerabilidades clave:
+
+- **Inyección SQL:** En el backend desarrollado con Spring Boot, se factorizan las consultas para utilizar parámetros seguros mediante PreparedStatement y sentencias JPQL en los repositorios de JPA, evitando riesgos de inyección.
+- **Manejo inseguro de autenticación y sesiones:** En la integración entre frontend y backend, se verificó que los tokens JWT se transmitían de forma segura a través del encabezado HTTP Authorization. Además, se definieron tiempos de expiración apropiados y se implementó un sistema controlado de renovación de sesión.
+<br>
 
 <div id='6.2.2.'><h4>6.2.2. Reviews</h4></div>
 
+El objetivo del proceso de revisión de código es garantizar que el software cumpla con los más altos estándares de calidad, consistencia y seguridad antes de su despliegue.
+Este proceso se realizará de forma colaborativa y automatizada, siguiendo las siguientes etapas:
+
+- **Revisión entre pares:** Cada desarrollador revisará el código de otro miembro del equipo con el propósito de detectar posibles errores, asegurar la correcta aplicación de las convenciones de codificación y fomentar buenas prácticas de desarrollo.
+
+- **Análisis automatizado del código:** Herramientas como Jenkins e IntelliJ se emplearán para identificar problemas de calidad, rendimiento o seguridad, garantizando el cumplimiento de los estándares establecidos por el equipo.
+
+- **Verificación final de calidad:** Antes de la implementación, se validará que el código esté bien estructurado, correctamente documentado y libre de errores críticos que puedan afectar su funcionamiento en producción.
+
+- **Evaluación de seguridad:** Se realizará un análisis de vulnerabilidades en las secciones más críticas del código, utilizando herramientas de integración continua como Jenkins, con el fin de proteger la estabilidad y seguridad del entorno de producción.
+
+- **Registro de revisiones:** Todas las revisiones serán documentadas, incluyendo los errores detectados, las soluciones aplicadas y las observaciones de mejora. Este registro servirá como base para fomentar la mejora continua en el proceso de desarrollo.
+
+- **Calidad y seguridad:** El código debe seguir los estándares definidos y no introducir vulnerabilidades.
+
+- **Cobertura de pruebas:** Se debe alcanzar una cobertura mínima (por ejemplo, del 80%) para validar que las nuevas funcionalidades estén correctamente probadas.
+<br>
+
 <div id='6.3.'><h3>6.3. Validation Interviews</h3></div>
 <div id='6.3.1.'><h4>6.3.1. Diseño de Entrevistas</h4></div>
+
+**Preguntas de introducción:**
+- ¿Podría indicar su nombre completo, edad, distrito de residencia y ocupación o especialidad médica?
+- ¿Ha tenido experiencia previa utilizando aplicaciones relacionadas con la gestión del tratamiento oncológico o control médico?
+- ¿Con qué frecuencia utiliza herramientas digitales para llevar el control de tratamientos o pacientes?
+
+**Preguntas acerca del Landing Page:**
+- ¿Le parece que el diseño de la página inicial resulta atractivo y profesional?
+- ¿Considera que el contenido de la página comunica de forma clara el propósito y los beneficios de la aplicación?
+- ¿Qué elementos visuales o de información considera más útiles o interesantes?
+- ¿Cambiaría o eliminaría algún elemento de la página para hacerlo más claro o atractivo?
+
+**Preguntas acerca de la aplicación:**
+- ¿Las herramientas y secciones de la aplicación le resultan fáciles de identificar y comprender?
+- ¿La navegación dentro de la aplicación le parece intuitiva o presenta confusiones?
+- ¿Los textos, botones e íconos tienen un tamaño y contraste adecuados para su lectura?
+
+**Preguntas para los pacientes:**
+- ¿Considera que esta aplicación le ayudaría a llevar un mejor control de sus citas, medicamentos y evolución médica?
+- ¿Hay alguna función que considere que facilita aún más el seguimiento de su proceso oncológico?
+- Si usara la aplicación por primera vez sin guía, ¿le resultaría fácil comprender cómo empezar?
+
+**Preguntas para los médicos:**
+- ¿Considera que las herramientas de la aplicación le ayudarían a organizar y hacer seguimiento de sus pacientes oncológicos de manera más eficiente?
+- ¿La interfaz le permite acceder rápidamente a la información médica relevante de cada paciente?
+- ¿Hay alguna funcionalidad que considere necesaria para optimizar la gestión de tratamientos o reportes clínicos?
+- ¿Recomendaría esta aplicación a otros colegas oncólogos o a instituciones médicas?
+
+**Preguntas finales:**
+- ¿Qué cambios visuales o funcionales implementaría para mejorar la experiencia de uso?
+- ¿Qué tan satisfecho se siente con la experiencia general que ofrece la aplicación?
+- ¿Le gustaría seguir utilizando la aplicación en el futuro? ¿Por qué?
+<br>
+
 <div id='6.3.2.'><h4>6.3.2. Registro de Entrevistas</h4></div>
+
+* **Segmento 1: Médicos Oncológicos**
+
+|Entevistado 1|Sebastián Silva|
+|-|-|
+|Edad|27|
+|Distrito|San Isidro|
+|Foto|<img height="268" alt="image" src="img/doctor_validation_interview_1.png" />|
+|Link|[Enlace de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQAztEFI4L8GRpRxitHDmxlFAcdZqtk90_p98VBKmkBlFDc?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyNDY3LjUzNCwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=mfMk2Q)|
+|Time | 41:07 - 58:15 |
+|Analisis de Entrevista| El doctor mencionó que anteriormente usó algunas aplicaciones para poder manejar el control de sus pacientes, pero que no era lo suficiente para manejarlo correctamente. Por ello, al momento de mostrarle la aplicación, se sintió bastante satisfecho acerca de las acciones o funcionalidades que trae, además de que le parece correcto el uso de colores, iconografía y diseño con lo que respecta a ser una aplicación médica. Además de mostrarle información completa y necesaria acerca de los pacientes que él atiende y cómo va el trayecto de sus tratamientos, de llevarlo. Sin embargo, nos indicó que el flujo para llegar a usar alguna función, como la creación de una cita, puede ser muy larga y tediosa en momentos, también diciéndonos que se desorientó un poco por todo lo que tenía que hacer para realizar dicha acción, dándonos un punto de vista acerca de cómo el cliente se siente al no ir directamente a lo que necesita realizar en el momento. |
+
+|Entevistado 2|Gerardo Bohórquez|
+|-|-|
+|Edad|30|
+|Distrito|Surco|
+|Foto|<img height="268" alt="image" src="img/doctor_validation_interview_3.png" />|
+|Link|[Enlace de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQAztEFI4L8GRpRxitHDmxlFAcdZqtk90_p98VBKmkBlFDc?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo0NDI2LjA1MSwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=z9s58r)|
+|Time | 1:13:46 - 1:28:14 |
+|Analisis de Entrevista| El doctor mencionó que llegó a utilizar otras aplicaciones para gestionar el control de sus pacientes, pero que faltan algunos procesos más para facilitarle el control que realiza. Al presentarle nuestra aplicación, se mostró bastante satisfecho con las funcionalidades que ofrece, así como con el uso adecuado de colores, iconografía y diseño acorde a un entorno médico. También destacó que la información presentada sobre sus pacientes es completa y útil para dar seguimiento a sus tratamientos. Sin embargo, nos señaló que, aunque la interfaz parece sencilla a primera vista, existen tiempos de carga prolongados al abrir ciertas ventanas, lo cual afecta la fluidez del trabajo. Además, mencionó que algunos enlaces no siempre están disponibles y que se presentan ciertos inconvenientes en los procesos internos, lo que puede generar confusión o interrupciones en el uso. Estos puntos nos brindan una perspectiva importante sobre cómo el usuario percibe la eficiencia y continuidad de la aplicación en momentos donde necesita actuar con rapidez. |
+
+|Entevistado 3| Christian Matos |
+|-|-|
+|Edad| 32 |
+|Distrito| San Isidro |
+|Foto |<img height="268" alt="image" src="img/doctor_validation_interview_2.png" />|
+|Link|[Enlace de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQAztEFI4L8GRpRxitHDmxlFAcdZqtk90_p98VBKmkBlFDc?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozNDk1LjQ2NywidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=3IefHa)|
+|Time | 58:15 - 1:13:46 |
+|Analisis de Entrevista| El médico consideró que el sistema presenta una paleta de colores moderna y gráficos adecuados al sector salud, además de una buena estructura de información y un menú lateral claramente organizado. Señaló que los íconos son identificables, aunque algunos podrían reemplazarse por otros más específicos. Indicó que las funcionalidades disponibles son útiles y que los elementos visuales, como botones, textos e íconos tienen un tamaño y color apropiados. Sin embargo, mencionó que la navegación inicial puede resultar un poco abrumadora para un nuevo usuario. También destacó la solidez del sistema y sugirió incorporar mejoras orientadas a la eficiencia clínica, como una búsqueda rápida por DNI del paciente, una vista de tratamientos activos que requieran atención inmediata, y herramientas adicionales como un generador de reportes clínicos o un módulo de inventario. |
+
+* **Segmento 2: Pacientes Oncológicos**
+
+|Entrevistado 1|Anthony Urbano|
+|-|-|
+|Edad|19|
+|Distrito|San Juan de Lurigancho|
+|Foto|<img height="268" alt="image" src="img/patient_validation_interview_1.png" />|
+|Link|[Enlace de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQAztEFI4L8GRpRxitHDmxlFAcdZqtk90_p98VBKmkBlFDc?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=PchK8l)|
+|Time | 00:05 - 25:03 |
+|Analisis de Entrevista| El paciente oncológico destacó que el sistema utiliza colores, iconografía y diseño coherentes con el sector médico, lo que le transmite confianza y familiaridad. Consideró que la información está bien distribuida y que las funcionalidades siguen un orden lógico, facilitando su uso. También mencionó que las herramientas disponibles son realmente útiles para sus necesidades. Sin embargo, señaló algunos problemas de usabilidad, como que ciertos botones e íconos no son suficientemente visibles, lo que dificulta entender cuándo una acción está disponible; los atajos e íconos no se reconocen de inmediato, obligando al usuario a recordar su función; y el dashboard luce un poco saturado, haciendo que los elementos importantes pierdan protagonismo. |
+
+|Entrevistado 2|Fabrisio Belahonia|
+|-|-|
+|Edad|21|
+|Distrito|Huachipa|
+|Foto|<img height="268" alt="image" src="img/patient_validation_interview_2.png" />|
+|Link|[Enlace de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQAztEFI4L8GRpRxitHDmxlFAXulo08JXmZvtPmfWtt4U28?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTAzLjA4MywidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=lq1SJE)|
+|Time | 25:03 - 41:07 |
+|Analisis de Entrevista| El usuario consideró que el sistema presenta un diseño coherente con el sector salud, usando elementos visuales familiares que facilitan la comprensión. También destacó que la información y funcionalidades están bien organizadas, y que las herramientas disponibles son útiles y responden adecuadamente a sus necesidades, lo que contribuye a una experiencia eficiente. No obstante, señaló algunos puntos críticos: los botones importantes no destacan lo suficiente en el dashboard, dificultando identificar acciones clave, y la presencia de accesos rápidos duplicados genera sobrecarga visual, rompiendo con el principio de mantener una interfaz simple y sin elementos irrelevantes. |
+<br>
+
 <div id='6.3.3.'><h4>6.3.3. Evaluaciones Según Heurísticas</h4></div>
+
+## Segmento objetivo 1: Médicos oncológicos
+
+| Entrevista | Heurística | Evaluación |
+|-----------|------------|------------|
+| Sebastián Silva | **Control y libertad del usuario** | El entrevistado se sintió satisfecho por el manejo que puede tener en la aplicación, además de mejorar los controles que debe llevar acerca de sus pacientes. |
+| Sebastián Silva | **Coherencia y normas** | Al entrevistado le pareció correcta la información que mostraba la aplicación, además de estar cumpliendo con las normas propuestas para la muestra de esos datos. |
+| Sebastián Silva | **Reconocimiento en lugar de recuerdo** | El entrevistado indicó que estaba bien distribuido las distintas secciones que se compone la aplicación, además de ser reconocibles, aunque le gustaría que se mejoren en algunas secciones su diseño. |
+| Sebastián Silva | **Flexibilidad y eficiencia de uso** | El entrevistado nos recomendó mejorar la navegación entre los procesos que tiene la aplicación, ya que le parecía un poco engorroso al momento de pasar de una sección a otra. |
+| Sebastián Silva | **Diseño estético y minimalista** | Al entrevistado le pareció coherente el diseño que se propone a la aplicación, considerando formal y una buena combinación de colores. |
+<br>
+
+| Entrevista | Heurística | Evaluación |
+|-----------|------------|------------|
+| Gerardo Bohórquez | **Visibilidad del estado del sistema** | El entrevistado nos menciona que le gustó que muestre información completa de sus pacientes y cómo se manejan los tratamientos. Sin embargo, tienen tiempos de carga muy largos al cargar las distintas ventanas, donde puede lograr desorientarse con respecto al flujo que realiza. |
+| Gerardo Bohórquez | **Correspondencia entre el sistema y el mundo real** | AAl entrevistado le pareció que el diseño, términos e iconografía están acordes al ámbito médico, además de considerar un buen agregado los testimonios de los pacientes, ya que indican la profesionalidad que tiene el médico. |
+| Gerardo Bohórquez | **Control y libertad del usuario** | Al entrevistado recalcó que algunos enlaces u opciones no están disponibles, impidiéndole acceder libremente a ciertas funciones que espera poder usar o se propusieron. |
+| Gerardo Bohórquez | **Flexibilidad y eficiencia de uso** | El entrevistado nos pide mejorar los procesos internos, ya que estos problemas hacen que el flujo del trabajo no sea eficiente, incluso cuando la interfaz le parece sencilla e identificable. |
+| Gerardo Bohórquez | **Diseño estético y minimalista** | El entrevistado menciona que le gustó el uso de las paletas de colores y el diseño propuesto para la aplicación, viéndolo profesional. |
+<br>
+
+| Entrevista | Heurística | Evaluación |
+|-----------|------------|------------|
+| Christian Matos | **Visibilidad del estado del sistema** | Los tamaños y colores de botones, textos e íconos son óptimos, lo cual da claridad visual al usuario sobre elementos interactivos. |
+| Christian Matos | **Correspondencia entre el sistema y el mundo real** | El entrevistado menciona que la paleta de colores es moderna y adecuada al sector salud; los gráficos también son acordes al contexto médico. Esto refuerza la coherencia visual y facilita la interpretación del contenido. |
+| Christian Matos | **Coherencia y normas** | La información está bien estructurada, los íconos son identificables en su mayoría, y el menú lateral está bien definido. Esto hace que el usuario pueda anticipar la navegación y entender el flujo de manera consistente. |
+| Christian Matos | **Reconocimiento en lugar de recuerdo** | Aunque los íconos son identificables, algunos deberían ser reemplazados por otros más específicos. La navegación inicial es un poco abrumadora, obligando al usuario a recordar pasos en lugar de reconocerlos de inmediato. |
+| Christian Matos | **Flexibilidad y eficiencia de uso** | El usuario solicita funciones adicionales (búsqueda por DNI, tratamientos activos, reportes, inventario), lo cual evidencia que algunas tareas frecuentes no están optimizadas actualmente. |
+<br>
+
+## Segmento objetivo 2: Pacientes oncológicos
+
+| Entrevista | Heurística | Evaluación |
+|-----------|------------|------------|
+| James Urbano | **Visibilidad del estado del sistema** | Si los botones o íconos no son suficientemente visibles o no dan retroalimentación clara, el usuario no entiende si una acción está disponible, activa o inactiva. |
+| James Urbano | **Correspondencia entre el sistema y el mundo real** | Los colores, iconografía y diseño están alineados con el sector médico. Esto hace que la interfaz resulte familiar y coherente para el usuario, generando confianza al momento de interpretar la información. |
+| James Urbano | **Coherencia y normas** | La distribución de las funcionalidades es clara y sigue un orden lógico. El usuario reconoce patrones y estructuras previsibles, lo que facilita que pueda comprender cómo usar el sistema sin necesidad de explorar demasiado. |
+| James Urbano | **Reconocimiento en lugar de recuerdo** | El usuario no identifica de inmediato los atajos o íconos, lo que le obliga a recordar su ubicación o función. Esto genera esfuerzo cognitivo innecesario, ya que la interfaz no facilita el reconocimiento visual inmediato. |
+| James Urbano | **Flexibilidad y eficiencia de uso** | El usuario indicó que las funcionalidades le resultan útiles y adecuadas a lo que necesita. Esto demuestra que las herramientas están bien diseñadas para el tipo de tarea, y que el sistema ofrece funcionalidades relevantes que aportan eficiencia y valor real. |
+| James Urbano | **Diseño estético y minimalista** | El dashboard está visualmente un poco saturado, los elementos importantes pierden protagonismo, dificultando que el usuario los reconozca rápidamente. |
+<br>
+
+| Entrevista | Heurística | Evaluación |
+|-----------|------------|------------|
+| Fabrisio Belahonia | **Visibilidad del estado del sistema** | Los botones importantes no destacan en el dashboard y el usuario podría no reconocer de inmediato qué acciones son clave. |
+| Fabrisio Belahonia | **Correspondencia entre el sistema y el mundo real** | El diseño visual está acorde al sector salud y utiliza elementos que resultan familiares para el usuario, facilitando la comprensión. |
+| Fabrisio Belahonia | **Coherencia y normas** | La estructura de la información y las funcionalidades está bien organizada, lo que ayuda a que el usuario anticipe cómo navegar. |
+| Fabrisio Belahonia | **Flexibilidad y eficiencia de uso** | El usuario considera que las funcionalidades son útiles, lo que significa que el sistema ofrece herramientas que responden bien a sus necesidades y tareas. |
+| Fabrisio Belahonia | **Diseño estético y minimalista** | Presentar accesos rápidos a secciones que ya están disponibles en la barra lateral genera información duplicada e innecesaria. Esto recarga la interfaz y rompe el principio de evitar elementos irrelevantes. |
 
 <div id='6.4.'><h3>6.4. Auditoría de Experiencias de Usuario</h3></div>
 <div id='6.4.1.'><h4>6.4.1. Auditoría Realizada</h4></div>
@@ -5103,7 +5292,7 @@ Problema:
 En el Dashboard de Organización sí se muestra un indicador de carga, pero los datos de doctores, pacientes y citas tardan aproximadamente 4–5 segundos en aparecer.
 Aunque el loader informa que “algo está pasando”, el tiempo de espera es lo suficientemente largo como para generar sensación de lentitud y afectar la percepción de rendimiento del sistema. 
 <br>
-<img width="700" height="521" alt="image" src="img/problema1.png" /> <br>
+<img width="700" height="521" alt="image" src="img/problema1.PNG" /> <br>
 
 Recomendaciones:
 - Optimizar las consultas o la cantidad de datos que se traen en la primera carga.
@@ -5120,7 +5309,7 @@ En la vista de Analíticas, los botones “Generar Reporte” y “Exportar PDF�
 Además, el sistema no provee ninguna señal de que la acción está procesándose, ni tampoco muestra mensajes de error si el backend falla.
 Esto genera un estado de incertidumbre en el usuario, ya que no queda claro si el sistema está trabajando o hubo un error.  
 <br>
-<img width="700" height="200" alt="image" src="img/problema2.png" /> <br>
+<img width="700" height="200" alt="image" src="img/problema2.PNG" /> <br>
 
 Recomendaciones:
 - Proveer feedback inmediato al usuario:
@@ -5136,7 +5325,7 @@ Problema:
 El formulario para registrar un paciente es excesivamente largo y requiere un scroll considerable para completarlo. Aunque la cantidad de información solicitada es necesaria en un contexto médico. Esto puede generar fatiga, errores de llenado y abandono parcial del proceso, especialmente en contextos donde el personal clínico trabaja con presión de tiempo.
 Además, algunas secciones tienen elementos expandibles (+ alergias, medicamentos), lo que hace que el formulario se vuelva aún más largo e impredecible en cuando a tamaño.
 <br>
-<img width="300" height="800" alt="image" src="img/problema3.png" /> <br>
+<img width="300" height="800" alt="image" src="img/problema3.PNG" /> <br>
 
 Recomendaciones:
 - No hay indicación de progreso.
@@ -5150,7 +5339,7 @@ Heurística violada: Visibilidad del estado del sistema
 Problema:
 El elemento del recuadro del perfil del usuario tiene un fondo transparente, lo que dificulta la legibilidad si hay texto por detrás.
 <br>
-<img width="700" height="400" alt="image" src="img/problema4.png" /> <br>
+<img width="700" height="400" alt="image" src="img/problema4.PNG" /> <br>
 
 Recomendaciones:
 - Ajustar los estilos para tener un color de fondo sólido y evitar la baja legibilidad.
@@ -5161,7 +5350,7 @@ Heurística violada: Visibilidad del estado del sistema
 Problema:
 En la página de pacientes, en la pantalla de Reportar Síntoma, la card de información adicional tiene una lista de Posibles Causas o Desencadenantes y Acciones de Manejo con elementos con checkbox que no se distingue bien sobre el fondo que se usa, resultando difícil para el usuario saber que es una lista seleccionable.
 <br>
-<img width="500" height="400" alt="image" src="img/problema5.png" /> <br>
+<img width="500" height="400" alt="image" src="img/problema5.PNG" /> <br>
 
 Recomendaciones:
 - Cambiar el color de borde de los checkbox para que se diferencien mejor del fondo gris.
