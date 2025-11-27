@@ -439,7 +439,7 @@ Al mismo tiempo, los médicos oncólogos enfrentan una elevada carga asistencial
 
 Frente a la falta de herramientas que faciliten el acceso a información sobre medicamentos, la organización de citas y la coordinación del tratamiento, surge una interrogante fundamental:
 
-<br><br><div align="center">
+<br><br><div>
 **¿Qué soluciones tecnológicas pueden contribuir a mejorar la coordinación en la atención oncológica y garantizar un proceso más claro y menos estresante para pacientes, familiares y médicos?**
 
 </div>
