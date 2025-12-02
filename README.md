@@ -93,7 +93,6 @@ Los integrantes son:
 - Quiñones Quintaya, Johan Jorge (johaanq)
 - Uribe Quispe, Jesús Guillermo(JesusU27)
 
-# Contenido
 
 # Contenido
 
@@ -250,6 +249,22 @@ Los integrantes son:
    8.3. [Experimentation.](#8.3.)<br>
    8.3.1. [To-Be User Stories.](#8.3.1.)<br>
    8.3.2. [To-Be Product Backlog.](#8.3.2.)<br>
+   8.3.3. [Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle.](#8.3.3.)<br>
+   8.3.3.1. [To-Be Sprint Backlogs.](#8.3.3.1.)<br>
+   8.3.3.2. [Implemented To-Be Landing Page Evidence.](#8.3.3.2.)<br>
+   8.3.3.3. [Implemented To-Be Frontend-Web Application Evidence.](#8.3.3.3.)<br>
+   8.3.3.4. [Implemented To-Be RESTful API and/or Serverless Backend Evidence.](#8.3.3.4.)<br>
+   8.3.3.5. [Team Collaboration Insights.](#8.3.3.5.)<br>
+   8.3.4. [To-Be Validation Interviews.](#8.3.4.)<br>
+   8.3.4.1. [Diseño de Entrevistas.](#8.3.4.1.)<br>
+   8.3.4.2. [Registro de Entrevistas.](#8.3.4.2.)<br>
+   8.4. [Experiment Aftermath & Analysis.](#8.4.)<br>
+   8.4.1. [Analysis and Interpretation of Results.](#8.4.1.)<br>
+   8.4.2. [Re-scored and Re-prioritized Question Backlog.](#8.4.2.)<br>
+   8.5. [Continuous Learning.](#8.5.)<br>
+   8.5.1. [Shareback Session Artifacts: Learning Workflow.](#8.5.1.)<br>
+   8.6. [To-Be Software Platform Pre-launch.](#8.6.)<br>
+   8.6.1. [About-the-Product Intro Video.](#8.6.1.)<br>
 
 9. [Conclusiones.](#9.)<br>
 10. [Bibliografía.](#10.)<br>
@@ -6635,6 +6650,26 @@ El siguiente Product Backlog presenta las funcionalidades priorizadas de la vers
 | PB-09 | US-02, US-06 | Integración de Datos | Implementación de endpoints para intercambio de información entre módulos médico y paciente. | Media | 5 |
 | PB-10 | US-01–US-08 | Testing y Validación UX | Pruebas de usabilidad, A/B testing y análisis de satisfacción del usuario. | Media | 5 |
 
+<div id='8.3.3.'><h4>8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle</h4></div>
+
+<div id='8.3.3.1.'><h4>8.3.3.1. To-Be Sprint Backlogs</h4></div>
+
+<div id='8.3.3.2.'><h4>8.3.3.2. Implemented To-Be Landing Page Evidence</h4></div>
+
+<div id='8.3.3.3.'><h4>8.3.3.3. Implemented To-Be Frontend-Web Application Evidence</h4></div>
+
+<div id='8.3.3.4.'><h4>8.3.3.4. Implemented To-Be RESTful API and/or Serverless Backend Evidence</h4></div>
+<div id='8.3.3.5.'><h4>8.3.3.5. Team Collaboration Insights</h4></div>
+<div id='8.3.4.'><h4>8.3.4. To-Be Validation Interviews</h4></div>
+<div id='8.3.4.1.'><h4>8.3.4.1. Diseño de Entrevistas</h4></div>
+<div id='8.3.4.2.'><h4>8.3.4.2. Registro de Entrevistas</h4></div>
+<div id='8.4.'><h4>8.4. Experiment Aftermath & Analysis</h4></div>
+<div id='8.4.1.'><h4>8.4.1. Analysis and Interpretation of Results</h4></div>
+<div id='8.4.2.'><h4>8.4.2. Re-scored and Re-prioritized Question Backlog</h4></div>
+<div id='8.5.'><h4>8.5. Continuous Learning</h4></div>
+<div id='8.5.1.'><h4>8.5.1. Shareback Session Artifacts: Learning Workflow</h4></div>
+<div id='8.6.'><h4>8.6. To-Be Software Platform Pre-launch</h4></div>
+<div id='8.6.1.'><h4>8.6.1. About-the-Product Intro Video</h4></div>
 
 <div id='9.'><h2>9. Conclusiones</h2></div>
 
