@@ -290,13 +290,15 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td style="font-weight:bold">4.C.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
       <td>
       <strong>Huanaco Huayta, Elizabeth Lucero</strong> <br> 
-      <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reconocer mi responsabilidad ética y profesional en la ingeniería de software. Estas tareas me ayudaron a diseñar interfaces centradas en la experiencia del usuario, priorizando la claridad, la accesibilidad y la usabilidad. Asimismo, al trabajar en el prototipado para Android e iOS, comprendí la importancia de seguir estándares de calidad y adaptar la aplicación a cada plataforma. Todo este proceso reforzó mi compromiso con crear soluciones confiables y útiles, considerando siempre el impacto que tienen las decisiones de diseño en la vida de pacientes y doctores. <br><br>
-      <strong>TP1:</strong> <p align="justify">La responsabilidad ética y profesional en ingeniería de software implica garantizar calidad, seguridad y confiabilidad, especialmente con datos sensibles.En el proyecto ControlUPC, mediante la investigación y análisis teórico de pipelines de Jenkins, gestión de dependencias con Maven y NPM, pruebas automatizadas y despliegue controlado, se identificaron buenas prácticas para proteger la información. Aunque aún no se implementaron, estas estrategias permitirían asegurar la integridad y confidencialidad de los datos de pacientes oncológicos. Este estudio refuerza la comprensión de los estándares éticos y la responsabilidad profesional en DevOps. <br><br>
-      <strong>TB2:</strong> <p align="justify">El desarrollo de las actividades de análisis estático, verificación de estándares de código, evaluación de calidad y seguridad mediante herramientas como Jenkins, así como la realización de entrevistas, auditorías y revisiones heurísticas, me permitió reconocer de manera directa la responsabilidad ética y profesional que implica trabajar en ingeniería de software. Estas tareas me llevaron a identificar y corregir posibles errores, riesgos y deficiencias que podrían afectar la seguridad, la experiencia del usuario o la confiabilidad del sistema, reforzando la importancia de actuar con rigor, transparencia y compromiso. Además, el proceso de documentar hallazgos, revisar el trabajo de otros grupos y proponer acciones de mejora me permitió comprender que las decisiones técnicas deben priorizar el bienestar del usuario, la integridad del producto y el cumplimiento de buenas prácticas, reafirmando así mi rol como profesional responsable dentro del ciclo de desarrollo. <br><br>
+      <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reconocer mi responsabilidad ética y profesional en la ingeniería de software. Estas tareas me ayudaron a diseñar interfaces centradas en la experiencia del usuario, priorizando la claridad, la accesibilidad y la usabilidad. Asimismo, al trabajar en el prototipado para Android e iOS, comprendí la importancia de seguir estándares de calidad y adaptar la aplicación a cada plataforma. Todo este proceso reforzó mi compromiso con crear soluciones confiables y útiles, considerando siempre el impacto que tienen las decisiones de diseño en la vida de pacientes y doctores. </p><br>
+      <strong>TP1:</strong> <p align="justify">La responsabilidad ética y profesional en ingeniería de software implica garantizar calidad, seguridad y confiabilidad, especialmente con datos sensibles.En el proyecto ControlUPC, mediante la investigación y análisis teórico de pipelines de Jenkins, gestión de dependencias con Maven y NPM, pruebas automatizadas y despliegue controlado, se identificaron buenas prácticas para proteger la información. Aunque aún no se implementaron, estas estrategias permitirían asegurar la integridad y confidencialidad de los datos de pacientes oncológicos. Este estudio refuerza la comprensión de los estándares éticos y la responsabilidad profesional en DevOps. </p><br>
+      <strong>TB2:</strong> <p align="justify">El desarrollo de las actividades de análisis estático, verificación de estándares de código, evaluación de calidad y seguridad mediante herramientas como Jenkins, así como la realización de entrevistas, auditorías y revisiones heurísticas, me permitió reconocer de manera directa la responsabilidad ética y profesional que implica trabajar en ingeniería de software. Estas tareas me llevaron a identificar y corregir posibles errores, riesgos y deficiencias que podrían afectar la seguridad, la experiencia del usuario o la confiabilidad del sistema, reforzando la importancia de actuar con rigor, transparencia y compromiso. Además, el proceso de documentar hallazgos, revisar el trabajo de otros grupos y proponer acciones de mejora me permitió comprender que las decisiones técnicas deben priorizar el bienestar del usuario, la integridad del producto y el cumplimiento de buenas prácticas, reafirmando así mi rol como profesional responsable dentro del ciclo de desarrollo. </p><br>
+      <strong>TF:</strong> <p align="justify">Las tareas desarrolladas me han permitido reconocer mi responsabilidad ética y profesional al tomar decisiones basadas en evidencia, priorizar necesidades críticas de usuarios vulnerables y comunicar resultados con rigurosidad. El análisis del experimento y la interpretación de datos reforzaron la importancia de evitar sesgos y actuar con transparencia, mientras que la repriorización del backlog destacó la obligación de favorecer funcionalidades que reduzcan riesgos clínicos. Asimismo, las actividades de aprendizaje continuo y de pre-lanzamiento fortalecieron mi compromiso con la calidad, la mejora constante y la entrega de un producto seguro y confiable para los pacientes. </p><br>
       <strong>Huapaya Cuevas, Anthony Martin</strong> <br>
       <strong>TB1:</strong> <p align="justify">La elaboración de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reflexionar sobre mi responsabilidad ética y profesional en el ámbito de la ingeniería de software. Estas actividades fueron clave para diseñar interfaces centradas en la experiencia del usuario, donde se priorizó la claridad, la accesibilidad y la facilidad de uso. Además, al desarrollar prototipos tanto para Android como para iOS, comprendí la relevancia de cumplir con los estándares de calidad y de adaptar la aplicación a las particularidades de cada plataforma. En conjunto, este proceso fortaleció mi compromiso con la creación de soluciones confiables y efectivas, teniendo siempre en cuenta el impacto que las decisiones de diseño generan en la vida de pacientes y profesionales de la salud. </p><br>
       <strong>TP1:</strong> <p align="justify">En la práctica de DevOps, la responsabilidad ética y profesional se refleja en la implementación de procesos automatizados y seguros que garanticen la calidad del software y la protección de los datos sensibles. En el proyecto ControlUPC, esto implica mantener la integridad y confidencialidad de la información de los pacientes oncológicos, asegurando que cada despliegue sea confiable y cumpla con los estándares éticos de la ingeniería de software.</p><br>
       <strong>TB2:</strong> <p align="justify">El desarrollo de actividades como el análisis estático, la verificación de estándares de código, la evaluación de calidad y seguridad con herramientas como Jenkins, junto con entrevistas, auditorías y revisiones heurísticas, me permitió comprender de manera directa la responsabilidad ética y profesional inherente a la ingeniería de software. Estas tareas me ayudaron a detectar y corregir errores, riesgos y deficiencias que podrían comprometer la seguridad, la experiencia del usuario o la confiabilidad del sistema, reforzando la necesidad de trabajar con rigor, transparencia y compromiso. Asimismo, documentar los hallazgos, revisar el trabajo de otros equipos y proponer mejoras me hizo ver que las decisiones técnicas deben priorizar el bienestar del usuario, la integridad del producto y el cumplimiento de buenas prácticas, reafirmando mi papel como profesional responsable en el ciclo de desarrollo.</p><br>
+      <strong>TF:</strong> <p align="justify">Las actividades realizadas me ayudaron a comprender mejor mi responsabilidad ética y profesional al momento de decidir con base en información confiable, enfocarme en las necesidades más urgentes de usuarios vulnerables y comunicar resultados de manera clara y precisa. El proceso de analizar el experimento y revisar los datos reforzó la relevancia de minimizar sesgos y mantener la transparencia. Además, la reorganización del backlog evidenció la importancia de priorizar funciones que disminuyan riesgos clínicos. Del mismo modo, las tareas de actualización continua y preparación para el lanzamiento fortalecieron mi compromiso con la calidad, la mejora permanente y la creación de un producto seguro y confiable para los pacientes. </p><br>
       <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Durante el desarrollo del proyecto, asumí la responsabilidad ética y profesional al diseñar la arquitectura de software, elaborando el diagrama de contenedores, de componentes, de clases y el modelo de bases de datos, asegurándome de que cada decisión fuera clara, documentada y trazable para facilitar la comprensión del equipo y garantizar la mantenibilidad del sistema. </p><br>
       <br>  <strong>TP:</strong> <p align="justify"> Reconozco mi responsabilidad ética y profesional en la ingeniería de software, especialmente tras haber trabajado en DevOps, documentar cómo se implementará la integración continua y diseñar la arquitectura de software. Me comprometo a asegurar que los procesos de integración continua sean robustos y transparentes, garantizando la calidad del software con pruebas automatizadas y despliegues confiables, todo mientras protejo la confidencialidad y seguridad de los datos involucrados. Además, al documentar la arquitectura y los flujos de trabajo, busco promover claridad y sostenibilidad en el proyecto, fomentando un entorno colaborativo y ético que apoye decisiones informadas y cumpla con estándares profesionales, siempre pensando en el beneficio de los usuarios y la comunidad técnica.</p><br> <strong>TB2: </strong> <p align="justify">
@@ -315,12 +317,15 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         <p> <strong>TB1:</strong>
         El desarrollo de interfaces y la construcción de la arquitectura del sistema permitieron reconocer la importancia de la responsabilidad ética y profesional en la ingeniería de software. Al priorizar la claridad, accesibilidad, usabilidad y estandarización en las decisiones de diseño y documentación, se consolidó el compromiso con la creación de soluciones confiables, adaptadas a las plataformas y sostenibles en el tiempo, siempre considerando el bienestar de pacientes y profesionales de la salud.
         </p>
-           <p> <strong>TP</strong>
+           <p> <strong>TP:</strong>
         Como grupo, reconocemos nuestra responsabilidad ética y profesional en la ingeniería de software, reflejada en nuestro trabajo con DevOps, la documentación de integración continua y el diseño de la arquitectura de software. Nos hemos comprometido a garantizar procesos robustos y transparentes, protegiendo la confidencialidad de los datos y promoviendo un desarrollo sostenible que beneficie a la comunidad técnica, asegurando que nuestras decisiones estén alineadas con estándares éticos y profesionales.
         </p>
         <p>
-          <p> <strong>TB2</strong>
+          <p> <strong>TB2:</strong>
         La aplicación de estándares de codificación, evaluaciones de calidad y seguridad del código, revisiones técnicas, entrevistas de validación, análisis heurísticos y auditorías de experiencia de usuario, junto con la implementación de procesos de integración, entrega y despliegue continuo, monitoreo activo, definición de hipótesis, análisis de métricas y construcción de backlogs y experimentos, me permitió reconocer la responsabilidad ética y profesional que implica cada decisión dentro del desarrollo de software. Estas actividades evidenciaron la importancia de garantizar la seguridad, consistencia, confiabilidad y sostenibilidad del sistema, asegurando que el trabajo técnico se realice con rigor, transparencia y compromiso hacia los usuarios, los equipos de desarrollo y el impacto social del producto final.
+        </p>
+        <p> <strong>TF:</strong>
+        Como equipo, demostramos responsabilidad ética y profesional al basar nuestras decisiones en análisis rigurosos, evidencia y necesidades reales de los usuarios. El trabajo conjunto en la evaluación del experimento, la interpretación de datos y la priorización del backlog reflejó un compromiso con minimizar riesgos y mejorar la experiencia de pacientes en situaciones sensibles. Además, las sesiones de aprendizaje y el trabajo previo al lanzamiento mostraron una práctica colaborativa orientada a la calidad, la transparencia y el impacto positivo del software en contextos clínicos reales.
         </p>
       </td>
     </tr>
@@ -328,13 +333,15 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td  style="font-weight:bold">4.C.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
       <td>
       <strong>Huanaco Huayta, Elizabeth Lucero</strong> <br> 
-      <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me ayudó a emitir juicios informados sobre el impacto de la aplicación. Al diseñar las vistas pensé en el efecto social, facilitando la comunicación y accesibilidad para pacientes y doctores. También en el aspecto económico, al optimizar la gestión de citas y tratamientos. Consideré el impacto global, al crear un diseño adaptable a diferentes plataformas. Estas tareas me permitieron entender que las decisiones de diseño tienen consecuencias más allá de lo técnico, influyendo directamente en la vida de los usuarios y en el contexto en el que se aplica la solución.</p><br><br>
-      <strong>TP1:</strong> <p align="justify">En DevOps, emitir juicios informados implica analizar cómo las decisiones técnicas afectan los ámbitos global, económico, ambiental y social. En el proyecto ControlUPC, la investigación sobre prácticas de despliegue continuo automatizado permite identificar formas de optimizar recursos tecnológicos y humanos, reducir costos operativos y mejorar la disponibilidad del sistema para médicos y pacientes oncológicos. Este enfoque favorece la eficiencia económica y la sostenibilidad tecnológica, al tiempo que genera un impacto social positivo al garantizar un acceso confiable y oportuno a información médica crítica, contribuyendo a la calidad del servicio de salud.</p><br><br>
-      <strong>TB2:</strong> <p align="justify">Las actividades de análisis de código, validación con usuarios y auditorías heurísticas me permitieron emitir juicios informados sobre el impacto que las soluciones de software pueden generar en contextos globales, económicos y sociales. Al evaluar problemas como tiempos de carga, usabilidad, seguridad y accesibilidad, comprendí que decisiones técnicas inadecuadas pueden afectar costos, eficiencia y la experiencia del usuario. Asimismo, proponer mejoras basadas en evidencia reforzó mi capacidad para considerar cómo cada ajuste contribuye a un sistema más sostenible, confiable y beneficioso para quienes dependen de él.</p><br><br>
+      <strong>TB1:</strong> <p align="justify">El desarrollo de wireframes, wireflows, mock-ups, user flows y prototipos móviles me ayudó a emitir juicios informados sobre el impacto de la aplicación. Al diseñar las vistas pensé en el efecto social, facilitando la comunicación y accesibilidad para pacientes y doctores. También en el aspecto económico, al optimizar la gestión de citas y tratamientos. Consideré el impacto global, al crear un diseño adaptable a diferentes plataformas. Estas tareas me permitieron entender que las decisiones de diseño tienen consecuencias más allá de lo técnico, influyendo directamente en la vida de los usuarios y en el contexto en el que se aplica la solución.</p><br>
+      <strong>TP1:</strong> <p align="justify">En DevOps, emitir juicios informados implica analizar cómo las decisiones técnicas afectan los ámbitos global, económico, ambiental y social. En el proyecto ControlUPC, la investigación sobre prácticas de despliegue continuo automatizado permite identificar formas de optimizar recursos tecnológicos y humanos, reducir costos operativos y mejorar la disponibilidad del sistema para médicos y pacientes oncológicos. Este enfoque favorece la eficiencia económica y la sostenibilidad tecnológica, al tiempo que genera un impacto social positivo al garantizar un acceso confiable y oportuno a información médica crítica, contribuyendo a la calidad del servicio de salud.</p><br>
+      <strong>TB2:</strong> <p align="justify">Las actividades de análisis de código, validación con usuarios y auditorías heurísticas me permitieron emitir juicios informados sobre el impacto que las soluciones de software pueden generar en contextos globales, económicos y sociales. Al evaluar problemas como tiempos de carga, usabilidad, seguridad y accesibilidad, comprendí que decisiones técnicas inadecuadas pueden afectar costos, eficiencia y la experiencia del usuario. Asimismo, proponer mejoras basadas en evidencia reforzó mi capacidad para considerar cómo cada ajuste contribuye a un sistema más sostenible, confiable y beneficioso para quienes dependen de él.</p><br>
+      <strong>TF:</strong> <p align="justify">Las tareas realizadas me ayudaron a emitir juicios informados al analizar evidencia real sobre el comportamiento de los usuarios y evaluar cómo cada decisión de diseño o priorización impacta en un contexto social y económico sensible, como el acceso a tratamientos oncológicos. El análisis del experimento y la interpretación de resultados me permitieron comprender las consecuencias globales y locales de mejorar o no ciertos flujos, mientras que la repriorización del backlog integró criterios de impacto social y eficiencia del sistema. Finalmente, el pre-lanzamiento y las sesiones de aprendizaje continuo fortalecieron mi capacidad para anticipar efectos más amplios del software en la continuidad del cuidado, la carga económica para los centros médicos y la calidad de vida de los pacientes.</p><br>
       <strong>Huapaya Cuevas, Anthony Martin</strong> <br>
       <strong>TB1:</strong> <p align="justify">La creación de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reflexionar sobre el impacto que puede generar la aplicación. Durante el diseño de las vistas tuve en cuenta el efecto social, al fomentar una comunicación más fluida y accesible entre pacientes y doctores. También consideré la dimensión económica, al proponer una solución que optimiza la gestión de citas y tratamientos. Asimismo, valoré el alcance global al diseñar una interfaz adaptable a distintas plataformas. Este proceso me hizo comprender que las decisiones de diseño trascienden lo técnico, pues influyen directamente en la vida de los usuarios y en el entorno donde se implementa la solución. </p><br>
       <strong>TP1:</strong> <p align="justify">En el contexto de DevOps, emitir juicios informados implica evaluar cómo las decisiones técnicas influyen en los ámbitos global, económico y social. En el proyecto ControlUPC, la adopción de prácticas automatizadas de despliegue continuo contribuye a optimizar recursos tecnológicos y humanos, reduciendo costos operativos y mejorando la disponibilidad del sistema para doctores y pacientes oncológicos. Este enfoque no solo promueve la eficiencia económica y la sostenibilidad tecnológica, sino que también tiene un impacto social positivo al garantizar un acceso oportuno y confiable a información médica crítica, fortaleciendo así la calidad del servicio en el ámbito de la salud.</p><br>
       <strong>TB2:</strong> <p align="justify">Las actividades de análisis de código, la validación con usuarios y las auditorías heurísticas me permitieron desarrollar criterios fundamentados sobre el impacto que las soluciones de software pueden tener en ámbitos globales, económicos y sociales. Al examinar aspectos como los tiempos de carga, la usabilidad, la seguridad y la accesibilidad, entendí que decisiones técnicas inapropiadas pueden influir negativamente en los costos, la eficiencia y la experiencia del usuario. Del mismo modo, sugerir mejoras basadas en evidencia fortaleció mi capacidad para evaluar cómo cada ajuste contribuye a un sistema más sostenible, confiable y beneficioso para quienes dependen de él.</p><br>
+      <strong>TF:</strong> <p align="justify">Las actividades desarrolladas me permitieron formular juicios fundamentados al revisar evidencia real sobre el comportamiento de los usuarios y analizar cómo cada decisión de diseño o priorización puede influir en un entorno social y económico delicado, como el acceso a tratamientos contra el cáncer. La revisión del experimento y la interpretación de los datos me ayudaron a comprender los efectos tanto globales como locales de optimizar, o no, determinados flujos. A su vez, la reorganización del backlog incorporó criterios relacionados con el impacto social y la eficiencia del sistema. Finalmente, el proceso de pre-lanzamiento y las sesiones de aprendizaje continuo reforzaron mi capacidad para anticipar las repercusiones más amplias del software en la continuidad de la atención, los costos para las instituciones médicas y el bienestar de los pacientes.</p><br>
       <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Al preparar la documentación de implementación del producto, emití juicios informados considerando el impacto que las soluciones de software podrían tener en el contexto global, económico, ambiental y social. Esto me llevó a priorizar decisiones que promuevan la eficiencia en el uso de recursos, la escalabilidad y la accesibilidad del sistema, contribuyendo a un producto sostenible y con potencial de adaptarse a diferentes escenarios. </p><br>
       <strong>TP:</strong> <p align="justify">
@@ -360,6 +367,9 @@ Al tomar decisiones sobre las soluciones propuestas, emití juicios informados a
         </p>
         <p><strong>TB2:</strong>
           Las actividades de análisis técnico, validación con usuarios, evaluaciones de usabilidad y revisiones de desempeño me permitieron emitir juicios informados sobre el impacto de las soluciones de software en contextos globales, económicos, ambientales y sociales. Al identificar problemas como tiempos de carga, accesibilidad, seguridad y eficiencia, comprendí cómo decisiones técnicas influyen en costos, sostenibilidad y calidad de vida de los usuarios. Esta reflexión guiada por evidencia fortaleció mi capacidad para proponer mejoras responsables que aporten valor y reduzcan riesgos en los distintos contextos donde el software opera.
+        </p>
+        <p><strong>TF:</strong>
+          Como equipo, desarrollamos juicios informados al evaluar cómo nuestras decisiones de diseño y priorización afectan a los usuarios y al sistema en un contexto social y económico complejo. El análisis del experimento y la interpretación de resultados nos permitió comprender las implicancias más amplias de mejorar la continuidad del tratamiento y reducir el no-show, especialmente en pacientes vulnerables. Asimismo, la repriorización del backlog y el trabajo de pre-lanzamiento nos llevó a considerar el impacto global, social y operativo de cada funcionalidad, promoviendo soluciones de software que aporten valor real y reduzcan barreras en el acceso a la atención médica.
         </p>
       </td>
     </tr>
@@ -396,12 +406,12 @@ Como valor diferencial, OnControl integra sensores IoT que permiten medir parám
   </tr>
   <tr>
     <td><img src="img/Elizabeth-Huanaco.jpg" alt="Elizabeth Huanaco" style="margin-bottom: 5px;"></td>
-    <td>Estoy en el séptimo ciclo de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona organizada, resiliente y asertiva. Elegí enfocarme en esta carrera por el interés que tengo en el desarrollo de software, ya que considero que es un área clave para el futuro de la innovación tecnológica. Actualmente tengo conocimientos de tecnologías como Java, SQL y desarrollo de aplicaciones modernas con el enfoque Domain Driven Design. En este proyecto, me comprometo a aplicar mis conocimientos y a contribuir con el logro de los objetivos de mi equipo, fomentando un ambiente colaborativo.</td>
+    <td>Mi nombre es Elizabeth Lucero Huanaco Huayta y estoy en el séptimo ciclo de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona organizada, resiliente y asertiva. Elegí enfocarme en esta carrera por el interés que tengo en el desarrollo de software, ya que considero que es un área clave para el futuro de la innovación tecnológica. Actualmente tengo conocimientos de tecnologías como Java, SQL y desarrollo de aplicaciones modernas con el enfoque Domain Driven Design. En este proyecto, me comprometo a aplicar mis conocimientos y a contribuir con el logro de los objetivos de mi equipo, fomentando un ambiente colaborativo.</td>
     <td>U20211G522</td>
   </tr>
   <tr>
     <td><img src="img/Anthony.jpg"></td>
-    <td>Mi nombre es Anthony Huapaya y soy estudiante de la carrera de Ingeniería de Software, cursando el séptimo ciclo. Mis conocimientos con respecto a tecnologías son Java, SQL y un poco de Python, aplicando esto al modelo de Domain Driven Design. Me considero una persona que apoya constantemente al grupo, mantiene un ambiente laboral estable, me gusta escuchar las opiniones o puntos de vista de los demás y soy alguien que se adapta a cualquier forma de trabajo.</td>
+    <td>Mi nombre es Anthony Martín Huapaya Cuevas y soy estudiante de la carrera de Ingeniería de Software, cursando el séptimo ciclo. Mis conocimientos con respecto a tecnologías son Java, SQL y un poco de Python, aplicando esto al modelo de Domain Driven Design. Me considero una persona que apoya constantemente al grupo, mantiene un ambiente laboral estable, me gusta escuchar las opiniones o puntos de vista de los demás y soy alguien que se adapta a cualquier forma de trabajo.</td>
     <td>U202220235</td>
   </tr>
   <tr>
@@ -411,7 +421,7 @@ Como valor diferencial, OnControl integra sensores IoT que permiten medir parám
   </tr>
   <tr>
     <td><img src="https://github.com/TF-AplicacionesMoviles/Documentation/raw/main/Img/ju.jpeg"></td>
-    <td>Soy estudiante de Ingenieria de Software en la UPC y actualmente estoy en el 7to ciclo. Elegí esta carrera porque me interesó el campo del software y la matemáticas. Me comprometo a ayudar a mis compañeros con el trabajo asi como también fuera de este.</td>
+    <td>Mi nombre es Jesús Guillermo Uribe Quispe y soy estudiante de Ingenieria de Software en la UPC. Actualmente estoy en el 7to ciclo y elegí esta carrera porque me interesó el campo del software y la matemáticas. Me comprometo a ayudar a mis compañeros con el trabajo asi como también fuera de este.</td>
     <td>U202221876</td>
   </tr>
 </table>
@@ -6599,7 +6609,22 @@ El siguiente Product Backlog presenta las funcionalidades priorizadas de la vers
 
 <div id='8.3.3.'><h4>8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle</h4></div>
 
+El ciclo de vida de la plataforma To-Be de OnControl se fundamenta en la integración de prácticas de DevOps con la metodología Experiment-Driven Development. Este enfoque permite una iteración rápida y segura, donde cada incremento de software no solo añade funcionalidad, sino que también habilita la recolección de datos necesaria para validar nuestras hipótesis.
+
 <div id='8.3.3.1.'><h4>8.3.3.1. To-Be Sprint Backlogs</h4></div>
+
+| #   | ID User Story | Título                                    | Descripción                                                                                                                     | Story Points |
+|-----|---------------|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1   | US09          | Monitoreo de Pacientes (Edge)             | Como desarrollador, quiero implementar un servidor Edge para recolectar y enviar datos de sensores IoT al backend central.      | 8            |
+| 2   | US11          | Endpoints de Signos Vitales               | Como desarrollador, quiero crear endpoints RESTful en el backend central para recibir y persistir los datos de signos vitales enviados por el Edge. | 5            |
+| 3   | US14          | Dashboard de Métricas (Paciente)          | Como paciente, quiero visualizar mis signos vitales en tiempo real y el historial en mi dashboard web para monitorear mi salud. | 8            |
+| 4   | US16          | Panel de Monitoreo (Médico)               | Como médico, quiero un panel web para visualizar las métricas de mis pacientes y recibir alertas visuales de valores críticos.  | 8            |
+| 5   | US20          | Landing Page y Autenticación              | Como visitante, quiero acceder a una Landing Page informativa e iniciar sesión para ser redirigido a la plataforma web principal. | 5            |
+| 6   | US21          | Integración de Analítica Web              | Como desarrollador, quiero instrumentar el frontend con Google Analytics 4 para rastrear eventos de uso y validar los KPIs del experimento. | 3            |
+| 7   | US22          | Registro de Síntomas Web                  | Como paciente, quiero registrar mis síntomas diarios a través de un formulario web para mantener actualizado mi historial médico. | 5            |
+| 8   | US25          | Gestión de Historias Clínicas             | Como médico, quiero crear, leer y actualizar las historias clínicas de mis pacientes desde la plataforma web.                   | 8            |
+| 9   | US28          | Recordatorios de Medicación               | Como paciente, quiero ver y marcar mis medicamentos como tomados en el dashboard web para asegurar mi adherencia al tratamiento. | 5            |
+| 10  | US30          | Configuración de CI/CD                    | Como equipo de desarrollo, quiero configurar pipelines de integración y despliegue continuo para automatizar la entrega del backend y frontend. | 5            |
 
 <div id='8.3.3.2.'><h4>8.3.3.2. Implemented To-Be Landing Page Evidence</h4></div>
 
@@ -6670,12 +6695,188 @@ Usabilidad: Confirmación de que la interfaz web es accesible para pacientes que
 
 <div id='8.4.'><h4>8.4. Experiment Aftermath & Analysis</h4></div>
 <div id='8.4.1.'><h4>8.4.1. Analysis and Interpretation of Results</h4></div>
+
+**Experiment Card 1: Confirmación obligatoria de citas**
+
+Pregunta: ¿Implementar confirmación obligatoria 24h antes reducirá el no-show en citas de primera consulta en un 20%?
+
+Hipótesis: La implementación de una solicitud de confirmación explícita 24 horas antes para pacientes con citas de primera consulta tendrá un efecto medible en la tasa de inasistencias. Este efecto se evaluará comparando la tasa de no-show antes y después de la intervención durante un período de 4 semanas con al menos 500 citas observadas.
+
+**Participantes del experimento**
+
+| Participante      | Segmento            | Grupo    | Comportamiento observado                                                             |
+|-------------------|---------------------|----------|----------------------------------------------------------------------------------------|
+| Mariana Torres    | Paciente oncológico | Test     | Recibe el recordatorio y confirma dentro de 2 horas; indica que el botón es claro.     |
+| Ángela Ríos       | Paciente oncológico | Test     | Confirma inmediatamente; comenta que la confirmación le ayudó a recordar su cita.      |
+| Pedro Salazar     | Paciente oncológico | Test     | No confirma en 24h; el sistema envía alerta; confirma 3 horas antes de la cita.        |
+| Rosa Fernández    | Paciente oncológico | Test     | Confirma en el primer intento; menciona que así es menos probable olvidar la cita.     |
+| Ernesto Palacios  | Paciente oncológico | Test     | No confirma; cita pasa a riesgo; indica que “no vio el mensaje”.                       |
+| Luis Andrade      | Paciente oncológico | Control  | Recibe recordatorio pasivo; no responde; falta a la cita.                              |
+| Carla Mendoza     | Paciente oncológico | Control  | Lee el recordatorio pero no actúa; asiste a la cita sin confirmación previa.           |
+| Martín Vega       | Paciente oncológico | Control  | Ignora el recordatorio; suele olvidar citas; no asiste.                                |
+| Ricardo Poma      | Paciente oncológico | Control  | Ve el recordatorio y llega puntualmente; dice que no necesita confirmar.               |
+| Jimena Valdez     | Paciente oncológico | Control  | Recibe el recordatorio, casi olvida su cita; comenta que un botón de confirmación ayudaría. |
+
+**Resultados obtenidos**
+La introducción del botón de confirmación obligatoria 24 horas antes produjo un efecto claro en la asistencia a citas. En el grupo test, la mayoría de pacientes confirmó su asistencia a tiempo, logrando una tasa de confirmación del 80%, mientras que en el grupo control, donde solo se enviaron recordatorios pasivos, varios pacientes no realizaron ninguna acción y dos de ellos no asistieron a la cita. La tasa de no-show en el grupo test fue considerablemente menor, principalmente asociada a pacientes que no vieron el mensaje o lo ignoraron, mientras que en el grupo control se observó un mayor número de olvidos y ausencias. Además, los pacientes del grupo test reportaron que el botón fue claro, rápido de usar y útil como recordatorio efectivo. En conjunto, los datos indican que la confirmación obligatoria mejora el cumplimiento de asistencia sin añadir fricción al usuario.
+
+**Interpretación de Resultados**
+
+- Hipótesis respaldada: La confirmación obligatoria generó una reducción clara de ausencias en comparación con el recordatorio pasivo, evidenciando su efectividad.
+
+- Mayor proactividad en el grupo Test: Los pacientes expuestos al botón de confirmación realizaron acciones concretas para asegurar su asistencia, demostrando un comportamiento más comprometido.
+
+- No-shows concentrados en el grupo Control: Las inasistencias ocurrieron principalmente en el grupo que no recibió un mecanismo activo de confirmación, lo que sugiere que el recordatorio pasivo es insuficiente para evitar olvidos.
+
+- Experiencia de uso positiva: Los comentarios indican que el botón fue percibido como claro, simple y útil, lo que confirma que la medida no introduce fricción en el proceso.
+
+- Potencial de escalabilidad: Dado el impacto positivo y la buena aceptación, la funcionalidad puede extenderse a todas las citas de primera consulta sin comprometer la satisfacción del usuario.
+
+**Experiment Card 2: Simplificación de proceso de agendamiento**
+
+Pregunta: ¿Reducir el proceso de agendamiento de 4 a 2 pasos aumentará la tasa de completación en usuarios móviles?
+
+Hipótesis: La simplificación del proceso de creación de citas, reduciendo el flujo de 4 pasos a 2 pasos, tendrá un efecto medible en la tasa de completación entre usuarios que utilizan dispositivos móviles. Este efecto se evaluará mediante la comparación de las tasas de finalización de agendamiento entre el flujo actual y el flujo simplificado, durante un período de 3 semanas con al menos 300 intentos registrados.
+
+**Participantes del experimento**
+
+| Participante      | Segmento            | Grupo   | Comportamiento observado                                                                      |
+|-------------------|---------------------|---------|------------------------------------------------------------------------------------------------|
+| Mariana Torres    | Paciente oncológico | Test    | Completa el flujo simplificado en 70s; comenta que “ahora sí avanza más rápido”.               |
+| Ángela Ríos       | Paciente oncológico | Test    | Finaliza en 60s; encuentra intuitivo el resumen final; “se siente más corto que antes”.       |
+| Pedro Salazar     | Paciente oncológico | Test    | Completa el flujo en 60s; menciona que el proceso es “más directo”.                            |
+| Rosa Fernández    | Paciente oncológico | Test    | Termina sin errores; valora tener solo dos pantallas; dice que se sintió “guiada”.            |
+| Ernesto Palacios  | Paciente oncológico | Test    | Completa rápido (45s); indica que el sistema cargó bien.                                       |
+| Luis Andrade      | Paciente oncológico | Control | Abandona en paso 2 por tiempo de carga; reintenta y finaliza por llamada telefónica.           |
+| Carla Mendoza     | Paciente oncológico | Control | Completa en 4 pasos pero comenta “muchos clics” y sensación de lentitud.                       |
+| Martín Vega       | Paciente oncológico | Control | Llega al último paso pero no confirma; reporta distracción por exceso de opciones.             |
+| Ricardo Poma      | Paciente oncológico | Control | Abandona en paso 3; menciona que el calendario tarda en cargar.                                |
+| Jimena Valdez     | Paciente oncológico | Control | Completa el proceso, demora 2 minutos; dice que el flujo “podría ser más corto”.               |
+
+**Resultados obtenidos**
+El grupo Test mostró una mejora clara en eficiencia y experiencia. Todos los participantes completaron el proceso entre 45 y 70 segundos y describieron el flujo como más directo, rápido e intuitivo. Valoraron la reducción a dos pantallas y la sensación de guía durante el proceso.En contraste, el grupo Control presentó mayores fricciones: varios usuarios abandonaron por lentitud o sobrecarga de pasos, y quienes completaron el flujo tardaron significativamente más (hasta 2 minutos). Además, reportaron demasiados clics, tiempos de carga y complejidad en la navegación. En conjunto, los datos sugieren que el flujo simplificado no solo acelera la completación, sino que también reduce abandonos y mejora la percepción general del proceso.
+
+**Interpretación de Resultados**
+- Hipótesis confirmada: La alta tasa de completación en el grupo Test y los comentarios positivos indican que la reducción del flujo a dos pasos mejoró significativamente la experiencia de agendamiento.
+
+- Mejora en eficiencia: La disminución consistente de tiempos (45–70 segundos) frente a los más de 2 minutos en el grupo Control evidencia una experiencia más ágil y con menor fricción.
+
+- Flujo más claro y usable: Las opiniones favorables del grupo Test muestran que la simplificación del proceso aumentó la claridad, redujo distracciones y permitió avanzar sin errores ni confusiones.
+
+- Reducción de abandonos: La diferencia marcada entre Test y Control confirma que un proceso más corto reduce el abandono y mejora la probabilidad de completar la cita sin necesidad de asistencia externa.
+
+- Impacto positivo en la experiencia: La percepción de un proceso “más directo”, “más rápido” y “guiado” sugiere que la versión simplificada eleva la satisfacción general y fortalece la intención de uso futuro.
+
+
 <div id='8.4.2.'><h4>8.4.2. Re-scored and Re-prioritized Question Backlog</h4></div>
+
+A continuación, se presenta la lista de preguntas clave reevaluadas y ordenadas según su prioridad, en el contexto del desarrollo de la aplicación OnControl. Estas preguntas nos permitirán enfocar mejor el diseño del producto, validar hipótesis y tomar decisiones estratégicas.
+
+| Prioridad | Pregunta                                                                                                     | Justificación                                                                                                               |
+|-----------|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| Alta      | ¿La confirmación obligatoria 24h reducirá el no-show en un 20% para citas críticas como quimioterapia o inmunoterapia? | El no-show en oncología tiene consecuencias graves: retrasos en ciclos, pérdida de ventana terapéutica y mayor riesgo clínico. |
+| Alta      | ¿Reducir los pasos de 4 a 2 aumentará la completación del agendamiento en pacientes con altos niveles de ansiedad o fatiga? | Los pacientes oncológicos suelen tener cansancio, estrés cognitivo y dolor; reducir la carga mental es vital.                  |
+| Alta      | ¿La reprogramación directa reducirá el abandono del proceso en un 40% y evitará retrasos en tratamientos sensibles al tiempo? | Reprogramar mal puede interrumpir terapias; disminuir fricción es fundamental para la continuidad del tratamiento.             |
+| Media     | ¿Permitir guardar “médicos principales” incrementará la continuidad del seguimiento?                         | Los tratamientos requieren continuidad con un mismo médico; mejora adherencia.                                              |
+| Media     | ¿El inicio de sesión biométrico facilitará el acceso para pacientes con debilidad física o movilidad reducida? | Reduce fricción en usuarios con limitaciones por tratamiento.                                                                |
+| Media     | ¿Agregar una barra de progreso reduciría el estrés durante trámites complejos?                              | Aporta claridad pero no impacta directamente el riesgo clínico.                                                             |
+| Baja      | ¿Ofrecer modo oscuro reduce la fatiga ocular en pacientes en tratamiento?                                   | Beneficio UX, no clínico.                                                                                                   |
+| Baja      | ¿Permitir calificar la atención médica influye en la continuidad del paciente con el centro?                | Importante para la gestión del centro, no para la eficiencia del tratamiento.                                               |
+| Baja      | ¿Un historial visual de citas completadas aumenta la sensación de progreso?                                 | Aporta al acompañamiento emocional, pero no al flujo médico principal.                                                      |
+
+
 <div id='8.5.'><h4>8.5. Continuous Learning</h4></div>
+
+El aprendizaje continuo es clave para el éxito y evolución de OnControl, ya que permite al equipo incorporar nuevos conocimientos en el diseño, desarrollo y mejora constante de la plataforma. Esto asegura que la aplicación se mantenga alineada con las necesidades reales de los usuarios y con los avances tecnológicos que impulsan su crecimiento.
+
 <div id='8.5.1.'><h4>8.5.1. Shareback Session Artifacts: Learning Workflow</h4></div>
+
+El flujo de aprendizaje aplicado en OnControl tiene como objetivo recopilar, analizar y compartir el conocimiento generado durante el desarrollo del proyecto. Estas instancias de retroalimentación fortalecen la mejora continua de la propuesta de valor, optimizan la experiencia del usuario y respaldan decisiones técnicas más informadas para el equipo.
+
+Objetivos:
+- Identificar aprendizajes clave sobre el comportamiento de los pacientes oncológicos en procesos críticos como la confirmación de citas y el agendamiento, evaluando qué elementos reducen el no-show y cuáles facilitan la completación del flujo.
+
+- Documentar buenas prácticas y lecciones aprendidas en la aplicación de experimentos A/B, diseño de flujos simplificados y comunicación efectiva con el paciente, evitando repetir fricciones detectadas en los procesos actuales.
+
+- Mantener al equipo alineado respecto a cambios en patrones de uso, métricas relevantes (tasa de confirmación, completación, no-show) y mejoras tecnológicas necesarias para optimizar la operación de la plataforma.
+
+- Asegurar que los aprendizajes se traduzcan en mejoras continuas, guiando la evolución del producto hacia una experiencia más eficiente, clara y confiable para pacientes y administradores.
+
+Flujo de trabajo
+
+1. Captura de datos
+- Fuentes: Feedback de usuarios, entrevistas de validación, encuestas y registros internos de la aplicación.
+- Herramientas: Google forms, sesiones de entrevistas, logs, Google Analytics.
+
+2. Análisis y síntesis
+- Documentación: Registros en Notion con aprendizajes clave clasificados por áreas:
+  - Experiencia de usuario (UX)
+  - Aspectos técnicos
+  - Insights de negocio
+
+- Sesiones de alineamiento: Reuniones internas cortas para:
+  - Revisar hallazgos del experimento
+  - Identificar patrones y problemas recurrentes
+  - Priorizar mejoras según impacto y factibilidad (matriz rápida de priorización)
+  - Acordar acciones para el siguiente ciclo de experimentación
+
+3. Implementación de mejoras
+
+- Ajustes en el flujo de confirmación de citas, incorporando mejoras basadas en el feedback más frecuente:
+  - Clarificación del mensaje de confirmación y del recordatorio.
+  - Optimización del botón “Confirmar asistencia” para hacerlo más visible y accesible.
+  - Ajustes en los tiempos y canales de envío del recordatorio.
+
+- Refinamiento del flujo de agendamiento, especialmente para usuarios móviles:
+  - Mejora de los textos para que el proceso de selección sea más intuitivo.
+  - Optimización de pantallas para reducir distracciones y mantener la navegación focalizada.
+  - Ajustes en el resumen final para reforzar claridad antes de confirmar la cita.
+
+- Optimización de la experiencia general, en base a los patrones detectados en ambos experimentos:
+  - Reducción de pasos innecesarios.
+  - Incremento de velocidad de carga en puntos críticos.
+  - Incorporación de indicadores visuales (feedback inmediato) para las acciones de confirmación y avance.
+
+4. Retroalimentación continua
+- Evaluación iterativa posterior a cada ajuste del flujo de confirmación, verificando si los cambios mantienen o mejoran la tasa de confirmación y reducen los no-shows en citas de primera consulta.
+- Revisión periódica de métricas del agendamiento, especialmente en dispositivos móviles, para asegurar que la simplificación de pasos sigue elevando la tasa de completación sin incrementar errores ni abandonos.
+- Sesiones de revisión con el equipo tras cada sprint o despliegue, analizando nuevos patrones de comportamiento del usuario, dificultades reportadas y oportunidades de optimización en ambos flujos clave (confirmación y agendamiento).
+- Recolección continua de feedback cualitativo mediante pequeños sondeos dentro de la app o mensajes post-interacción para identificar fricción temprana y validar si las mejoras responden adecuadamente a las necesidades del usuario.
+
+<img src="img/Impact map 1.png" alt="ImpactMap Shareback" width="400">
+
 <div id='8.6.'><h4>8.6. To-Be Software Platform Pre-launch</h4></div>
+
+El pre-lanzamiento de OnControl representa una etapa clave para garantizar una transición fluida hacia la operación oficial de la plataforma. Esta fase busca consolidar la funcionalidad, confiabilidad y usabilidad del sistema, dirigido a dos segmentos principales: pacientes oncológicos y profesionales de la salud especializados.
+
+Durante esta etapa se prioriza entregar una experiencia sólida desde el primer acceso, aplicando mejoras técnicas y funcionales que faciliten la interacción, reduzcan la fricción y generen confianza en los usuarios durante la gestión de citas, confirmaciones y seguimiento clínico.
+
+**Principales actividades y validaciones del pre-lanzamiento:**
+
+Pruebas funcionales completas
+Se ejecutan pruebas exhaustivas sobre las funcionalidades esenciales, tales como:
+- Registro y autenticación de pacientes y médicos.
+- Creación, edición y cancelación de citas médicas.
+- Confirmación obligatoria 24h antes para citas de primera consulta.
+- Visualización del historial de citas y recordatorios.
+
+Estas validaciones permiten asegurar que el flujo funcione sin errores y que los usuarios puedan completar sus acciones sin bloqueos.
+
+Validación de nuevas funcionalidades clave
+
+**Para pacientes:**
+Se valida la facilidad para agendar citas, confirmar asistencia mediante el nuevo botón de confirmación, y recibir recordatorios claros y oportunos.
+
+**Para médicos:**
+Se verifica la visualización correcta del calendario, la reducción de inasistencias gracias al sistema de confirmaciones, y el funcionamiento adecuado de las notificaciones de cambios en citas.
+
+Estas pruebas garantizan que las mejoras introducidas, como la simplificación del flujo de agendamiento y la confirmación obligatoria, estén alineadas con las necesidades reales de los usuarios.
+
 <div id='8.6.1.'><h4>8.6.1. About-the-Product Intro Video</h4></div>
 
+| Imagen | Nombre del Video | Enlace del Video | Timer |
+|--------|-------------------|-------------------|--------|
+| ![About The Product](img/about-product.png) | upc-pre-202520-1asi0732-7491-OncoTech-about-the-product-sprint-3 | [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQAtMi5kmv2hSL0jK386bI2lAQ349cHXjGag2BpQh1H5Vpo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nteC3B) | 06:39 |
 <div id='9.'><h2>9. Conclusiones</h2></div>
 
 1. **Plataforma Integral de Salud Digital**: OnControl se consolida como un ecosistema digital especializado en oncología que trasciende la simple gestión de citas médicas, integrando funcionalidades completas de seguimiento de tratamientos, recordatorios de medicación, comunidades de apoyo y herramientas de autocontrol para pacientes, estableciendo un nuevo estándar en el acompañamiento oncológico digital.
