@@ -298,6 +298,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <strong>TB1:</strong> <p align="justify">La elaboración de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reflexionar sobre mi responsabilidad ética y profesional en el ámbito de la ingeniería de software. Estas actividades fueron clave para diseñar interfaces centradas en la experiencia del usuario, donde se priorizó la claridad, la accesibilidad y la facilidad de uso. Además, al desarrollar prototipos tanto para Android como para iOS, comprendí la relevancia de cumplir con los estándares de calidad y de adaptar la aplicación a las particularidades de cada plataforma. En conjunto, este proceso fortaleció mi compromiso con la creación de soluciones confiables y efectivas, teniendo siempre en cuenta el impacto que las decisiones de diseño generan en la vida de pacientes y profesionales de la salud. </p><br>
       <strong>TP1:</strong> <p align="justify">En la práctica de DevOps, la responsabilidad ética y profesional se refleja en la implementación de procesos automatizados y seguros que garanticen la calidad del software y la protección de los datos sensibles. En el proyecto ControlUPC, esto implica mantener la integridad y confidencialidad de la información de los pacientes oncológicos, asegurando que cada despliegue sea confiable y cumpla con los estándares éticos de la ingeniería de software.</p><br>
       <strong>TB2:</strong> <p align="justify">El desarrollo de actividades como el análisis estático, la verificación de estándares de código, la evaluación de calidad y seguridad con herramientas como Jenkins, junto con entrevistas, auditorías y revisiones heurísticas, me permitió comprender de manera directa la responsabilidad ética y profesional inherente a la ingeniería de software. Estas tareas me ayudaron a detectar y corregir errores, riesgos y deficiencias que podrían comprometer la seguridad, la experiencia del usuario o la confiabilidad del sistema, reforzando la necesidad de trabajar con rigor, transparencia y compromiso. Asimismo, documentar los hallazgos, revisar el trabajo de otros equipos y proponer mejoras me hizo ver que las decisiones técnicas deben priorizar el bienestar del usuario, la integridad del producto y el cumplimiento de buenas prácticas, reafirmando mi papel como profesional responsable en el ciclo de desarrollo.</p><br>
+      <strong>TF:</strong> <p align="justify">Las actividades realizadas me ayudaron a comprender mejor mi responsabilidad ética y profesional al momento de decidir con base en información confiable, enfocarme en las necesidades más urgentes de usuarios vulnerables y comunicar resultados de manera clara y precisa. El proceso de analizar el experimento y revisar los datos reforzó la relevancia de minimizar sesgos y mantener la transparencia. Además, la reorganización del backlog evidenció la importancia de priorizar funciones que disminuyan riesgos clínicos. Del mismo modo, las tareas de actualización continua y preparación para el lanzamiento fortalecieron mi compromiso con la calidad, la mejora permanente y la creación de un producto seguro y confiable para los pacientes. </p><br>
       <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Durante el desarrollo del proyecto, asumí la responsabilidad ética y profesional al diseñar la arquitectura de software, elaborando el diagrama de contenedores, de componentes, de clases y el modelo de bases de datos, asegurándome de que cada decisión fuera clara, documentada y trazable para facilitar la comprensión del equipo y garantizar la mantenibilidad del sistema. </p><br>
       <br>  <strong>TP:</strong> <p align="justify"> Reconozco mi responsabilidad ética y profesional en la ingeniería de software, especialmente tras haber trabajado en DevOps, documentar cómo se implementará la integración continua y diseñar la arquitectura de software. Me comprometo a asegurar que los procesos de integración continua sean robustos y transparentes, garantizando la calidad del software con pruebas automatizadas y despliegues confiables, todo mientras protejo la confidencialidad y seguridad de los datos involucrados. Además, al documentar la arquitectura y los flujos de trabajo, busco promover claridad y sostenibilidad en el proyecto, fomentando un entorno colaborativo y ético que apoye decisiones informadas y cumpla con estándares profesionales, siempre pensando en el beneficio de los usuarios y la comunidad técnica.</p><br> <strong>TB2: </strong> <p align="justify">
@@ -340,6 +341,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <strong>TB1:</strong> <p align="justify">La creación de wireframes, wireflows, mock-ups, user flows y prototipos móviles me permitió reflexionar sobre el impacto que puede generar la aplicación. Durante el diseño de las vistas tuve en cuenta el efecto social, al fomentar una comunicación más fluida y accesible entre pacientes y doctores. También consideré la dimensión económica, al proponer una solución que optimiza la gestión de citas y tratamientos. Asimismo, valoré el alcance global al diseñar una interfaz adaptable a distintas plataformas. Este proceso me hizo comprender que las decisiones de diseño trascienden lo técnico, pues influyen directamente en la vida de los usuarios y en el entorno donde se implementa la solución. </p><br>
       <strong>TP1:</strong> <p align="justify">En el contexto de DevOps, emitir juicios informados implica evaluar cómo las decisiones técnicas influyen en los ámbitos global, económico y social. En el proyecto ControlUPC, la adopción de prácticas automatizadas de despliegue continuo contribuye a optimizar recursos tecnológicos y humanos, reduciendo costos operativos y mejorando la disponibilidad del sistema para doctores y pacientes oncológicos. Este enfoque no solo promueve la eficiencia económica y la sostenibilidad tecnológica, sino que también tiene un impacto social positivo al garantizar un acceso oportuno y confiable a información médica crítica, fortaleciendo así la calidad del servicio en el ámbito de la salud.</p><br>
       <strong>TB2:</strong> <p align="justify">Las actividades de análisis de código, la validación con usuarios y las auditorías heurísticas me permitieron desarrollar criterios fundamentados sobre el impacto que las soluciones de software pueden tener en ámbitos globales, económicos y sociales. Al examinar aspectos como los tiempos de carga, la usabilidad, la seguridad y la accesibilidad, entendí que decisiones técnicas inapropiadas pueden influir negativamente en los costos, la eficiencia y la experiencia del usuario. Del mismo modo, sugerir mejoras basadas en evidencia fortaleció mi capacidad para evaluar cómo cada ajuste contribuye a un sistema más sostenible, confiable y beneficioso para quienes dependen de él.</p><br>
+      <strong>TF:</strong> <p align="justify">Las actividades desarrolladas me permitieron formular juicios fundamentados al revisar evidencia real sobre el comportamiento de los usuarios y analizar cómo cada decisión de diseño o priorización puede influir en un entorno social y económico delicado, como el acceso a tratamientos contra el cáncer. La revisión del experimento y la interpretación de los datos me ayudaron a comprender los efectos tanto globales como locales de optimizar, o no, determinados flujos. A su vez, la reorganización del backlog incorporó criterios relacionados con el impacto social y la eficiencia del sistema. Finalmente, el proceso de pre-lanzamiento y las sesiones de aprendizaje continuo reforzaron mi capacidad para anticipar las repercusiones más amplias del software en la continuidad de la atención, los costos para las instituciones médicas y el bienestar de los pacientes.</p><br>
       <strong>Uribe Quispe, Jesús Guillermo</strong> <br>
       <strong>TB1:</strong> <p align="justify"> Al preparar la documentación de implementación del producto, emití juicios informados considerando el impacto que las soluciones de software podrían tener en el contexto global, económico, ambiental y social. Esto me llevó a priorizar decisiones que promuevan la eficiencia en el uso de recursos, la escalabilidad y la accesibilidad del sistema, contribuyendo a un producto sostenible y con potencial de adaptarse a diferentes escenarios. </p><br>
       <strong>TP:</strong> <p align="justify">
@@ -6766,10 +6768,97 @@ A continuación, se presenta la lista de preguntas clave reevaluadas y ordenadas
 
 
 <div id='8.5.'><h4>8.5. Continuous Learning</h4></div>
+
+El aprendizaje continuo es clave para el éxito y evolución de OnControl, ya que permite al equipo incorporar nuevos conocimientos en el diseño, desarrollo y mejora constante de la plataforma. Esto asegura que la aplicación se mantenga alineada con las necesidades reales de los usuarios y con los avances tecnológicos que impulsan su crecimiento.
+
 <div id='8.5.1.'><h4>8.5.1. Shareback Session Artifacts: Learning Workflow</h4></div>
+
+El flujo de aprendizaje aplicado en OnControl tiene como objetivo recopilar, analizar y compartir el conocimiento generado durante el desarrollo del proyecto. Estas instancias de retroalimentación fortalecen la mejora continua de la propuesta de valor, optimizan la experiencia del usuario y respaldan decisiones técnicas más informadas para el equipo.
+
+Objetivos:
+- Identificar aprendizajes clave sobre el comportamiento de los pacientes oncológicos en procesos críticos como la confirmación de citas y el agendamiento, evaluando qué elementos reducen el no-show y cuáles facilitan la completación del flujo.
+
+- Documentar buenas prácticas y lecciones aprendidas en la aplicación de experimentos A/B, diseño de flujos simplificados y comunicación efectiva con el paciente, evitando repetir fricciones detectadas en los procesos actuales.
+
+- Mantener al equipo alineado respecto a cambios en patrones de uso, métricas relevantes (tasa de confirmación, completación, no-show) y mejoras tecnológicas necesarias para optimizar la operación de la plataforma.
+
+- Asegurar que los aprendizajes se traduzcan en mejoras continuas, guiando la evolución del producto hacia una experiencia más eficiente, clara y confiable para pacientes y administradores.
+
+Flujo de trabajo
+
+1. Captura de datos
+- Fuentes: Feedback de usuarios, entrevistas de validación, encuestas y registros internos de la aplicación.
+- Herramientas: Google forms, sesiones de entrevistas, logs, Google Analytics.
+
+2. Análisis y síntesis
+- Documentación: Registros en Notion con aprendizajes clave clasificados por áreas:
+  - Experiencia de usuario (UX)
+  - Aspectos técnicos
+  - Insights de negocio
+
+- Sesiones de alineamiento: Reuniones internas cortas para:
+  - Revisar hallazgos del experimento
+  - Identificar patrones y problemas recurrentes
+  - Priorizar mejoras según impacto y factibilidad (matriz rápida de priorización)
+  - Acordar acciones para el siguiente ciclo de experimentación
+
+3. Implementación de mejoras
+
+- Ajustes en el flujo de confirmación de citas, incorporando mejoras basadas en el feedback más frecuente:
+  - Clarificación del mensaje de confirmación y del recordatorio.
+  - Optimización del botón “Confirmar asistencia” para hacerlo más visible y accesible.
+  - Ajustes en los tiempos y canales de envío del recordatorio.
+
+- Refinamiento del flujo de agendamiento, especialmente para usuarios móviles:
+  - Mejora de los textos para que el proceso de selección sea más intuitivo.
+  - Optimización de pantallas para reducir distracciones y mantener la navegación focalizada.
+  - Ajustes en el resumen final para reforzar claridad antes de confirmar la cita.
+
+- Optimización de la experiencia general, en base a los patrones detectados en ambos experimentos:
+  - Reducción de pasos innecesarios.
+  - Incremento de velocidad de carga en puntos críticos.
+  - Incorporación de indicadores visuales (feedback inmediato) para las acciones de confirmación y avance.
+
+4. Retroalimentación continua
+- Evaluación iterativa posterior a cada ajuste del flujo de confirmación, verificando si los cambios mantienen o mejoran la tasa de confirmación y reducen los no-shows en citas de primera consulta.
+- Revisión periódica de métricas del agendamiento, especialmente en dispositivos móviles, para asegurar que la simplificación de pasos sigue elevando la tasa de completación sin incrementar errores ni abandonos.
+- Sesiones de revisión con el equipo tras cada sprint o despliegue, analizando nuevos patrones de comportamiento del usuario, dificultades reportadas y oportunidades de optimización en ambos flujos clave (confirmación y agendamiento).
+- Recolección continua de feedback cualitativo mediante pequeños sondeos dentro de la app o mensajes post-interacción para identificar fricción temprana y validar si las mejoras responden adecuadamente a las necesidades del usuario.
+
+<img src="img/Impact map 1.png" alt="ImpactMap Shareback" width="400">
+
 <div id='8.6.'><h4>8.6. To-Be Software Platform Pre-launch</h4></div>
+
+El pre-lanzamiento de OnControl representa una etapa clave para garantizar una transición fluida hacia la operación oficial de la plataforma. Esta fase busca consolidar la funcionalidad, confiabilidad y usabilidad del sistema, dirigido a dos segmentos principales: pacientes oncológicos y profesionales de la salud especializados.
+
+Durante esta etapa se prioriza entregar una experiencia sólida desde el primer acceso, aplicando mejoras técnicas y funcionales que faciliten la interacción, reduzcan la fricción y generen confianza en los usuarios durante la gestión de citas, confirmaciones y seguimiento clínico.
+
+**Principales actividades y validaciones del pre-lanzamiento:**
+
+Pruebas funcionales completas
+Se ejecutan pruebas exhaustivas sobre las funcionalidades esenciales, tales como:
+- Registro y autenticación de pacientes y médicos.
+- Creación, edición y cancelación de citas médicas.
+- Confirmación obligatoria 24h antes para citas de primera consulta.
+- Visualización del historial de citas y recordatorios.
+
+Estas validaciones permiten asegurar que el flujo funcione sin errores y que los usuarios puedan completar sus acciones sin bloqueos.
+
+Validación de nuevas funcionalidades clave
+
+**Para pacientes:**
+Se valida la facilidad para agendar citas, confirmar asistencia mediante el nuevo botón de confirmación, y recibir recordatorios claros y oportunos.
+
+**Para médicos:**
+Se verifica la visualización correcta del calendario, la reducción de inasistencias gracias al sistema de confirmaciones, y el funcionamiento adecuado de las notificaciones de cambios en citas.
+
+Estas pruebas garantizan que las mejoras introducidas, como la simplificación del flujo de agendamiento y la confirmación obligatoria, estén alineadas con las necesidades reales de los usuarios.
+
 <div id='8.6.1.'><h4>8.6.1. About-the-Product Intro Video</h4></div>
 
+| Imagen | Nombre del Video | Enlace del Video | Timer |
+|--------|-------------------|-------------------|--------|
+| ![About The Product](img/about-product.png) | upc-pre-202520-1asi0732-7491-OncoTech-about-the-product-sprint-3 | [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQAtMi5kmv2hSL0jK386bI2lAQ349cHXjGag2BpQh1H5Vpo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nteC3B) | 06:39 |
 <div id='9.'><h2>9. Conclusiones</h2></div>
 
 1. **Plataforma Integral de Salud Digital**: OnControl se consolida como un ecosistema digital especializado en oncología que trasciende la simple gestión de citas médicas, integrando funcionalidades completas de seguimiento de tratamientos, recordatorios de medicación, comunidades de apoyo y herramientas de autocontrol para pacientes, estableciendo un nuevo estándar en el acompañamiento oncológico digital.
