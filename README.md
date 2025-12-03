@@ -6664,7 +6664,22 @@ El siguiente Product Backlog presenta las funcionalidades priorizadas de la vers
 
 <div id='8.3.3.'><h4>8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle</h4></div>
 
+El ciclo de vida de la plataforma To-Be de OnControl se fundamenta en la integración de prácticas de DevOps con la metodología Experiment-Driven Development. Este enfoque permite una iteración rápida y segura, donde cada incremento de software no solo añade funcionalidad, sino que también habilita la recolección de datos necesaria para validar nuestras hipótesis.
+
 <div id='8.3.3.1.'><h4>8.3.3.1. To-Be Sprint Backlogs</h4></div>
+
+| #   | ID User Story | Título                                    | Descripción                                                                                                                     | Story Points |
+|-----|---------------|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1   | US09          | Monitoreo de Pacientes (Edge)             | Como desarrollador, quiero implementar un servidor Edge para recolectar y enviar datos de sensores IoT al backend central.      | 8            |
+| 2   | US11          | Endpoints de Signos Vitales               | Como desarrollador, quiero crear endpoints RESTful en el backend central para recibir y persistir los datos de signos vitales enviados por el Edge. | 5            |
+| 3   | US14          | Dashboard de Métricas (Paciente)          | Como paciente, quiero visualizar mis signos vitales en tiempo real y el historial en mi dashboard web para monitorear mi salud. | 8            |
+| 4   | US16          | Panel de Monitoreo (Médico)               | Como médico, quiero un panel web para visualizar las métricas de mis pacientes y recibir alertas visuales de valores críticos.  | 8            |
+| 5   | US20          | Landing Page y Autenticación              | Como visitante, quiero acceder a una Landing Page informativa e iniciar sesión para ser redirigido a la plataforma web principal. | 5            |
+| 6   | US21          | Integración de Analítica Web              | Como desarrollador, quiero instrumentar el frontend con Google Analytics 4 para rastrear eventos de uso y validar los KPIs del experimento. | 3            |
+| 7   | US22          | Registro de Síntomas Web                  | Como paciente, quiero registrar mis síntomas diarios a través de un formulario web para mantener actualizado mi historial médico. | 5            |
+| 8   | US25          | Gestión de Historias Clínicas             | Como médico, quiero crear, leer y actualizar las historias clínicas de mis pacientes desde la plataforma web.                   | 8            |
+| 9   | US28          | Recordatorios de Medicación               | Como paciente, quiero ver y marcar mis medicamentos como tomados en el dashboard web para asegurar mi adherencia al tratamiento. | 5            |
+| 10  | US30          | Configuración de CI/CD                    | Como equipo de desarrollo, quiero configurar pipelines de integración y despliegue continuo para automatizar la entrega del backend y frontend. | 5            |
 
 <div id='8.3.3.2.'><h4>8.3.3.2. Implemented To-Be Landing Page Evidence</h4></div>
 
