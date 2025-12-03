@@ -6076,471 +6076,416 @@ Este Question Backlog resume y prioriza las preguntas de investigación que guia
 
 <div id='8.1.5.'><h4>8.1.5. Experiment Cards</h4></div>
 
-#### CASO #1: CONFIRMACIÓN OBLIGATORIA DE CITAS:
+<div id='8.1.5.'><h4>8.1.5. Experiment Cards</h4></div>
 
-TÍTULO: Sistema de Confirmación Obligatoria Pre-Cita
+Esta sección detalla los experimentos diseñados para validar las hipótesis críticas del proyecto. Se ha utilizado un formato estandarizado que conecta el problema identificado (Why) con la solución propuesta (What) y el resultado esperado (Hypothesis), eliminando métricas específicas hasta contar con una línea base consolidada.
 
-PREGUNTA: ¿Implementar confirmación obligatoria 24h antes reducirá 
-el no-show en citas de primera consulta en un 20%?
+**Experimento 1: ¿La confirmación obligatoria 24h antes reducirá la tasa de inasistencias (no-show)?**
 
-CONTEXTO:
-- Actualmente no tenemos datos de no-show
-- Sistema envía recordatorios pero no requiere acción
-- Doctores reportan pérdida de tiempo por inasistencias
-
-TIPO DE EXPERIMENTO: A/B Test
-
-HIPÓTESIS DETALLADA:
-Creemos que requerir confirmación explícita 24h antes
-Para pacientes con citas de PRIMERA_CONSULTA
-Resultará en reducción de no-show del 20%
-Lo sabremos cuando veamos la métrica de inasistencias
-En un período de 4 semanas con 500+ citas
-
-IMPLEMENTACIÓN:
-Grupo A (Control): Sistema actual con recordatorio pasivo
-Grupo B (Test): Recordatorio + botón "Confirmar asistencia" obligatorio
-
-RECURSOS NECESARIOS:
-- 1 Backend dev: 3 días (endpoint confirmación + lógica)
-- 1 Frontend dev: 2 días (UI confirmación)
-- 1 QA: 1 día (testing)
-- Total: 1.5 semanas
-
-CRITERIO DE ÉXITO:
-- Reducción ≥ 20% en tasa de no-show
-- No aumento en tasa de cancelación
-- ≥ 80% de usuarios confirman sin fricción
-
-MÉTRICAS:
-Primaria: % de no-show
-Secundarias: % confirmación, tiempo para confirmar, tasa cancelación
-Guardrail: Satisfacción del usuario, quejas
+| Componente     | Descripción                                                                                                                                                                                                                                                                                                                                       |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿La confirmación obligatoria 24h antes reducirá la tasa de inasistencias (no-show)?                                                                                                                                                                                                                                                               |
+| **Why** | Actualmente, los doctores pierden tiempo valioso cuando los pacientes no se presentan. Los recordatorios actuales son pasivos y no garantizan que el paciente tenga la intención real de asistir. Necesitamos un mecanismo que comprometa al paciente o libere el espacio con anticipación.                                                       |
+| **What** | Implementar un sistema de notificación (Email/WhatsApp) enviado 24 horas antes que requiera una acción explícita del usuario: un botón de "Confirmar Asistencia". Si no se confirma en un plazo determinado, el sistema podría alertar administrativamente.                                                                                       |
+| **Hypothesis** | Creemos que exigir una confirmación activa reducirá significativamente la tasa de pacientes que no se presentan sin avisar, permitiendo una agenda más confiable para el personal médico.                                                                                                                                                         |
 
 
----
+**Experimento 2: ¿Reducir los pasos del agendamiento aumentará la tasa de completación en móviles?**
 
-#### CASO #2: SIMPLIFICACIÓN DE PROCESO DE AGENDAMIENTO
+| Componente     | Descripción                                                                                                                                                                                                                                                                                                                                       |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Reducir los pasos del agendamiento aumentará la tasa de completación en móviles?                                                                                                                                                                                                                                                                 |
+| **Why** | Los stakeholders indican que el proceso actual de 4 pasos genera fricción, especialmente en dispositivos móviles donde la atención es limitada. Existe la sospecha de que usuarios potenciales abandonan el proceso antes de finalizar debido a la longitud del formulario.                                                                       |
+| **What** | Rediseñar el flujo de creación de citas para condensarlo en 2 pasos esenciales: 1) Selección de Especialidad/Doctor y Hora, 2) Confirmación rápida con datos precargados.                                                                                                                                                                         |
+| **Hypothesis** | Simplificar la interfaz y reducir los clics necesarios aumentará la cantidad de citas agendadas exitosamente desde dispositivos móviles y disminuirá la tasa de abandono del formulario.                                                                                                                                                          |
 
-TÍTULO: Reducción de Pasos en Creación de Citas
 
-PREGUNTA: ¿Reducir el proceso de agendamiento de 4 a 2 pasos 
-aumentará la tasa de completación en usuarios móviles?
+**Experimento 3: ¿Permitir la reprogramación directa mejorará la retención de citas?**
 
-CONTEXTO:
-- Proceso actual: Seleccionar doctor → Fecha → Tipo → Confirmar
-- Stakeholders afirman que es muy largo para móviles
-- No tenemos datos de abandono por paso
+| Componente     | Descripción                                                                                                                                                                                                                                                                                                                                       |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Permitir la reprogramación directa mejorará la retención de citas?                                                                                                                                                                                                                                                                               |
+| **Why** | Actualmente, si un paciente no puede asistir, debe cancelar la cita y crear una nueva desde cero. Este proceso tedioso aumenta el riesgo de que el paciente simplemente cancele y olvide volver a agendar, perdiéndose el seguimiento médico.                                                                                                     |
+| **What** | Agregar una funcionalidad de "Reprogramar" junto a las citas agendadas. Esto permitirá mover la cita a un nuevo horario manteniendo los datos del paciente y el tipo de consulta, sin tener que cancelar primero.                                                                                                                                 |
+| **Hypothesis** | Facilitar el cambio de horario mediante una acción directa incrementará la retención de pacientes, logrando que las citas conflictivas se conviertan en reprogramaciones en lugar de cancelaciones definitivas.                                                                                                                                   |
 
-TIPO DE EXPERIMENTO: A/B Test + Analytics
 
-HIPÓTESIS:
-Creemos que reducir el flujo de creación de citas a 2 pasos
-Para usuarios accediendo desde dispositivos móviles
-Resultará en aumento del 25% en tasa de completación
-Lo sabremos cuando veamos las métricas de funnel
-En 3 semanas con 300+ intentos
+**Experimento 4: ¿Mejorará el cumplimiento del paciente al mostrar instrucciones mediante un popup?**
 
-IMPLEMENTACIÓN:
-Grupo A: 4 pasos actuales
-Grupo B: 2 pasos (Doctor+Fecha → Confirmar con tipo auto-detectado)
-
-RECURSOS:
-- 1 UX Designer: 2 días
-- 1 Frontend dev: 3 días
-- 1 Backend dev: 1 día (ajustes API)
-- Total: 1 semana
-
-CRITERIO DE ÉXITO:
-- Aumento ≥ 25% en completación móvil
-- Tiempo promedio de agendamiento < 90 segundos
-- No aumento en errores de validación
-
-MÉTRICAS:
-Primaria: Tasa de completación del funnel
-Secundarias: Tiempo por paso, tasa de abandono por paso, errores
-Guardrail: Calidad de datos, citas incorrectas
+| Componente     | Descripción                                                                                                                                                                                                                                                                                                                                       |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Mejorará el cumplimiento del paciente al mostrar instrucciones mediante un popup?                                                                                                                                                                                                                                                                |
+| **Why** | Se ha detectado que muchos pacientes llegan a la consulta sin la preparación adecuada (ayuno, documentos, exámenes previos), lo que reduce la calidad de la atención. Es probable que ignoren las instrucciones en texto plano dentro de la aplicación.                                                                                           |
+| **What** | Implementar una ventana emergente (popup) obligatoria al momento de agendar o confirmar la cita, que liste los requisitos específicos (ej. "Traer DNI", "Ayuno de 8h") y requiera un "Entendido" por parte del usuario.                                                                                                                           |
+| **Hypothesis** | Aumentar la visibilidad de las instrucciones pre-cita resultará en una mayor cantidad de pacientes que asisten correctamente preparados, optimizando el tiempo de consulta del doctor.                                                                                                                                                            |
 
 
 <div id='8.2.'><h3>8.2. Experiment Design</h3></div>
+
 <div id='8.2.1.'><h4>8.2.1. Hypotheses</h4></div>
 
-#### HIPOTESIS #1: CONFIRMACIÓN DE CITAS
-
-**CREEMOS QUE:**
-Implementar un sistema de confirmación obligatoria 24 horas antes de la cita
-
-**PARA:**
-Pacientes con citas tipo PRIMERA_CONSULTA y CONSULTA_SEGUIMIENTO
-
-**RESULTARÁ EN:**
-- Reducción del 20% en la tasa de no-show
-- Aumento del 15% en cancelaciones anticipadas (positivo)
-- Mejor utilización del tiempo de los doctores
-
-**LO SABREMOS CUANDO VEAMOS:**
-- Tasa de no-show disminuir de baseline actual a -20%
-- % de citas confirmadas ≥ 85%
-- Tiempo promedio entre cancelación y fecha de cita aumentar
-- NPS de doctores aumentar ≥ 10 puntos
-
-**CONDICIONES:**
-- Período de medición: 4 semanas
-- Muestra mínima: 500 citas
-- Significancia estadística: 95%
-- Plataformas: Web y Móvil
-
-**SUPOSICIONES CRÍTICAS:**
-✓ Los usuarios revisan notificaciones 24h antes
-✓ El proceso de confirmación toma < 30 segundos
-✓ No genera fricción excesiva que aumente cancelaciones totales
-
+A continuación, se presentan las hipótesis experimentales para validar las principales suposiciones del sistema OnControl en relación con la gestión de citas, la experiencia del paciente y la optimización del tiempo médico.
 
 ---
 
-#### HIPOTESIS #2: REPROGRAMACIÓN DIRECTA
+**Hipótesis 1: Confirmación de asistencia**
 
-**CREEMOS QUE:**
-Agregar funcionalidad de reprogramación directa sin necesidad de cancelar primero
+| Componente | Descripción |
+| :--- | :--- |
+| **Question** | ¿La confirmación obligatoria 24h antes reducirá la tasa de inasistencias (no-show)? |
+| **Belief** | Creemos que al requerir una acción explícita del paciente un día antes de la cita, se genera un mayor compromiso de asistencia o se libera el espacio con tiempo suficiente para ser reasignado. |
+| **Hypothesis** | Si implementamos la confirmación obligatoria, observaremos una reducción significativa en la tasa de inasistencias en comparación con el sistema actual de recordatorios pasivos. |
+| **Null Hypothesis** | La implementación de la confirmación obligatoria no generará cambios significativos en la tasa de inasistencias de los pacientes. |
 
-**PARA:**
-Todos los usuarios que necesitan cambiar fecha de cita existente
+---
 
-**RESULTARÁ EN:**
-- Reducción del 40% en abandono del proceso de cambio
-- Aumento del 25% en citas reprogramadas vs canceladas definitivamente
-- Mejora en satisfacción del usuario
+**Hipótesis 2: Simplificación del agendamiento móvil**
 
-**LO SABREMOS CUANDO VEAMOS:**
-- Tasa de abandono en flujo de cambio < 20% (vs ~60% actual estimado)
-- Ratio reprogramación/cancelación aumentar de 0.3 a 0.8
-- Tiempo para reprogramar < 2 minutos
-- CSAT post-reprogramación ≥ 4.5/5
+| Componente | Descripción |
+| :--- | :--- |
+| **Question** | ¿Reducir los pasos del agendamiento aumentará la tasa de completación en móviles? |
+| **Belief** | Creemos que el proceso actual es demasiado largo para pantallas pequeñas, lo que causa fatiga y abandono. Un flujo simplificado reducirá la fricción cognitiva para el usuario. |
+| **Hypothesis** | Si reducimos el flujo de creación de citas de 4 a 2 pasos esenciales, aumentará la tasa de completación de agendamientos realizados desde dispositivos móviles. |
+| **Null Hypothesis** | La reducción de pasos en el formulario no tendrá un impacto significativo en la tasa de completación de citas en móviles. |
 
-**CONDICIONES:**
-- Período: 3 semanas
-- Muestra: 200+ intentos de cambio
-- Tipos de cita: Todas
-- Disponibilidad: Solo si hay slots en +/- 3 días
+---
 
-**RIESGOS:**
-⚠ Podría aumentar cambios frívolos si es muy fácil
-⚠ Complejidad técnica con sincronización de disponibilidad
+**Hipótesis 3: Retención mediante reprogramación**
 
+| Componente | Descripción |
+| :--- | :--- |
+| **Question** | ¿Permitir la reprogramación directa mejorará la retención de citas? |
+| **Belief** | Creemos que obligar a cancelar para luego volver a agendar es una barrera innecesaria. Facilitar el cambio directo ayuda a que el paciente mantenga su intención de atenderse. |
+| **Hypothesis** | Si permitimos la reprogramación directa sin cancelación previa, aumentará la retención de pacientes y disminuirá el número de citas perdidas definitivamente. |
+| **Null Hypothesis** | La funcionalidad de reprogramación directa no afectará la tasa de retención ni disminuirá las cancelaciones definitivas. |
+
+---
+
+**Hipótesis 4: Cumplimiento de instrucciones de preparación**
+
+| Componente | Descripción |
+| :--- | :--- |
+| **Question** | ¿Mejorará el cumplimiento del paciente al mostrar instrucciones mediante un popup? |
+| **Belief** | Creemos que los pacientes ignoran las instrucciones estáticas. Forzar la visualización mediante un popup asegura que la información crítica (ayuno, documentos) sea leída antes de confirmar. |
+| **Hypothesis** | Si mostramos las instrucciones de preparación en un popup obligatorio, aumentará el porcentaje de pacientes que llegan correctamente preparados a su primera consulta. |
+| **Null Hypothesis** | El uso de popups con instrucciones no influirá en el nivel de preparación con el que los pacientes llegan a su consulta. |
 
 <div id='8.2.2.'><h4>8.2.2. Domain Business Metrics</h4></div>
 
-
-Las siguientes métricas representan los indicadores clave para evaluar el rendimiento, eficiencia y calidad del sistema MedSystem desde una perspectiva de negocio. Estas métricas permitirán monitorear el comportamiento del sistema, identificar oportunidades de mejora y medir el impacto de futuras iteraciones.
-
----
-
-### Métricas de Eficiencia Operacional
-
-#### 1. Utilización de Agenda
-- **Descripción:** Mide el porcentaje de ocupación de los slots disponibles para citas médicas.  
-- **Target:** > 85%  
-- **Fórmula:**  
-  `(Citas confirmadas / Total slots) * 100`
+Las siguientes métricas representan los indicadores oficiales del dominio de OnControl. Todas las hipótesis y experimentos utilizarán únicamente estas métricas para asegurar consistencia y trazabilidad. Cada métrica incluye su fórmula, técnica de recolección y meta asociada (cualitativa).
 
 ---
 
-#### 2. Tasa de No-Show
-- **Descripción:** Porcentaje de pacientes que no asisten a su cita sin cancelarla previamente.  
-- **Target:** < 10%  
-- **Fórmula:**  
-  `(No-shows / Total citas programadas) * 100`
+**1. Efficiency Metrics (Eficiencia Operativa)**
+
+**1.1. No-Show Rate (NSR)**
+- Fórmula: NSR = (Citas_no_asistidas / Citas_totales_programadas) * 100
+- Recolección: Estado final de la cita en base de datos (`status = NO_SHOW`).
+- Meta: Reducción significativa respecto a la línea base.
+
+**1.2. Agenda Utilization Rate (AUR)**
+- Fórmula: AUR = (Slots_ocupados / Slots_disponibles) * 100
+- Recolección: Logs de disponibilidad vs. citas creadas.
+- Meta: Maximizar la ocupación de horarios disponibles.
+
+**1.3. Late Cancellation Rate (LCR)**
+- Fórmula: LCR = (Cancelaciones_menos_24h / Total_cancelaciones) * 100
+- Recolección: Timestamp de cancelación vs. Timestamp de inicio de cita.
+- Meta: Minimizar cancelaciones de último minuto.
 
 ---
 
-#### 3. Tiempo de Inactividad
-- **Descripción:** Minutos o tiempo total perdido por cancelaciones con menos de 24 horas de anticipación.  
-- **Target:** < 5% del tiempo total de agenda  
-- **Fórmula:**  
-  `Σ(duración de citas canceladas <24h) / Tiempo total agenda`
+**2. User Experience & Adoption Metrics (Experiencia y Adopción)**
+
+**2.1. Mobile Funnel Completion Rate (MFCR)**
+- Fórmula: MFCR = (Citas_creadas_movil / Intentos_iniciados_movil) * 100
+- Recolección: Analytics de eventos (Funnel start -> Appointment created).
+- Meta: Aumentar la tasa de conversión en dispositivos móviles.
+
+**2.2. Rescheduling Efficiency (RE)**
+- Fórmula: RE = (Citas_reprogramadas / (Citas_reprogramadas + Citas_canceladas)) * 100
+- Recolección: Rastreo de la acción del usuario (botón "Reprogramar" vs "Cancelar").
+- Meta: Maximizar la retención de pacientes ante conflictos de horario.
+
+**2.3. Patient Preparation Adherence (PPA)**
+- Fórmula: PPA = (Pacientes_preparados_ok / Total_pacientes_primera_consulta) * 100
+- Recolección: Feedback registrado por el doctor al finalizar la consulta (Checklist de preparación).
+- Meta: Aumentar el cumplimiento de instrucciones previas.
 
 ---
 
-### Métricas de Experiencia del Usuario
+**3. System Quality Metrics (Calidad del Sistema)**
 
-#### 4. Tasa de Completación de Agendamiento
-- **Descripción:** Porcentaje de usuarios que completan el proceso de reserva de cita.  
-- **Target:** > 80%  
-- **Fórmula:**  
-  `(Citas creadas / Intentos iniciados) * 100`
+**3.1. Time to Confirm (TTC)**
+- Fórmula: Promedio de tiempo (minutos) desde que se envía el recordatorio hasta que el usuario confirma.
+- Recolección: Timestamps de notificación y acción del usuario.
+- Meta: Reducir el tiempo de incertidumbre en la agenda.
 
----
-
-#### 5. Tiempo Hasta Primera Cita
-- **Descripción:** Días promedio entre el registro del usuario y su primera consulta médica.  
-- **Target:** < 7 días  
-- **Fórmula:**  
-  `AVG(fecha_cita - fecha_registro)`
+**3.2. Booking Error Rate (BER)**
+- Fórmula: BER = (Errores_validacion_formulario / Intentos_booking) * 100
+- Recolección: Logs de errores de validación en frontend/backend.
+- Meta: Mantener cerca de 0%.
 
 ---
 
-#### 6. Net Promoter Score (NPS)
-- **Descripción:** Mide la satisfacción general y la probabilidad de que los usuarios recomienden el sistema.  
-- **Target:** > 50  
-- **Segmentos:** Pacientes y doctores de forma independiente.  
-
----
-
-### Métricas de Engagement
-
-#### 7. Tasa de Reprogramación
-- **Descripción:** Porcentaje de citas reprogramadas en comparación con las canceladas.  
-- **Target:** > 60%  
-- **Fórmula:**  
-  `(Reprogramaciones / (Reprogramaciones + Cancelaciones)) * 100`
-
----
-
-#### 8. Adherencia a Seguimientos
-- **Descripción:** Porcentaje de pacientes que agendan la consulta de seguimiento recomendada por su médico.  
-- **Target:** > 70%  
-- **Fórmula:**  
-  `(Seguimientos agendados / Seguimientos recomendados) * 100`
-
----
-
-#### 9. Uso de Notas de Preparación
-- **Descripción:** Porcentaje de pacientes que visualizan o confirman lectura de instrucciones previas a la consulta.  
-- **Target:** > 85%  
-- **Método:** Implementación de tracking de visualización.  
-
----
-
-### Métricas de Calidad
-
-#### 10. Calidad de Consultas
-- **Descripción:** Calificación promedio otorgada por los pacientes al finalizar la consulta.  
-- **Target:** > 4.3 / 5  
-- **Desglose:** Por doctor, tipo de consulta y especialidad.  
-
----
-
-#### 11. Cumplimiento de Instrucciones
-- **Descripción:** Porcentaje de pacientes que llegan preparados según las indicaciones médicas.  
-- **Target:** > 80%  
-- **Método:** Feedback del doctor tras la cita.  
-
----
-
-#### 12. Tasa de Resolución en Primera Consulta
-- **Descripción:** Proporción de casos resueltos sin necesidad de consultas adicionales.  
-- **Target:** > 60%  
-- **Indicador:** Efectividad diagnóstica y calidad clínica.  
-
----
+Estas métricas serán las únicas fuentes válidas para evaluar hipótesis, diseñar experimentos y tomar decisiones durante las fases de validación.
 
 <div id='8.2.3.'><h4>8.2.3. Measures</h4></div>
 
-
-Estas son las **medidas específicas** que se deben recolectar para validar cada experimento. No son métricas de negocio, sino **datos instrumentados directamente** desde los eventos, logs y estados del sistema.
-
----
-
-### Experimento 1 — Confirmación Obligatoria
-
-### Métrica Primaria
-#### **No-Show Rate**
-Datos necesarios:
-- `appointment.status`
-- Total de citas programadas
-- Total de citas marcadas como `NO_SHOW`
+Las siguientes medidas permiten validar empíricamente cada hipótesis planteada, conectando preguntas clave con los indicadores que serán monitoreados durante el experimento.
 
 ---
 
-### Métricas Secundarias
+Medida 1: Confirmación de asistencia
 
-#### 1. **Tasa de Confirmación**
-Eventos:
-- `confirmation_clicked`
-Campos:
-- `confirmed_at`
-- `reminder_sent_at`
-- `confirmation_completed_at`
-
-#### 2. **Tiempo de Respuesta a la Confirmación**
-Campos:
-- `timestamp_reminder`
-- `timestamp_confirmation`
-
-#### 3. **Cancelación Anticipada (>24h)**
-Datos:
-- `cancelled_at`
-- `appointment_start_time`
-
-#### 4. **Tiempo entre Confirmación y Cita**
-Campos:
-- `confirmed_at`
-- `appointment_time`
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <tr>
+    <th style="width:20%;">Question</th>
+    <td>¿La confirmación obligatoria 24h antes reducirá la tasa de inasistencias (no-show)?</td>
+  </tr>
+  <tr>
+    <th>Measure</th>
+    <td>
+      Comparar la tasa de No-Show entre el grupo de control (recordatorio pasivo) y el grupo experimental (confirmación obligatoria).
+      Medir el tiempo promedio que tardan los usuarios en confirmar tras recibir la notificación.
+      Registrar si aumentan las cancelaciones anticipadas (>24h) al forzar la confirmación.
+    </td>
+  </tr>
+</table>
 
 ---
 
-### Guardrails
+Medida 2: Simplificación del agendamiento móvil
 
-- **Total Cancellation Rate**  
-  Campo: `appointment.status = CANCELLED`
-
-- **Tasa de Completación de Confirmación**  
-  Campo: `confirmed_at != NULL`
-
-- **Support Tickets Relacionados**
-  - Categorías: recordatorios, confirmación, fricción
-
-- **Carga del Sistema**
-  - Emails enviados vs entregados
-  - Email open rate
-  - Performance backend (<500ms)
-
----
-
-### Instrumentación del Experimento
-
-Eventos a recolectar:
-- `reminder_sent`
-- `reminder_opened`
-- `confirmation_clicked`
-- `confirmation_completed`
-- `no_show_recorded`
-
-Campos backend:
-- `confirmed_at`
-- `reminder_sent_at`
-- `status`
-- `experiment_group`
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <tr>
+    <th style="width:20%;">Question</th>
+    <td>¿Reducir los pasos del agendamiento aumentará la tasa de completación en móviles?</td>
+  </tr>
+  <tr>
+    <th>Measure</th>
+    <td>
+      Registrar la tasa de finalización del funnel (Funnel Completion Rate) comparando el flujo de 4 pasos vs. 2 pasos.
+      Medir el tiempo total dedicado al proceso de reserva (Time on Task).
+      Contabilizar la tasa de abandono específica en cada paso del formulario.
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Experimento 2 — Simplificación del Flujo (4 pasos → 2 pasos)
+Medida 3: Retención mediante reprogramación
 
-### Métrica Primaria
-#### **Funnel Completion Rate**
-Datos requeridos:
-- Evento `funnel_started`
-- Evento `appointment_created`
-- Conteo de pasos completados
-- Intentos totales
-
----
-
-### Métricas Secundarias
-
-#### 1. **Tiempo Total de Completación**
-Eventos:
-- `first_click`
-- `appointment_created`
-Campo:
-- `total_time`
-
-#### 2. **Abandono por Paso**
-Eventos:
-- `step_completed`
-- `step_abandoned`
-Campos:
-- `step_number`
-- `time_on_step`
-- `reason`
-
-#### 3. **Errores de Validación**
-Datos:
-- Conteo de errores
-- Tipo de error por paso
-
-#### 4. **Reintentos**
-Datos:
-- `session_id`
-- Secuencia de eventos del usuario
-- Detección de retorno tras abandono
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <tr>
+    <th style="width:20%;">Question</th>
+    <td>¿Permitir la reprogramación directa mejorará la retención de citas?</td>
+  </tr>
+  <tr>
+    <th>Measure</th>
+    <td>
+      Medir la proporción de usuarios que eligen "Reprogramar" frente a "Cancelar" cuando ambas opciones están visibles.
+      Comparar la retención total de pacientes (citas finalmente atendidas) entre el flujo con y sin reprogramación directa.
+      Analizar la reducción de huecos en la agenda provocados por cancelaciones definitivas.
+    </td>
+  </tr>
+</table>
 
 ---
 
-### Guardrails
+Medida 4: Cumplimiento de instrucciones
 
-- **Calidad de las Citas**
-  - Tipo correcto de cita
-  - % cancelaciones <1h después de crear
-
-- **Satisfacción del Usuario**
-  - Encuesta post-agendamiento: “¿Fue fácil agendar?”
-
-- **Performance del Sistema**
-  - Tiempo de carga por paso <1s
-  - Errores 5xx < 0.1%
-
----
-
-### Instrumentación del Experimento
-
-Eventos:
-- `funnel_started`
-- `step_completed`
-- `step_abandoned`
-- `appointment_created`
-
-Campos:
-- `variant` (A o B)
-- `device`
-- `timestamp`
-- `time_on_step`
-- `total_time`
-- `corrections_made`
-
----
-
-## Resumen Global de Measures
-
-| Experimento | Métrica Primaria | Métricas Secundarias | Guardrails | Instrumentación |
-|------------|------------------|-----------------------|------------|------------------|
-| **Confirmación Obligatoria** | No-Show Rate | Tasa de confirmación, tiempo de respuesta, cancelación anticipada, tiempo entre confirmación y cita | Cancelaciones totales, tickets, carga del sistema | reminder_sent, confirmation_clicked, no_show_recorded |
-| **Simplificación del Flujo** | Funnel Completion Rate | Tiempo total, abandono por paso, errores, reintentos | Calidad de citas, satisfacción, performance | funnel_started, step_completed, appointment_created |
-
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <tr>
+    <th style="width:20%;">Question</th>
+    <td>¿Mejorará el cumplimiento del paciente al mostrar instrucciones mediante un popup?</td>
+  </tr>
+  <tr>
+    <th>Measure</th>
+    <td>
+      Registrar la interacción con el popup (tiempo de lectura estimado y clic en "Entendido").
+      Recopilar el feedback de los doctores sobre el estado de preparación del paciente (Patient Preparation Adherence) comparando grupos con y sin popup.
+      Medir si el popup causa fricción (abandono del proceso antes de confirmar).
+    </td>
+  </tr>
+</table>
 
 <div id='8.2.4.'><h4>8.2.4. Conditions</h4></div>
 
-Las métricas y experimentos de la plataforma OnControl se evaluarán bajo las siguientes condiciones y limitaciones contextuales:
+A continuación se definen las condiciones experimentales y de control para cada una de las hipótesis de OnControl. Estas condiciones orientan cómo se configurarán las pruebas A/B y qué cambios se introducirán en cada escenario.
 
-* **Dependencia Tecnológica:** La precisión de los datos vitales está sujeta a la correcta calibración de los sensores IoT (pulsioxímetro, monitor cardíaco, termómetro) y a la conectividad estable (Bluetooth/Wi-Fi) del dispositivo móvil del paciente.
+---
 
-* **Contexto del Paciente:** Se debe considerar la variabilidad en la alfabetización digital y el estado físico/emocional de los pacientes oncológicos. Estos factores pueden influir directamente en la consistencia y adherencia al uso de la aplicación móvil.
+Condiciones para la hipótesis: Confirmación de asistencia
 
-* **Contexto Clínico:** La adopción de la plataforma web por parte del personal médico está condicionada por su alta carga laboral. OnControl es una herramienta de optimización y seguimiento, no un sistema de atención de emergencias.
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <tr>
+    <th style="width:20%;">Question</th>
+    <td>¿La confirmación obligatoria 24h antes reducirá la tasa de inasistencias (no-show)?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>
+      Los pacientes reciben una notificación (Email/App) 24 horas antes con un botón visible de "Confirmar Asistencia".
+      El sistema registra la confirmación explícita en la base de datos.
+    </td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>
+      Los pacientes reciben el recordatorio estándar informativo sin solicitud de acción ("Recuerda tu cita mañana").
+      No se requiere interacción del usuario.
+    </td>
+  </tr>
+</table>
 
-* **Hipótesis Operativas:** Todos los experimentos se fundamentan en las hipótesis Lean UX (Sección 1.2.2.3), que asumen que el monitoreo constante y la centralización de datos (citas, signos vitales) aportan valor tangible tanto al paciente como al médico.
+---
 
-* **Supuestos de Adherencia:** Se asume que los pacientes utilizarán los sensores siguiendo las indicaciones para garantizar la integridad de los datos, y que el personal médico revisará las alertas generadas de forma oportuna.
+Condiciones para la hipótesis: Simplificación del agendamiento móvil
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <tr>
+    <th style="width:20%;">Question</th>
+    <td>¿Reducir los pasos del agendamiento aumentará la tasa de completación en móviles?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>
+      El formulario de reserva se condensa en 2 pasos: 1) Selección (Doctor/Hora) y 2) Confirmación rápida.
+      Se utiliza autocompletado de datos del perfil del usuario.
+    </td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>
+      El formulario sigue el flujo actual de 4 pasos secuenciales (Especialidad -> Doctor -> Fecha -> Confirmación).
+      Se requiere validación manual en cada etapa.
+    </td>
+  </tr>
+</table>
+
+---
+
+Condiciones para la hipótesis: Retención mediante reprogramación
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <tr>
+    <th style="width:20%;">Question</th>
+    <td>¿Permitir la reprogramación directa mejorará la retención de citas?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>
+      En la vista de "Mis Citas", aparece un botón destacado de "Reprogramar" que permite cambiar la fecha sin cancelar la anterior primero.
+    </td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>
+      La única opción disponible para cambiar una cita es el botón "Cancelar". El usuario debe cancelar y luego iniciar un nuevo proceso de reserva.
+    </td>
+  </tr>
+</table>
+
+---
+
+Condiciones para la hipótesis: Cumplimiento de instrucciones
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <tr>
+    <th style="width:20%;">Question</th>
+    <td>¿Mejorará el cumplimiento del paciente al mostrar instrucciones mediante un popup?</td>
+  </tr>
+  <tr>
+    <th>Condición Experimental</th>
+    <td>
+      Antes de finalizar la reserva, se despliega un popup modal con requisitos obligatorios (ayuno, DNI) y un botón de "Entendido".
+    </td>
+  </tr>
+  <tr>
+    <th>Condición de Control</th>
+    <td>
+      Las instrucciones aparecen como texto estático en la pantalla de confirmación o en el correo de resumen, sin forzar su lectura.
+    </td>
+  </tr>
+</table>
 
 <div id='8.2.5.'><h4>8.2.5. Scale Calculations and Decisions</h4></div>
 
-Para asegurar la validez estadística de los experimentos en OnControl, todas las pruebas de hipótesis (A/B testing) se regirán por los siguientes parámetros estándar de la industria:
+Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en OnControl.
+Cada hipótesis se asocia con un indicador de éxito cualitativo:
 
-* **Nivel de Significancia ($\alpha$):** Se establece en **5% (0.05)**. Esto limita al 5% la probabilidad de cometer un error de Tipo I (un falso positivo), asegurando que los cambios implementados tengan una base estadística sólida.
-* **Potencia Estadística ($1-\beta$):** El objetivo de potencia se fija en un mínimo de **80%**. Esto garantiza que tengamos la capacidad suficiente para detectar correctamente un efecto real si este existe, minimizando los errores de Tipo II (falsos negativos).
-* **Efecto Mínimo Detectable (MDE):** Se definirá de forma específica para cada experimento (p. ej., un aumento del 10% en la adherencia al tratamiento). Este valor representa la magnitud de cambio mínima que consideraremos relevante para el negocio y la atención al paciente.
+- Se considera **desfavorable** cuando la métrica empeora respecto a la línea base o genera fricción negativa.
+- **Aceptable** cuando se observa una mejora leve o estabilidad operativa.
+- **Ideal** cuando se logra una mejora clara y consistente en la métrica objetivo.
+- **Excelente** cuando la mejora supera las expectativas, validando una transformación del proceso.
 
-Las decisiones de implementación se basarán en los resultados de estas pruebas aplicadas a las métricas clave del proyecto:
-
-1.  **Índice de Adherencia al Tratamiento (IAT):**
-    * **Cálculo:**
-        $$\text{IAT} = \frac{\text{Registros completados (medicamentos, síntomas)}}{\text{Registros programados}} \times 100$$
-    * **Decisión:** Un MDE positivo y estadísticamente significativo (ej. +10%) en este índice validará las hipótesis sobre la efectividad de los recordatorios y la facilidad de uso de la app móvil.
-
-2.  **Tasa de Sincronización de Sensores (TSS):**
-    * **Cálculo:**
-        $$\text{TSS} = \frac{\text{Pacientes que sincronizan datos vitales} \ge 3 \text{ veces/semana}}{\text{Total de pacientes activos con IoT}} \times 100$$
-    * **Decisión:** Alcanzar la meta definida (ej. 65% de usuarios) confirmará la hipótesis de que los pacientes perciben valor y seguridad en el monitoreo constante.
-
-3.  **Tasa de Retención de Pacientes (TRP):**
-    * **Cálculo:**
-        $$\text{TRP} = \frac{\text{Usuarios activos al final del período}}{\text{Usuarios activos al inicio del período}} \times 100$$
-    * **Decisión:** Una alta retención validará la utilidad a largo plazo de la plataforma como herramienta de acompañamiento durante el tratamiento.
-
-4.  **Tasa de Interacción Médica (TIM):**
-    * **Cálculo:**
-        $$\text{TIM} = \frac{\text{Médicos que consultan historial o datos vitales} > 1 \text{ vez/semana/paciente}}{\text{Total de médicos activos}} \times 100$$
-    * **Decisión:** Validará la hipótesis de que la plataforma centralizada reduce la fricción y optimiza la organización del médico.
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%; text-align:center;">
+  <thead>
+    <tr>
+      <th style="width:30%;">Scale Calculation</th>
+      <th style="width:30%;">Decision</th>
+      <th style="width:10%;">Desfavorable</th>
+      <th style="width:10%;">Aceptable</th>
+      <th style="width:10%;">Ideal</th>
+      <th style="width:10%;">Excelente</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left;">
+        Creemos que al implementar la confirmación obligatoria, la tasa de No-Show disminuirá visiblemente.
+        Sabremos que esto es cierto cuando la tasa de inasistencias del grupo experimental sea menor a la del grupo de control y las cancelaciones anticipadas permitan reasignar turnos.
+      </td>
+      <td style="text-align:left;">
+        Si se reduce el no-show, se implementará la confirmación obligatoria para todas las especialidades. Si aumenta la fricción o cancelaciones totales, se revisará el tono y timing del mensaje.
+      </td>
+      <td></td>
+      <td></td>
+      <td><strong>X</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">
+        Creemos que al reducir el agendamiento a 2 pasos en móviles, aumentará la tasa de completación del funnel.
+        Sabremos que esto es cierto cuando el porcentaje de usuarios que inician y terminan la reserva sea superior en la versión simplificada.
+      </td>
+      <td style="text-align:left;">
+        Si la completación mejora, el diseño de 2 pasos se convertirá en el estándar para la versión móvil (Mobile First). Si aumentan los errores de reserva, se volverá al flujo detallado.
+      </td>
+      <td></td>
+      <td><strong>X</strong></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">
+        Creemos que la reprogramación directa aumentará la retención de pacientes frente a conflictos de horario.
+        Sabremos que esto es cierto cuando el ratio de reprogramaciones sea mayor al de cancelaciones definitivas en comparación con el control.
+      </td>
+      <td style="text-align:left;">
+        Si la retención mejora, se añadirá la funcionalidad de reprogramación a todos los canales (Web y App).
+      </td>
+      <td></td>
+      <td></td>
+      <td><strong>X</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="text-align:left;">
+        Creemos que el uso de popups de instrucciones mejorará la preparación del paciente.
+        Sabremos que esto es cierto cuando los reportes de "paciente no preparado" por parte de los doctores disminuyan en el grupo experimental.
+      </td>
+      <td style="text-align:left;">
+        Si mejora la preparación, se mantendrán los popups para citas críticas (exámenes, primera vez). Si causa abandono del booking, se buscarán formatos menos intrusivos.
+      </td>
+      <td></td>
+      <td><strong>X</strong></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 <div id='8.2.6.'><h4>8.2.6. Methods Selection</h4></div>
 
@@ -6664,7 +6609,65 @@ El siguiente Product Backlog presenta las funcionalidades priorizadas de la vers
 <div id='8.3.3.5.'><h4>8.3.3.5. Team Collaboration Insights</h4></div>
 <div id='8.3.4.'><h4>8.3.4. To-Be Validation Interviews</h4></div>
 <div id='8.3.4.1.'><h4>8.3.4.1. Diseño de Entrevistas</h4></div>
+
+El diseño de las entrevistas de validación "To-Be" tiene como objetivo presentar la propuesta de solución OnControl a los segmentos objetivo identificados previamente. A través de entrevistas semiestructuradas, se busca confirmar si las funcionalidades propuestas (gestión de citas, visualización de historias clínicas) resuelven eficazmente las problemáticas de desorganización y falta de seguimiento detectadas en la etapa de análisis "As-Is".
+
+Dado que OnControl conecta dos roles fundamentales, se han diseñado dos guías de entrevista diferenciadas: una para el Segmento de Pacientes Oncológicos y otra para el Segmento de Médicos Oncólogos.
+
+
+### A. Guía de Entrevista: Segmento Pacientes Oncológicos
+
+**Objetivo:** Validar si la aplicación web y el uso de dispositivos IoT mejoran la percepción de seguridad y organización del paciente durante su tratamiento.
+
+**Introducción:** "Buenos días/tardes. Estamos desarrollando OnControl, una plataforma web diseñada por estudiantes de la UPC para apoyar a pacientes oncológicos. Nos gustaría mostrarle cómo funcionaría nuestra propuesta y conocer su opinión honesta sobre si esto mejoraría su día a día."
+
+**Bloque 1:** 
+
+- **Validación de la Propuesta de Valor (Organización):** Si tuviera una plataforma web donde pudiera ver todas sus citas, tratamientos y procedimientos pasados y futuros en una sola pantalla, ¿cree que esto reduciría su ansiedad respecto al manejo de su enfermedad?
+
+<br>
+
+- Actualmente, ¿le resultaría fácil o difícil utilizar una aplicación web para agendar sus citas en lugar de los métodos tradicionales (teléfono/presencial)?
+
+- ¿Qué tan útil le parecería recibir recordatorios automáticos sobre sus medicamentos y fechas de quimioterapia/radioterapia directamente en su celular o computadora?
+
+**Bloque 2: Cierre y Adopción**
+
+- Comparado con cómo lleva su tratamiento hoy, ¿cree que OnControl mejoraría su calidad de vida?
+
+- ¿Estaría dispuesto a utilizar esta plataforma si su centro médico se la ofreciera gratuitamente o a un costo accesible?
+
+### B. Guía de Entrevista: Segmento Médicos Oncólogos
+
+**Objetivo:** Validar si la centralización de datos y el monitoreo remoto reducen la carga laboral (burnout) y mejoran la toma de decisiones clínicas.
+
+**Introducción:** "Doctor(a), gracias por su tiempo. Como parte de un proyecto de ingeniería, proponemos OnControl, una herramienta para centralizar la gestión de pacientes. Queremos validar si esta herramienta se ajusta a su flujo de trabajo real."
+
+**Bloque 1: Validación de Gestión Clínica (Eficiencia)**
+
+- Le presentamos la interfaz del "Dashboard de Médico" donde puede ver la lista de pacientes y asignar tratamientos. ¿Considera que esta visualización centralizada le ahorraría tiempo administrativo comparado con su sistema actual?
+
+- ¿Qué tan valioso es para usted tener acceso al historial de procedimientos y tratamientos del paciente desde una plataforma web accesible fuera del consultorio?
+
+- Considerando que el generalmente los oncólogos sufren de agotamiento, ¿cree que una herramienta que automatice la organización de la información clínica ayudaría a reducir su carga mental?
+
+**Bloque 2: Viabilidad e Implementación**
+
+- ¿Cree que el uso de esta tecnología mejoraría la comunicación y la confianza con sus pacientes?
+
+- Desde su perspectiva profesional, ¿cuál sería la principal barrera para que su institución médica adopte OnControl (costo, capacitación, integración con sistemas antiguos)?
+
+Criterios de Éxito para la Validación
+Para considerar validada la propuesta "To-Be", se espera obtener los siguientes resultados en las entrevistas:
+
+Pacientes: Más del 80% confirma que la gestión de las citas médicas que tiene les brinda sensación de seguridad.
+
+Médicos: Validación de que la visualización de datos y reportes especificos sea útil y más eficiente que su metodología actual.
+
+Usabilidad: Confirmación de que la interfaz web es accesible para pacientes que quizás no sean nativos digitales.
+
 <div id='8.3.4.2.'><h4>8.3.4.2. Registro de Entrevistas</h4></div>
+
 <div id='8.4.'><h4>8.4. Experiment Aftermath & Analysis</h4></div>
 <div id='8.4.1.'><h4>8.4.1. Analysis and Interpretation of Results</h4></div>
 <div id='8.4.2.'><h4>8.4.2. Re-scored and Re-prioritized Question Backlog</h4></div>
